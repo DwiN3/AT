@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Suchar</string>
+    <string name="id_button">Generuj</string>
+    <string name="id_textView">Naciśnij aby otrzymać żart :D</string>
+    <string name="joke_1">Jaka jest ulubiona piosenka Beatlesów stonogi? Chcę trzymać twoją rękę, dłoń, dłoń, dłoń....</string>
+    <string name="joke_2">Nie kupuj kwiatów w klasztorze. Ponieważ tylko Ty możesz zapobiec kwiaciarni bracia.</string>
+    <string name="joke_3">Jaka jest różnica między hipopotamem a zippo? Jeden jest naprawdę ciężki, drugi trochę lżejszy.</string>
+    <string name="joke_4">Co ptaki rozdają w Halloween? Tweety.</string>
+    <string name="joke_5">Dlaczego skała księżycowa smakuje lepiej niż skała ziemska? Bo to mały meteor.</string>
+    <string name="joke_6">Jakie stworzenie jest mądrzejsze od gadającej papugi? Pszczoła ortograficzna.</string>
+    <string name="joke_7">Dlaczego twój nos nie może mieć 12 cali długości? Bo wtedy to byłaby stopa!</string>
+    <string name="joke_8">Mój szef powiedział mi, żebym miał dobry dzień. Więc poszedłem do domu...</string>
+    <string name="joke_9">Kiedy przybędzie mały wąż? Nie wiem, ale nie potrwa długo...</string>
+    <string name="joke_10">Jaka jest różnica między źle ubranym mężczyzną na trójkołowcu a dobrze ubranym mężczyzną na rowerze? Strój.</string>
+</resources>

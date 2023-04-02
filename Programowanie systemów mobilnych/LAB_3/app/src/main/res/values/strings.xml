@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Not funny app</string>
+    <string name="id_button">Generate</string>
+    <string name="id_textView">Press to get joke :D</string>
+    <string name="joke_1">What is a centipedes\'s favorite Beatle song?\\n I want to hold your hand, hand, hand, hand...</string>
+    <string name="joke_2">Don\'t buy flowers at a monastery. Because only you can prevent florist friars.</string>
+    <string name="joke_3">What\'s the difference between a hippo and a zippo? One is really heavy, the other is a little lighter.</string>
+    <string name="joke_4">What do birds give out on Halloween? Tweets.</string>
+    <string name="joke_5">Why does a Moon-rock taste better than an Earth-rock? Because it\'s a little meteor.</string>
+    <string name="joke_6">What creature is smarter than a talking parrot? A spelling bee.</string>
+    <string name="joke_7">Why can\'t your nose be 12 inches long? Because then it\'d be a foot!</string>
+    <string name="joke_8">My boss told me to have a good day. So I went home...</string>
+    <string name="joke_9">When will the little snake arrive? I don\'t know but he won\'t be long...</string>
+    <string name="joke_10">What\'s the difference between a poorly dressed man on a tricycle and a well dressed man on a bicycle? Attire.</string>
+</resources>
