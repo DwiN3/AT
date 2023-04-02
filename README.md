@@ -1,2 +1,2 @@
 # ANS
-Repozytorium zawiera archiwum gotowe projekty i zadania
+Repozytorium zawiera archiwum gotowych projekty i zadań
