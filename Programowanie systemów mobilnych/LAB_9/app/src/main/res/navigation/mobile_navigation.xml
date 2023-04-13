@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_shoutbox">
+
+    <fragment
+        android:id="@+id/nav_shoutbox"
+        android:name="com.example.lab_9.ui.shoutbox.ShoutboxFragment"
+        android:label="              Shoutbox"
+        tools:layout="@layout/fragment_shoutbox" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.example.lab_9.ui.gallery.GalleryFragment"
+        android:label="              Shoutbox"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_settings"
+        android:name="com.example.lab_9.ui.settings.SettingsFragment"
+        android:label="              Settings"
+        tools:layout="@layout/fragment_settings" />
+</navigation>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SettingsActivity"
+    android:id="@+id/id_settingsActivity">
+
+    <TextView
+        android:id="@+id/idTextInternetError"
+        android:layout_width="419dp"
+        android:layout_height="46dp"
+        android:background="#FC8224"
+        android:gravity="center"
+        android:visibility="invisible"
+        android:text="Internet connection required"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="68dp"
+        android:fontFamily="@font/jumper"
+        android:text="Who are you?"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/id_textCity"
+        app:layout_constraintEnd_toEndOf="@+id/imageView4"
+        app:layout_constraintStart_toStartOf="@+id/imageView4" />
+
+    <EditText
+        android:id="@+id/id_textCity"
+        android:layout_width="328dp"
+        android:layout_height="42dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="240dp"
+        android:ems="10"
+        android:fontFamily="@font/altehaasgroteskregular"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/id_buttonAccept"
+        android:layout_width="328dp"
+        android:layout_height="47dp"
+        android:layout_marginEnd="42dp"
+        android:fontFamily="@font/nexa"
+        android:layout_marginBottom="162dp"
+        android:text="Set login"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="347dp"
+        android:layout_height="684dp"
+        android:layout_marginEnd="32dp"
+        android:outlineAmbientShadowColor="@color/grey"
+        app:layout_constraintBottom_toTopOf="@+id/id_buttonAccept"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/iconchat" />
+
+    <RadioGroup
+        android:id="@+id/id_radioGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/id_buttonAccept">
+
+        <RadioButton
+            android:id="@+id/id_radioOne"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Show all messages"
+            android:fontFamily="@font/altehaasgroteskregular"/>
+
+        <RadioButton
+            android:id="@+id/id_radio_two"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Show last 8 messages"
+            android:checked="true"
+            android:fontFamily="@font/altehaasgroteskregular"/>
+    </RadioGroup>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

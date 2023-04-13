@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/id_messageList"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="4dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="74dp"
+        android:background="@drawable/border_style_messages">
+
+        <TextView
+            android:id="@+id/id_nick"
+            android:fontFamily="@font/jumper"
+            android:layout_width="130dp"
+            android:layout_height="33dp"
+            android:layout_alignParentTop="true"
+            android:padding="5dp"
+            android:text="name"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:textSize="14sp"/>
+
+        <TextView
+            android:id="@+id/id_date"
+            android:layout_width="272dp"
+            android:layout_height="33dp"
+            android:fontFamily="@font/altehaasgroteskregular"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="1dp"
+            android:padding="5dp"
+            android:text="date"
+            android:textColor="#000000"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/id_message"
+            android:layout_width="match_parent"
+            android:layout_height="41dp"
+            android:fontFamily="@font/altehaasgroteskregular"
+            android:layout_alignParentTop="false"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="0dp"
+            android:padding="5dp"
+            android:text="message"
+            android:textColor="#000000"
+            android:textSize="13sp" />
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

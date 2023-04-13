@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.swiperefreshlayout.widget.SwipeRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/id_swipeRefreshLayout"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.shoutbox.ShoutboxFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".ui.shoutbox.ShoutboxFragment">
+
+    <TextView
+        android:id="@+id/id_login"
+        android:layout_width="402dp"
+        android:layout_height="97dp"
+        android:layout_above="@+id/id_message"
+        android:layout_marginLeft="2dp"
+        android:layout_marginBottom="-59dp"
+        android:padding="6dp"
+        android:textColor="@color/black"
+        android:textSize="15dp" />
+
+    <TextView
+            android:id="@+id/id_textViewAddMessages"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/id_recyclerView"
+            android:layout_alignParentEnd="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="169dp"
+            android:layout_marginEnd="176dp"
+            android:visibility="invisible" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/id_recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="594dp"
+        android:scrollbars="vertical" />
+
+    <ImageButton
+        android:id="@+id/id_messageButton"
+        android:layout_width="105dp"
+        android:layout_height="70dp"
+        android:layout_alignEnd="@+id/id_message"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="-91dp"
+        android:layout_marginBottom="-6dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/iconsend"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <EditText
+        android:id="@+id/id_message"
+        android:layout_width="315dp"
+        android:layout_height="59dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="0dp"
+        android:layout_marginBottom="0dp"
+        android:background="@drawable/border_style_edit_messages"
+        android:ems="10"
+        android:fontFamily="@font/altehaasgroteskregular"
+        android:inputType="textPersonName"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    </RelativeLayout>
+</androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
