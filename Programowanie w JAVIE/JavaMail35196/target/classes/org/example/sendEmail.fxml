@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="355.0" prefWidth="527.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.SenderController">
+   <children>
+      <Label layoutX="43.0" layoutY="80.0" text="Mail:" />
+      <Button fx:id="sendButton" layoutX="359.0" layoutY="215.0" onAction="#pressToSend" prefHeight="53.0" prefWidth="117.0" text="Send">
+         <font>
+            <Font size="18.0" />
+         </font></Button>
+      <TextField fx:id="textMail" layoutX="43.0" layoutY="103.0" prefHeight="25.0" prefWidth="291.0" text="dwinicht@gmail.com" />
+      <TextField fx:id="textMessage" alignment="TOP_LEFT" layoutX="43.0" layoutY="210.0" prefHeight="62.0" prefWidth="291.0" text="testowa wiadomość" />
+      <Label layoutX="42.0" layoutY="191.0" text="Message" />
+      <Label layoutX="42.0" layoutY="135.0" text="Topic:" />
+      <TextField fx:id="textSubject" layoutX="42.0" layoutY="158.0" prefHeight="25.0" prefWidth="291.0" text="Temat testowej wiadomosci" />
+      <Label alignment="CENTER" layoutX="200.0" layoutY="31.0" prefHeight="42.0" prefWidth="128.0" text="SEND EMAIL">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Label>
+      <Button fx:id="addFileButton" layoutX="41.0" layoutY="286.0" mnemonicParsing="false" onAction="#addFile" text="add file" />
+      <Label fx:id="textFileInfo" layoutX="188.0" layoutY="290.0" prefHeight="17.0" prefWidth="117.0" text="No photo selected" textFill="RED" />
+      <Button fx:id="delFileButton" layoutX="109.0" layoutY="286.0" mnemonicParsing="false" onAction="#delFile" prefHeight="25.0" prefWidth="56.0" text="del file" />
+   </children>
+   <padding>
+      <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+   </padding>
+</AnchorPane>
