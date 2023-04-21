@@ -26,7 +26,13 @@ LINK DO bitbucket.org:  https://bitbucket.org/kamil_deren/project_08_35196/src/m
 
 
 ## Autorzy:
+
 Kamil Dereń oraz Bartek Kubik
+
+
+## Data Wykonania:
+
+2022-05-25
 
 
 ## Podział pracy w projekcie:
