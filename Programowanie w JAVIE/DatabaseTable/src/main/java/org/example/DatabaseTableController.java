@@ -73,7 +73,6 @@ public class DatabaseTableController {
                 throw new RuntimeException(e);
             }
         });
-        buttonStudent.fire();
     }
 
     private void setButton() throws IOException {
