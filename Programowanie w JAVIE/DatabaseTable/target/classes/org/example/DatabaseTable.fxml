@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="520.0" prefWidth="480.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.DatabaseTableController">
+   <padding>
+      <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+   </padding>
+
+   <TableView fx:id="table" layoutX="-22.0" layoutY="37.0" prefHeight="367.0" prefWidth="338.0" AnchorPane.bottomAnchor="-10.0" AnchorPane.leftAnchor="-14.0" AnchorPane.topAnchor="-10.0">
+      <columns>
+         <TableColumn fx:id="firstColumnTable" text="" />
+         <TableColumn fx:id="secondColumnTable" text="" />
+         <TableColumn fx:id="thirdColumnTable" text="" />
+         <TableColumn fx:id="fourthColumnTable" text="" />
+      </columns>
+   </TableView>
+   <Button fx:id="buttonStudent" layoutX="344.0" layoutY="123.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="132.0" text="Student" AnchorPane.leftAnchor="344.0" />
+   <Button fx:id="buttonOceny" layoutX="344.0" layoutY="167.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="132.0" text="Oceny" AnchorPane.leftAnchor="344.0" />
+   <Button fx:id="buttonAdresy" layoutX="344.0" layoutY="211.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="132.0" text="Adresy" AnchorPane.leftAnchor="344.0" />
+   <Button fx:id="buttonProwadzacy" layoutX="344.0" layoutY="255.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="132.0" text="Prowadzacy" AnchorPane.leftAnchor="344.0" />
+   <Button fx:id="buttonFakultety" layoutX="344.0" layoutY="298.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="132.0" text="Fakultety" AnchorPane.leftAnchor="344.0" />
+   <Button fx:id="buttonKierunkiStudiow" layoutX="344.0" layoutY="342.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="132.0" text="Kierunki Studiow" AnchorPane.leftAnchor="344.0" />
+   <Label alignment="CENTER" layoutX="344.0" layoutY="14.0" prefHeight="25.0" prefWidth="132.0" text="Baza Danych" AnchorPane.leftAnchor="344.0">
+      <font>
+         <Font size="21.0" />
+      </font></Label>
+   <Label fx:id="textSelect" layoutX="377.0" layoutY="72.0" prefHeight="38.0" prefWidth="119.0" text="Wybrano: " />
+   <Label layoutX="358.0" layoutY="452.0" text="Wykonane przez Kamil Dereń" />
+
+</AnchorPane>
