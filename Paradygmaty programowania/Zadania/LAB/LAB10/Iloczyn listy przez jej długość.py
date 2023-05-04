@@ -8,10 +8,14 @@ def iloczynLambda(lista):
 def iloczynMul(lista):
     return list(map(partial(lambda x, y: x * y, len(lista)), lista))
 
-def iloczynDomknięcia(lista):
-    def pomnozPrzezDlugosc(x):
-        return x * len(lista)
-    return list(map(pomnozPrzezDlugosc, lista))
+def pomnozPrzezDlugosc(dlugosc):
+    def funkcja(x):
+        return x * dlugosc
+    return funkcja
+
+def iloczynDomknięcia(lista_liczb):
+    return list(map(pomnozPrzezDlugosc(len(lista_liczb)), lista_liczb))
+
 
 def main():
     list = [1, 4, 6, 7]
