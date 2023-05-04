@@ -17,10 +17,12 @@ def mul(x, y):
 def inc(x):
     return curryPartial(add)(1)(x)
 
-print("Dodawanie przez funkcje = ", add(3, 5))
-print("Dodawanie przez curry   = ", curryLambda(add)(3)(5))
-print("Mnożenie przez funkcje  = ", mul(3, 5))
-print("Mnożenie przez curry    = ", curryPartial(mul)(3)(5))
+def main():
+    print("Dodawanie przez funkcje = ", add(3, 5))
+    print("Dodawanie przez curry   = ", curryLambda(add)(3)(5))
+    print("Mnożenie przez funkcje  = ", mul(3, 5))
+    print("Mnożenie przez curry    = ", curryPartial(mul)(3)(5))
 
-x = 5
-print(f"\nWartość ({x}) + 1 = ", inc(x))
+    x = 5
+    print(f"\nWartość ({x}) + 1 = ", inc(x))
+main()
