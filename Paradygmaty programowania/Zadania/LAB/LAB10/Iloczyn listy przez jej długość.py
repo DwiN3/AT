@@ -13,11 +13,10 @@ def iloczynDomknięcia(lista):
         return x * len(lista)
     return list(map(pomnozPrzezDlugosc, lista))
 
-
 def main():
     list = [1, 4, 6, 7]
-    print(iloczynLambda(list))
-    print(iloczynMul(list))
-    print(iloczynDomknięcia(list))
+    print("Lambda:     ", iloczynLambda(list))
+    print("Mul:        ", iloczynMul(list))
+    print("Domknięcie: ", iloczynDomknięcia(list))
 
 main()

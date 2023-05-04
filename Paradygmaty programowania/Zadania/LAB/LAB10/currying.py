@@ -1,3 +1,5 @@
+# Nie Skończone
+
 def curry(fn):
     return lambda x: lambda y: fn(x, y)
 
