@@ -20,6 +20,6 @@ index_first x list = go x list (-1) 0
 main = do
   let list = [1, 2, 3, 4, 2, 5, 2]
   let elem = 2
-  putStrLn $ "\nLista: " ++ show list
+  putStrLn $ "Lista: " ++ show list
   putStrLn $ "Indeks ostatniego wystąpienia elementu "++ show elem ++ ": " ++ show (index_last elem list)
   putStrLn $ "Indeks pierwszego wystąpienia elementu "++ show elem ++ ": " ++ show (index_first elem list)
