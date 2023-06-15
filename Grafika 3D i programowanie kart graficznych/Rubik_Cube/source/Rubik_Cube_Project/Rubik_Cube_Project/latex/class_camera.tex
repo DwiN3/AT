@@ -1,0 +1,165 @@
+\doxysection{Camera Class Reference}
+\hypertarget{class_camera}{}\label{class_camera}\index{Camera@{Camera}}
+
+
+{\ttfamily \#include $<$camera.\+h$>$}
+
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_camera_adad6423186f3d7e4c461cff7274f2c87}{Camera}} (glm\+::vec3 position=glm\+::vec3(0.\+0f, 0.\+0f, 0.\+0f), glm\+::vec3 up=glm\+::vec3(0.\+0f, 1.\+0f, 0.\+0f), float yaw=\mbox{\hyperlink{camera_8h_a57aec1b0a28f813c2d4b84a11af5f08d}{YAW}}, float pitch=\mbox{\hyperlink{camera_8h_ab32939bf039c742431f67a815575ed21}{PITCH}})
+\item 
+\mbox{\hyperlink{class_camera_a3537fd723fdfb5fed73a084346270cf6}{Camera}} (float posX, float posY, float posZ, float upX, float upY, float upZ, float yaw, float pitch)
+\item 
+glm\+::mat4 \mbox{\hyperlink{class_camera_affa333055635aed96518c4c66be9a70c}{Get\+View\+Matrix}} ()
+\item 
+void \mbox{\hyperlink{class_camera_aebba33a8b281fe2598bcafc54a55d296}{Process\+Keyboard}} (\mbox{\hyperlink{camera_8h_a605494501af59c9191e7e4d6f9a0ebcb}{Camera\+\_\+\+Movement}} direction, float \mbox{\hyperlink{cube_8cpp_a1a61318ed6aa02b4ff346e7eb8f68891}{delta\+Time}})
+\item 
+void \mbox{\hyperlink{class_camera_a656c2a8dc40150874f15bce47b789751}{Process\+Mouse\+Movement}} (float xoffset, float yoffset, GLboolean constrain\+Pitch=true)
+\item 
+void \mbox{\hyperlink{class_camera_a05d150f7dc98940d2dd62f686cc2efe3}{Process\+Mouse\+Scroll}} (float yoffset)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+glm\+::vec3 \mbox{\hyperlink{class_camera_a9733b59f5340f6f1bca24d52a6679039}{Position}}
+\item 
+glm\+::vec3 \mbox{\hyperlink{class_camera_ac95b3737115ffe9a6ff9128344d5b963}{Front}}
+\item 
+glm\+::vec3 \mbox{\hyperlink{class_camera_ad74c4a490bc8865e67e27a2036d0a72d}{Up}}
+\item 
+glm\+::vec3 \mbox{\hyperlink{class_camera_a6624f9f4228f6299a3d4ccb81e28da0a}{Right}}
+\item 
+glm\+::vec3 \mbox{\hyperlink{class_camera_a340d30b833954b87fd016ce0e724c723}{World\+Up}}
+\item 
+float \mbox{\hyperlink{class_camera_a1a1354a2bd2df7f18ef82924e671d241}{Yaw}}
+\item 
+float \mbox{\hyperlink{class_camera_af9c8f223bb06bb74fc77c586545e7e67}{Pitch}}
+\item 
+float \mbox{\hyperlink{class_camera_a63221392d762df6a74f45bc9d43a2f61}{Movement\+Speed}}
+\item 
+float \mbox{\hyperlink{class_camera_a73e88844b31d5111eeb76327dfbb2d68}{Mouse\+Sensitivity}}
+\item 
+float \mbox{\hyperlink{class_camera_a2becf27d08eb7e6da9c597c73ea95b5d}{Zoom}}
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_camera_ad424b8b92e580508caf21337b69b93fa}{update\+Camera\+Vectors}} ()
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{class_camera_adad6423186f3d7e4c461cff7274f2c87}\label{class_camera_adad6423186f3d7e4c461cff7274f2c87} 
+\index{Camera@{Camera}!Camera@{Camera}}
+\index{Camera@{Camera}!Camera@{Camera}}
+\doxysubsubsection{\texorpdfstring{Camera()}{Camera()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily Camera\+::\+Camera (\begin{DoxyParamCaption}\item[{glm\+::vec3}]{position = {\ttfamily glm\+:\+:vec3(0.0f,~0.0f,~0.0f)},  }\item[{glm\+::vec3}]{up = {\ttfamily glm\+:\+:vec3(0.0f,~1.0f,~0.0f)},  }\item[{float}]{yaw = {\ttfamily \mbox{\hyperlink{camera_8h_a57aec1b0a28f813c2d4b84a11af5f08d}{YAW}}},  }\item[{float}]{pitch = {\ttfamily \mbox{\hyperlink{camera_8h_ab32939bf039c742431f67a815575ed21}{PITCH}}} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\Hypertarget{class_camera_a3537fd723fdfb5fed73a084346270cf6}\label{class_camera_a3537fd723fdfb5fed73a084346270cf6} 
+\index{Camera@{Camera}!Camera@{Camera}}
+\index{Camera@{Camera}!Camera@{Camera}}
+\doxysubsubsection{\texorpdfstring{Camera()}{Camera()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily Camera\+::\+Camera (\begin{DoxyParamCaption}\item[{float}]{posX,  }\item[{float}]{posY,  }\item[{float}]{posZ,  }\item[{float}]{upX,  }\item[{float}]{upY,  }\item[{float}]{upZ,  }\item[{float}]{yaw,  }\item[{float}]{pitch }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_camera_affa333055635aed96518c4c66be9a70c}\label{class_camera_affa333055635aed96518c4c66be9a70c} 
+\index{Camera@{Camera}!GetViewMatrix@{GetViewMatrix}}
+\index{GetViewMatrix@{GetViewMatrix}!Camera@{Camera}}
+\doxysubsubsection{\texorpdfstring{GetViewMatrix()}{GetViewMatrix()}}
+{\footnotesize\ttfamily glm\+::mat4 Camera\+::\+Get\+View\+Matrix (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\Hypertarget{class_camera_aebba33a8b281fe2598bcafc54a55d296}\label{class_camera_aebba33a8b281fe2598bcafc54a55d296} 
+\index{Camera@{Camera}!ProcessKeyboard@{ProcessKeyboard}}
+\index{ProcessKeyboard@{ProcessKeyboard}!Camera@{Camera}}
+\doxysubsubsection{\texorpdfstring{ProcessKeyboard()}{ProcessKeyboard()}}
+{\footnotesize\ttfamily void Camera\+::\+Process\+Keyboard (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{camera_8h_a605494501af59c9191e7e4d6f9a0ebcb}{Camera\+\_\+\+Movement}}}]{direction,  }\item[{float}]{delta\+Time }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\Hypertarget{class_camera_a656c2a8dc40150874f15bce47b789751}\label{class_camera_a656c2a8dc40150874f15bce47b789751} 
+\index{Camera@{Camera}!ProcessMouseMovement@{ProcessMouseMovement}}
+\index{ProcessMouseMovement@{ProcessMouseMovement}!Camera@{Camera}}
+\doxysubsubsection{\texorpdfstring{ProcessMouseMovement()}{ProcessMouseMovement()}}
+{\footnotesize\ttfamily void Camera\+::\+Process\+Mouse\+Movement (\begin{DoxyParamCaption}\item[{float}]{xoffset,  }\item[{float}]{yoffset,  }\item[{GLboolean}]{constrain\+Pitch = {\ttfamily true} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\Hypertarget{class_camera_a05d150f7dc98940d2dd62f686cc2efe3}\label{class_camera_a05d150f7dc98940d2dd62f686cc2efe3} 
+\index{Camera@{Camera}!ProcessMouseScroll@{ProcessMouseScroll}}
+\index{ProcessMouseScroll@{ProcessMouseScroll}!Camera@{Camera}}
+\doxysubsubsection{\texorpdfstring{ProcessMouseScroll()}{ProcessMouseScroll()}}
+{\footnotesize\ttfamily void Camera\+::\+Process\+Mouse\+Scroll (\begin{DoxyParamCaption}\item[{float}]{yoffset }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\Hypertarget{class_camera_ad424b8b92e580508caf21337b69b93fa}\label{class_camera_ad424b8b92e580508caf21337b69b93fa} 
+\index{Camera@{Camera}!updateCameraVectors@{updateCameraVectors}}
+\index{updateCameraVectors@{updateCameraVectors}!Camera@{Camera}}
+\doxysubsubsection{\texorpdfstring{updateCameraVectors()}{updateCameraVectors()}}
+{\footnotesize\ttfamily void Camera\+::update\+Camera\+Vectors (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+
+
+\doxysubsection{Member Data Documentation}
+\Hypertarget{class_camera_ac95b3737115ffe9a6ff9128344d5b963}\label{class_camera_ac95b3737115ffe9a6ff9128344d5b963} 
+\index{Camera@{Camera}!Front@{Front}}
+\index{Front@{Front}!Camera@{Camera}}
+\doxysubsubsection{\texorpdfstring{Front}{Front}}
+{\footnotesize\ttfamily glm\+::vec3 Camera\+::\+Front}
+
+\Hypertarget{class_camera_a73e88844b31d5111eeb76327dfbb2d68}\label{class_camera_a73e88844b31d5111eeb76327dfbb2d68} 
+\index{Camera@{Camera}!MouseSensitivity@{MouseSensitivity}}
+\index{MouseSensitivity@{MouseSensitivity}!Camera@{Camera}}
+\doxysubsubsection{\texorpdfstring{MouseSensitivity}{MouseSensitivity}}
+{\footnotesize\ttfamily float Camera\+::\+Mouse\+Sensitivity}
+
+\Hypertarget{class_camera_a63221392d762df6a74f45bc9d43a2f61}\label{class_camera_a63221392d762df6a74f45bc9d43a2f61} 
+\index{Camera@{Camera}!MovementSpeed@{MovementSpeed}}
+\index{MovementSpeed@{MovementSpeed}!Camera@{Camera}}
+\doxysubsubsection{\texorpdfstring{MovementSpeed}{MovementSpeed}}
+{\footnotesize\ttfamily float Camera\+::\+Movement\+Speed}
+
+\Hypertarget{class_camera_af9c8f223bb06bb74fc77c586545e7e67}\label{class_camera_af9c8f223bb06bb74fc77c586545e7e67} 
+\index{Camera@{Camera}!Pitch@{Pitch}}
+\index{Pitch@{Pitch}!Camera@{Camera}}
+\doxysubsubsection{\texorpdfstring{Pitch}{Pitch}}
+{\footnotesize\ttfamily float Camera\+::\+Pitch}
+
+\Hypertarget{class_camera_a9733b59f5340f6f1bca24d52a6679039}\label{class_camera_a9733b59f5340f6f1bca24d52a6679039} 
+\index{Camera@{Camera}!Position@{Position}}
+\index{Position@{Position}!Camera@{Camera}}
+\doxysubsubsection{\texorpdfstring{Position}{Position}}
+{\footnotesize\ttfamily glm\+::vec3 Camera\+::\+Position}
+
+\Hypertarget{class_camera_a6624f9f4228f6299a3d4ccb81e28da0a}\label{class_camera_a6624f9f4228f6299a3d4ccb81e28da0a} 
+\index{Camera@{Camera}!Right@{Right}}
+\index{Right@{Right}!Camera@{Camera}}
+\doxysubsubsection{\texorpdfstring{Right}{Right}}
+{\footnotesize\ttfamily glm\+::vec3 Camera\+::\+Right}
+
+\Hypertarget{class_camera_ad74c4a490bc8865e67e27a2036d0a72d}\label{class_camera_ad74c4a490bc8865e67e27a2036d0a72d} 
+\index{Camera@{Camera}!Up@{Up}}
+\index{Up@{Up}!Camera@{Camera}}
+\doxysubsubsection{\texorpdfstring{Up}{Up}}
+{\footnotesize\ttfamily glm\+::vec3 Camera\+::\+Up}
+
+\Hypertarget{class_camera_a340d30b833954b87fd016ce0e724c723}\label{class_camera_a340d30b833954b87fd016ce0e724c723} 
+\index{Camera@{Camera}!WorldUp@{WorldUp}}
+\index{WorldUp@{WorldUp}!Camera@{Camera}}
+\doxysubsubsection{\texorpdfstring{WorldUp}{WorldUp}}
+{\footnotesize\ttfamily glm\+::vec3 Camera\+::\+World\+Up}
+
+\Hypertarget{class_camera_a1a1354a2bd2df7f18ef82924e671d241}\label{class_camera_a1a1354a2bd2df7f18ef82924e671d241} 
+\index{Camera@{Camera}!Yaw@{Yaw}}
+\index{Yaw@{Yaw}!Camera@{Camera}}
+\doxysubsubsection{\texorpdfstring{Yaw}{Yaw}}
+{\footnotesize\ttfamily float Camera\+::\+Yaw}
+
+\Hypertarget{class_camera_a2becf27d08eb7e6da9c597c73ea95b5d}\label{class_camera_a2becf27d08eb7e6da9c597c73ea95b5d} 
+\index{Camera@{Camera}!Zoom@{Zoom}}
+\index{Zoom@{Zoom}!Camera@{Camera}}
+\doxysubsubsection{\texorpdfstring{Zoom}{Zoom}}
+{\footnotesize\ttfamily float Camera\+::\+Zoom}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/\+Kuba/\+Desktop/studia/semestry/semestr\+\_\+4/grafika2/\+Rubik\+\_\+\+Cube\+\_\+\+Project/\+Rubik\+\_\+\+Cube\+\_\+\+Project/\+Rubik\+\_\+\+Cube\+\_\+\+Project/assets/\mbox{\hyperlink{camera_8h}{camera.\+h}}\end{DoxyCompactItemize}

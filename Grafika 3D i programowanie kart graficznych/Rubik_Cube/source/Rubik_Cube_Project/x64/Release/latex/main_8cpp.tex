@@ -1,0 +1,759 @@
+\doxysection{C\+:/\+Users/\+Kuba/\+Desktop/studia/semestry/semestr\+\_\+4/grafika2/\+Rubik\+\_\+\+Cube\+\_\+\+Project/\+Rubik\+\_\+\+Cube\+\_\+\+Project/\+Rubik\+\_\+\+Cube\+\_\+\+Project/main.cpp File Reference}
+\hypertarget{main_8cpp}{}\label{main_8cpp}\index{C:/Users/Kuba/Desktop/studia/semestry/semestr\_4/grafika2/Rubik\_Cube\_Project/Rubik\_Cube\_Project/Rubik\_Cube\_Project/main.cpp@{C:/Users/Kuba/Desktop/studia/semestry/semestr\_4/grafika2/Rubik\_Cube\_Project/Rubik\_Cube\_Project/Rubik\_Cube\_Project/main.cpp}}
+{\ttfamily \#include $<$glad/glad.\+h$>$}\newline
+{\ttfamily \#include $<$GLFW/glfw3.\+h$>$}\newline
+{\ttfamily \#include $<$C\+:/\+LIB/stb/stb\+\_\+image.\+h$>$}\newline
+{\ttfamily \#include $<$glm/glm.\+hpp$>$}\newline
+{\ttfamily \#include $<$glm/gtc/matrix\+\_\+transform.\+hpp$>$}\newline
+{\ttfamily \#include $<$glm/gtc/type\+\_\+ptr.\+hpp$>$}\newline
+{\ttfamily \#include $<$C\+:/\+LIB/assets/camera.\+h$>$}\newline
+{\ttfamily \#include $<$C\+:/\+LIB/assets/shader.\+h$>$}\newline
+{\ttfamily \#include $<$iostream$>$}\newline
+{\ttfamily \#include $<$random$>$}\newline
+{\ttfamily \#include $<$stdlib.\+h$>$}\newline
+{\ttfamily \#include $<$chrono$>$}\newline
+{\ttfamily \#include $<$thread$>$}\newline
+{\ttfamily \#include $<$filesystem$>$}\newline
+{\ttfamily \#include $<$fstream$>$}\newline
+{\ttfamily \#include $<$string$>$}\newline
+{\ttfamily \#include $<$iomanip$>$}\newline
+{\ttfamily \#include $<$algorithm$>$}\newline
+\doxysubsubsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\#define \mbox{\hyperlink{main_8cpp_a18372412ad2fc3ce1e3240b3cf0efe78}{STB\+\_\+\+IMAGE\+\_\+\+IMPLEMENTATION}}
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{main_8cpp_a5180f7bf2b71421af837035824a8c8ac}{framebuffer\+\_\+size\+\_\+callback}} (GLFWwindow \texorpdfstring{$\ast$}{*}window, int width, int height)
+\begin{DoxyCompactList}\small\item\em Buffer ustawiania rozmiaru. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{main_8cpp_abe5e592e8704afa9003593b539e436df}{mouse\+\_\+callback}} (GLFWwindow \texorpdfstring{$\ast$}{*}window, double xpos\+In, double ypos\+In)
+\begin{DoxyCompactList}\small\item\em Poruszanie myszką, dzięki temu zmienia widok. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{main_8cpp_a06ad2502008f16fbcf01dfaa7f7bc9ea}{scroll\+\_\+callback}} (GLFWwindow \texorpdfstring{$\ast$}{*}window, double xoffset, double yoffset)
+\begin{DoxyCompactList}\small\item\em Poruszanie kamery na scrollu. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{main_8cpp_a2d03c6f2666863543429a06ef642fe6a}{process\+Input}} (GLFWwindow \texorpdfstring{$\ast$}{*}window)
+\begin{DoxyCompactList}\small\item\em Input process czyli wykonywanie się poszczególnych funkcji na wejściu różnych przycisków. \end{DoxyCompactList}\item 
+unsigned int \mbox{\hyperlink{main_8cpp_a6ca807f210c943f1b6f383d913cf9368}{load\+Cubemap}} ()
+\begin{DoxyCompactList}\small\item\em Załadowanie skyboxa czyli wyglądu który jest na całym programie. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{main_8cpp_a286930f4e8ede059b83ff6eafa2ff718}{key\+\_\+callback}} (GLFWwindow \texorpdfstring{$\ast$}{*}window, int key, int scancode, int action, int mods)
+\begin{DoxyCompactList}\small\item\em Nasłuchiwanie jeśli przycisk został kliknięty to wykona się ta funkcja oraz zagnieżdzone funkcje w niej (tylko raz). Key -\/ przycisk Action -\/ akcja np. GLFW\+\_\+\+PRESS. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{main_8cpp_a3ac1ba4d1cbc975ea13f57957ede7c6d}{turn\+\_\+cube\+\_\+up\+\_\+to\+\_\+down}} (int which, int each, bool game)
+\begin{DoxyCompactList}\small\item\em Obracanie kostki na przycisk od strony górnej do strony dolnej. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{main_8cpp_af543e2edc12e8ead355d94005cacea57}{turn\+\_\+cube\+\_\+down\+\_\+to\+\_\+up}} (int which, int each, bool game)
+\begin{DoxyCompactList}\small\item\em Obracanie kostki na przycisk od strony dolnej do strony górnej. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{main_8cpp_acfbdaef2f75d1f8b120716c251bf84a5}{turn\+\_\+cube\+\_\+left\+\_\+to\+\_\+right}} (int which, int each, bool game)
+\begin{DoxyCompactList}\small\item\em Obracanie kostki na przycisk od strony lefej do strony prawej. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{main_8cpp_a11193bd495bdd0ecd2537f17f0724286}{turn\+\_\+cube\+\_\+right\+\_\+to\+\_\+left}} (int which, int each, bool game)
+\begin{DoxyCompactList}\small\item\em Obracanie kostki na przycisk od strony prawej do strony lewej. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{main_8cpp_aa21e7f4677f52c70f21c9242b9b40fb8}{mix\+\_\+the\+\_\+cube}} (int mode)
+\begin{DoxyCompactList}\small\item\em Funkcja miesza ułożenie kostki którą następnie można układać Są trzy tryby\+: easy, medium oraz hard czyli w zależności od wybrania preferencji, kostka będzie bardziej lub mnie trudna w ułożeniu. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{main_8cpp_a7b8109a47240fba6e810e79c2022e2c7}{turn\+\_\+cube\+\_\+to\+\_\+full}} ()
+\begin{DoxyCompactList}\small\item\em Ułożenie kostki do wersji domyślnej. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{main_8cpp_a13f14c1ba4af90462652402369f2acf7}{print\+\_\+cube\+\_\+color}} ()
+\begin{DoxyCompactList}\small\item\em Wypisanie kostki do konsoli na podstawie cyfr. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{main_8cpp_a50513d99994d543b9aaeb1da5b0ee884}{cube\+\_\+arranged}} (bool skip)
+\begin{DoxyCompactList}\small\item\em Sprawdzanie ułożenia kostki w przypdku ułożenia w lepszym czasie, wynik zapisywany zostaje w rankingu najlepszych czasów. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{main_8cpp_a865f003686e185dc657468d90f047d8f}{set\+\_\+best\+\_\+scores}} ()
+\begin{DoxyCompactList}\small\item\em Wpisanie ustanowionego rekordu ułożenia kostki do rankingu najlepszych czasów. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{main_8cpp_a8a0a2914f578873a8e05172ab013eb3c}{show\+\_\+best\+\_\+scores}} ()
+\begin{DoxyCompactList}\small\item\em Wyświetlanie najlepszych czasów ułożenia kostki rubika. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{main_8cpp_a4fe80830fb1fb03fd59e950870de994b}{show\+\_\+options}} ()
+\begin{DoxyCompactList}\small\item\em Wyświetlanie instrukcji obsługi programu w konsoli. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{main_8cpp_a2a36dd6303f6cf4433d4c2603c1003c0}{is\+\_\+cube\+\_\+solved}} ()
+\begin{DoxyCompactList}\small\item\em Funkcja sprawdza czy kostka rubika została ułożona. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{main_8cpp_a4fd19d44a819bec8c71967d5d938f73b}{show\+\_\+solve}} ()
+\item 
+Camera \mbox{\hyperlink{main_8cpp_a08ec44e860dbdb504ff1bd80e3b1687b}{camera}} (glm\+::vec3(0.\+0f, 1.\+0f, 8.\+0f))
+\begin{DoxyCompactList}\small\item\em Ustawienia pozycji początkowej kamery. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{main_8cpp_aa9827b9b3add40f7b2fecee849deb8b1}{data\+Texture\+Load}} ()
+\begin{DoxyCompactList}\small\item\em Ustawienie parametrów dla tekstur. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{main_8cpp_adc9b38392aed9677fb46531c8250cc8f}{load\+Data}} (unsigned char \texorpdfstring{$\ast$}{*}data, int width, int height)
+\begin{DoxyCompactList}\small\item\em Load\+Data generuje oraz zwraca teksture. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{main_8cpp_a052a3c016cd0af4daa901f62769a2cf9}{load\+Textures}} ()
+\begin{DoxyCompactList}\small\item\em Funkcja ładująca textury które są nakładane na kostkę \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{main_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4}{main}} ()
+\begin{DoxyCompactList}\small\item\em Główna funkcja aplikacji. Zawiera ona inicjalizacje okna, VAO, VBO, przydzielenie shaderów. Nakłada textury na poszczególne boki. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+const unsigned int \mbox{\hyperlink{main_8cpp_a74ba59acbf346c2b19bc1ce5170f755d}{SCR\+\_\+\+WIDTH}} = 800
+\begin{DoxyCompactList}\small\item\em Szerokość okna. \end{DoxyCompactList}\item 
+const unsigned int \mbox{\hyperlink{main_8cpp_aca03a77ac5a7f2e26d08cd6de43f9a17}{SCR\+\_\+\+HEIGHT}} = 600
+\begin{DoxyCompactList}\small\item\em Wysokość okna. \end{DoxyCompactList}\item 
+float \mbox{\hyperlink{main_8cpp_a4664c5d930c290e6f82141a070cbea46}{lastX}} = \mbox{\hyperlink{main_8cpp_a74ba59acbf346c2b19bc1ce5170f755d}{SCR\+\_\+\+WIDTH}} / 2.\+0f
+\begin{DoxyCompactList}\small\item\em Poprzednia pozycja X, używana do śledzenia ruchu myszy. \end{DoxyCompactList}\item 
+float \mbox{\hyperlink{main_8cpp_a9d5b8dfd025caf1c0ed043132515f587}{lastY}} = \mbox{\hyperlink{main_8cpp_aca03a77ac5a7f2e26d08cd6de43f9a17}{SCR\+\_\+\+HEIGHT}} / 2.\+0f
+\begin{DoxyCompactList}\small\item\em Poprzednia pozycja Y, używana do śledzenia ruchu myszy. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{main_8cpp_ac21731ba101e28334c34543121caa841}{first\+Mouse}} = true
+\begin{DoxyCompactList}\small\item\em Dodaj obsługę myszki. \end{DoxyCompactList}\item 
+float \mbox{\hyperlink{main_8cpp_a1a61318ed6aa02b4ff346e7eb8f68891}{delta\+Time}} = 0.\+0f
+\begin{DoxyCompactList}\small\item\em Zmienna ustawiająca wartość pomiędzy klatkami. \end{DoxyCompactList}\item 
+float \mbox{\hyperlink{main_8cpp_a518a497d888d805d5f368bbb91b54a6c}{last\+Frame}} = 0.\+0f
+\begin{DoxyCompactList}\small\item\em Zmienna ustawiająca wartość ostaniej klatki. \end{DoxyCompactList}\item 
+chrono\+::time\+\_\+point$<$ chrono\+::high\+\_\+resolution\+\_\+clock $>$ \mbox{\hyperlink{main_8cpp_abd713b5e3f3d5b609eba75284e703e25}{start\+\_\+timer}}
+\begin{DoxyCompactList}\small\item\em Zmienna przyjmująca wartość startu timera. \end{DoxyCompactList}\item 
+chrono\+::time\+\_\+point$<$ chrono\+::high\+\_\+resolution\+\_\+clock $>$ \mbox{\hyperlink{main_8cpp_a533632dd4af826e6376f4707ee5244f7}{end\+\_\+timer}}
+\begin{DoxyCompactList}\small\item\em Zmienna przyjmująca wartość zatrzymania timera. \end{DoxyCompactList}\item 
+chrono\+::duration$<$ double $>$ \mbox{\hyperlink{main_8cpp_ad266f112919aafae4a9a4bc807ad9bc2}{duration}}
+\begin{DoxyCompactList}\small\item\em Zmienna przechowywująca czas ułożenia kostki. \end{DoxyCompactList}\item 
+const int \mbox{\hyperlink{main_8cpp_a5c87a2fa1adc232ff65b3af51e537c6a}{TOP\+\_\+\+SCORES\+\_\+\+COUNT}} = 5
+\begin{DoxyCompactList}\small\item\em Zmienna przechowująca ilość rekordów. \end{DoxyCompactList}\item 
+double \mbox{\hyperlink{main_8cpp_a27e7ae47acbb0a9d21af8522c41487e1}{top\+\_\+scores}} \mbox{[}\mbox{\hyperlink{main_8cpp_a5c87a2fa1adc232ff65b3af51e537c6a}{TOP\+\_\+\+SCORES\+\_\+\+COUNT}}\mbox{]} = \{ 0.\+0 \}
+\begin{DoxyCompactList}\small\item\em Ranking czasów ułożenia. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{main_8cpp_a0fd02fb9277ffcb35a75066ffe95e8c7}{color}} = 1
+\begin{DoxyCompactList}\small\item\em Wybór koloru odpowiedniego dla danego użytkownika. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{main_8cpp_a1f3a571ac48602f58b12f941b84c6d3a}{arranging}} = false
+\begin{DoxyCompactList}\small\item\em Zmiena przechowująca stan układania kostki. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{main_8cpp_a1c6d7369e6f61d12f8fd55fe30b6b551}{count\+\_\+moves}} = 0
+\begin{DoxyCompactList}\small\item\em Zmienne przechowujące wykonane ruchy. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{main_8cpp_a98e5b68afb6fd58c61f6fe01888ea64c}{random\+\_\+moves}} = 0
+\begin{DoxyCompactList}\small\item\em Zmienne przechowujące wykonane ruchy poprzez mieszanie. \end{DoxyCompactList}\item 
+string \mbox{\hyperlink{main_8cpp_ac3fd66ae01f5fe9e5723f8311d7deadf}{solve}} = \"{}\"{}
+\begin{DoxyCompactList}\small\item\em Zmienne przechowującą podpowiedź. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{main_8cpp_ac39a27f0e4ad0cde977459bc21fa36fd}{is\+Solved}} = true
+\begin{DoxyCompactList}\small\item\em Zmienne przechowującą stan użycia podpowiedzi. \end{DoxyCompactList}\item 
+unsigned int \mbox{\hyperlink{main_8cpp_a831b8ce5acab5b3ae2ee62d63dbb9e61}{texture\+Classic1}}
+\begin{DoxyCompactList}\small\item\em Zmienne przechowujące domyślne tekstury. \end{DoxyCompactList}\item 
+unsigned int \mbox{\hyperlink{main_8cpp_a49b4d0402e41e121374335769f3a07a3}{texture\+Classic2}}
+\item 
+unsigned int \mbox{\hyperlink{main_8cpp_a95e04ebb649e47c72eda7aef92177ffc}{texture\+Classic3}}
+\item 
+unsigned int \mbox{\hyperlink{main_8cpp_ad7c0b7754c46c802b773522a2e0fe9b6}{texture\+Classic4}}
+\item 
+unsigned int \mbox{\hyperlink{main_8cpp_ae18b22cea583db517fe193f78fc88fad}{texture\+Classic5}}
+\item 
+unsigned int \mbox{\hyperlink{main_8cpp_a3c4bd956d3e2e910c12c0ddc2f6757d7}{texture\+Classic6}}
+\item 
+unsigned int \mbox{\hyperlink{main_8cpp_a0501547ab6c969a8a77c55fd9f3441d0}{texture\+Deuteranopia1}}
+\begin{DoxyCompactList}\small\item\em Zmienne przechowujące tekstury z deuteranopii. \end{DoxyCompactList}\item 
+unsigned int \mbox{\hyperlink{main_8cpp_a03fad9c3f33bf24a42c79430ab22905c}{texture\+Deuteranopia2}}
+\item 
+unsigned int \mbox{\hyperlink{main_8cpp_a83f222562097b0765926809b1d3a5baa}{texture\+Deuteranopia3}}
+\item 
+unsigned int \mbox{\hyperlink{main_8cpp_ad5115e7a7577ba4ee5a5c5e1e1fa98f8}{texture\+Deuteranopia4}}
+\item 
+unsigned int \mbox{\hyperlink{main_8cpp_a29d3ff166d835e03490a5b57780df444}{texture\+Deuteranopia5}}
+\item 
+unsigned int \mbox{\hyperlink{main_8cpp_aa50576b81635286d910b568111de3ec2}{texture\+Deuteranopia6}}
+\item 
+unsigned int \mbox{\hyperlink{main_8cpp_af38c36ec5bf6720582fb4cce37032bbb}{texture\+Tritanopia1}}
+\begin{DoxyCompactList}\small\item\em Zmienne przechowujące tekstury z tritanopii. \end{DoxyCompactList}\item 
+unsigned int \mbox{\hyperlink{main_8cpp_afbf4b7a0a4fdbd87d3a35304e76e3a25}{texture\+Tritanopia2}}
+\item 
+unsigned int \mbox{\hyperlink{main_8cpp_a3c051fc2659002a1c7bacf2835b87c6e}{texture\+Tritanopia3}}
+\item 
+unsigned int \mbox{\hyperlink{main_8cpp_aeed332923a338bac9c166dfe43f55700}{texture\+Tritanopia4}}
+\item 
+unsigned int \mbox{\hyperlink{main_8cpp_a355e82f4769c2b6f65502161375050e5}{texture\+Tritanopia5}}
+\item 
+unsigned int \mbox{\hyperlink{main_8cpp_a355a457e579ccf638a418c581a3c9bae}{texture\+Tritanopia6}}
+\item 
+int \mbox{\hyperlink{main_8cpp_a684d4f7d519adfd5237786fcf21034e0}{side\+Cube}} \mbox{[}27\mbox{]}\mbox{[}6\mbox{]}
+\begin{DoxyCompactList}\small\item\em Tablice wyświetlają serce kostki rubika która zapamiętuje swój stan. \end{DoxyCompactList}\item 
+glm\+::vec3 \mbox{\hyperlink{main_8cpp_a4581c201c28560ab64b902a7e42f4df2}{cube\+Positions}} \mbox{[}$\,$\mbox{]}
+\begin{DoxyCompactList}\small\item\em Pozycje kostek czyli rozmieszczenie kostek aby uformowały się w jedną kostkę "{}Rubik\textquotesingle{}s Cube. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Macro Definition Documentation}
+\Hypertarget{main_8cpp_a18372412ad2fc3ce1e3240b3cf0efe78}\label{main_8cpp_a18372412ad2fc3ce1e3240b3cf0efe78} 
+\index{main.cpp@{main.cpp}!STB\_IMAGE\_IMPLEMENTATION@{STB\_IMAGE\_IMPLEMENTATION}}
+\index{STB\_IMAGE\_IMPLEMENTATION@{STB\_IMAGE\_IMPLEMENTATION}!main.cpp@{main.cpp}}
+\doxysubsubsection{\texorpdfstring{STB\_IMAGE\_IMPLEMENTATION}{STB\_IMAGE\_IMPLEMENTATION}}
+{\footnotesize\ttfamily \#define STB\+\_\+\+IMAGE\+\_\+\+IMPLEMENTATION}
+
+
+
+\doxysubsection{Function Documentation}
+\Hypertarget{main_8cpp_a08ec44e860dbdb504ff1bd80e3b1687b}\label{main_8cpp_a08ec44e860dbdb504ff1bd80e3b1687b} 
+\index{main.cpp@{main.cpp}!camera@{camera}}
+\index{camera@{camera}!main.cpp@{main.cpp}}
+\doxysubsubsection{\texorpdfstring{camera()}{camera()}}
+{\footnotesize\ttfamily Camera camera (\begin{DoxyParamCaption}\item[{glm\+::vec3(0.\+0f, 1.\+0f, 8.\+0f)}]{ }\end{DoxyParamCaption})}
+
+
+
+Ustawienia pozycji początkowej kamery. 
+
+\Hypertarget{main_8cpp_a50513d99994d543b9aaeb1da5b0ee884}\label{main_8cpp_a50513d99994d543b9aaeb1da5b0ee884} 
+\index{main.cpp@{main.cpp}!cube\_arranged@{cube\_arranged}}
+\index{cube\_arranged@{cube\_arranged}!main.cpp@{main.cpp}}
+\doxysubsubsection{\texorpdfstring{cube\_arranged()}{cube\_arranged()}}
+{\footnotesize\ttfamily void cube\+\_\+arranged (\begin{DoxyParamCaption}\item[{bool}]{skip }\end{DoxyParamCaption})}
+
+
+
+Sprawdzanie ułożenia kostki w przypdku ułożenia w lepszym czasie, wynik zapisywany zostaje w rankingu najlepszych czasów. 
+
+\Hypertarget{main_8cpp_aa9827b9b3add40f7b2fecee849deb8b1}\label{main_8cpp_aa9827b9b3add40f7b2fecee849deb8b1} 
+\index{main.cpp@{main.cpp}!dataTextureLoad@{dataTextureLoad}}
+\index{dataTextureLoad@{dataTextureLoad}!main.cpp@{main.cpp}}
+\doxysubsubsection{\texorpdfstring{dataTextureLoad()}{dataTextureLoad()}}
+{\footnotesize\ttfamily void data\+Texture\+Load (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Ustawienie parametrów dla tekstur. 
+
+\Hypertarget{main_8cpp_a5180f7bf2b71421af837035824a8c8ac}\label{main_8cpp_a5180f7bf2b71421af837035824a8c8ac} 
+\index{main.cpp@{main.cpp}!framebuffer\_size\_callback@{framebuffer\_size\_callback}}
+\index{framebuffer\_size\_callback@{framebuffer\_size\_callback}!main.cpp@{main.cpp}}
+\doxysubsubsection{\texorpdfstring{framebuffer\_size\_callback()}{framebuffer\_size\_callback()}}
+{\footnotesize\ttfamily void framebuffer\+\_\+size\+\_\+callback (\begin{DoxyParamCaption}\item[{GLFWwindow \texorpdfstring{$\ast$}{*}}]{window,  }\item[{int}]{width,  }\item[{int}]{height }\end{DoxyParamCaption})}
+
+
+
+Buffer ustawiania rozmiaru. 
+
+\Hypertarget{main_8cpp_a2a36dd6303f6cf4433d4c2603c1003c0}\label{main_8cpp_a2a36dd6303f6cf4433d4c2603c1003c0} 
+\index{main.cpp@{main.cpp}!is\_cube\_solved@{is\_cube\_solved}}
+\index{is\_cube\_solved@{is\_cube\_solved}!main.cpp@{main.cpp}}
+\doxysubsubsection{\texorpdfstring{is\_cube\_solved()}{is\_cube\_solved()}}
+{\footnotesize\ttfamily bool is\+\_\+cube\+\_\+solved (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Funkcja sprawdza czy kostka rubika została ułożona. 
+
+summary\texorpdfstring{$>$}{>} Funkcja wyświetlająca podpowiedź do ułożenia kostki. /summary\texorpdfstring{$>$}{>} \Hypertarget{main_8cpp_a286930f4e8ede059b83ff6eafa2ff718}\label{main_8cpp_a286930f4e8ede059b83ff6eafa2ff718} 
+\index{main.cpp@{main.cpp}!key\_callback@{key\_callback}}
+\index{key\_callback@{key\_callback}!main.cpp@{main.cpp}}
+\doxysubsubsection{\texorpdfstring{key\_callback()}{key\_callback()}}
+{\footnotesize\ttfamily void key\+\_\+callback (\begin{DoxyParamCaption}\item[{GLFWwindow \texorpdfstring{$\ast$}{*}}]{window,  }\item[{int}]{key,  }\item[{int}]{scancode,  }\item[{int}]{action,  }\item[{int}]{mods }\end{DoxyParamCaption})}
+
+
+
+Nasłuchiwanie jeśli przycisk został kliknięty to wykona się ta funkcja oraz zagnieżdzone funkcje w niej (tylko raz). Key -\/ przycisk Action -\/ akcja np. GLFW\+\_\+\+PRESS. 
+
+\Hypertarget{main_8cpp_a6ca807f210c943f1b6f383d913cf9368}\label{main_8cpp_a6ca807f210c943f1b6f383d913cf9368} 
+\index{main.cpp@{main.cpp}!loadCubemap@{loadCubemap}}
+\index{loadCubemap@{loadCubemap}!main.cpp@{main.cpp}}
+\doxysubsubsection{\texorpdfstring{loadCubemap()}{loadCubemap()}}
+{\footnotesize\ttfamily unsigned int load\+Cubemap (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Załadowanie skyboxa czyli wyglądu który jest na całym programie. 
+
+\Hypertarget{main_8cpp_adc9b38392aed9677fb46531c8250cc8f}\label{main_8cpp_adc9b38392aed9677fb46531c8250cc8f} 
+\index{main.cpp@{main.cpp}!loadData@{loadData}}
+\index{loadData@{loadData}!main.cpp@{main.cpp}}
+\doxysubsubsection{\texorpdfstring{loadData()}{loadData()}}
+{\footnotesize\ttfamily void load\+Data (\begin{DoxyParamCaption}\item[{unsigned char \texorpdfstring{$\ast$}{*}}]{data,  }\item[{int}]{width,  }\item[{int}]{height }\end{DoxyParamCaption})}
+
+
+
+Load\+Data generuje oraz zwraca teksture. 
+
+\Hypertarget{main_8cpp_a052a3c016cd0af4daa901f62769a2cf9}\label{main_8cpp_a052a3c016cd0af4daa901f62769a2cf9} 
+\index{main.cpp@{main.cpp}!loadTextures@{loadTextures}}
+\index{loadTextures@{loadTextures}!main.cpp@{main.cpp}}
+\doxysubsubsection{\texorpdfstring{loadTextures()}{loadTextures()}}
+{\footnotesize\ttfamily void load\+Textures (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Funkcja ładująca textury które są nakładane na kostkę 
+
+\Hypertarget{main_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4}\label{main_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4} 
+\index{main.cpp@{main.cpp}!main@{main}}
+\index{main@{main}!main.cpp@{main.cpp}}
+\doxysubsubsection{\texorpdfstring{main()}{main()}}
+{\footnotesize\ttfamily int main (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Główna funkcja aplikacji. Zawiera ona inicjalizacje okna, VAO, VBO, przydzielenie shaderów. Nakłada textury na poszczególne boki. 
+
+\Hypertarget{main_8cpp_aa21e7f4677f52c70f21c9242b9b40fb8}\label{main_8cpp_aa21e7f4677f52c70f21c9242b9b40fb8} 
+\index{main.cpp@{main.cpp}!mix\_the\_cube@{mix\_the\_cube}}
+\index{mix\_the\_cube@{mix\_the\_cube}!main.cpp@{main.cpp}}
+\doxysubsubsection{\texorpdfstring{mix\_the\_cube()}{mix\_the\_cube()}}
+{\footnotesize\ttfamily void mix\+\_\+the\+\_\+cube (\begin{DoxyParamCaption}\item[{int}]{mode }\end{DoxyParamCaption})}
+
+
+
+Funkcja miesza ułożenie kostki którą następnie można układać Są trzy tryby\+: easy, medium oraz hard czyli w zależności od wybrania preferencji, kostka będzie bardziej lub mnie trudna w ułożeniu. 
+
+\Hypertarget{main_8cpp_abe5e592e8704afa9003593b539e436df}\label{main_8cpp_abe5e592e8704afa9003593b539e436df} 
+\index{main.cpp@{main.cpp}!mouse\_callback@{mouse\_callback}}
+\index{mouse\_callback@{mouse\_callback}!main.cpp@{main.cpp}}
+\doxysubsubsection{\texorpdfstring{mouse\_callback()}{mouse\_callback()}}
+{\footnotesize\ttfamily void mouse\+\_\+callback (\begin{DoxyParamCaption}\item[{GLFWwindow \texorpdfstring{$\ast$}{*}}]{window,  }\item[{double}]{xpos,  }\item[{double}]{ypos }\end{DoxyParamCaption})}
+
+
+
+Poruszanie myszką, dzięki temu zmienia widok. 
+
+\Hypertarget{main_8cpp_a13f14c1ba4af90462652402369f2acf7}\label{main_8cpp_a13f14c1ba4af90462652402369f2acf7} 
+\index{main.cpp@{main.cpp}!print\_cube\_color@{print\_cube\_color}}
+\index{print\_cube\_color@{print\_cube\_color}!main.cpp@{main.cpp}}
+\doxysubsubsection{\texorpdfstring{print\_cube\_color()}{print\_cube\_color()}}
+{\footnotesize\ttfamily void print\+\_\+cube\+\_\+color (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Wypisanie kostki do konsoli na podstawie cyfr. 
+
+\Hypertarget{main_8cpp_a2d03c6f2666863543429a06ef642fe6a}\label{main_8cpp_a2d03c6f2666863543429a06ef642fe6a} 
+\index{main.cpp@{main.cpp}!processInput@{processInput}}
+\index{processInput@{processInput}!main.cpp@{main.cpp}}
+\doxysubsubsection{\texorpdfstring{processInput()}{processInput()}}
+{\footnotesize\ttfamily void process\+Input (\begin{DoxyParamCaption}\item[{GLFWwindow \texorpdfstring{$\ast$}{*}}]{window }\end{DoxyParamCaption})}
+
+
+
+Input process czyli wykonywanie się poszczególnych funkcji na wejściu różnych przycisków. 
+
+\Hypertarget{main_8cpp_a06ad2502008f16fbcf01dfaa7f7bc9ea}\label{main_8cpp_a06ad2502008f16fbcf01dfaa7f7bc9ea} 
+\index{main.cpp@{main.cpp}!scroll\_callback@{scroll\_callback}}
+\index{scroll\_callback@{scroll\_callback}!main.cpp@{main.cpp}}
+\doxysubsubsection{\texorpdfstring{scroll\_callback()}{scroll\_callback()}}
+{\footnotesize\ttfamily void scroll\+\_\+callback (\begin{DoxyParamCaption}\item[{GLFWwindow \texorpdfstring{$\ast$}{*}}]{window,  }\item[{double}]{xoffset,  }\item[{double}]{yoffset }\end{DoxyParamCaption})}
+
+
+
+Poruszanie kamery na scrollu. 
+
+\Hypertarget{main_8cpp_a865f003686e185dc657468d90f047d8f}\label{main_8cpp_a865f003686e185dc657468d90f047d8f} 
+\index{main.cpp@{main.cpp}!set\_best\_scores@{set\_best\_scores}}
+\index{set\_best\_scores@{set\_best\_scores}!main.cpp@{main.cpp}}
+\doxysubsubsection{\texorpdfstring{set\_best\_scores()}{set\_best\_scores()}}
+{\footnotesize\ttfamily void set\+\_\+best\+\_\+scores (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Wpisanie ustanowionego rekordu ułożenia kostki do rankingu najlepszych czasów. 
+
+\Hypertarget{main_8cpp_a8a0a2914f578873a8e05172ab013eb3c}\label{main_8cpp_a8a0a2914f578873a8e05172ab013eb3c} 
+\index{main.cpp@{main.cpp}!show\_best\_scores@{show\_best\_scores}}
+\index{show\_best\_scores@{show\_best\_scores}!main.cpp@{main.cpp}}
+\doxysubsubsection{\texorpdfstring{show\_best\_scores()}{show\_best\_scores()}}
+{\footnotesize\ttfamily void show\+\_\+best\+\_\+scores (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Wyświetlanie najlepszych czasów ułożenia kostki rubika. 
+
+\Hypertarget{main_8cpp_a4fe80830fb1fb03fd59e950870de994b}\label{main_8cpp_a4fe80830fb1fb03fd59e950870de994b} 
+\index{main.cpp@{main.cpp}!show\_options@{show\_options}}
+\index{show\_options@{show\_options}!main.cpp@{main.cpp}}
+\doxysubsubsection{\texorpdfstring{show\_options()}{show\_options()}}
+{\footnotesize\ttfamily void show\+\_\+options (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Wyświetlanie instrukcji obsługi programu w konsoli. 
+
+\Hypertarget{main_8cpp_a4fd19d44a819bec8c71967d5d938f73b}\label{main_8cpp_a4fd19d44a819bec8c71967d5d938f73b} 
+\index{main.cpp@{main.cpp}!show\_solve@{show\_solve}}
+\index{show\_solve@{show\_solve}!main.cpp@{main.cpp}}
+\doxysubsubsection{\texorpdfstring{show\_solve()}{show\_solve()}}
+{\footnotesize\ttfamily void show\+\_\+solve (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\Hypertarget{main_8cpp_af543e2edc12e8ead355d94005cacea57}\label{main_8cpp_af543e2edc12e8ead355d94005cacea57} 
+\index{main.cpp@{main.cpp}!turn\_cube\_down\_to\_up@{turn\_cube\_down\_to\_up}}
+\index{turn\_cube\_down\_to\_up@{turn\_cube\_down\_to\_up}!main.cpp@{main.cpp}}
+\doxysubsubsection{\texorpdfstring{turn\_cube\_down\_to\_up()}{turn\_cube\_down\_to\_up()}}
+{\footnotesize\ttfamily void turn\+\_\+cube\+\_\+down\+\_\+to\+\_\+up (\begin{DoxyParamCaption}\item[{int}]{which,  }\item[{int}]{each,  }\item[{bool}]{game }\end{DoxyParamCaption})}
+
+
+
+Obracanie kostki na przycisk od strony dolnej do strony górnej. 
+
+\Hypertarget{main_8cpp_acfbdaef2f75d1f8b120716c251bf84a5}\label{main_8cpp_acfbdaef2f75d1f8b120716c251bf84a5} 
+\index{main.cpp@{main.cpp}!turn\_cube\_left\_to\_right@{turn\_cube\_left\_to\_right}}
+\index{turn\_cube\_left\_to\_right@{turn\_cube\_left\_to\_right}!main.cpp@{main.cpp}}
+\doxysubsubsection{\texorpdfstring{turn\_cube\_left\_to\_right()}{turn\_cube\_left\_to\_right()}}
+{\footnotesize\ttfamily void turn\+\_\+cube\+\_\+left\+\_\+to\+\_\+right (\begin{DoxyParamCaption}\item[{int}]{which,  }\item[{int}]{each,  }\item[{bool}]{game }\end{DoxyParamCaption})}
+
+
+
+Obracanie kostki na przycisk od strony lefej do strony prawej. 
+
+\Hypertarget{main_8cpp_a11193bd495bdd0ecd2537f17f0724286}\label{main_8cpp_a11193bd495bdd0ecd2537f17f0724286} 
+\index{main.cpp@{main.cpp}!turn\_cube\_right\_to\_left@{turn\_cube\_right\_to\_left}}
+\index{turn\_cube\_right\_to\_left@{turn\_cube\_right\_to\_left}!main.cpp@{main.cpp}}
+\doxysubsubsection{\texorpdfstring{turn\_cube\_right\_to\_left()}{turn\_cube\_right\_to\_left()}}
+{\footnotesize\ttfamily void turn\+\_\+cube\+\_\+right\+\_\+to\+\_\+left (\begin{DoxyParamCaption}\item[{int}]{which,  }\item[{int}]{each,  }\item[{bool}]{game }\end{DoxyParamCaption})}
+
+
+
+Obracanie kostki na przycisk od strony prawej do strony lewej. 
+
+\Hypertarget{main_8cpp_a7b8109a47240fba6e810e79c2022e2c7}\label{main_8cpp_a7b8109a47240fba6e810e79c2022e2c7} 
+\index{main.cpp@{main.cpp}!turn\_cube\_to\_full@{turn\_cube\_to\_full}}
+\index{turn\_cube\_to\_full@{turn\_cube\_to\_full}!main.cpp@{main.cpp}}
+\doxysubsubsection{\texorpdfstring{turn\_cube\_to\_full()}{turn\_cube\_to\_full()}}
+{\footnotesize\ttfamily void turn\+\_\+cube\+\_\+to\+\_\+full (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Ułożenie kostki do wersji domyślnej. 
+
+\Hypertarget{main_8cpp_a3ac1ba4d1cbc975ea13f57957ede7c6d}\label{main_8cpp_a3ac1ba4d1cbc975ea13f57957ede7c6d} 
+\index{main.cpp@{main.cpp}!turn\_cube\_up\_to\_down@{turn\_cube\_up\_to\_down}}
+\index{turn\_cube\_up\_to\_down@{turn\_cube\_up\_to\_down}!main.cpp@{main.cpp}}
+\doxysubsubsection{\texorpdfstring{turn\_cube\_up\_to\_down()}{turn\_cube\_up\_to\_down()}}
+{\footnotesize\ttfamily void turn\+\_\+cube\+\_\+up\+\_\+to\+\_\+down (\begin{DoxyParamCaption}\item[{int}]{which,  }\item[{int}]{each,  }\item[{bool}]{game }\end{DoxyParamCaption})}
+
+
+
+Obracanie kostki na przycisk od strony górnej do strony dolnej. 
+
+
+
+\doxysubsection{Variable Documentation}
+\Hypertarget{main_8cpp_a1f3a571ac48602f58b12f941b84c6d3a}\label{main_8cpp_a1f3a571ac48602f58b12f941b84c6d3a} 
+\index{main.cpp@{main.cpp}!arranging@{arranging}}
+\index{arranging@{arranging}!main.cpp@{main.cpp}}
+\doxysubsubsection{\texorpdfstring{arranging}{arranging}}
+{\footnotesize\ttfamily bool arranging = false}
+
+
+
+Zmiena przechowująca stan układania kostki. 
+
+\Hypertarget{main_8cpp_a0fd02fb9277ffcb35a75066ffe95e8c7}\label{main_8cpp_a0fd02fb9277ffcb35a75066ffe95e8c7} 
+\index{main.cpp@{main.cpp}!color@{color}}
+\index{color@{color}!main.cpp@{main.cpp}}
+\doxysubsubsection{\texorpdfstring{color}{color}}
+{\footnotesize\ttfamily int color = 1}
+
+
+
+Wybór koloru odpowiedniego dla danego użytkownika. 
+
+\Hypertarget{main_8cpp_a1c6d7369e6f61d12f8fd55fe30b6b551}\label{main_8cpp_a1c6d7369e6f61d12f8fd55fe30b6b551} 
+\index{main.cpp@{main.cpp}!count\_moves@{count\_moves}}
+\index{count\_moves@{count\_moves}!main.cpp@{main.cpp}}
+\doxysubsubsection{\texorpdfstring{count\_moves}{count\_moves}}
+{\footnotesize\ttfamily int count\+\_\+moves = 0}
+
+
+
+Zmienne przechowujące wykonane ruchy. 
+
+\Hypertarget{main_8cpp_a4581c201c28560ab64b902a7e42f4df2}\label{main_8cpp_a4581c201c28560ab64b902a7e42f4df2} 
+\index{main.cpp@{main.cpp}!cubePositions@{cubePositions}}
+\index{cubePositions@{cubePositions}!main.cpp@{main.cpp}}
+\doxysubsubsection{\texorpdfstring{cubePositions}{cubePositions}}
+{\footnotesize\ttfamily glm\+::vec3 cube\+Positions\mbox{[}$\,$\mbox{]}}
+
+
+
+Pozycje kostek czyli rozmieszczenie kostek aby uformowały się w jedną kostkę "{}Rubik\textquotesingle{}s Cube. 
+
+\Hypertarget{main_8cpp_a1a61318ed6aa02b4ff346e7eb8f68891}\label{main_8cpp_a1a61318ed6aa02b4ff346e7eb8f68891} 
+\index{main.cpp@{main.cpp}!deltaTime@{deltaTime}}
+\index{deltaTime@{deltaTime}!main.cpp@{main.cpp}}
+\doxysubsubsection{\texorpdfstring{deltaTime}{deltaTime}}
+{\footnotesize\ttfamily float delta\+Time = 0.\+0f}
+
+
+
+Zmienna ustawiająca wartość pomiędzy klatkami. 
+
+\Hypertarget{main_8cpp_ad266f112919aafae4a9a4bc807ad9bc2}\label{main_8cpp_ad266f112919aafae4a9a4bc807ad9bc2} 
+\index{main.cpp@{main.cpp}!duration@{duration}}
+\index{duration@{duration}!main.cpp@{main.cpp}}
+\doxysubsubsection{\texorpdfstring{duration}{duration}}
+{\footnotesize\ttfamily chrono\+::duration$<$double$>$ duration}
+
+
+
+Zmienna przechowywująca czas ułożenia kostki. 
+
+\Hypertarget{main_8cpp_a533632dd4af826e6376f4707ee5244f7}\label{main_8cpp_a533632dd4af826e6376f4707ee5244f7} 
+\index{main.cpp@{main.cpp}!end\_timer@{end\_timer}}
+\index{end\_timer@{end\_timer}!main.cpp@{main.cpp}}
+\doxysubsubsection{\texorpdfstring{end\_timer}{end\_timer}}
+{\footnotesize\ttfamily chrono\+::time\+\_\+point$<$chrono\+::high\+\_\+resolution\+\_\+clock$>$ end\+\_\+timer}
+
+
+
+Zmienna przyjmująca wartość zatrzymania timera. 
+
+\Hypertarget{main_8cpp_ac21731ba101e28334c34543121caa841}\label{main_8cpp_ac21731ba101e28334c34543121caa841} 
+\index{main.cpp@{main.cpp}!firstMouse@{firstMouse}}
+\index{firstMouse@{firstMouse}!main.cpp@{main.cpp}}
+\doxysubsubsection{\texorpdfstring{firstMouse}{firstMouse}}
+{\footnotesize\ttfamily bool first\+Mouse = true}
+
+
+
+Dodaj obsługę myszki. 
+
+\Hypertarget{main_8cpp_ac39a27f0e4ad0cde977459bc21fa36fd}\label{main_8cpp_ac39a27f0e4ad0cde977459bc21fa36fd} 
+\index{main.cpp@{main.cpp}!isSolved@{isSolved}}
+\index{isSolved@{isSolved}!main.cpp@{main.cpp}}
+\doxysubsubsection{\texorpdfstring{isSolved}{isSolved}}
+{\footnotesize\ttfamily bool is\+Solved = true}
+
+
+
+Zmienne przechowującą stan użycia podpowiedzi. 
+
+\Hypertarget{main_8cpp_a518a497d888d805d5f368bbb91b54a6c}\label{main_8cpp_a518a497d888d805d5f368bbb91b54a6c} 
+\index{main.cpp@{main.cpp}!lastFrame@{lastFrame}}
+\index{lastFrame@{lastFrame}!main.cpp@{main.cpp}}
+\doxysubsubsection{\texorpdfstring{lastFrame}{lastFrame}}
+{\footnotesize\ttfamily float last\+Frame = 0.\+0f}
+
+
+
+Zmienna ustawiająca wartość ostaniej klatki. 
+
+\Hypertarget{main_8cpp_a4664c5d930c290e6f82141a070cbea46}\label{main_8cpp_a4664c5d930c290e6f82141a070cbea46} 
+\index{main.cpp@{main.cpp}!lastX@{lastX}}
+\index{lastX@{lastX}!main.cpp@{main.cpp}}
+\doxysubsubsection{\texorpdfstring{lastX}{lastX}}
+{\footnotesize\ttfamily float lastX = \mbox{\hyperlink{main_8cpp_a74ba59acbf346c2b19bc1ce5170f755d}{SCR\+\_\+\+WIDTH}} / 2.\+0f}
+
+
+
+Poprzednia pozycja X, używana do śledzenia ruchu myszy. 
+
+\Hypertarget{main_8cpp_a9d5b8dfd025caf1c0ed043132515f587}\label{main_8cpp_a9d5b8dfd025caf1c0ed043132515f587} 
+\index{main.cpp@{main.cpp}!lastY@{lastY}}
+\index{lastY@{lastY}!main.cpp@{main.cpp}}
+\doxysubsubsection{\texorpdfstring{lastY}{lastY}}
+{\footnotesize\ttfamily float lastY = \mbox{\hyperlink{main_8cpp_aca03a77ac5a7f2e26d08cd6de43f9a17}{SCR\+\_\+\+HEIGHT}} / 2.\+0f}
+
+
+
+Poprzednia pozycja Y, używana do śledzenia ruchu myszy. 
+
+\Hypertarget{main_8cpp_a98e5b68afb6fd58c61f6fe01888ea64c}\label{main_8cpp_a98e5b68afb6fd58c61f6fe01888ea64c} 
+\index{main.cpp@{main.cpp}!random\_moves@{random\_moves}}
+\index{random\_moves@{random\_moves}!main.cpp@{main.cpp}}
+\doxysubsubsection{\texorpdfstring{random\_moves}{random\_moves}}
+{\footnotesize\ttfamily int random\+\_\+moves = 0}
+
+
+
+Zmienne przechowujące wykonane ruchy poprzez mieszanie. 
+
+\Hypertarget{main_8cpp_aca03a77ac5a7f2e26d08cd6de43f9a17}\label{main_8cpp_aca03a77ac5a7f2e26d08cd6de43f9a17} 
+\index{main.cpp@{main.cpp}!SCR\_HEIGHT@{SCR\_HEIGHT}}
+\index{SCR\_HEIGHT@{SCR\_HEIGHT}!main.cpp@{main.cpp}}
+\doxysubsubsection{\texorpdfstring{SCR\_HEIGHT}{SCR\_HEIGHT}}
+{\footnotesize\ttfamily const unsigned int SCR\+\_\+\+HEIGHT = 600}
+
+
+
+Wysokość okna. 
+
+\Hypertarget{main_8cpp_a74ba59acbf346c2b19bc1ce5170f755d}\label{main_8cpp_a74ba59acbf346c2b19bc1ce5170f755d} 
+\index{main.cpp@{main.cpp}!SCR\_WIDTH@{SCR\_WIDTH}}
+\index{SCR\_WIDTH@{SCR\_WIDTH}!main.cpp@{main.cpp}}
+\doxysubsubsection{\texorpdfstring{SCR\_WIDTH}{SCR\_WIDTH}}
+{\footnotesize\ttfamily const unsigned int SCR\+\_\+\+WIDTH = 800}
+
+
+
+Szerokość okna. 
+
+\Hypertarget{main_8cpp_a684d4f7d519adfd5237786fcf21034e0}\label{main_8cpp_a684d4f7d519adfd5237786fcf21034e0} 
+\index{main.cpp@{main.cpp}!sideCube@{sideCube}}
+\index{sideCube@{sideCube}!main.cpp@{main.cpp}}
+\doxysubsubsection{\texorpdfstring{sideCube}{sideCube}}
+{\footnotesize\ttfamily int side\+Cube\mbox{[}27\mbox{]}\mbox{[}6\mbox{]}}
+
+{\bfseries Initial value\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{=\ \{}
+\DoxyCodeLine{\ \ \ \ \{1,2,3,4,5,6\},}
+\DoxyCodeLine{\ \ \ \ \{1,2,3,4,5,6\},}
+\DoxyCodeLine{\ \ \ \ \{1,2,3,4,5,6\},}
+\DoxyCodeLine{\ \ \ \ \{1,2,3,4,5,6\},}
+\DoxyCodeLine{\ \ \ \ \{1,2,3,4,5,6\},}
+\DoxyCodeLine{\ \ \ \ \{1,2,3,4,5,6\},}
+\DoxyCodeLine{\ \ \ \ \{1,2,3,4,5,6\},}
+\DoxyCodeLine{\ \ \ \ \{1,2,3,4,5,6\},}
+\DoxyCodeLine{\ \ \ \ \{1,2,3,4,5,6\},}
+\DoxyCodeLine{\ \ \ \ \{1,2,3,4,5,6\},}
+\DoxyCodeLine{\ \ \ \ \{1,2,3,4,5,6\},}
+\DoxyCodeLine{\ \ \ \ \{1,2,3,4,5,6\},}
+\DoxyCodeLine{\ \ \ \ \{1,2,3,4,5,6\},}
+\DoxyCodeLine{\ \ \ \ \{1,2,3,4,5,6\},}
+\DoxyCodeLine{\ \ \ \ \{1,2,3,4,5,6\},}
+\DoxyCodeLine{\ \ \ \ \{1,2,3,4,5,6\},}
+\DoxyCodeLine{\ \ \ \ \{1,2,3,4,5,6\},}
+\DoxyCodeLine{\ \ \ \ \{1,2,3,4,5,6\},}
+\DoxyCodeLine{\ \ \ \ \{1,2,3,4,5,6\},}
+\DoxyCodeLine{\ \ \ \ \{1,2,3,4,5,6\},}
+\DoxyCodeLine{\ \ \ \ \{1,2,3,4,5,6\},}
+\DoxyCodeLine{\ \ \ \ \{1,2,3,4,5,6\},}
+\DoxyCodeLine{\ \ \ \ \{1,2,3,4,5,6\},}
+\DoxyCodeLine{\ \ \ \ \{1,2,3,4,5,6\},}
+\DoxyCodeLine{\ \ \ \ \{1,2,3,4,5,6\},}
+\DoxyCodeLine{\ \ \ \ \{1,2,3,4,5,6\},}
+\DoxyCodeLine{\ \ \ \ \{1,2,3,4,5,6\}}
+\DoxyCodeLine{\}}
+
+\end{DoxyCode}
+
+
+Tablice wyświetlają serce kostki rubika która zapamiętuje swój stan. 
+
+\Hypertarget{main_8cpp_ac3fd66ae01f5fe9e5723f8311d7deadf}\label{main_8cpp_ac3fd66ae01f5fe9e5723f8311d7deadf} 
+\index{main.cpp@{main.cpp}!solve@{solve}}
+\index{solve@{solve}!main.cpp@{main.cpp}}
+\doxysubsubsection{\texorpdfstring{solve}{solve}}
+{\footnotesize\ttfamily string solve = \"{}\"{}}
+
+
+
+Zmienne przechowującą podpowiedź. 
+
+\Hypertarget{main_8cpp_abd713b5e3f3d5b609eba75284e703e25}\label{main_8cpp_abd713b5e3f3d5b609eba75284e703e25} 
+\index{main.cpp@{main.cpp}!start\_timer@{start\_timer}}
+\index{start\_timer@{start\_timer}!main.cpp@{main.cpp}}
+\doxysubsubsection{\texorpdfstring{start\_timer}{start\_timer}}
+{\footnotesize\ttfamily chrono\+::time\+\_\+point$<$chrono\+::high\+\_\+resolution\+\_\+clock$>$ start\+\_\+timer}
+
+
+
+Zmienna przyjmująca wartość startu timera. 
+
+\Hypertarget{main_8cpp_a831b8ce5acab5b3ae2ee62d63dbb9e61}\label{main_8cpp_a831b8ce5acab5b3ae2ee62d63dbb9e61} 
+\index{main.cpp@{main.cpp}!textureClassic1@{textureClassic1}}
+\index{textureClassic1@{textureClassic1}!main.cpp@{main.cpp}}
+\doxysubsubsection{\texorpdfstring{textureClassic1}{textureClassic1}}
+{\footnotesize\ttfamily unsigned int texture\+Classic1}
+
+
+
+Zmienne przechowujące domyślne tekstury. 
+
+\Hypertarget{main_8cpp_a49b4d0402e41e121374335769f3a07a3}\label{main_8cpp_a49b4d0402e41e121374335769f3a07a3} 
+\index{main.cpp@{main.cpp}!textureClassic2@{textureClassic2}}
+\index{textureClassic2@{textureClassic2}!main.cpp@{main.cpp}}
+\doxysubsubsection{\texorpdfstring{textureClassic2}{textureClassic2}}
+{\footnotesize\ttfamily unsigned int texture\+Classic2}
+
+\Hypertarget{main_8cpp_a95e04ebb649e47c72eda7aef92177ffc}\label{main_8cpp_a95e04ebb649e47c72eda7aef92177ffc} 
+\index{main.cpp@{main.cpp}!textureClassic3@{textureClassic3}}
+\index{textureClassic3@{textureClassic3}!main.cpp@{main.cpp}}
+\doxysubsubsection{\texorpdfstring{textureClassic3}{textureClassic3}}
+{\footnotesize\ttfamily unsigned int texture\+Classic3}
+
+\Hypertarget{main_8cpp_ad7c0b7754c46c802b773522a2e0fe9b6}\label{main_8cpp_ad7c0b7754c46c802b773522a2e0fe9b6} 
+\index{main.cpp@{main.cpp}!textureClassic4@{textureClassic4}}
+\index{textureClassic4@{textureClassic4}!main.cpp@{main.cpp}}
+\doxysubsubsection{\texorpdfstring{textureClassic4}{textureClassic4}}
+{\footnotesize\ttfamily unsigned int texture\+Classic4}
+
+\Hypertarget{main_8cpp_ae18b22cea583db517fe193f78fc88fad}\label{main_8cpp_ae18b22cea583db517fe193f78fc88fad} 
+\index{main.cpp@{main.cpp}!textureClassic5@{textureClassic5}}
+\index{textureClassic5@{textureClassic5}!main.cpp@{main.cpp}}
+\doxysubsubsection{\texorpdfstring{textureClassic5}{textureClassic5}}
+{\footnotesize\ttfamily unsigned int texture\+Classic5}
+
+\Hypertarget{main_8cpp_a3c4bd956d3e2e910c12c0ddc2f6757d7}\label{main_8cpp_a3c4bd956d3e2e910c12c0ddc2f6757d7} 
+\index{main.cpp@{main.cpp}!textureClassic6@{textureClassic6}}
+\index{textureClassic6@{textureClassic6}!main.cpp@{main.cpp}}
+\doxysubsubsection{\texorpdfstring{textureClassic6}{textureClassic6}}
+{\footnotesize\ttfamily unsigned int texture\+Classic6}
+
+\Hypertarget{main_8cpp_a0501547ab6c969a8a77c55fd9f3441d0}\label{main_8cpp_a0501547ab6c969a8a77c55fd9f3441d0} 
+\index{main.cpp@{main.cpp}!textureDeuteranopia1@{textureDeuteranopia1}}
+\index{textureDeuteranopia1@{textureDeuteranopia1}!main.cpp@{main.cpp}}
+\doxysubsubsection{\texorpdfstring{textureDeuteranopia1}{textureDeuteranopia1}}
+{\footnotesize\ttfamily unsigned int texture\+Deuteranopia1}
+
+
+
+Zmienne przechowujące tekstury z deuteranopii. 
+
+\Hypertarget{main_8cpp_a03fad9c3f33bf24a42c79430ab22905c}\label{main_8cpp_a03fad9c3f33bf24a42c79430ab22905c} 
+\index{main.cpp@{main.cpp}!textureDeuteranopia2@{textureDeuteranopia2}}
+\index{textureDeuteranopia2@{textureDeuteranopia2}!main.cpp@{main.cpp}}
+\doxysubsubsection{\texorpdfstring{textureDeuteranopia2}{textureDeuteranopia2}}
+{\footnotesize\ttfamily unsigned int texture\+Deuteranopia2}
+
+\Hypertarget{main_8cpp_a83f222562097b0765926809b1d3a5baa}\label{main_8cpp_a83f222562097b0765926809b1d3a5baa} 
+\index{main.cpp@{main.cpp}!textureDeuteranopia3@{textureDeuteranopia3}}
+\index{textureDeuteranopia3@{textureDeuteranopia3}!main.cpp@{main.cpp}}
+\doxysubsubsection{\texorpdfstring{textureDeuteranopia3}{textureDeuteranopia3}}
+{\footnotesize\ttfamily unsigned int texture\+Deuteranopia3}
+
+\Hypertarget{main_8cpp_ad5115e7a7577ba4ee5a5c5e1e1fa98f8}\label{main_8cpp_ad5115e7a7577ba4ee5a5c5e1e1fa98f8} 
+\index{main.cpp@{main.cpp}!textureDeuteranopia4@{textureDeuteranopia4}}
+\index{textureDeuteranopia4@{textureDeuteranopia4}!main.cpp@{main.cpp}}
+\doxysubsubsection{\texorpdfstring{textureDeuteranopia4}{textureDeuteranopia4}}
+{\footnotesize\ttfamily unsigned int texture\+Deuteranopia4}
+
+\Hypertarget{main_8cpp_a29d3ff166d835e03490a5b57780df444}\label{main_8cpp_a29d3ff166d835e03490a5b57780df444} 
+\index{main.cpp@{main.cpp}!textureDeuteranopia5@{textureDeuteranopia5}}
+\index{textureDeuteranopia5@{textureDeuteranopia5}!main.cpp@{main.cpp}}
+\doxysubsubsection{\texorpdfstring{textureDeuteranopia5}{textureDeuteranopia5}}
+{\footnotesize\ttfamily unsigned int texture\+Deuteranopia5}
+
+\Hypertarget{main_8cpp_aa50576b81635286d910b568111de3ec2}\label{main_8cpp_aa50576b81635286d910b568111de3ec2} 
+\index{main.cpp@{main.cpp}!textureDeuteranopia6@{textureDeuteranopia6}}
+\index{textureDeuteranopia6@{textureDeuteranopia6}!main.cpp@{main.cpp}}
+\doxysubsubsection{\texorpdfstring{textureDeuteranopia6}{textureDeuteranopia6}}
+{\footnotesize\ttfamily unsigned int texture\+Deuteranopia6}
+
+\Hypertarget{main_8cpp_af38c36ec5bf6720582fb4cce37032bbb}\label{main_8cpp_af38c36ec5bf6720582fb4cce37032bbb} 
+\index{main.cpp@{main.cpp}!textureTritanopia1@{textureTritanopia1}}
+\index{textureTritanopia1@{textureTritanopia1}!main.cpp@{main.cpp}}
+\doxysubsubsection{\texorpdfstring{textureTritanopia1}{textureTritanopia1}}
+{\footnotesize\ttfamily unsigned int texture\+Tritanopia1}
+
+
+
+Zmienne przechowujące tekstury z tritanopii. 
+
+\Hypertarget{main_8cpp_afbf4b7a0a4fdbd87d3a35304e76e3a25}\label{main_8cpp_afbf4b7a0a4fdbd87d3a35304e76e3a25} 
+\index{main.cpp@{main.cpp}!textureTritanopia2@{textureTritanopia2}}
+\index{textureTritanopia2@{textureTritanopia2}!main.cpp@{main.cpp}}
+\doxysubsubsection{\texorpdfstring{textureTritanopia2}{textureTritanopia2}}
+{\footnotesize\ttfamily unsigned int texture\+Tritanopia2}
+
+\Hypertarget{main_8cpp_a3c051fc2659002a1c7bacf2835b87c6e}\label{main_8cpp_a3c051fc2659002a1c7bacf2835b87c6e} 
+\index{main.cpp@{main.cpp}!textureTritanopia3@{textureTritanopia3}}
+\index{textureTritanopia3@{textureTritanopia3}!main.cpp@{main.cpp}}
+\doxysubsubsection{\texorpdfstring{textureTritanopia3}{textureTritanopia3}}
+{\footnotesize\ttfamily unsigned int texture\+Tritanopia3}
+
+\Hypertarget{main_8cpp_aeed332923a338bac9c166dfe43f55700}\label{main_8cpp_aeed332923a338bac9c166dfe43f55700} 
+\index{main.cpp@{main.cpp}!textureTritanopia4@{textureTritanopia4}}
+\index{textureTritanopia4@{textureTritanopia4}!main.cpp@{main.cpp}}
+\doxysubsubsection{\texorpdfstring{textureTritanopia4}{textureTritanopia4}}
+{\footnotesize\ttfamily unsigned int texture\+Tritanopia4}
+
+\Hypertarget{main_8cpp_a355e82f4769c2b6f65502161375050e5}\label{main_8cpp_a355e82f4769c2b6f65502161375050e5} 
+\index{main.cpp@{main.cpp}!textureTritanopia5@{textureTritanopia5}}
+\index{textureTritanopia5@{textureTritanopia5}!main.cpp@{main.cpp}}
+\doxysubsubsection{\texorpdfstring{textureTritanopia5}{textureTritanopia5}}
+{\footnotesize\ttfamily unsigned int texture\+Tritanopia5}
+
+\Hypertarget{main_8cpp_a355a457e579ccf638a418c581a3c9bae}\label{main_8cpp_a355a457e579ccf638a418c581a3c9bae} 
+\index{main.cpp@{main.cpp}!textureTritanopia6@{textureTritanopia6}}
+\index{textureTritanopia6@{textureTritanopia6}!main.cpp@{main.cpp}}
+\doxysubsubsection{\texorpdfstring{textureTritanopia6}{textureTritanopia6}}
+{\footnotesize\ttfamily unsigned int texture\+Tritanopia6}
+
+\Hypertarget{main_8cpp_a27e7ae47acbb0a9d21af8522c41487e1}\label{main_8cpp_a27e7ae47acbb0a9d21af8522c41487e1} 
+\index{main.cpp@{main.cpp}!top\_scores@{top\_scores}}
+\index{top\_scores@{top\_scores}!main.cpp@{main.cpp}}
+\doxysubsubsection{\texorpdfstring{top\_scores}{top\_scores}}
+{\footnotesize\ttfamily double top\+\_\+scores\mbox{[}\mbox{\hyperlink{main_8cpp_a5c87a2fa1adc232ff65b3af51e537c6a}{TOP\+\_\+\+SCORES\+\_\+\+COUNT}}\mbox{]} = \{ 0.\+0 \}}
+
+
+
+Ranking czasów ułożenia. 
+
+\Hypertarget{main_8cpp_a5c87a2fa1adc232ff65b3af51e537c6a}\label{main_8cpp_a5c87a2fa1adc232ff65b3af51e537c6a} 
+\index{main.cpp@{main.cpp}!TOP\_SCORES\_COUNT@{TOP\_SCORES\_COUNT}}
+\index{TOP\_SCORES\_COUNT@{TOP\_SCORES\_COUNT}!main.cpp@{main.cpp}}
+\doxysubsubsection{\texorpdfstring{TOP\_SCORES\_COUNT}{TOP\_SCORES\_COUNT}}
+{\footnotesize\ttfamily const int TOP\+\_\+\+SCORES\+\_\+\+COUNT = 5}
+
+
+
+Zmienna przechowująca ilość rekordów. 
+

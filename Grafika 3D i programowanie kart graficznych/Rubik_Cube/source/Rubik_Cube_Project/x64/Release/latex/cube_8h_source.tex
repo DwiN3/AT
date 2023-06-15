@@ -1,0 +1,74 @@
+\doxysection{cube.\+h}
+\hypertarget{cube_8h_source}{}\label{cube_8h_source}\index{C:/Studia\_II\_rok/Grafika 3D/Project/Rubik\_Cube\_Project/Rubik\_Cube\_Project/Rubik\_Cube\_Project/cube.h@{C:/Studia\_II\_rok/Grafika 3D/Project/Rubik\_Cube\_Project/Rubik\_Cube\_Project/Rubik\_Cube\_Project/cube.h}}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ \textcolor{comment}{//\#ifndef\ CUBE}}
+\DoxyCodeLine{00002\ \textcolor{comment}{//\#define\ CUBE}}
+\DoxyCodeLine{00003\ \textcolor{comment}{//}}
+\DoxyCodeLine{00004\ \textcolor{comment}{//}}
+\DoxyCodeLine{00005\ \textcolor{comment}{//\#define\ STB\_IMAGE\_IMPLEMENTATION}}
+\DoxyCodeLine{00006\ \textcolor{comment}{//\#include\ <glad/glad.h>}}
+\DoxyCodeLine{00007\ \textcolor{comment}{//\#include\ <GLFW/glfw3.h>}}
+\DoxyCodeLine{00008\ \textcolor{comment}{//\#include\ <C:/LIB/stb/stb\_image.h>}}
+\DoxyCodeLine{00009\ \textcolor{comment}{//}}
+\DoxyCodeLine{00010\ \textcolor{comment}{//\#include\ <glm/glm.hpp>}}
+\DoxyCodeLine{00011\ \textcolor{comment}{//\#include\ <glm/gtc/matrix\_transform.hpp>}}
+\DoxyCodeLine{00012\ \textcolor{comment}{//\#include\ <glm/gtc/type\_ptr.hpp>}}
+\DoxyCodeLine{00013\ \textcolor{comment}{//}}
+\DoxyCodeLine{00014\ \textcolor{comment}{//\#include\ <C:/LIB/assets/camera.h>}}
+\DoxyCodeLine{00015\ \textcolor{comment}{//}}
+\DoxyCodeLine{00016\ \textcolor{comment}{//\#include\ <C:/LIB/assets/shader.h>}}
+\DoxyCodeLine{00017\ \textcolor{comment}{//}}
+\DoxyCodeLine{00018\ \textcolor{comment}{//\#include\ <iostream>}}
+\DoxyCodeLine{00019\ \textcolor{comment}{//\#include\ <glm/gtc/type\_ptr.hpp>}}
+\DoxyCodeLine{00020\ \textcolor{comment}{//}}
+\DoxyCodeLine{00021\ \textcolor{comment}{//}}
+\DoxyCodeLine{00022\ \textcolor{comment}{//int\ sideCube[27][6]\ =\ \{}}
+\DoxyCodeLine{00023\ \textcolor{comment}{//\ \ \ \ \{1,2,3,4,5,6\},}}
+\DoxyCodeLine{00024\ \textcolor{comment}{//\ \ \ \ \{1,2,3,4,5,6\},}}
+\DoxyCodeLine{00025\ \textcolor{comment}{//\ \ \ \ \{1,2,3,4,5,6\},}}
+\DoxyCodeLine{00026\ \textcolor{comment}{//\ \ \ \ \{1,2,3,4,5,6\},}}
+\DoxyCodeLine{00027\ \textcolor{comment}{//\ \ \ \ \{1,2,3,4,5,6\},}}
+\DoxyCodeLine{00028\ \textcolor{comment}{//\ \ \ \ \{1,2,3,4,5,6\},}}
+\DoxyCodeLine{00029\ \textcolor{comment}{//\ \ \ \ \{1,2,3,4,5,6\},}}
+\DoxyCodeLine{00030\ \textcolor{comment}{//\ \ \ \ \{1,2,3,4,5,6\},}}
+\DoxyCodeLine{00031\ \textcolor{comment}{//\ \ \ \ \{1,2,3,4,5,6\},}}
+\DoxyCodeLine{00032\ \textcolor{comment}{//\ \ \ \ \{1,2,3,4,5,6\},}}
+\DoxyCodeLine{00033\ \textcolor{comment}{//\ \ \ \ \{1,2,3,4,5,6\},}}
+\DoxyCodeLine{00034\ \textcolor{comment}{//\ \ \ \ \{1,2,3,4,5,6\},}}
+\DoxyCodeLine{00035\ \textcolor{comment}{//\ \ \ \ \{1,2,3,4,5,6\},}}
+\DoxyCodeLine{00036\ \textcolor{comment}{//\ \ \ \ \{1,2,3,4,5,6\},}}
+\DoxyCodeLine{00037\ \textcolor{comment}{//\ \ \ \ \{1,2,3,4,5,6\},}}
+\DoxyCodeLine{00038\ \textcolor{comment}{//\ \ \ \ \{1,2,3,4,5,6\},}}
+\DoxyCodeLine{00039\ \textcolor{comment}{//\ \ \ \ \{1,2,3,4,5,6\},}}
+\DoxyCodeLine{00040\ \textcolor{comment}{//\ \ \ \ \{1,2,3,4,5,6\},}}
+\DoxyCodeLine{00041\ \textcolor{comment}{//\ \ \ \ \{1,2,3,4,5,6\},}}
+\DoxyCodeLine{00042\ \textcolor{comment}{//\ \ \ \ \{1,2,3,4,5,6\},}}
+\DoxyCodeLine{00043\ \textcolor{comment}{//\ \ \ \ \{1,2,3,4,5,6\},}}
+\DoxyCodeLine{00044\ \textcolor{comment}{//\ \ \ \ \{1,2,3,4,5,6\},}}
+\DoxyCodeLine{00045\ \textcolor{comment}{//\ \ \ \ \{1,2,3,4,5,6\},}}
+\DoxyCodeLine{00046\ \textcolor{comment}{//\ \ \ \ \{1,2,3,4,5,6\},}}
+\DoxyCodeLine{00047\ \textcolor{comment}{//\ \ \ \ \{1,2,3,4,5,6\},}}
+\DoxyCodeLine{00048\ \textcolor{comment}{//\ \ \ \ \{1,2,3,4,5,6\},}}
+\DoxyCodeLine{00049\ \textcolor{comment}{//\ \ \ \ \{1,2,3,4,5,6\}}}
+\DoxyCodeLine{00050\ \textcolor{comment}{//\};}}
+\DoxyCodeLine{00051\ \textcolor{comment}{//}}
+\DoxyCodeLine{00052\ \textcolor{comment}{//}}
+\DoxyCodeLine{00053\ \textcolor{comment}{//void\ framebuffer\_size\_callback(GLFWwindow*\ window,\ int\ width,\ int\ height);}}
+\DoxyCodeLine{00054\ \textcolor{comment}{//void\ mouse\_callback(GLFWwindow*\ window,\ double\ xpos,\ double\ ypos);}}
+\DoxyCodeLine{00055\ \textcolor{comment}{//void\ scroll\_callback(GLFWwindow*\ window,\ double\ xoffset,\ double\ yoffset);}}
+\DoxyCodeLine{00056\ \textcolor{comment}{//void\ processInput(GLFWwindow*\ window);}}
+\DoxyCodeLine{00057\ \textcolor{comment}{//unsigned\ int\ loadCubemap();}}
+\DoxyCodeLine{00058\ \textcolor{comment}{//void\ key\_callback(GLFWwindow*\ window,\ int\ key,\ int\ scancode,\ int\ action,\ int\ mods);}}
+\DoxyCodeLine{00059\ \textcolor{comment}{//void\ turn\_cube\_up\_to\_down(int\ which,\ int\ each);}}
+\DoxyCodeLine{00060\ \textcolor{comment}{//void\ turn\_cube\_down\_to\_up(int\ which,\ int\ each);}}
+\DoxyCodeLine{00061\ \textcolor{comment}{//void\ turn\_cube\_left\_to\_right(int\ which,\ int\ each);}}
+\DoxyCodeLine{00062\ \textcolor{comment}{//void\ turn\_cube\_right\_to\_left(int\ which,\ int\ each);}}
+\DoxyCodeLine{00063\ \textcolor{comment}{//void\ turn\_cube\_to\_full();}}
+\DoxyCodeLine{00064\ \textcolor{comment}{//void\ print\_cube\_color();}}
+\DoxyCodeLine{00065\ \textcolor{comment}{//}}
+\DoxyCodeLine{00066\ \textcolor{comment}{//\#endif\ //\ CUBE}}
+\DoxyCodeLine{00067\ \textcolor{comment}{//}}
+\DoxyCodeLine{00068\ \textcolor{comment}{//}}
+
+\end{DoxyCode}

@@ -1,0 +1,78 @@
+1>0 of 522 functions ( 0.0%) were compiled, the rest were copied from previous compilation.
+1>  0 functions were new in current compilation
+1>  0 functions had inline decision re-evaluated but remain unchanged
+1>Zakończono generowanie kodu
+1>Rubik_Cube_Project.vcxproj -> C:\Users\Kuba\Desktop\studia\semestry\semestr_4\grafika2\Rubik_Cube_Project\Rubik_Cube_Project\x64\Release\Rubik_Cube_Project.exe
+========== Kompilacja: powiodło się — 1, nie powiodło się — 0, zaktualizowane —0 pominięto — 0 ========
+
+
+
+Rozpoczęto kompilację...
+1>------ Kompilacja rozpoczęta: Projekt: Rubik_Cube_Project, Konfiguracja: Release x64 ------
+1>Trwa generowanie kodu
+1>0 of 522 functions ( 0.0%) were compiled, the rest were copied from previous compilation.
+1>  0 functions were new in current compilation
+1>  0 functions had inline decision re-evaluated but remain unchanged
+1>Zakończono generowanie kodu
+1>Rubik_Cube_Project.vcxproj -> C:\Users\Kuba\Desktop\studia\semestry\semestr_4\grafika2\Rubik_Cube_Project\Rubik_Cube_Project\x64\Release\Rubik_Cube_Project.exe
+========== Kompilacja: powiodło się — 1, nie powiodło się — 0, zaktualizowane —0 pominięto — 0 ========
+
+
+
+„Rubik_Cube_Project.exe” (Win32): załadowano „C:\Users\Kuba\Desktop\studia\semestry\semestr_4\grafika2\Rubik_Cube_Project\Rubik_Cube_Project\x64\Release\Rubik_Cube_Project.exe”. Symbole zostały załadowane.
+„Rubik_Cube_Project.exe” (Win32): załadowano „C:\Windows\System32\ntdll.dll”. 
+„Rubik_Cube_Project.exe” (Win32): załadowano „C:\Windows\System32\kernel32.dll”. 
+„Rubik_Cube_Project.exe” (Win32): załadowano „C:\Windows\System32\KernelBase.dll”. 
+„Rubik_Cube_Project.exe” (Win32): załadowano „C:\Windows\System32\user32.dll”. 
+„Rubik_Cube_Project.exe” (Win32): załadowano „C:\Windows\System32\win32u.dll”. 
+„Rubik_Cube_Project.exe” (Win32): załadowano „C:\Windows\System32\gdi32.dll”. 
+„Rubik_Cube_Project.exe” (Win32): załadowano „C:\Windows\System32\gdi32full.dll”. 
+„Rubik_Cube_Project.exe” (Win32): załadowano „C:\Windows\System32\msvcp_win.dll”. 
+„Rubik_Cube_Project.exe” (Win32): załadowano „C:\Windows\System32\ucrtbase.dll”. 
+„Rubik_Cube_Project.exe” (Win32): załadowano „C:\Windows\System32\shell32.dll”. 
+„Rubik_Cube_Project.exe” (Win32): załadowano „C:\Windows\System32\msvcp140.dll”. 
+„Rubik_Cube_Project.exe” (Win32): załadowano „C:\Windows\System32\ole32.dll”. 
+„Rubik_Cube_Project.exe” (Win32): załadowano „C:\Windows\System32\rpcrt4.dll”. 
+„Rubik_Cube_Project.exe” (Win32): załadowano „C:\Windows\System32\combase.dll”. 
+„Rubik_Cube_Project.exe” (Win32): załadowano „C:\Windows\System32\vcruntime140.dll”. 
+„Rubik_Cube_Project.exe” (Win32): załadowano „C:\Windows\System32\vcruntime140_1.dll”. 
+„Rubik_Cube_Project.exe” (Win32): załadowano „C:\Windows\System32\imm32.dll”. 
+Wątek 0x57d4 zakończył działanie z kodem 0 (0x0).
+„Rubik_Cube_Project.exe” (Win32): załadowano „C:\Windows\System32\uxtheme.dll”. 
+„Rubik_Cube_Project.exe” (Win32): załadowano „C:\Windows\System32\msvcrt.dll”. 
+„Rubik_Cube_Project.exe” (Win32): załadowano „C:\Windows\System32\dinput8.dll”. 
+„Rubik_Cube_Project.exe” (Win32): załadowano „C:\Windows\System32\advapi32.dll”. 
+„Rubik_Cube_Project.exe” (Win32): załadowano „C:\Windows\System32\sechost.dll”. 
+„Rubik_Cube_Project.exe” (Win32): załadowano „C:\Windows\System32\XInput1_4.dll”. 
+„Rubik_Cube_Project.exe” (Win32): załadowano „C:\Windows\System32\cfgmgr32.dll”. 
+„Rubik_Cube_Project.exe” (Win32): załadowano „C:\Windows\System32\devobj.dll”. 
+„Rubik_Cube_Project.exe” (Win32): załadowano „C:\Windows\System32\dwmapi.dll”. 
+„Rubik_Cube_Project.exe” (Win32): załadowano „C:\Windows\System32\SHCore.dll”. 
+„Rubik_Cube_Project.exe” (Win32): załadowano „C:\Windows\System32\msctf.dll”. 
+„Rubik_Cube_Project.exe” (Win32): załadowano „C:\Windows\System32\oleaut32.dll”. 
+„Rubik_Cube_Project.exe” (Win32): załadowano „C:\Windows\System32\hid.dll”. 
+„Rubik_Cube_Project.exe” (Win32): załadowano „C:\Windows\System32\setupapi.dll”. 
+„Rubik_Cube_Project.exe” (Win32): załadowano „C:\Windows\System32\bcrypt.dll”. 
+„Rubik_Cube_Project.exe” (Win32): załadowano „C:\Windows\System32\InputHost.dll”. 
+„Rubik_Cube_Project.exe” (Win32): załadowano „C:\Windows\System32\CoreMessaging.dll”. 
+„Rubik_Cube_Project.exe” (Win32): załadowano „C:\Windows\System32\ws2_32.dll”. 
+„Rubik_Cube_Project.exe” (Win32): załadowano „C:\Windows\System32\propsys.dll”. 
+„Rubik_Cube_Project.exe” (Win32): załadowano „C:\Windows\System32\WinTypes.dll”. 
+„Rubik_Cube_Project.exe” (Win32): załadowano „C:\Windows\System32\CoreUIComponents.dll”. 
+„Rubik_Cube_Project.exe” (Win32): załadowano „C:\Windows\System32\bcryptprimitives.dll”. 
+„Rubik_Cube_Project.exe” (Win32): załadowano „C:\Windows\System32\ntmarta.dll”. 
+„Rubik_Cube_Project.exe” (Win32): załadowano „C:\Windows\System32\kernel.appcore.dll”. 
+„Rubik_Cube_Project.exe” (Win32): załadowano „C:\Windows\System32\winmm.dll”. 
+„Rubik_Cube_Project.exe” (Win32): załadowano „C:\Windows\System32\wintrust.dll”. 
+„Rubik_Cube_Project.exe” (Win32): załadowano „C:\Windows\System32\crypt32.dll”. 
+„Rubik_Cube_Project.exe” (Win32): załadowano „C:\Windows\System32\msasn1.dll”. 
+Wątek 0x9304 zakończył działanie z kodem 3221225786 (0xc000013a).
+Wątek 0x9268 zakończył działanie z kodem 3221225786 (0xc000013a).
+Wątek 0x95fc zakończył działanie z kodem 3221225786 (0xc000013a).
+Wątek 0x546c zakończył działanie z kodem 3221225786 (0xc000013a).
+Wątek 0x897c zakończył działanie z kodem 3221225786 (0xc000013a).
+Wątek 0x8c5c zakończył działanie z kodem 3221225786 (0xc000013a).
+Program „[34848] Rubik_Cube_Project.exe” zakończył działanie z kodem 3221225786 (0xc000013a).
+
+
+

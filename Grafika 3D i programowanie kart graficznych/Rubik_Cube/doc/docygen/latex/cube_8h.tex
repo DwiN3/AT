@@ -1,0 +1,714 @@
+\doxysection{C\+:/\+Users/\+Kuba/\+Desktop/studia/semestry/semestr\+\_\+4/grafika2/\+Rubik\+\_\+\+Cube\+\_\+\+Project/\+Rubik\+\_\+\+Cube\+\_\+\+Project/\+Rubik\+\_\+\+Cube\+\_\+\+Project/cube.h File Reference}
+\hypertarget{cube_8h}{}\label{cube_8h}\index{C:/Users/Kuba/Desktop/studia/semestry/semestr\_4/grafika2/Rubik\_Cube\_Project/Rubik\_Cube\_Project/Rubik\_Cube\_Project/cube.h@{C:/Users/Kuba/Desktop/studia/semestry/semestr\_4/grafika2/Rubik\_Cube\_Project/Rubik\_Cube\_Project/Rubik\_Cube\_Project/cube.h}}
+{\ttfamily \#include $<$glad/glad.\+h$>$}\newline
+{\ttfamily \#include $<$GLFW/glfw3.\+h$>$}\newline
+{\ttfamily \#include $<$glm/glm.\+hpp$>$}\newline
+{\ttfamily \#include $<$glm/gtc/matrix\+\_\+transform.\+hpp$>$}\newline
+{\ttfamily \#include $<$glm/gtc/type\+\_\+ptr.\+hpp$>$}\newline
+{\ttfamily \#include $<$C\+:/\+LIB/assets/camera.\+h$>$}\newline
+{\ttfamily \#include $<$C\+:/\+LIB/assets/shader.\+h$>$}\newline
+{\ttfamily \#include $<$iostream$>$}\newline
+{\ttfamily \#include $<$random$>$}\newline
+{\ttfamily \#include $<$stdlib.\+h$>$}\newline
+{\ttfamily \#include $<$chrono$>$}\newline
+{\ttfamily \#include $<$thread$>$}\newline
+{\ttfamily \#include $<$filesystem$>$}\newline
+{\ttfamily \#include $<$fstream$>$}\newline
+{\ttfamily \#include $<$string$>$}\newline
+{\ttfamily \#include $<$iomanip$>$}\newline
+{\ttfamily \#include $<$algorithm$>$}\newline
+\doxysubsubsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\#define \mbox{\hyperlink{cube_8h_aa3a7ba61719ec5c1aa01c299b6762e6e}{CUBE\+\_\+H}}
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{cube_8h_a5180f7bf2b71421af837035824a8c8ac}{framebuffer\+\_\+size\+\_\+callback}} (GLFWwindow \texorpdfstring{$\ast$}{*}window, int width, int height)
+\begin{DoxyCompactList}\small\item\em Buffer ustawiania rozmiaru. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{cube_8h_af4ca2891044ac10a664b8d83ce590f1f}{mouse\+\_\+callback}} (GLFWwindow \texorpdfstring{$\ast$}{*}window, double xpos, double ypos)
+\begin{DoxyCompactList}\small\item\em Poruszanie myszką, dzięki temu zmienia widok. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{cube_8h_a06ad2502008f16fbcf01dfaa7f7bc9ea}{scroll\+\_\+callback}} (GLFWwindow \texorpdfstring{$\ast$}{*}window, double xoffset, double yoffset)
+\begin{DoxyCompactList}\small\item\em Poruszanie kamery na scrollu. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{cube_8h_a2d03c6f2666863543429a06ef642fe6a}{process\+Input}} (GLFWwindow \texorpdfstring{$\ast$}{*}window)
+\begin{DoxyCompactList}\small\item\em Input process czyli wykonywanie się poszczególnych funkcji na wejœciu różnych przycisków. \end{DoxyCompactList}\item 
+unsigned int \mbox{\hyperlink{cube_8h_a6ca807f210c943f1b6f383d913cf9368}{load\+Cubemap}} ()
+\begin{DoxyCompactList}\small\item\em Załadowanie skyboxa czyli wyglądu który jest na całym programie. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{cube_8h_a286930f4e8ede059b83ff6eafa2ff718}{key\+\_\+callback}} (GLFWwindow \texorpdfstring{$\ast$}{*}window, int key, int scancode, int action, int mods)
+\begin{DoxyCompactList}\small\item\em Nasłuchiwanie jeżeli przycisk został kliknięty to wykona się ta funkcja oraz zagnieżdzone funkcje w niej (tylko raz). Key -\/ przycisk Action -\/ akcja np. GLFW\+\_\+\+PRESS. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{cube_8h_a3ac1ba4d1cbc975ea13f57957ede7c6d}{turn\+\_\+cube\+\_\+up\+\_\+to\+\_\+down}} (int which, int each, bool game)
+\begin{DoxyCompactList}\small\item\em Obracanie kostki na przycisk od strony górnej do strony dolnej. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{cube_8h_af543e2edc12e8ead355d94005cacea57}{turn\+\_\+cube\+\_\+down\+\_\+to\+\_\+up}} (int which, int each, bool game)
+\begin{DoxyCompactList}\small\item\em Obracanie kostki na przycisk od strony dolnej do strony górnej. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{cube_8h_acfbdaef2f75d1f8b120716c251bf84a5}{turn\+\_\+cube\+\_\+left\+\_\+to\+\_\+right}} (int which, int each, bool game)
+\begin{DoxyCompactList}\small\item\em Obracanie kostki na przycisk od strony lefej do strony prawej. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{cube_8h_a11193bd495bdd0ecd2537f17f0724286}{turn\+\_\+cube\+\_\+right\+\_\+to\+\_\+left}} (int which, int each, bool game)
+\begin{DoxyCompactList}\small\item\em Obracanie kostki na przycisk od strony prawej do strony lewej. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{cube_8h_aa21e7f4677f52c70f21c9242b9b40fb8}{mix\+\_\+the\+\_\+cube}} (int mode)
+\begin{DoxyCompactList}\small\item\em Funkcja miesza ułożenie kostki którą następnie można układać Są trzy tryby\+: easy, medium oraz hard czyli w zależności od wybrania preferencji, kostka bêdzie bardziej lub mnie trudna w ułożeniu. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{cube_8h_a7b8109a47240fba6e810e79c2022e2c7}{turn\+\_\+cube\+\_\+to\+\_\+full}} ()
+\begin{DoxyCompactList}\small\item\em Ułożenie kostki do wersji domyślnej. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{cube_8h_a13f14c1ba4af90462652402369f2acf7}{print\+\_\+cube\+\_\+color}} ()
+\begin{DoxyCompactList}\small\item\em Wypisanie kostki do konsoli na podstawie cyfr. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{cube_8h_a50513d99994d543b9aaeb1da5b0ee884}{cube\+\_\+arranged}} (bool skip)
+\begin{DoxyCompactList}\small\item\em Sprawdzanie ułożenia kostki w przypdku ułożenia w lepszym czasie, wynik zapisywany zostaje w rankingu najlepszych czasów. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{cube_8h_a865f003686e185dc657468d90f047d8f}{set\+\_\+best\+\_\+scores}} ()
+\begin{DoxyCompactList}\small\item\em Wpisanie ustanowionego rekordu ułożenia kostki do rankingu najlepszych czasów. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{cube_8h_a8a0a2914f578873a8e05172ab013eb3c}{show\+\_\+best\+\_\+scores}} ()
+\begin{DoxyCompactList}\small\item\em Wyświetlanie najlepszych czasów ułożenia kostki rubika. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{cube_8h_a4fe80830fb1fb03fd59e950870de994b}{show\+\_\+options}} ()
+\begin{DoxyCompactList}\small\item\em Wyświetlanie instrukcji obsługi programu w konsoli. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{cube_8h_a2a36dd6303f6cf4433d4c2603c1003c0}{is\+\_\+cube\+\_\+solved}} ()
+\begin{DoxyCompactList}\small\item\em Funkcja sprawdza czy kostka rubika została ułożona. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{cube_8h_a4fd19d44a819bec8c71967d5d938f73b}{show\+\_\+solve}} ()
+\item 
+void \mbox{\hyperlink{cube_8h_a052a3c016cd0af4daa901f62769a2cf9}{load\+Textures}} ()
+\begin{DoxyCompactList}\small\item\em Funkcja ładująca textury które są nakładane na kostkę \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{cube_8h_adc9b38392aed9677fb46531c8250cc8f}{load\+Data}} (unsigned char \texorpdfstring{$\ast$}{*}data, int width, int height)
+\begin{DoxyCompactList}\small\item\em Load\+Data generuje oraz zwraca teksture. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{cube_8h_aa9827b9b3add40f7b2fecee849deb8b1}{data\+Texture\+Load}} ()
+\begin{DoxyCompactList}\small\item\em Ustawienie parametrów dla tekstur. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+const unsigned int \mbox{\hyperlink{cube_8h_a74ba59acbf346c2b19bc1ce5170f755d}{SCR\+\_\+\+WIDTH}}
+\begin{DoxyCompactList}\small\item\em Szerokoœæ okna. \end{DoxyCompactList}\item 
+const unsigned int \mbox{\hyperlink{cube_8h_aca03a77ac5a7f2e26d08cd6de43f9a17}{SCR\+\_\+\+HEIGHT}}
+\begin{DoxyCompactList}\small\item\em Wysokoœæ okna. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_camera}{Camera}} \mbox{\hyperlink{cube_8h_a2008f4ab70b5e4104c2ca43932536ddf}{camera}}
+\begin{DoxyCompactList}\small\item\em Ustawienia pozycji początkowej kamery. \end{DoxyCompactList}\item 
+float \mbox{\hyperlink{cube_8h_a4664c5d930c290e6f82141a070cbea46}{lastX}}
+\begin{DoxyCompactList}\small\item\em Poprzednia pozycja X, używana do śledzenia ruchu myszy. \end{DoxyCompactList}\item 
+float \mbox{\hyperlink{cube_8h_a9d5b8dfd025caf1c0ed043132515f587}{lastY}}
+\begin{DoxyCompactList}\small\item\em Poprzednia pozycja Y, używana do śledzenia ruchu myszy. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{cube_8h_ac21731ba101e28334c34543121caa841}{first\+Mouse}}
+\begin{DoxyCompactList}\small\item\em Dodaj obsługę myszki. \end{DoxyCompactList}\item 
+float \mbox{\hyperlink{cube_8h_a1a61318ed6aa02b4ff346e7eb8f68891}{delta\+Time}}
+\begin{DoxyCompactList}\small\item\em Zmienna ustawiająca wartość pomiędzy klatkami. \end{DoxyCompactList}\item 
+float \mbox{\hyperlink{cube_8h_a518a497d888d805d5f368bbb91b54a6c}{last\+Frame}}
+\begin{DoxyCompactList}\small\item\em Zmienna ustawiająca wartość ostaniej klatki. \end{DoxyCompactList}\item 
+chrono\+::time\+\_\+point$<$ chrono\+::high\+\_\+resolution\+\_\+clock $>$ \mbox{\hyperlink{cube_8h_abd713b5e3f3d5b609eba75284e703e25}{start\+\_\+timer}}
+\begin{DoxyCompactList}\small\item\em Zmienna przyjmująca wartość startu timera. \end{DoxyCompactList}\item 
+chrono\+::time\+\_\+point$<$ chrono\+::high\+\_\+resolution\+\_\+clock $>$ \mbox{\hyperlink{cube_8h_a533632dd4af826e6376f4707ee5244f7}{end\+\_\+timer}}
+\begin{DoxyCompactList}\small\item\em Zmienna przyjmująca wartość zatrzymania timera. \end{DoxyCompactList}\item 
+chrono\+::duration$<$ double $>$ \mbox{\hyperlink{cube_8h_ad266f112919aafae4a9a4bc807ad9bc2}{duration}}
+\begin{DoxyCompactList}\small\item\em Zmienna przechowywująca czas ułożenia kostki. \end{DoxyCompactList}\item 
+const int \mbox{\hyperlink{cube_8h_a5c87a2fa1adc232ff65b3af51e537c6a}{TOP\+\_\+\+SCORES\+\_\+\+COUNT}}
+\begin{DoxyCompactList}\small\item\em Zmienna przechowująca ilość rekordów. \end{DoxyCompactList}\item 
+double \mbox{\hyperlink{cube_8h_a0da071334bc5d9b359773f9fb3fbc032}{top\+\_\+scores}} \mbox{[}5\mbox{]}
+\begin{DoxyCompactList}\small\item\em Ranking czasów ułożenia. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{cube_8h_a0fd02fb9277ffcb35a75066ffe95e8c7}{color}}
+\begin{DoxyCompactList}\small\item\em Wybór koloru odpowiedniego dla danego użytkownika. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{cube_8h_a1f3a571ac48602f58b12f941b84c6d3a}{arranging}}
+\begin{DoxyCompactList}\small\item\em Zmiena przechowująca stan układania kostki. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{cube_8h_a1c6d7369e6f61d12f8fd55fe30b6b551}{count\+\_\+moves}}
+\begin{DoxyCompactList}\small\item\em Zmienne przechowujące wykonane ruchy. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{cube_8h_a98e5b68afb6fd58c61f6fe01888ea64c}{random\+\_\+moves}}
+\begin{DoxyCompactList}\small\item\em Zmienne przechowujące wykonane ruchy poprzez mieszanie. \end{DoxyCompactList}\item 
+string \mbox{\hyperlink{cube_8h_ac3fd66ae01f5fe9e5723f8311d7deadf}{solve}}
+\begin{DoxyCompactList}\small\item\em Zmienne przechowujące podpowiedź. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{cube_8h_ac39a27f0e4ad0cde977459bc21fa36fd}{is\+Solved}}
+\begin{DoxyCompactList}\small\item\em Zmienne przechowujące stan użycia podpowiedzi. \end{DoxyCompactList}\item 
+unsigned int \mbox{\hyperlink{cube_8h_a831b8ce5acab5b3ae2ee62d63dbb9e61}{texture\+Classic1}}
+\begin{DoxyCompactList}\small\item\em Zmienne przechowujące domyślne tekstury. \end{DoxyCompactList}\item 
+unsigned int \mbox{\hyperlink{cube_8h_a49b4d0402e41e121374335769f3a07a3}{texture\+Classic2}}
+\item 
+unsigned int \mbox{\hyperlink{cube_8h_a95e04ebb649e47c72eda7aef92177ffc}{texture\+Classic3}}
+\item 
+unsigned int \mbox{\hyperlink{cube_8h_ad7c0b7754c46c802b773522a2e0fe9b6}{texture\+Classic4}}
+\item 
+unsigned int \mbox{\hyperlink{cube_8h_ae18b22cea583db517fe193f78fc88fad}{texture\+Classic5}}
+\item 
+unsigned int \mbox{\hyperlink{cube_8h_a3c4bd956d3e2e910c12c0ddc2f6757d7}{texture\+Classic6}}
+\item 
+unsigned int \mbox{\hyperlink{cube_8h_a0501547ab6c969a8a77c55fd9f3441d0}{texture\+Deuteranopia1}}
+\begin{DoxyCompactList}\small\item\em Zmienne przechowujące tekstury z deuteranopii. \end{DoxyCompactList}\item 
+unsigned int \mbox{\hyperlink{cube_8h_a03fad9c3f33bf24a42c79430ab22905c}{texture\+Deuteranopia2}}
+\item 
+unsigned int \mbox{\hyperlink{cube_8h_a83f222562097b0765926809b1d3a5baa}{texture\+Deuteranopia3}}
+\item 
+unsigned int \mbox{\hyperlink{cube_8h_ad5115e7a7577ba4ee5a5c5e1e1fa98f8}{texture\+Deuteranopia4}}
+\item 
+unsigned int \mbox{\hyperlink{cube_8h_a29d3ff166d835e03490a5b57780df444}{texture\+Deuteranopia5}}
+\item 
+unsigned int \mbox{\hyperlink{cube_8h_aa50576b81635286d910b568111de3ec2}{texture\+Deuteranopia6}}
+\item 
+unsigned int \mbox{\hyperlink{cube_8h_af38c36ec5bf6720582fb4cce37032bbb}{texture\+Tritanopia1}}
+\begin{DoxyCompactList}\small\item\em Zmienne przechowujące tekstury z tritanopii. \end{DoxyCompactList}\item 
+unsigned int \mbox{\hyperlink{cube_8h_afbf4b7a0a4fdbd87d3a35304e76e3a25}{texture\+Tritanopia2}}
+\item 
+unsigned int \mbox{\hyperlink{cube_8h_a3c051fc2659002a1c7bacf2835b87c6e}{texture\+Tritanopia3}}
+\item 
+unsigned int \mbox{\hyperlink{cube_8h_aeed332923a338bac9c166dfe43f55700}{texture\+Tritanopia4}}
+\item 
+unsigned int \mbox{\hyperlink{cube_8h_a355e82f4769c2b6f65502161375050e5}{texture\+Tritanopia5}}
+\item 
+unsigned int \mbox{\hyperlink{cube_8h_a355a457e579ccf638a418c581a3c9bae}{texture\+Tritanopia6}}
+\item 
+int \mbox{\hyperlink{cube_8h_a684d4f7d519adfd5237786fcf21034e0}{side\+Cube}} \mbox{[}27\mbox{]}\mbox{[}6\mbox{]}
+\begin{DoxyCompactList}\small\item\em Tablice wyœwietlają serce kostki rubika która zapamiętuje swój stan. \end{DoxyCompactList}\item 
+glm\+::vec3 \mbox{\hyperlink{cube_8h_aea86c6e0993ad31fde8478191aeea3dd}{cube\+Positions}} \mbox{[}27\mbox{]}
+\begin{DoxyCompactList}\small\item\em Pozycje kostek czyli rozmieszczenie kostek aby uformowały się w jedną kostkę "{}Rubik\textquotesingle{}s Cube. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Macro Definition Documentation}
+\Hypertarget{cube_8h_aa3a7ba61719ec5c1aa01c299b6762e6e}\label{cube_8h_aa3a7ba61719ec5c1aa01c299b6762e6e} 
+\index{cube.h@{cube.h}!CUBE\_H@{CUBE\_H}}
+\index{CUBE\_H@{CUBE\_H}!cube.h@{cube.h}}
+\doxysubsubsection{\texorpdfstring{CUBE\_H}{CUBE\_H}}
+{\footnotesize\ttfamily \#define CUBE\+\_\+H}
+
+
+
+\doxysubsection{Function Documentation}
+\Hypertarget{cube_8h_a50513d99994d543b9aaeb1da5b0ee884}\label{cube_8h_a50513d99994d543b9aaeb1da5b0ee884} 
+\index{cube.h@{cube.h}!cube\_arranged@{cube\_arranged}}
+\index{cube\_arranged@{cube\_arranged}!cube.h@{cube.h}}
+\doxysubsubsection{\texorpdfstring{cube\_arranged()}{cube\_arranged()}}
+{\footnotesize\ttfamily void cube\+\_\+arranged (\begin{DoxyParamCaption}\item[{bool}]{skip }\end{DoxyParamCaption})}
+
+
+
+Sprawdzanie ułożenia kostki w przypdku ułożenia w lepszym czasie, wynik zapisywany zostaje w rankingu najlepszych czasów. 
+
+\Hypertarget{cube_8h_aa9827b9b3add40f7b2fecee849deb8b1}\label{cube_8h_aa9827b9b3add40f7b2fecee849deb8b1} 
+\index{cube.h@{cube.h}!dataTextureLoad@{dataTextureLoad}}
+\index{dataTextureLoad@{dataTextureLoad}!cube.h@{cube.h}}
+\doxysubsubsection{\texorpdfstring{dataTextureLoad()}{dataTextureLoad()}}
+{\footnotesize\ttfamily void data\+Texture\+Load (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Ustawienie parametrów dla tekstur. 
+
+\Hypertarget{cube_8h_a5180f7bf2b71421af837035824a8c8ac}\label{cube_8h_a5180f7bf2b71421af837035824a8c8ac} 
+\index{cube.h@{cube.h}!framebuffer\_size\_callback@{framebuffer\_size\_callback}}
+\index{framebuffer\_size\_callback@{framebuffer\_size\_callback}!cube.h@{cube.h}}
+\doxysubsubsection{\texorpdfstring{framebuffer\_size\_callback()}{framebuffer\_size\_callback()}}
+{\footnotesize\ttfamily void framebuffer\+\_\+size\+\_\+callback (\begin{DoxyParamCaption}\item[{GLFWwindow \texorpdfstring{$\ast$}{*}}]{window,  }\item[{int}]{width,  }\item[{int}]{height }\end{DoxyParamCaption})}
+
+
+
+Buffer ustawiania rozmiaru. 
+
+\Hypertarget{cube_8h_a2a36dd6303f6cf4433d4c2603c1003c0}\label{cube_8h_a2a36dd6303f6cf4433d4c2603c1003c0} 
+\index{cube.h@{cube.h}!is\_cube\_solved@{is\_cube\_solved}}
+\index{is\_cube\_solved@{is\_cube\_solved}!cube.h@{cube.h}}
+\doxysubsubsection{\texorpdfstring{is\_cube\_solved()}{is\_cube\_solved()}}
+{\footnotesize\ttfamily bool is\+\_\+cube\+\_\+solved (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Funkcja sprawdza czy kostka rubika została ułożona. 
+
+summary\texorpdfstring{$>$}{>} Funkcja wyświetlająca podpowiedź do ułożenia kostki. /summary\texorpdfstring{$>$}{>} \Hypertarget{cube_8h_a286930f4e8ede059b83ff6eafa2ff718}\label{cube_8h_a286930f4e8ede059b83ff6eafa2ff718} 
+\index{cube.h@{cube.h}!key\_callback@{key\_callback}}
+\index{key\_callback@{key\_callback}!cube.h@{cube.h}}
+\doxysubsubsection{\texorpdfstring{key\_callback()}{key\_callback()}}
+{\footnotesize\ttfamily void key\+\_\+callback (\begin{DoxyParamCaption}\item[{GLFWwindow \texorpdfstring{$\ast$}{*}}]{window,  }\item[{int}]{key,  }\item[{int}]{scancode,  }\item[{int}]{action,  }\item[{int}]{mods }\end{DoxyParamCaption})}
+
+
+
+Nasłuchiwanie jeżeli przycisk został kliknięty to wykona się ta funkcja oraz zagnieżdzone funkcje w niej (tylko raz). Key -\/ przycisk Action -\/ akcja np. GLFW\+\_\+\+PRESS. 
+
+\Hypertarget{cube_8h_a6ca807f210c943f1b6f383d913cf9368}\label{cube_8h_a6ca807f210c943f1b6f383d913cf9368} 
+\index{cube.h@{cube.h}!loadCubemap@{loadCubemap}}
+\index{loadCubemap@{loadCubemap}!cube.h@{cube.h}}
+\doxysubsubsection{\texorpdfstring{loadCubemap()}{loadCubemap()}}
+{\footnotesize\ttfamily unsigned int load\+Cubemap (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Załadowanie skyboxa czyli wyglądu który jest na całym programie. 
+
+\Hypertarget{cube_8h_adc9b38392aed9677fb46531c8250cc8f}\label{cube_8h_adc9b38392aed9677fb46531c8250cc8f} 
+\index{cube.h@{cube.h}!loadData@{loadData}}
+\index{loadData@{loadData}!cube.h@{cube.h}}
+\doxysubsubsection{\texorpdfstring{loadData()}{loadData()}}
+{\footnotesize\ttfamily void load\+Data (\begin{DoxyParamCaption}\item[{unsigned char \texorpdfstring{$\ast$}{*}}]{data,  }\item[{int}]{width,  }\item[{int}]{height }\end{DoxyParamCaption})}
+
+
+
+Load\+Data generuje oraz zwraca teksture. 
+
+\Hypertarget{cube_8h_a052a3c016cd0af4daa901f62769a2cf9}\label{cube_8h_a052a3c016cd0af4daa901f62769a2cf9} 
+\index{cube.h@{cube.h}!loadTextures@{loadTextures}}
+\index{loadTextures@{loadTextures}!cube.h@{cube.h}}
+\doxysubsubsection{\texorpdfstring{loadTextures()}{loadTextures()}}
+{\footnotesize\ttfamily void load\+Textures (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Funkcja ładująca textury które są nakładane na kostkę 
+
+\Hypertarget{cube_8h_aa21e7f4677f52c70f21c9242b9b40fb8}\label{cube_8h_aa21e7f4677f52c70f21c9242b9b40fb8} 
+\index{cube.h@{cube.h}!mix\_the\_cube@{mix\_the\_cube}}
+\index{mix\_the\_cube@{mix\_the\_cube}!cube.h@{cube.h}}
+\doxysubsubsection{\texorpdfstring{mix\_the\_cube()}{mix\_the\_cube()}}
+{\footnotesize\ttfamily void mix\+\_\+the\+\_\+cube (\begin{DoxyParamCaption}\item[{int}]{mode }\end{DoxyParamCaption})}
+
+
+
+Funkcja miesza ułożenie kostki którą następnie można układać Są trzy tryby\+: easy, medium oraz hard czyli w zależności od wybrania preferencji, kostka bêdzie bardziej lub mnie trudna w ułożeniu. 
+
+\Hypertarget{cube_8h_af4ca2891044ac10a664b8d83ce590f1f}\label{cube_8h_af4ca2891044ac10a664b8d83ce590f1f} 
+\index{cube.h@{cube.h}!mouse\_callback@{mouse\_callback}}
+\index{mouse\_callback@{mouse\_callback}!cube.h@{cube.h}}
+\doxysubsubsection{\texorpdfstring{mouse\_callback()}{mouse\_callback()}}
+{\footnotesize\ttfamily void mouse\+\_\+callback (\begin{DoxyParamCaption}\item[{GLFWwindow \texorpdfstring{$\ast$}{*}}]{window,  }\item[{double}]{xpos,  }\item[{double}]{ypos }\end{DoxyParamCaption})}
+
+
+
+Poruszanie myszką, dzięki temu zmienia widok. 
+
+\Hypertarget{cube_8h_a13f14c1ba4af90462652402369f2acf7}\label{cube_8h_a13f14c1ba4af90462652402369f2acf7} 
+\index{cube.h@{cube.h}!print\_cube\_color@{print\_cube\_color}}
+\index{print\_cube\_color@{print\_cube\_color}!cube.h@{cube.h}}
+\doxysubsubsection{\texorpdfstring{print\_cube\_color()}{print\_cube\_color()}}
+{\footnotesize\ttfamily void print\+\_\+cube\+\_\+color (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Wypisanie kostki do konsoli na podstawie cyfr. 
+
+\Hypertarget{cube_8h_a2d03c6f2666863543429a06ef642fe6a}\label{cube_8h_a2d03c6f2666863543429a06ef642fe6a} 
+\index{cube.h@{cube.h}!processInput@{processInput}}
+\index{processInput@{processInput}!cube.h@{cube.h}}
+\doxysubsubsection{\texorpdfstring{processInput()}{processInput()}}
+{\footnotesize\ttfamily void process\+Input (\begin{DoxyParamCaption}\item[{GLFWwindow \texorpdfstring{$\ast$}{*}}]{window }\end{DoxyParamCaption})}
+
+
+
+Input process czyli wykonywanie się poszczególnych funkcji na wejœciu różnych przycisków. 
+
+\Hypertarget{cube_8h_a06ad2502008f16fbcf01dfaa7f7bc9ea}\label{cube_8h_a06ad2502008f16fbcf01dfaa7f7bc9ea} 
+\index{cube.h@{cube.h}!scroll\_callback@{scroll\_callback}}
+\index{scroll\_callback@{scroll\_callback}!cube.h@{cube.h}}
+\doxysubsubsection{\texorpdfstring{scroll\_callback()}{scroll\_callback()}}
+{\footnotesize\ttfamily void scroll\+\_\+callback (\begin{DoxyParamCaption}\item[{GLFWwindow \texorpdfstring{$\ast$}{*}}]{window,  }\item[{double}]{xoffset,  }\item[{double}]{yoffset }\end{DoxyParamCaption})}
+
+
+
+Poruszanie kamery na scrollu. 
+
+\Hypertarget{cube_8h_a865f003686e185dc657468d90f047d8f}\label{cube_8h_a865f003686e185dc657468d90f047d8f} 
+\index{cube.h@{cube.h}!set\_best\_scores@{set\_best\_scores}}
+\index{set\_best\_scores@{set\_best\_scores}!cube.h@{cube.h}}
+\doxysubsubsection{\texorpdfstring{set\_best\_scores()}{set\_best\_scores()}}
+{\footnotesize\ttfamily void set\+\_\+best\+\_\+scores (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Wpisanie ustanowionego rekordu ułożenia kostki do rankingu najlepszych czasów. 
+
+\Hypertarget{cube_8h_a8a0a2914f578873a8e05172ab013eb3c}\label{cube_8h_a8a0a2914f578873a8e05172ab013eb3c} 
+\index{cube.h@{cube.h}!show\_best\_scores@{show\_best\_scores}}
+\index{show\_best\_scores@{show\_best\_scores}!cube.h@{cube.h}}
+\doxysubsubsection{\texorpdfstring{show\_best\_scores()}{show\_best\_scores()}}
+{\footnotesize\ttfamily void show\+\_\+best\+\_\+scores (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Wyświetlanie najlepszych czasów ułożenia kostki rubika. 
+
+\Hypertarget{cube_8h_a4fe80830fb1fb03fd59e950870de994b}\label{cube_8h_a4fe80830fb1fb03fd59e950870de994b} 
+\index{cube.h@{cube.h}!show\_options@{show\_options}}
+\index{show\_options@{show\_options}!cube.h@{cube.h}}
+\doxysubsubsection{\texorpdfstring{show\_options()}{show\_options()}}
+{\footnotesize\ttfamily void show\+\_\+options (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Wyświetlanie instrukcji obsługi programu w konsoli. 
+
+\Hypertarget{cube_8h_a4fd19d44a819bec8c71967d5d938f73b}\label{cube_8h_a4fd19d44a819bec8c71967d5d938f73b} 
+\index{cube.h@{cube.h}!show\_solve@{show\_solve}}
+\index{show\_solve@{show\_solve}!cube.h@{cube.h}}
+\doxysubsubsection{\texorpdfstring{show\_solve()}{show\_solve()}}
+{\footnotesize\ttfamily void show\+\_\+solve (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\Hypertarget{cube_8h_af543e2edc12e8ead355d94005cacea57}\label{cube_8h_af543e2edc12e8ead355d94005cacea57} 
+\index{cube.h@{cube.h}!turn\_cube\_down\_to\_up@{turn\_cube\_down\_to\_up}}
+\index{turn\_cube\_down\_to\_up@{turn\_cube\_down\_to\_up}!cube.h@{cube.h}}
+\doxysubsubsection{\texorpdfstring{turn\_cube\_down\_to\_up()}{turn\_cube\_down\_to\_up()}}
+{\footnotesize\ttfamily void turn\+\_\+cube\+\_\+down\+\_\+to\+\_\+up (\begin{DoxyParamCaption}\item[{int}]{which,  }\item[{int}]{each,  }\item[{bool}]{game }\end{DoxyParamCaption})}
+
+
+
+Obracanie kostki na przycisk od strony dolnej do strony górnej. 
+
+\Hypertarget{cube_8h_acfbdaef2f75d1f8b120716c251bf84a5}\label{cube_8h_acfbdaef2f75d1f8b120716c251bf84a5} 
+\index{cube.h@{cube.h}!turn\_cube\_left\_to\_right@{turn\_cube\_left\_to\_right}}
+\index{turn\_cube\_left\_to\_right@{turn\_cube\_left\_to\_right}!cube.h@{cube.h}}
+\doxysubsubsection{\texorpdfstring{turn\_cube\_left\_to\_right()}{turn\_cube\_left\_to\_right()}}
+{\footnotesize\ttfamily void turn\+\_\+cube\+\_\+left\+\_\+to\+\_\+right (\begin{DoxyParamCaption}\item[{int}]{which,  }\item[{int}]{each,  }\item[{bool}]{game }\end{DoxyParamCaption})}
+
+
+
+Obracanie kostki na przycisk od strony lefej do strony prawej. 
+
+\Hypertarget{cube_8h_a11193bd495bdd0ecd2537f17f0724286}\label{cube_8h_a11193bd495bdd0ecd2537f17f0724286} 
+\index{cube.h@{cube.h}!turn\_cube\_right\_to\_left@{turn\_cube\_right\_to\_left}}
+\index{turn\_cube\_right\_to\_left@{turn\_cube\_right\_to\_left}!cube.h@{cube.h}}
+\doxysubsubsection{\texorpdfstring{turn\_cube\_right\_to\_left()}{turn\_cube\_right\_to\_left()}}
+{\footnotesize\ttfamily void turn\+\_\+cube\+\_\+right\+\_\+to\+\_\+left (\begin{DoxyParamCaption}\item[{int}]{which,  }\item[{int}]{each,  }\item[{bool}]{game }\end{DoxyParamCaption})}
+
+
+
+Obracanie kostki na przycisk od strony prawej do strony lewej. 
+
+\Hypertarget{cube_8h_a7b8109a47240fba6e810e79c2022e2c7}\label{cube_8h_a7b8109a47240fba6e810e79c2022e2c7} 
+\index{cube.h@{cube.h}!turn\_cube\_to\_full@{turn\_cube\_to\_full}}
+\index{turn\_cube\_to\_full@{turn\_cube\_to\_full}!cube.h@{cube.h}}
+\doxysubsubsection{\texorpdfstring{turn\_cube\_to\_full()}{turn\_cube\_to\_full()}}
+{\footnotesize\ttfamily void turn\+\_\+cube\+\_\+to\+\_\+full (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Ułożenie kostki do wersji domyślnej. 
+
+\Hypertarget{cube_8h_a3ac1ba4d1cbc975ea13f57957ede7c6d}\label{cube_8h_a3ac1ba4d1cbc975ea13f57957ede7c6d} 
+\index{cube.h@{cube.h}!turn\_cube\_up\_to\_down@{turn\_cube\_up\_to\_down}}
+\index{turn\_cube\_up\_to\_down@{turn\_cube\_up\_to\_down}!cube.h@{cube.h}}
+\doxysubsubsection{\texorpdfstring{turn\_cube\_up\_to\_down()}{turn\_cube\_up\_to\_down()}}
+{\footnotesize\ttfamily void turn\+\_\+cube\+\_\+up\+\_\+to\+\_\+down (\begin{DoxyParamCaption}\item[{int}]{which,  }\item[{int}]{each,  }\item[{bool}]{game }\end{DoxyParamCaption})}
+
+
+
+Obracanie kostki na przycisk od strony górnej do strony dolnej. 
+
+
+
+\doxysubsection{Variable Documentation}
+\Hypertarget{cube_8h_a1f3a571ac48602f58b12f941b84c6d3a}\label{cube_8h_a1f3a571ac48602f58b12f941b84c6d3a} 
+\index{cube.h@{cube.h}!arranging@{arranging}}
+\index{arranging@{arranging}!cube.h@{cube.h}}
+\doxysubsubsection{\texorpdfstring{arranging}{arranging}}
+{\footnotesize\ttfamily bool arranging\hspace{0.3cm}{\ttfamily [extern]}}
+
+
+
+Zmiena przechowująca stan układania kostki. 
+
+Zmiena przechowująca stan układania kostki. \Hypertarget{cube_8h_a2008f4ab70b5e4104c2ca43932536ddf}\label{cube_8h_a2008f4ab70b5e4104c2ca43932536ddf} 
+\index{cube.h@{cube.h}!camera@{camera}}
+\index{camera@{camera}!cube.h@{cube.h}}
+\doxysubsubsection{\texorpdfstring{camera}{camera}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_camera}{Camera}} camera\hspace{0.3cm}{\ttfamily [extern]}}
+
+
+
+Ustawienia pozycji początkowej kamery. 
+
+Ustawienia pozycji początkowej kamery. \Hypertarget{cube_8h_a0fd02fb9277ffcb35a75066ffe95e8c7}\label{cube_8h_a0fd02fb9277ffcb35a75066ffe95e8c7} 
+\index{cube.h@{cube.h}!color@{color}}
+\index{color@{color}!cube.h@{cube.h}}
+\doxysubsubsection{\texorpdfstring{color}{color}}
+{\footnotesize\ttfamily int color\hspace{0.3cm}{\ttfamily [extern]}}
+
+
+
+Wybór koloru odpowiedniego dla danego użytkownika. 
+
+Wybór koloru odpowiedniego dla danego użytkownika. \Hypertarget{cube_8h_a1c6d7369e6f61d12f8fd55fe30b6b551}\label{cube_8h_a1c6d7369e6f61d12f8fd55fe30b6b551} 
+\index{cube.h@{cube.h}!count\_moves@{count\_moves}}
+\index{count\_moves@{count\_moves}!cube.h@{cube.h}}
+\doxysubsubsection{\texorpdfstring{count\_moves}{count\_moves}}
+{\footnotesize\ttfamily int count\+\_\+moves\hspace{0.3cm}{\ttfamily [extern]}}
+
+
+
+Zmienne przechowujące wykonane ruchy. 
+
+Zmienne przechowujące wykonane ruchy. \Hypertarget{cube_8h_aea86c6e0993ad31fde8478191aeea3dd}\label{cube_8h_aea86c6e0993ad31fde8478191aeea3dd} 
+\index{cube.h@{cube.h}!cubePositions@{cubePositions}}
+\index{cubePositions@{cubePositions}!cube.h@{cube.h}}
+\doxysubsubsection{\texorpdfstring{cubePositions}{cubePositions}}
+{\footnotesize\ttfamily glm\+::vec3 cube\+Positions\mbox{[}27\mbox{]}\hspace{0.3cm}{\ttfamily [extern]}}
+
+
+
+Pozycje kostek czyli rozmieszczenie kostek aby uformowały się w jedną kostkę "{}Rubik\textquotesingle{}s Cube. 
+
+\Hypertarget{cube_8h_a1a61318ed6aa02b4ff346e7eb8f68891}\label{cube_8h_a1a61318ed6aa02b4ff346e7eb8f68891} 
+\index{cube.h@{cube.h}!deltaTime@{deltaTime}}
+\index{deltaTime@{deltaTime}!cube.h@{cube.h}}
+\doxysubsubsection{\texorpdfstring{deltaTime}{deltaTime}}
+{\footnotesize\ttfamily float delta\+Time\hspace{0.3cm}{\ttfamily [extern]}}
+
+
+
+Zmienna ustawiająca wartość pomiędzy klatkami. 
+
+Zmienna ustawiająca wartość pomiędzy klatkami. \Hypertarget{cube_8h_ad266f112919aafae4a9a4bc807ad9bc2}\label{cube_8h_ad266f112919aafae4a9a4bc807ad9bc2} 
+\index{cube.h@{cube.h}!duration@{duration}}
+\index{duration@{duration}!cube.h@{cube.h}}
+\doxysubsubsection{\texorpdfstring{duration}{duration}}
+{\footnotesize\ttfamily chrono\+::duration$<$double$>$ duration\hspace{0.3cm}{\ttfamily [extern]}}
+
+
+
+Zmienna przechowywująca czas ułożenia kostki. 
+
+Zmienna przechowywująca czas ułożenia kostki. \Hypertarget{cube_8h_a533632dd4af826e6376f4707ee5244f7}\label{cube_8h_a533632dd4af826e6376f4707ee5244f7} 
+\index{cube.h@{cube.h}!end\_timer@{end\_timer}}
+\index{end\_timer@{end\_timer}!cube.h@{cube.h}}
+\doxysubsubsection{\texorpdfstring{end\_timer}{end\_timer}}
+{\footnotesize\ttfamily chrono\+::time\+\_\+point$<$chrono\+::high\+\_\+resolution\+\_\+clock$>$ end\+\_\+timer\hspace{0.3cm}{\ttfamily [extern]}}
+
+
+
+Zmienna przyjmująca wartość zatrzymania timera. 
+
+Zmienna przyjmująca wartość zatrzymania timera. \Hypertarget{cube_8h_ac21731ba101e28334c34543121caa841}\label{cube_8h_ac21731ba101e28334c34543121caa841} 
+\index{cube.h@{cube.h}!firstMouse@{firstMouse}}
+\index{firstMouse@{firstMouse}!cube.h@{cube.h}}
+\doxysubsubsection{\texorpdfstring{firstMouse}{firstMouse}}
+{\footnotesize\ttfamily bool first\+Mouse\hspace{0.3cm}{\ttfamily [extern]}}
+
+
+
+Dodaj obsługę myszki. 
+
+Dodaj obsługę myszki. \Hypertarget{cube_8h_ac39a27f0e4ad0cde977459bc21fa36fd}\label{cube_8h_ac39a27f0e4ad0cde977459bc21fa36fd} 
+\index{cube.h@{cube.h}!isSolved@{isSolved}}
+\index{isSolved@{isSolved}!cube.h@{cube.h}}
+\doxysubsubsection{\texorpdfstring{isSolved}{isSolved}}
+{\footnotesize\ttfamily bool is\+Solved\hspace{0.3cm}{\ttfamily [extern]}}
+
+
+
+Zmienne przechowujące stan użycia podpowiedzi. 
+
+\Hypertarget{cube_8h_a518a497d888d805d5f368bbb91b54a6c}\label{cube_8h_a518a497d888d805d5f368bbb91b54a6c} 
+\index{cube.h@{cube.h}!lastFrame@{lastFrame}}
+\index{lastFrame@{lastFrame}!cube.h@{cube.h}}
+\doxysubsubsection{\texorpdfstring{lastFrame}{lastFrame}}
+{\footnotesize\ttfamily float last\+Frame\hspace{0.3cm}{\ttfamily [extern]}}
+
+
+
+Zmienna ustawiająca wartość ostaniej klatki. 
+
+Zmienna ustawiająca wartość ostaniej klatki. \Hypertarget{cube_8h_a4664c5d930c290e6f82141a070cbea46}\label{cube_8h_a4664c5d930c290e6f82141a070cbea46} 
+\index{cube.h@{cube.h}!lastX@{lastX}}
+\index{lastX@{lastX}!cube.h@{cube.h}}
+\doxysubsubsection{\texorpdfstring{lastX}{lastX}}
+{\footnotesize\ttfamily float lastX\hspace{0.3cm}{\ttfamily [extern]}}
+
+
+
+Poprzednia pozycja X, używana do śledzenia ruchu myszy. 
+
+Poprzednia pozycja X, używana do śledzenia ruchu myszy. \Hypertarget{cube_8h_a9d5b8dfd025caf1c0ed043132515f587}\label{cube_8h_a9d5b8dfd025caf1c0ed043132515f587} 
+\index{cube.h@{cube.h}!lastY@{lastY}}
+\index{lastY@{lastY}!cube.h@{cube.h}}
+\doxysubsubsection{\texorpdfstring{lastY}{lastY}}
+{\footnotesize\ttfamily float lastY\hspace{0.3cm}{\ttfamily [extern]}}
+
+
+
+Poprzednia pozycja Y, używana do śledzenia ruchu myszy. 
+
+Poprzednia pozycja Y, używana do śledzenia ruchu myszy. \Hypertarget{cube_8h_a98e5b68afb6fd58c61f6fe01888ea64c}\label{cube_8h_a98e5b68afb6fd58c61f6fe01888ea64c} 
+\index{cube.h@{cube.h}!random\_moves@{random\_moves}}
+\index{random\_moves@{random\_moves}!cube.h@{cube.h}}
+\doxysubsubsection{\texorpdfstring{random\_moves}{random\_moves}}
+{\footnotesize\ttfamily int random\+\_\+moves\hspace{0.3cm}{\ttfamily [extern]}}
+
+
+
+Zmienne przechowujące wykonane ruchy poprzez mieszanie. 
+
+Zmienne przechowujące wykonane ruchy poprzez mieszanie. \Hypertarget{cube_8h_aca03a77ac5a7f2e26d08cd6de43f9a17}\label{cube_8h_aca03a77ac5a7f2e26d08cd6de43f9a17} 
+\index{cube.h@{cube.h}!SCR\_HEIGHT@{SCR\_HEIGHT}}
+\index{SCR\_HEIGHT@{SCR\_HEIGHT}!cube.h@{cube.h}}
+\doxysubsubsection{\texorpdfstring{SCR\_HEIGHT}{SCR\_HEIGHT}}
+{\footnotesize\ttfamily const unsigned int SCR\+\_\+\+HEIGHT\hspace{0.3cm}{\ttfamily [extern]}}
+
+
+
+Wysokoœæ okna. 
+
+\Hypertarget{cube_8h_a74ba59acbf346c2b19bc1ce5170f755d}\label{cube_8h_a74ba59acbf346c2b19bc1ce5170f755d} 
+\index{cube.h@{cube.h}!SCR\_WIDTH@{SCR\_WIDTH}}
+\index{SCR\_WIDTH@{SCR\_WIDTH}!cube.h@{cube.h}}
+\doxysubsubsection{\texorpdfstring{SCR\_WIDTH}{SCR\_WIDTH}}
+{\footnotesize\ttfamily const unsigned int SCR\+\_\+\+WIDTH\hspace{0.3cm}{\ttfamily [extern]}}
+
+
+
+Szerokoœæ okna. 
+
+\Hypertarget{cube_8h_a684d4f7d519adfd5237786fcf21034e0}\label{cube_8h_a684d4f7d519adfd5237786fcf21034e0} 
+\index{cube.h@{cube.h}!sideCube@{sideCube}}
+\index{sideCube@{sideCube}!cube.h@{cube.h}}
+\doxysubsubsection{\texorpdfstring{sideCube}{sideCube}}
+{\footnotesize\ttfamily int side\+Cube\mbox{[}27\mbox{]}\mbox{[}6\mbox{]}\hspace{0.3cm}{\ttfamily [extern]}}
+
+
+
+Tablice wyœwietlają serce kostki rubika która zapamiętuje swój stan. 
+
+\Hypertarget{cube_8h_ac3fd66ae01f5fe9e5723f8311d7deadf}\label{cube_8h_ac3fd66ae01f5fe9e5723f8311d7deadf} 
+\index{cube.h@{cube.h}!solve@{solve}}
+\index{solve@{solve}!cube.h@{cube.h}}
+\doxysubsubsection{\texorpdfstring{solve}{solve}}
+{\footnotesize\ttfamily string solve\hspace{0.3cm}{\ttfamily [extern]}}
+
+
+
+Zmienne przechowujące podpowiedź. 
+
+Zmienne przechowujące podpowiedź. \Hypertarget{cube_8h_abd713b5e3f3d5b609eba75284e703e25}\label{cube_8h_abd713b5e3f3d5b609eba75284e703e25} 
+\index{cube.h@{cube.h}!start\_timer@{start\_timer}}
+\index{start\_timer@{start\_timer}!cube.h@{cube.h}}
+\doxysubsubsection{\texorpdfstring{start\_timer}{start\_timer}}
+{\footnotesize\ttfamily chrono\+::time\+\_\+point$<$chrono\+::high\+\_\+resolution\+\_\+clock$>$ start\+\_\+timer\hspace{0.3cm}{\ttfamily [extern]}}
+
+
+
+Zmienna przyjmująca wartość startu timera. 
+
+Zmienna przyjmująca wartość startu timera. \Hypertarget{cube_8h_a831b8ce5acab5b3ae2ee62d63dbb9e61}\label{cube_8h_a831b8ce5acab5b3ae2ee62d63dbb9e61} 
+\index{cube.h@{cube.h}!textureClassic1@{textureClassic1}}
+\index{textureClassic1@{textureClassic1}!cube.h@{cube.h}}
+\doxysubsubsection{\texorpdfstring{textureClassic1}{textureClassic1}}
+{\footnotesize\ttfamily unsigned int texture\+Classic1\hspace{0.3cm}{\ttfamily [extern]}}
+
+
+
+Zmienne przechowujące domyślne tekstury. 
+
+\Hypertarget{cube_8h_a49b4d0402e41e121374335769f3a07a3}\label{cube_8h_a49b4d0402e41e121374335769f3a07a3} 
+\index{cube.h@{cube.h}!textureClassic2@{textureClassic2}}
+\index{textureClassic2@{textureClassic2}!cube.h@{cube.h}}
+\doxysubsubsection{\texorpdfstring{textureClassic2}{textureClassic2}}
+{\footnotesize\ttfamily unsigned int texture\+Classic2}
+
+\Hypertarget{cube_8h_a95e04ebb649e47c72eda7aef92177ffc}\label{cube_8h_a95e04ebb649e47c72eda7aef92177ffc} 
+\index{cube.h@{cube.h}!textureClassic3@{textureClassic3}}
+\index{textureClassic3@{textureClassic3}!cube.h@{cube.h}}
+\doxysubsubsection{\texorpdfstring{textureClassic3}{textureClassic3}}
+{\footnotesize\ttfamily unsigned int texture\+Classic3}
+
+\Hypertarget{cube_8h_ad7c0b7754c46c802b773522a2e0fe9b6}\label{cube_8h_ad7c0b7754c46c802b773522a2e0fe9b6} 
+\index{cube.h@{cube.h}!textureClassic4@{textureClassic4}}
+\index{textureClassic4@{textureClassic4}!cube.h@{cube.h}}
+\doxysubsubsection{\texorpdfstring{textureClassic4}{textureClassic4}}
+{\footnotesize\ttfamily unsigned int texture\+Classic4}
+
+\Hypertarget{cube_8h_ae18b22cea583db517fe193f78fc88fad}\label{cube_8h_ae18b22cea583db517fe193f78fc88fad} 
+\index{cube.h@{cube.h}!textureClassic5@{textureClassic5}}
+\index{textureClassic5@{textureClassic5}!cube.h@{cube.h}}
+\doxysubsubsection{\texorpdfstring{textureClassic5}{textureClassic5}}
+{\footnotesize\ttfamily unsigned int texture\+Classic5}
+
+\Hypertarget{cube_8h_a3c4bd956d3e2e910c12c0ddc2f6757d7}\label{cube_8h_a3c4bd956d3e2e910c12c0ddc2f6757d7} 
+\index{cube.h@{cube.h}!textureClassic6@{textureClassic6}}
+\index{textureClassic6@{textureClassic6}!cube.h@{cube.h}}
+\doxysubsubsection{\texorpdfstring{textureClassic6}{textureClassic6}}
+{\footnotesize\ttfamily unsigned int texture\+Classic6}
+
+\Hypertarget{cube_8h_a0501547ab6c969a8a77c55fd9f3441d0}\label{cube_8h_a0501547ab6c969a8a77c55fd9f3441d0} 
+\index{cube.h@{cube.h}!textureDeuteranopia1@{textureDeuteranopia1}}
+\index{textureDeuteranopia1@{textureDeuteranopia1}!cube.h@{cube.h}}
+\doxysubsubsection{\texorpdfstring{textureDeuteranopia1}{textureDeuteranopia1}}
+{\footnotesize\ttfamily unsigned int texture\+Deuteranopia1\hspace{0.3cm}{\ttfamily [extern]}}
+
+
+
+Zmienne przechowujące tekstury z deuteranopii. 
+
+\Hypertarget{cube_8h_a03fad9c3f33bf24a42c79430ab22905c}\label{cube_8h_a03fad9c3f33bf24a42c79430ab22905c} 
+\index{cube.h@{cube.h}!textureDeuteranopia2@{textureDeuteranopia2}}
+\index{textureDeuteranopia2@{textureDeuteranopia2}!cube.h@{cube.h}}
+\doxysubsubsection{\texorpdfstring{textureDeuteranopia2}{textureDeuteranopia2}}
+{\footnotesize\ttfamily unsigned int texture\+Deuteranopia2}
+
+\Hypertarget{cube_8h_a83f222562097b0765926809b1d3a5baa}\label{cube_8h_a83f222562097b0765926809b1d3a5baa} 
+\index{cube.h@{cube.h}!textureDeuteranopia3@{textureDeuteranopia3}}
+\index{textureDeuteranopia3@{textureDeuteranopia3}!cube.h@{cube.h}}
+\doxysubsubsection{\texorpdfstring{textureDeuteranopia3}{textureDeuteranopia3}}
+{\footnotesize\ttfamily unsigned int texture\+Deuteranopia3}
+
+\Hypertarget{cube_8h_ad5115e7a7577ba4ee5a5c5e1e1fa98f8}\label{cube_8h_ad5115e7a7577ba4ee5a5c5e1e1fa98f8} 
+\index{cube.h@{cube.h}!textureDeuteranopia4@{textureDeuteranopia4}}
+\index{textureDeuteranopia4@{textureDeuteranopia4}!cube.h@{cube.h}}
+\doxysubsubsection{\texorpdfstring{textureDeuteranopia4}{textureDeuteranopia4}}
+{\footnotesize\ttfamily unsigned int texture\+Deuteranopia4}
+
+\Hypertarget{cube_8h_a29d3ff166d835e03490a5b57780df444}\label{cube_8h_a29d3ff166d835e03490a5b57780df444} 
+\index{cube.h@{cube.h}!textureDeuteranopia5@{textureDeuteranopia5}}
+\index{textureDeuteranopia5@{textureDeuteranopia5}!cube.h@{cube.h}}
+\doxysubsubsection{\texorpdfstring{textureDeuteranopia5}{textureDeuteranopia5}}
+{\footnotesize\ttfamily unsigned int texture\+Deuteranopia5}
+
+\Hypertarget{cube_8h_aa50576b81635286d910b568111de3ec2}\label{cube_8h_aa50576b81635286d910b568111de3ec2} 
+\index{cube.h@{cube.h}!textureDeuteranopia6@{textureDeuteranopia6}}
+\index{textureDeuteranopia6@{textureDeuteranopia6}!cube.h@{cube.h}}
+\doxysubsubsection{\texorpdfstring{textureDeuteranopia6}{textureDeuteranopia6}}
+{\footnotesize\ttfamily unsigned int texture\+Deuteranopia6}
+
+\Hypertarget{cube_8h_af38c36ec5bf6720582fb4cce37032bbb}\label{cube_8h_af38c36ec5bf6720582fb4cce37032bbb} 
+\index{cube.h@{cube.h}!textureTritanopia1@{textureTritanopia1}}
+\index{textureTritanopia1@{textureTritanopia1}!cube.h@{cube.h}}
+\doxysubsubsection{\texorpdfstring{textureTritanopia1}{textureTritanopia1}}
+{\footnotesize\ttfamily unsigned int texture\+Tritanopia1\hspace{0.3cm}{\ttfamily [extern]}}
+
+
+
+Zmienne przechowujące tekstury z tritanopii. 
+
+Zmienne przechowujące tekstury z tritanopii. \Hypertarget{cube_8h_afbf4b7a0a4fdbd87d3a35304e76e3a25}\label{cube_8h_afbf4b7a0a4fdbd87d3a35304e76e3a25} 
+\index{cube.h@{cube.h}!textureTritanopia2@{textureTritanopia2}}
+\index{textureTritanopia2@{textureTritanopia2}!cube.h@{cube.h}}
+\doxysubsubsection{\texorpdfstring{textureTritanopia2}{textureTritanopia2}}
+{\footnotesize\ttfamily unsigned int texture\+Tritanopia2}
+
+\Hypertarget{cube_8h_a3c051fc2659002a1c7bacf2835b87c6e}\label{cube_8h_a3c051fc2659002a1c7bacf2835b87c6e} 
+\index{cube.h@{cube.h}!textureTritanopia3@{textureTritanopia3}}
+\index{textureTritanopia3@{textureTritanopia3}!cube.h@{cube.h}}
+\doxysubsubsection{\texorpdfstring{textureTritanopia3}{textureTritanopia3}}
+{\footnotesize\ttfamily unsigned int texture\+Tritanopia3}
+
+\Hypertarget{cube_8h_aeed332923a338bac9c166dfe43f55700}\label{cube_8h_aeed332923a338bac9c166dfe43f55700} 
+\index{cube.h@{cube.h}!textureTritanopia4@{textureTritanopia4}}
+\index{textureTritanopia4@{textureTritanopia4}!cube.h@{cube.h}}
+\doxysubsubsection{\texorpdfstring{textureTritanopia4}{textureTritanopia4}}
+{\footnotesize\ttfamily unsigned int texture\+Tritanopia4}
+
+\Hypertarget{cube_8h_a355e82f4769c2b6f65502161375050e5}\label{cube_8h_a355e82f4769c2b6f65502161375050e5} 
+\index{cube.h@{cube.h}!textureTritanopia5@{textureTritanopia5}}
+\index{textureTritanopia5@{textureTritanopia5}!cube.h@{cube.h}}
+\doxysubsubsection{\texorpdfstring{textureTritanopia5}{textureTritanopia5}}
+{\footnotesize\ttfamily unsigned int texture\+Tritanopia5}
+
+\Hypertarget{cube_8h_a355a457e579ccf638a418c581a3c9bae}\label{cube_8h_a355a457e579ccf638a418c581a3c9bae} 
+\index{cube.h@{cube.h}!textureTritanopia6@{textureTritanopia6}}
+\index{textureTritanopia6@{textureTritanopia6}!cube.h@{cube.h}}
+\doxysubsubsection{\texorpdfstring{textureTritanopia6}{textureTritanopia6}}
+{\footnotesize\ttfamily unsigned int texture\+Tritanopia6}
+
+\Hypertarget{cube_8h_a0da071334bc5d9b359773f9fb3fbc032}\label{cube_8h_a0da071334bc5d9b359773f9fb3fbc032} 
+\index{cube.h@{cube.h}!top\_scores@{top\_scores}}
+\index{top\_scores@{top\_scores}!cube.h@{cube.h}}
+\doxysubsubsection{\texorpdfstring{top\_scores}{top\_scores}}
+{\footnotesize\ttfamily double top\+\_\+scores\mbox{[}5\mbox{]}\hspace{0.3cm}{\ttfamily [extern]}}
+
+
+
+Ranking czasów ułożenia. 
+
+Ranking czasów ułożenia. \Hypertarget{cube_8h_a5c87a2fa1adc232ff65b3af51e537c6a}\label{cube_8h_a5c87a2fa1adc232ff65b3af51e537c6a} 
+\index{cube.h@{cube.h}!TOP\_SCORES\_COUNT@{TOP\_SCORES\_COUNT}}
+\index{TOP\_SCORES\_COUNT@{TOP\_SCORES\_COUNT}!cube.h@{cube.h}}
+\doxysubsubsection{\texorpdfstring{TOP\_SCORES\_COUNT}{TOP\_SCORES\_COUNT}}
+{\footnotesize\ttfamily const int TOP\+\_\+\+SCORES\+\_\+\+COUNT\hspace{0.3cm}{\ttfamily [extern]}}
+
+
+
+Zmienna przechowująca ilość rekordów. 
+
+Zmienna przechowująca ilość rekordów. 
