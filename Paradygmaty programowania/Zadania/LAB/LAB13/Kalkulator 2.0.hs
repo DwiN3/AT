@@ -2,7 +2,7 @@ module Main where
 import Data.List
 
 fun_1 :: String -> [String]
-fun_1 str = filter (not . null) $ words str
+fun_1 str = filter (not . null) (words str)
 
 fun_2 :: Char -> Double -> Double -> Double
 fun_2 operator x y = case operator of
