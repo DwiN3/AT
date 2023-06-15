@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="600" prefWidth="850" style="-fx-background-color: #048ad4;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.ControllerMainMenu">
+    <children>
+        <Label fx:id="nick_user_menu" alignment="CENTER" layoutX="340.0" layoutY="80.0" prefHeight="17.0" prefWidth="215.0" text="Witaj" textFill="WHITE">
+            <font> <Font name="System Bold" size="15.0" /> </font></Label>
+        <Button fx:id="profile_button_menu" layoutX="340.0" layoutY="160.0" prefHeight="25.0" prefWidth="215.0" text="Profil">
+         <font>
+            <Font size="13.0" />
+         </font></Button>
+        <Button fx:id="game_quiz_button_menu" layoutX="340.0" layoutY="200.0" prefHeight="25.0" prefWidth="215.0" text="Quiz">
+         <font>
+            <Font size="13.0" />
+         </font></Button>
+        <Button fx:id="game_wpis_button_menu" layoutX="340.0" layoutY="240" prefHeight="25.0" prefWidth="215.0" text="Wpis">
+         <font>
+            <Font size="13.0" />
+         </font></Button>
+        <Label alignment="CENTER_RIGHT" layoutX="190.0" layoutY="283.0" prefHeight="17.0" prefWidth="131.0" text="Kategoria" textFill="WHITE">
+         <font>
+            <Font size="13.0" />
+         </font></Label>
+      <ChoiceBox fx:id="category_choice_box_menu" layoutX="340.0" layoutY="280.0" prefHeight="25.0" prefWidth="215.0" />
+        <Button fx:id="log_out_button_menu" layoutX="340.0" layoutY="320.0" prefHeight="25.0" prefWidth="215.0" text="Wyloguj się">
+         <font>
+            <Font size="13.0" />
+         </font></Button>
+
+    </children>
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+</AnchorPane>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="600" prefWidth="850" style="-fx-background-color: #048ad4;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.ControllerWpisGame">
+    <children>
+
+        <Label fx:id="sticks_left_wpis" alignment="CENTER" layoutX="340.0" layoutY="15.0" prefHeight="25.0" prefWidth="215.0" textFill="WHITE">
+            <font>
+                <Font size="16.0" />
+            </font>
+        </Label>
+        <Label fx:id="userPKT_wpis" alignment="CENTER" layoutX="340.0" layoutY="45.0" prefHeight="25.0" prefWidth="215.0" textFill="WHITE">
+            <font>
+                <Font name="System Bold" size="16.0" />
+            </font>
+        </Label>
+        <ImageView fx:id="image_wpis" fitHeight="160.0" fitWidth="420.0" layoutX="237.0" layoutY="80.0" pickOnBounds="true" preserveRatio="true" />
+        <ImageView fx:id="image_word_wpis" fitHeight="100" fitWidth="100" layoutX="399.0" layoutY="112.0" pickOnBounds="true" preserveRatio="true" />
+        <Label fx:id="word_text_wpis" alignment="CENTER" layoutX="341.0" layoutY="80.0" prefHeight="25.0" prefWidth="215.0" textFill="WHITE">
+            <font>
+                <Font size="15.0" />
+            </font></Label>
+        <Label fx:id="word_sample_text_wpis" alignment="CENTER" layoutX="340.0" layoutY="216.0" prefHeight="25.0" prefWidth="215.0" textFill="WHITE">
+            <font>
+                <Font size="14.0" />
+            </font></Label>
+        <TextField fx:id="your_word_text_wpis" layoutX="342.0" layoutY="276.0" prefHeight="25.0" prefWidth="215.0" />
+        <Label fx:id="answer_text_wpis" alignment="CENTER" layoutX="342.0" layoutY="276.0" prefHeight="25.0" prefWidth="215.0" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font></Label>
+        <Button fx:id="next_word_button_wpis" layoutX="342.0" layoutY="340.0" prefHeight="32.0" prefWidth="215.0" text="Sprawdź">
+         <font>
+            <Font size="13.0" />
+         </font></Button>
+        <Button fx:id="back_menu_button_wpis" layoutX="342.0" layoutY="384.0" prefHeight="32.0" prefWidth="215.0" text="Wróć do menu">
+         <font>
+            <Font size="13.0" />
+         </font></Button>
+    </children>
+</AnchorPane>

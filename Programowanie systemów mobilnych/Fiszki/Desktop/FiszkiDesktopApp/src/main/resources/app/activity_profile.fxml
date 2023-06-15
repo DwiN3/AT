@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="600" prefWidth="850" style="-fx-background-color: #048ad4;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.ControllerProfile">
+    <children>
+        <Label alignment="CENTER" layoutX="340.0" layoutY="80.0" prefHeight="17.0" prefWidth="221.0" text="Twój profil" textFill="WHITE">
+            <font>
+                <Font name="System Bold" size="15.0" />
+            </font></Label>
+        <Label fx:id="nick_user_profile" layoutX="340.0" layoutY="120.0" prefHeight="17.0" prefWidth="221.0" textFill="WHITE">
+         <font>
+            <Font size="13.0" />
+         </font></Label>
+        <Label fx:id="lvl_profile" layoutX="340.0" layoutY="160.0" prefHeight="17.0" prefWidth="221.0" textFill="WHITE">
+         <font>
+            <Font size="13.0" />
+         </font></Label>
+        <Label fx:id="points_to_next_LVL_profile" layoutX="340.0" layoutY="200.0" prefHeight="17.0" prefWidth="221.0" textFill="WHITE">
+         <font>
+            <Font size="13.0" />
+         </font></Label>
+        <Button fx:id="back_to_menu_button_profile" layoutX="340.0" layoutY="240.0" prefHeight="25.0" prefWidth="221.0" text="Wróć do menu">
+         <font>
+            <Font size="13.0" />
+         </font></Button>
+    </children>
+</AnchorPane>

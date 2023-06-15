@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Fiszki"
+        tools:targetApi="31">
+        <activity
+            android:name=".Activity.ActivityTopWords"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.ActivityShowKitsEdit"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.ActivityEditFlashcard"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.ActivityAddFlashcard"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.ActivityPanelKits"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.ActivityQuizEnd"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.ActivityQuizScreen"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.ActivityLearningScreen"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.ActivityCategories"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.ActivityKits"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.ActivityYourProfile"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.ActivityGameMode"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.ActivityMainMenu"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.ActivityRegister"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.ActivityPasswordReset"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.ActivityFirstScreen"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.ActivitySplashScreen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.ActivityGameMode">
+
+
+    <TextView
+        android:id="@+id/textStudyMode"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="24dp"
+        android:gravity="center"
+        android:text="TRYB NAUKI"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.166"
+        app:layout_constraintStart_toEndOf="@+id/buttonLearnMode"
+        app:layout_constraintTop_toBottomOf="@+id/textQuizMode" />
+
+    <TextView
+        android:id="@+id/textQuizMode"
+        android:layout_width="200dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="42dp"
+        android:gravity="center"
+        android:text="TRYB QUIZ"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.166"
+        app:layout_constraintStart_toEndOf="@+id/buttonQuizMode"
+        app:layout_constraintTop_toBottomOf="@+id/bar" />
+
+    <ImageView
+        android:id="@+id/bar"
+        android:layout_width="500dp"
+        android:layout_height="100dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/bar"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="38dp"
+        android:layout_marginBottom="35dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/flag_border"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/flagFirst"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="38dp"
+        android:layout_marginBottom="35dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/flagpl"
+        tools:ignore="MissingConstraints" />
+
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginEnd="38dp"
+        android:layout_marginBottom="35dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/flag_border"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/arrow"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginBottom="35dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/arrow"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/flagSecend"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginEnd="38dp"
+        android:layout_marginBottom="35dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/flagang"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textFiszki"
+        android:layout_width="149dp"
+        android:layout_height="86dp"
+        android:layout_marginTop="8dp"
+        android:text="WYBIERZ TRYB"
+        android:gravity="center"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttonTopWordsMode"
+        android:layout_width="347dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="58dp"
+        android:background="@drawable/rounded_button"
+        android:text="LOSOWY ZESTAW"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.475"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textStudyMode"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/buttonCategoriesMode"
+        android:layout_width="347dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/rounded_button"
+        android:text="KATEGORIE"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.468"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonTopWordsMode" />
+
+    <Button
+        android:id="@+id/buttonYourFlashcardsMode"
+        android:layout_width="347dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/rounded_button"
+        android:text="TWOJE FISZKI"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.468"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonCategoriesMode" />
+
+    <Button
+        android:id="@+id/buttonQuizMode"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="67dp"
+        android:layout_marginTop="44dp"
+        android:background="@drawable/rounded_button_mode_pressed"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bar" />
+
+    <Button
+        android:id="@+id/buttonLearnMode"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="67dp"
+        android:layout_marginTop="22dp"
+        android:background="@drawable/rounded_button_mode_normal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonQuizMode" />
+
+    <Button
+        android:id="@+id/buttonReverse"
+        android:layout_width="58dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/reverse_button_new"
+        app:layout_constraintBottom_toTopOf="@+id/arrow"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonYourFlashcardsMode"
+        tools:ignore="MissingConstraints" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

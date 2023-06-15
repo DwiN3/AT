@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.ActivityLearningScreen">
+
+
+    <TextView
+        android:id="@+id/textTextName"
+        android:layout_width="105dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="105dp"
+        android:layout_marginTop="35dp"
+        android:gravity="center"
+        android:text="FISZKI"
+        android:textColor="@color/my_blue"
+        android:textSize="34sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textsticksLeftLearning"
+        android:layout_width="113dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="8dp"
+        android:gravity="left"
+        android:text="1/30"
+        android:textColor="@color/my_blue"
+        android:textSize="37sp"
+        app:layout_constraintStart_toEndOf="@+id/textTextName"
+        app:layout_constraintTop_toTopOf="@+id/textTextName"
+        tools:ignore="MissingConstraints" />
+
+    <ImageButton
+        android:id="@+id/imageButtonLearning"
+        android:layout_width="356dp"
+        android:layout_height="235dp"
+        android:layout_marginTop="45dp"
+        android:background="@drawable/rounded_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textTextName"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageWordLearning"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="36dp"
+        app:layout_constraintEnd_toEndOf="@+id/imageButtonLearning"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="@+id/imageButtonLearning"
+        app:layout_constraintTop_toBottomOf="@+id/textnameWordLearning"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textnameWordLearning"
+        android:layout_width="259dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="@+id/imageButtonLearning"
+        app:layout_constraintStart_toStartOf="@+id/imageButtonLearning"
+        app:layout_constraintTop_toTopOf="@+id/imageButtonLearning" />
+
+    <TextView
+        android:id="@+id/textsampleSentenceLearning"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="84dp"
+        android:gravity="center"
+        android:textColor="@color/my_blue"
+        android:textSize="21sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButtonLearning" />
+
+    <Button
+        android:id="@+id/buttonNextLearning"
+        android:layout_width="345dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="105dp"
+        android:background="@drawable/rounded_button"
+        android:text="POKAŻ TŁUMACZENIE"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.487"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textsampleSentenceLearning" />
+
+    <Button
+        android:id="@+id/buttonExitLearning"
+        android:layout_width="345dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="176dp"
+        android:background="@drawable/rounded_button"
+        android:text="WRÓĆ DO MENU"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.484"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textsampleSentenceLearning" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

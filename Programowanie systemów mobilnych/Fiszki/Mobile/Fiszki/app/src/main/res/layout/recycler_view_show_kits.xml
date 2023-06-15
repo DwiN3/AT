@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/recycleShowFlashcard"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFFFFF">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="401dp"
+            android:layout_height="312dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/rounded_button"
+            tools:layout_marginBottom="10dp">
+
+            <ImageView
+                android:id="@+id/imageShowKits1"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginEnd="28dp"
+                android:background="@drawable/flagpl"
+                android:textSize="40sp"
+                app:layout_constraintEnd_toStartOf="@+id/textViewShowKits1"
+                app:layout_constraintTop_toTopOf="@+id/textViewShowKits1" />
+
+            <TextView
+                android:id="@+id/textViewShowKits1"
+                android:textColor="@color/my_blue"
+                android:layout_width="277dp"
+                android:layout_height="48dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="13dp"
+                android:background="@drawable/rounded_text_show_kits"
+                android:gravity="center"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/imageShowKits2"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginEnd="28dp"
+                android:background="@drawable/flagang"
+                android:textSize="40sp"
+                app:layout_constraintEnd_toStartOf="@+id/textViewShowKits2"
+                app:layout_constraintTop_toTopOf="@+id/textViewShowKits2" />
+
+            <TextView
+                android:id="@+id/textViewShowKits2"
+                android:textColor="@color/my_blue"
+                android:layout_width="277dp"
+                android:layout_height="48dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="13dp"
+                android:background="@drawable/rounded_text_show_kits"
+                android:gravity="center"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textViewShowKits1" />
+
+            <ImageView
+                android:id="@+id/imageShowKits3"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginEnd="28dp"
+                android:background="@drawable/flagpl"
+                android:textSize="40sp"
+                app:layout_constraintEnd_toStartOf="@+id/textViewShowKits3"
+                app:layout_constraintTop_toTopOf="@+id/textViewShowKits3" />
+
+            <TextView
+                android:id="@+id/textViewShowKits3"
+                android:textColor="@color/my_blue"
+                android:layout_width="277dp"
+                android:layout_height="48dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="13dp"
+                android:background="@drawable/rounded_text_show_kits"
+                android:gravity="center"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textViewShowKits2" />
+
+            <ImageView
+                android:id="@+id/imageShowKits4"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginEnd="28dp"
+                android:background="@drawable/flagang"
+                android:textSize="40sp"
+                app:layout_constraintEnd_toStartOf="@+id/textViewShowKits4"
+                app:layout_constraintTop_toTopOf="@+id/textViewShowKits4" />
+
+            <TextView
+                android:id="@+id/textViewShowKits4"
+                android:textColor="@color/my_blue"
+                android:layout_width="277dp"
+                android:layout_height="48dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="13dp"
+                android:background="@drawable/rounded_text_show_kits"
+                android:gravity="center"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textViewShowKits3" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

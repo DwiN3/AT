@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/recycleEditFlashcard"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFFFFF">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="77dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp">
+
+            <ImageView
+                android:id="@+id/imageEditFlashcard"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginEnd="28dp"
+                android:background="@drawable/flagpl"
+                android:textSize="40sp"
+                app:layout_constraintEnd_toStartOf="@+id/editTextEditFlashcard"
+                app:layout_constraintTop_toTopOf="@+id/editTextEditFlashcard" />
+
+            <EditText
+                android:id="@+id/editTextEditFlashcard"
+                android:layout_width="277dp"
+                android:layout_height="48dp"
+                android:layout_marginEnd="27dp"
+                android:background="@drawable/rounded_text"
+                android:gravity="center"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

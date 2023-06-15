@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+    <item name="colorPrimary">@color/my_blue</item>
+    <item name="android:showDividers">none</item>
+    <item name="android:divider">@null</item>
+</style>
+

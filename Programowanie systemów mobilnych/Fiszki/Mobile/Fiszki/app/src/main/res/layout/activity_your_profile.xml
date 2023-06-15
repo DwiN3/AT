@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.ActivityYourProfile">
+
+    <ImageView
+        android:id="@+id/circle"
+        android:layout_width="905dp"
+        android:layout_height="1098dp"
+        android:layout_marginBottom="370dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/circle"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/flagANG"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginBottom="452dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/flagang"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/flagSZW"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="452dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/flagszw"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/flagPL"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginBottom="432dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/flagpl"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textFiszki"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="60dp"
+        android:text="FISZKI"
+        android:textSize="55sp"
+        app:layout_constraintBottom_toTopOf="@+id/flagPL"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.683" />
+
+    <TextView
+        android:id="@+id/textFiszki2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="skuteczna nakuka słówek"
+        android:textSize="19sp"
+        app:layout_constraintBottom_toTopOf="@+id/flagPL"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textFiszki"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/buttonYourFlashcardsProfile"
+        android:layout_width="345dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="90dp"
+        android:background="@drawable/rounded_button"
+        android:text="TWOJE FISZKI"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textTextLVLProfile"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="Twój level:"
+        android:textColor="@color/my_blue"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/flagPL"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textLVLProfile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="7dp"
+        android:textColor="@color/my_blue"
+        android:textSize="27sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textTextLVLProfile" />
+
+    <TextView
+        android:id="@+id/textTextNextLVLProfile"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="Następny level:"
+        android:textSize="25sp"
+        android:textColor="@color/my_blue"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textLVLProfile" />
+
+    <TextView
+        android:id="@+id/textNextLVLProfile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="7dp"
+        android:textColor="@color/my_blue"
+        android:textSize="27sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textTextNextLVLProfile" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

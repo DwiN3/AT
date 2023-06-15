@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.ActivityQuizScreen">
+
+    <TextView
+        android:id="@+id/textTextName"
+        android:layout_width="191dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="50dp"
+        android:gravity="center"
+        android:text="Pozostałe fiszki:"
+        android:textColor="@color/my_blue"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/sticksLeftQuiz"
+        android:layout_width="113dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="8dp"
+        android:gravity="left"
+        android:textColor="@color/my_blue"
+        android:textSize="28sp"
+        app:layout_constraintStart_toEndOf="@+id/textTextName"
+        app:layout_constraintTop_toTopOf="@+id/textTextName"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageViewQuiz"
+        android:layout_width="356dp"
+        android:layout_height="235dp"
+        android:layout_marginTop="55dp"
+        android:background="@drawable/rounded_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textTextName"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageWordQuiz"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="36dp"
+        app:layout_constraintEnd_toEndOf="@+id/imageViewQuiz"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="@+id/imageViewQuiz"
+        app:layout_constraintTop_toBottomOf="@+id/nameWordQuiz"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/nameWordQuiz"
+        android:layout_width="259dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="@+id/imageViewQuiz"
+        app:layout_constraintStart_toStartOf="@+id/imageViewQuiz"
+        app:layout_constraintTop_toTopOf="@+id/imageViewQuiz" />
+
+    <Button
+        android:id="@+id/buttonExitQuiz"
+        android:layout_width="160dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/rounded_button"
+        android:text="WRÓĆ DO MENU"
+        app:layout_constraintStart_toEndOf="@+id/buttonNextQuiz"
+        app:layout_constraintTop_toBottomOf="@+id/imageButtonAnswerQuiz3"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/buttonNextQuiz"
+        android:layout_width="160dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/rounded_button"
+        android:text="NASTĘPNE SŁOWO"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButtonAnswerQuiz3"
+        tools:ignore="MissingConstraints" />
+
+    <ImageButton
+        android:id="@+id/imageButtonAnswerQuiz1"
+        android:layout_width="160dp"
+        android:layout_height="138dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="18dp"
+        android:background="@drawable/rounded_button"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewQuiz"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textAnswerQuiz1"
+        android:layout_width="144dp"
+        android:layout_height="70dp"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textSize="23sp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageButtonAnswerQuiz1"
+        app:layout_constraintEnd_toEndOf="@+id/imageButtonAnswerQuiz1"
+        app:layout_constraintStart_toStartOf="@+id/imageButtonAnswerQuiz1"
+        app:layout_constraintTop_toTopOf="@+id/imageButtonAnswerQuiz1"
+        tools:ignore="MissingConstraints" />
+
+    <ImageButton
+        android:id="@+id/imageButtonAnswerQuiz2"
+        android:layout_width="160dp"
+        android:layout_height="138dp"
+        android:layout_marginStart="10dp"
+        android:background="@drawable/rounded_button"
+        app:layout_constraintStart_toEndOf="@+id/imageButtonAnswerQuiz1"
+        app:layout_constraintTop_toTopOf="@+id/imageButtonAnswerQuiz1"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textAnswerQuiz2"
+        android:layout_width="144dp"
+        android:layout_height="70dp"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textSize="23sp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageButtonAnswerQuiz2"
+        app:layout_constraintEnd_toEndOf="@+id/imageButtonAnswerQuiz2"
+        app:layout_constraintStart_toStartOf="@+id/imageButtonAnswerQuiz2"
+        app:layout_constraintTop_toTopOf="@+id/imageButtonAnswerQuiz2"
+        tools:ignore="MissingConstraints" />
+
+    <ImageButton
+        android:id="@+id/imageButtonAnswerQuiz3"
+        android:layout_width="160dp"
+        android:layout_height="138dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/rounded_button"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButtonAnswerQuiz1"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textAnswerQuiz3"
+        android:layout_width="144dp"
+        android:layout_height="70dp"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textSize="23sp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageButtonAnswerQuiz3"
+        app:layout_constraintEnd_toEndOf="@+id/imageButtonAnswerQuiz3"
+        app:layout_constraintStart_toStartOf="@+id/imageButtonAnswerQuiz3"
+        app:layout_constraintTop_toTopOf="@+id/imageButtonAnswerQuiz3"
+        tools:ignore="MissingConstraints" />
+
+    <ImageButton
+        android:text="/300 PKT"
+        android:id="@+id/imageButtonAnswerQuiz4"
+        android:layout_width="160dp"
+        android:layout_height="138dp"
+        android:layout_marginStart="10dp"
+        android:background="@drawable/rounded_button"
+        app:layout_constraintStart_toEndOf="@+id/imageButtonAnswerQuiz3"
+        app:layout_constraintTop_toTopOf="@+id/imageButtonAnswerQuiz3"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textAnswerQuiz4"
+        android:layout_width="144dp"
+        android:layout_height="70dp"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textSize="23sp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageButtonAnswerQuiz4"
+        app:layout_constraintEnd_toEndOf="@+id/imageButtonAnswerQuiz4"
+        app:layout_constraintStart_toStartOf="@+id/imageButtonAnswerQuiz4"
+        app:layout_constraintTop_toTopOf="@+id/imageButtonAnswerQuiz4"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/userPKTQuizText"
+        android:layout_width="300dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="1dp"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:textColor="@color/my_blue"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textTextName"
+        tools:ignore="MissingConstraints" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

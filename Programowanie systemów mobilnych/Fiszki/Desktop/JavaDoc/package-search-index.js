@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"m":"org.example","l":"app"},{"m":"org.example","l":"Controllers"},{"m":"org.example","l":"Mail"},{"m":"org.example","l":"Other"},{"m":"org.example","l":"Retrofit.JsonPlaceholderAPI"},{"m":"org.example","l":"Retrofit.Models"}];updateSearchResults();
