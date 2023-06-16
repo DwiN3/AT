@@ -57,17 +57,17 @@ main = do
   putStrLn "\nLiczba liści:"
   print (leafCount mkTree)
 
-  putStrLn "\nReprezentacja drzewa:"
+  putStrLn "\nWyświetlenie drzewa:"
   putStrLn (showTree mkTree 0)
 
   let updatedTree = addElem 4 mkTree
-  putStrLn "\nDrzewo po dodaniu elementu 4:"
+  putStrLn "\nDrzewo po dodaniu 4:"
   putStrLn (showTree updatedTree 0)
 
   let treeList = treeToList updatedTree
-  putStrLn "\nDrzewo skonwertowane do listy:"
+  putStrLn "\nDrzewo do listy:"
   print treeList
 
   let newListToTree = listToTree treeList
-  putStrLn "\nLista skonwertowana do drzewa:"
+  putStrLn "\nLista do drzewa:"
   putStrLn (showTree newListToTree 0)
