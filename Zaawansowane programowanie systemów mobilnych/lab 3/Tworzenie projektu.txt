@@ -1,0 +1,7 @@
+cd C:\Users\dwini\Desktop\ZPSM
+npx react-native init ...
+npm install -g yarn
+
+cd ...
+npx react-native run-android
+emulator -avd Nexus5X
