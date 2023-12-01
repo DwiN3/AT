@@ -1,0 +1,28 @@
+{
+  "expo": {
+    "name": "Quiz_35196",
+    "slug": "Quiz_35196",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon_choose.png",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/splash_choose.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
