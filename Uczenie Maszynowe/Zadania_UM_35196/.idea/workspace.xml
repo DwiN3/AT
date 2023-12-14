@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="71568956-1a4f-4063-8346-76ff5850243f" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,6 +32,11 @@
     &quot;last_opened_file_path&quot;: &quot;D:/Szkola/5 Semestr/Uczenie maszynowe/Zadania_UM_35196&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Szkola\5 Semestr\Uczenie maszynowe\Zadania_UM_35196" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="Zadania_UM_35196" />
