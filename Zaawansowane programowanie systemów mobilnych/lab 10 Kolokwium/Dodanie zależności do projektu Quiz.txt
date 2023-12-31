@@ -1,0 +1,15 @@
+npx create-expo-app Quiz_35196
+cd .\Quiz_35196\
+npm install -g yarn
+npm install @react-navigation/bottom-tabs
+npm instal @react-navigation/native-stack
+npm instal @react-navigation/drawer
+npm instal @react-navigation/material-top-tabs react-native-tab-view
+npx expo install react-native-screens react-native-safe-area-context
+npx expo install react-native-gesture-handler
+npx expo install react-native-reanimated
+npx expo install react-native-pager-view
+npm install @react-navigation/native
+npm install @react-native-async-storage/async-storage
+npm install -save expo
+npx expo start
