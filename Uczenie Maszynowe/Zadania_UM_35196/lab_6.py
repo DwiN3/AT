@@ -11,7 +11,7 @@ from sklearn.metrics import mean_squared_error, mean_absolute_error
 data_frame = pd.read_csv('home_prices.csv')
 
 # 2. Wyświetl wszystkich kolumn
-print("Wszystkie kolumny:", data_frame.columns)
+print("Wszystkie kolumny:\n", data_frame.columns)
 
 # 3. Usunięcie brakujących danych
 data_frame.dropna()
@@ -25,7 +25,7 @@ feature_columns = ['OverallQual', 'OverallCond', 'YearBuilt', 'TotalBsmtSF', '1s
 X = data_frame[feature_columns]
 
 # 7. Wyświetlenie statystyki macierzy cech
-print("Statystyki macierzy cech:")
+print("\nStatystyki macierzy cech:")
 print(X.describe())
 
 # 8. Utwórzenie zbióru treningowego i testowego
@@ -38,9 +38,9 @@ for algorithm in algorithms:
     model = algorithm.fit(X_train, Y_train)
     predictions = model.predict(X_test)
 
-# 10. Wyświetlenie wyników testu
-mse = mean_squared_error(Y_test, predictions)
-mae = mean_absolute_error(Y_test, predictions)
-print(f"\nWyniki dla algorytmu {algorithm_name}:")
-print(f"Mean Squared Error: {mse}")
-print(f"Mean Absolute Error: {mae}")
+    # 10. Wyświetlenie wyników testu
+    mse = mean_squared_error(Y_test, predictions)
+    mae = mean_absolute_error(Y_test, predictions)
+    print(f"\nWyniki dla algorytmu {algorithm_name}:")
+    print(f"Mean Squared Error: {mse}")
+    print(f"Mean Absolute Error: {mae}")
