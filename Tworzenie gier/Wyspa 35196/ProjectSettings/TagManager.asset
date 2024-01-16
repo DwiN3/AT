@@ -7,6 +7,7 @@ TagManager:
   - playerDoor
   - cell
   - coconut
+  - dieInfo
   layers:
   - Default
   - TransparentFX

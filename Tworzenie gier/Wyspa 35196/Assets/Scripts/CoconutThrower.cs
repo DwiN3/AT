@@ -8,7 +8,7 @@ public class CoconutThrower : MonoBehaviour
     public AudioClip throwSound;
     public Rigidbody coconutPrefab;
     public float throwSpeed = 30.0f;
-    public static bool canThrow = false;
+    public static bool canThrow = true;
     public int maxCoconuts = 3;
 
 

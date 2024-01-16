@@ -15,4 +15,11 @@ public class TidyObject : MonoBehaviour
     void Update()
     {
     }
+    void OnCollisionEnter(Collision theObject)
+    {
+        if (theObject.gameObject.name == "Terrain")
+        {
+            gameObject.name = "ground_coconut";
+        }
+    }
 }
