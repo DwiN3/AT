@@ -75,7 +75,7 @@ class ConnectScreen extends Component {
   render() {
     return (
       <View>
-        <Text>Connect Screen</Text>
+        <Text style={{ color: 'white' }}></Text>
         <TouchableOpacity
           style={styles.buttonScan}
           onPress={() => this.scanAndConnect()}
@@ -88,25 +88,25 @@ class ConnectScreen extends Component {
             style={[styles.button, styles.redButton]}
             onPress={() => this.changeDevice('red')}
           >
-            <Text style={styles.buttonText}>Send Red Command</Text>
+            <Text style={styles.buttonText}>Red</Text>
           </TouchableOpacity>
           <TouchableOpacity
             style={[styles.button, styles.greenButton]}
             onPress={() => this.changeDevice('green')}
           >
-            <Text style={styles.buttonText}>Send Green Command</Text>
+            <Text style={styles.buttonText}>Green</Text>
           </TouchableOpacity>
           <TouchableOpacity
             style={[styles.button, styles.blueButton]}
             onPress={() => this.changeDevice('blue')}
           >
-            <Text style={styles.buttonText}>Send Blue Command</Text>
+            <Text style={styles.buttonText}>Blue</Text>
           </TouchableOpacity>
           <TouchableOpacity
             style={[styles.button, styles.offButton]}
             onPress={() => this.changeDevice('off')}
           >
-            <Text style={styles.buttonText}>Turn Off Command</Text>
+            <Text style={styles.buttonText}>Turn Off</Text>
           </TouchableOpacity>
         </View>
       </View>

@@ -1,91 +1,119 @@
-import React, { Component } from 'react';
-import { Text, View, Button } from 'react-native';
-import { BleManager } from 'react-native-ble-plx';
+// EditDeviceScreen.js
+
+import React, { useState, useEffect } from 'react';
+import { Text, View, TextInput, TouchableHighlight } from 'react-native';
+import { useNavigation, useRoute } from '@react-navigation/native';
+import styles from '../styles/NewDeviceStyle';
 import AsyncStorage from '@react-native-async-storage/async-storage';
-import { NavigationContainer, CommonActions } from '@react-navigation/native';
+import { devices, devicesList } from '../data/devices';
 
-import styles from '../styles/ConnectionStyle';
+const EditDeviceScreen = () => {
+  const [name, setName] = useState('');
+  const [place, setPlace] = useState('');
+  const [command, setCommand] = useState('');
+  const [color, setColor] = useState('');
+  const Colors = ["blue", "yellow", "pink", "red", "green", "purple", "orange"];
 
-class ConnectionScreen extends Component {
-  constructor(props) {
-    super(props);
-    this.manager = new BleManager();
-    this.state = {
-      device: null,
-    };
-  }
+  const navigation = useNavigation();
+  const route = useRoute();
+  const { deviceToEdit } = route.params || {}; 
 
-  checkBluetoothState() {
-    const subscription = this.manager.onStateChange((state) => {
-      if (state === 'PoweredOn') {
-        this.scanAndConnect();
-        subscription.remove();
+  useEffect(() => {
+    if (deviceToEdit) {
+      setName(deviceToEdit.name || '');
+      setPlace(deviceToEdit.place || '');
+      setCommand(deviceToEdit.command || '');
+      setColor(deviceToEdit.color || Colors[0]);
+    }
+  }, [deviceToEdit]);
+
+  const handleSave = async () => {
+    try {
+      const updatedDevice = {
+        name,
+        place,
+        command,
+        color,
+      };
+      const storedDevicesList = await AsyncStorage.getItem('devicesList');
+      let updatedDevicesList = storedDevicesList ? JSON.parse(storedDevicesList) : [];
+  
+      if (deviceToEdit) {
+        updatedDevicesList = updatedDevicesList.map((device) =>
+          device.id === deviceToEdit.id ? { ...device, ...updatedDevice } : device
+        );
+      } else {
+        const newDevice = { ...updatedDevice, id: Date.now().toString() };
+        updatedDevicesList.push(newDevice);
       }
-    }, true);
-  }
+      await AsyncStorage.setItem('devicesList', JSON.stringify(updatedDevicesList));
+      console.log('Edycja udana');
+      navigation.navigate('Devices');
+    } catch (error) {
+      console.error('Error saving device:', error);
+    }
+  };
 
-  scanAndConnect() {
-    this.manager.startDeviceScan(null, null, (error, device) => {
-      if (error) {
-        console.log('Error', error);
-        return;
-      }
-      console.log('DEVICE ', device);
+  const exit = () => {
+    navigation.navigate('Devices');
+  };
 
-      AsyncStorage.getItem('devicesList').then((storedDevices) => {
-        const devicesList = storedDevices ? JSON.parse(storedDevices) : [];
-        const foundDevice = devicesList.find(dev => dev.name === device.name);
-        if (foundDevice) {
-          this.manager.stopDeviceScan();
-          this.connectToDevice(device);
-        }
-      });
-    });
-  }
+  const handleColorSelect = (selectedColor) => {
+    setColor(selectedColor);
+  };
 
-  connectToDevice(device) {
-    device.connect()
-      .then((connectedDevice) => {
-        return connectedDevice.discoverAllServicesAndCharacteristics();
-      })
-      .then((characteristic) => {
-        console.log('Connected to', device.name, characteristic);
-        this.setState({ device: characteristic });
+  return (
+    <View style={styles.container}>
+      <TextInput
+        style={styles.input}
+        placeholder="Name"
+        value={name}
+        onChangeText={(text) => setName(text)}
+      />
+      <TextInput
+        style={styles.input}
+        placeholder="Place"
+        value={place}
+        onChangeText={(text) => setPlace(text)}
+      />
+      <TextInput
+        style={styles.input}
+        placeholder="Command"
+        value={command}
+        onChangeText={(text) => setCommand(text)}
+      />
 
-        AsyncStorage.getItem('devicesList').then((storedDevices) => {
-          const devicesList = storedDevices ? JSON.parse(storedDevices) : [];
-          const foundDevice = devicesList.find(dev => dev.name === device.name);
-          const deviceInfo = {
-            id: foundDevice.id,
-            serviceUUID: 'FFE0', 
-            characteristicUUID: 'FFE1',
-          };
-
-          AsyncStorage.setItem('device', JSON.stringify(deviceInfo));
-
-          NavigationContainer.dispatch({
-            ...CommonActions.navigate({ name: 'Devices' }),
-            target: this.props.navigation.dangerouslyGetState().key,
-          });
-        });
-      })
-      .catch((error) => {
-        console.log('Error', error);
-      });
-  }
-
-  render() {
-    return (
-      <View>
-        <Button
-          title="Scan and Connect"
-          onPress={() => this.checkBluetoothState()}
-          style={styles.button}
-        />
-        <Text>{this.state.device ? `Connected to ${this.state.device.name}` : 'Not connected'}</Text>
+      <View><Text style={{ fontSize:20, marginVertical:12 }} >Colors</Text></View>
+      <View style={styles.colorsContainer}>
+        {Colors.map((c) => (
+          <TouchableHighlight
+            key={c}
+            style={[
+              styles.circleOneColor,
+              { backgroundColor: c, borderWidth: color === c ? 2 : 0 },
+            ]}
+            onPress={() => handleColorSelect(c)}
+          >
+            <View style={{ width: 40, height: 40, borderRadius: 20 }} />
+          </TouchableHighlight>
+        ))}
       </View>
-    );
-  }
-}
 
-export default ConnectionScreen;
+      <TouchableHighlight
+        style={[styles.buttonContainer, styles.button, { backgroundColor: 'green' }]}
+        onPress={handleSave}
+      >
+        <Text style={styles.buttonText}>Save</Text>
+      </TouchableHighlight>
+
+      <TouchableHighlight
+        style={[styles.buttonContainer, styles.button, { backgroundColor: 'red' }]}
+        onPress={exit}
+      >
+        <Text style={styles.buttonText}>Cancel</Text>
+      </TouchableHighlight>
+    </View>
+  );
+};
+
+export default EditDeviceScreen;
