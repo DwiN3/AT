@@ -1,0 +1,38 @@
+<div class="wrapper">
+    <div class="box">
+        <div class="check-box">
+            <div>
+                <input
+                type="radio"
+                name="mode"
+                value="learning"
+                [(ngModel)]="selectedMode"
+                (change)="ChangeMode()"
+                >
+                <h4>Tryb nauki</h4>
+            </div>
+            <div>
+                <input
+                type="radio"
+                name="mode"
+                value="quiz"
+                [(ngModel)]="selectedMode"
+                (change)="ChangeMode()"
+                >
+                <h4>Tryb quizu</h4>
+            </div>
+        </div>
+        <div class="icon">
+            <fa-icon [icon]="faRepeat" (click)="ChangeLanguage()"></fa-icon>
+        </div>
+        <div class="flags">
+            <img *ngIf="polishFirst" src="../../../../../../../assets/images/poland.png">
+            <img *ngIf="!polishFirst" src="../../../../../../../assets/images/uk.png">
+            <fa-icon [icon]="faArrowRight"></fa-icon>
+            <img *ngIf="polishFirst" src="../../../../../../../assets/images/uk.png">
+            <img *ngIf="!polishFirst" src="../../../../../../../assets/images/poland.png">
+        </div>
+        <div class="item" [routerLink]="['categories']">Kategorie</div>
+        <div class="item" [routerLink]="['collections']">Twoje zestawy</div>
+    </div>
+</div>

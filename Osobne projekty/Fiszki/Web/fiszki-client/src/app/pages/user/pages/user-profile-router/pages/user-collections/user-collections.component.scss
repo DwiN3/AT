@@ -1,0 +1,135 @@
+@use '../../../../../../../assets/scss/base';
+@use '../../../../../../../assets/scss/shared-styles';
+
+.wrapper
+{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: base.$main-font;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: base.$secondary-color;
+    padding: 100px 0px;
+
+    h3
+    {
+       margin-bottom: 20px;
+    }
+}
+
+.carousel-wrapper
+{
+    width: 90%;
+    position: relative;
+    display: flex;
+}
+
+.carousel-box
+{
+    width: 90%;
+    height: 250px;
+    display: flex;
+    justify-content: flex-start;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+}
+
+.carousel-box::-webkit-scrollbar{
+    display: none;
+}
+
+.controls
+{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1; 
+}
+
+.arrow
+{
+    width: 50px;
+    height: 50px;
+    background-color: base.$primary-color;
+    border-radius: 50%;
+    transition: all ease-in-out 0.2s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.unactive
+{
+    background-color: #eeeeee;
+    color: #dddddd;
+    cursor: default;
+}
+
+.left
+{
+    left: 0;
+}
+
+.left:hover
+{
+    transform: translateX(-5px);
+}
+
+.right
+{
+    right: 0;
+}
+
+.right:hover
+{
+    transform: translateX(5px);
+}
+
+.carousel
+{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    transition: all ease-in-out 0.5s;
+    z-index: 1;
+}
+
+@media(max-width : base.$medium)
+{
+    .carousel-box
+    {
+        overflow: scroll;
+    }
+
+    .controls{
+        display: none;
+    }
+}
+
+.button
+{
+    margin-top: 50px;
+    @include shared-styles.background-gradient;
+    @include shared-styles.button;
+    padding: 15px 20px;
+}
+
+.alert
+{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

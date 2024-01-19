@@ -1,0 +1,113 @@
+@use '../../../../../../../../../assets/scss/base';
+
+.wrapper
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-family: base.$main-font;
+    color: base.$secondary-color;
+    padding: 100px 0px;
+}
+
+.box
+{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.game-board
+{
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    h3
+    {
+        font-size: 28px;
+    }
+}
+
+.points
+{
+    margin-top: 20px;
+}
+
+.wariants
+{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 200px;
+    grid-template-rows: repeat(4, 200px);
+    gap: 10px;
+    justify-content: center;
+    margin-top: 20px;
+
+    div
+    {
+        width: 200px;
+        height: 200px;
+        border-radius: 10px;
+        margin: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        background: #00a6fb;
+        background: linear-gradient(0deg, #0066a1 0%, #00a6fb 70%);
+    }
+
+    div:hover
+    {
+        border: 1px solid base.$secondary-color;
+    }
+}
+
+.timer
+{
+    width: 400px;
+    height: 20px;
+    border: 2px solid base.$secondary-color;
+    border-radius: 100px;
+    margin-top: 20px;
+    overflow: hidden;
+    padding: 2px;
+
+    div
+    {
+        width: 50%;
+        height: 100%;
+        background-color: base.$primary-color;
+        border-radius: 100px;
+        transition: background-color ease-in-out 0.1s;
+    }
+}
+
+@media(min-width : 576px)
+{
+    .wariants
+    {
+        grid-template-columns: repeat(2, 200px);
+        grid-template-rows: repeat(2, 200px);
+        gap: 10px;
+    }
+}
+
+@media(min-width : 992px)
+{
+    .wariants
+    {
+        grid-template-columns: repeat(4, 200px);
+        grid-template-rows: 200px;
+        gap: 15px;
+    }
+}

@@ -1,0 +1,70 @@
+<ng-template appPlaceholder></ng-template>
+<div class="wrapper">
+    <div class="box">
+        <div class="cross" (click)="CloseForm()"><fa-icon [icon]="faCross"></fa-icon></div>
+        <h3 *ngIf="!editMode">Dodaj Fiszkę</h3>
+        <h3 *ngIf="editMode">Edytuj Fiszkę</h3>
+        <form #form="ngForm" (ngSubmit)="Submit()">
+            <div>
+                <label>
+                    <img src="../../../../../../../../../assets/images/poland.png" width="30px">Słowo
+                </label>
+                <input
+                    type="text"
+                    required
+                    minlength="2"
+                    placeholder="słowo"
+                    name="word"
+                    [(ngModel)]="flashcard.word"
+                >
+            </div>
+            <div>
+                <label>
+                    <img src="../../../../../../../../../assets/images/uk.png" width="30px">Tłumaczenie
+                </label>
+                <input
+                    type="text"
+                    required
+                    minlength="2"
+                    placeholder="tłumaczenie"
+                    name="translatedWord"
+                    [(ngModel)]="flashcard.translatedWord"
+                >
+            </div>
+            <div>
+                <label>
+                    <img src="../../../../../../../../../assets/images/poland.png" width="30px">Przykład
+                </label>
+                <input
+                    type="text"
+                    required
+                    minlength="2"
+                    placeholder="przykład"
+                    name="example"
+                    [(ngModel)]="flashcard.example"
+                >
+            </div>
+            <div>
+                <label>
+                    <img src="../../../../../../../../../assets/images/uk.png" width="30px">Tłumaczenie
+                </label>
+                <input
+                    type="text"
+                    required
+                    minlength="2"
+                    placeholder="tłuaczenie"
+                    name="translatedExample"
+                    [(ngModel)]="flashcard.translatedExample"
+                >
+            </div>
+            <div>
+                <label style="padding : 5px">Kategoria</label>
+                <select name="selectedCategory" id="category" [(ngModel)]="selectedCategory">
+                    <option *ngFor="let option of options" [value]="option">{{option}}</option>
+                </select>
+            </div>
+            <button [ngClass]="form.valid === true ? 'active' : 'unactive'">Zatwierdź</button>
+        </form>
+    </div>
+</div>
+<app-loader *ngIf="isLoading"/>

@@ -1,0 +1,45 @@
+@use '../../../../../../../assets/scss/base';
+@use '../../../../../../../assets/scss/shared-styles.scss';
+
+.wrapper
+{
+    @include shared-styles.user-wrapper;
+}
+
+.box
+{
+    @include shared-styles.user-box;
+}
+
+.border
+{
+    width: 200px;
+    height: 25px;
+    border: 2px solid #00446b;
+    border-radius: 20px;
+    padding: 2px;
+    position: relative;
+    margin-top: 10px;
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 5px;
+
+    p
+    {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        bottom: 0;
+    }
+
+    div
+    {
+        width: 20%;
+        height: 100%;
+        background-color: base.$primary-color;
+        border-radius: 20px;
+    }
+}

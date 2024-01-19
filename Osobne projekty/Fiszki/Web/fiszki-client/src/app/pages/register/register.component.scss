@@ -1,0 +1,32 @@
+@use '../../../assets/scss/base';
+@use '../../../assets/scss/shared-styles.scss';
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Pacifico&display=swap');
+
+.wrapper
+{
+    width: 100%;
+    height: 100vh;
+    min-height: 600px;
+    @include shared-styles.background-gradient;
+}
+
+.box
+{
+   @include shared-styles.logo;
+}
+
+.flags
+{
+   @include shared-styles.flags
+}
+
+.form-box
+{
+    @include shared-styles.forms
+}
+
+.error
+{
+    color: red;
+    margin-top: 5px;
+}

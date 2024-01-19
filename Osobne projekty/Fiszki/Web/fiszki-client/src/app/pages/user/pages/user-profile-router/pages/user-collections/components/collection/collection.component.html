@@ -1,0 +1,12 @@
+<div class="alert">
+    <ng-template appPlaceholder></ng-template>
+</div>
+<div class="flashcard">
+    <h4>{{collectionName}}</h4>
+    <p>Ilość fiszek: {{flashcardsQuantity}}</p>
+    <div class="icons">
+        <div (click)="OnEdit()"><fa-icon [icon]="faEdit"></fa-icon></div>
+        <div (click)="OnDelete()"><fa-icon [icon]="faTrash"></fa-icon></div>
+    </div>
+</div>
+

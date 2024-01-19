@@ -1,0 +1,12 @@
+com.example.Fiszki
+com.example.Fiszki.app
+com.example.Fiszki.flashcards
+com.example.Fiszki.flashcards.flashcard
+com.example.Fiszki.flashcards.request
+com.example.Fiszki.flashcards.response
+com.example.Fiszki.Instance
+com.example.Fiszki.security.auth
+com.example.Fiszki.security.auth.request
+com.example.Fiszki.security.auth.response
+com.example.Fiszki.security.config
+com.example.Fiszki.security.user

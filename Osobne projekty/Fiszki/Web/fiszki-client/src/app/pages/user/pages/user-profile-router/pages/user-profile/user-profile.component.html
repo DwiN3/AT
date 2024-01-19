@@ -1,0 +1,12 @@
+<app-loader *ngIf="isLoading"/>
+<div class="wrapper">
+    <div class="box">
+        <h4 *ngIf="levelInfo">aktualny level: {{levelInfo.level}}</h4>
+        <h4>Następny level:</h4>
+        <div class="border">
+            <div *ngIf="levelInfo" [lvlStatus]="levelInfo.points" [pointsRequired]="levelInfo.nextLevelPoints"></div>
+            <p *ngIf="levelInfo">{{levelInfo.points}}/{{levelInfo.nextLevelPoints}}</p>
+        </div>
+        <div class="item"><a [routerLink]="['change-password']">Zmień hasło</a></div>
+    </div>
+</div>

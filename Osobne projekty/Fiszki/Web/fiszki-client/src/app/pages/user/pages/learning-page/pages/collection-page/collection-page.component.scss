@@ -1,0 +1,52 @@
+@use '../../../../../../../assets/scss/base';
+
+.wrapper
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: base.$main-font;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #00446b;
+    padding: 100px 0px;
+}
+
+.box
+{
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    flex-wrap: wrap;
+}
+
+.limit
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    div
+    {
+        display: flex;
+
+        input
+        {
+            cursor: pointer;
+        }
+
+        h4
+        {
+            padding: 0 10px;
+            font-size: 20px;
+        }
+    }
+
+    h4
+    {
+        padding: 15px;
+    }
+}

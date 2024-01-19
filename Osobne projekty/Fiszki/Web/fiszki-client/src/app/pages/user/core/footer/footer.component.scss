@@ -1,0 +1,66 @@
+@use '../../../../../assets/scss/base';
+
+.footer
+{
+    width: 100%;
+    height: 150px;
+    background: #00a6fb;
+    background: linear-gradient(0deg, #0066a1 0%, #00a6fb 70%);
+    color: base.$secondary-color;
+    font-family: base.$main-font;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.container
+{
+    width: 90%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+    p
+    {
+        height: 20%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+    }
+}
+
+.icons
+{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    div
+    {
+        width: 60px;
+        height: 60px;
+        background-color: white;
+        border-radius: 100px;
+        margin: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        font-size: 25px;
+        transition: all ease-in-out 0.1s;
+    }
+
+    div:hover
+    {
+        font-size: 28px;
+    }
+    
+}
+

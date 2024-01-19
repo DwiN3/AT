@@ -1,0 +1,10 @@
+<app-loader *ngIf="isLoading"/>
+<div class="wrapper">
+    <div class="box">
+        <h4 *ngIf="currentUser">Witaj {{currentUser.firstName}}!</h4>
+        <div class="item" [routerLink]="['learning']"><a>Nauka</a></div>
+        <div class="item"><a [routerLink]="['profile/collections']">Twoje Fiszki</a></div>
+        <div class="item"><a [routerLink]="['profile']">Twój profil</a></div>
+        <h4 (click)="LogOut()">Wyloguj sie</h4>
+    </div>
+</div>

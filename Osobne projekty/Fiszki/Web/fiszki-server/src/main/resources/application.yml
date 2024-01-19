@@ -1,0 +1,19 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://195.150.230.208:5432/2023_polak_michal?currentSchema=fiszki
+    username: 2023_polak_michal
+    password: 35229
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+      database: postgresql
+      database-platform: org.hibernate.dialect.PostgreSQLDialect
+    open-in-view: false # Only for delete warning
+
+security:
+  filter-dispatcher-types=REQUEST:

@@ -1,0 +1,223 @@
+@use './base';
+
+
+@mixin background-gradient
+{
+    background: #00a6fb;
+    background: linear-gradient(0deg, #00a6fb 0%, #0066a1 70%);
+}
+
+@mixin button
+{
+    padding: 10px 25px;
+    border: 0;
+    border-radius: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-family: base.$main-font;
+    letter-spacing: 2px;
+}
+
+@mixin unactive-button
+{
+    cursor: default;
+    color: gainsboro;
+}
+
+@mixin logo
+{
+    width: 300px;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    a
+    {
+        font-size: 15px;
+        color: white;
+        text-decoration: none;
+        font-family: base.$main-font;
+        margin-top: 10px;
+    }
+
+    h3
+    {
+        font-family: 'Pacifico', cursive;
+        color: #00446b;
+        font-size: 50px;
+        text-transform: uppercase;
+        letter-spacing: 5px;
+    }
+
+    p
+    {
+        font-family: base.$main-font;
+    }
+
+    .p-header
+    {
+        font-size: 20px;
+        color: #00446b;
+    }
+}
+
+@mixin flags
+{
+    position: relative;
+    margin-top: 20px;
+
+    img
+    {
+        width: 70px;
+        margin: 10px;
+    }
+
+    .flag-1
+    {
+        position: absolute;
+        top: -10px;
+        left: -100px;
+    }
+
+    .flag-3
+    {
+        position: absolute;
+        top: -10px;
+        right: -100px;
+    }
+
+    .flag-2
+    {
+        width: 80px;
+    }
+}
+
+@mixin forms
+{
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    font-family: base.$main-font;
+
+    form
+    {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    div
+    {
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        padding: 5px;
+    }
+
+    input
+    {
+        border: 2px solid #005485;
+        padding: 10px;
+        border-radius: 10px;
+    }
+
+    input:focus
+    {
+        outline: none !important;
+        padding: 10px;
+        border-radius: 10px;
+        background-color: #b7e1fa;
+    }
+
+    button
+    {
+        margin-top: 10px;
+        @include button;
+    }
+
+    .unactive
+    {
+        @include unactive-button;
+    }
+
+    label
+    {
+        margin-left: 10px;
+        color: #00446b;
+    }
+}
+
+@mixin user-wrapper
+{
+    width: 100%;
+    height: calc(100vh - 250px);
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: base.$main-font;
+    letter-spacing: 2px;
+}
+
+@mixin user-box 
+{
+    text-transform: uppercase;
+    color: #00446b;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    h4
+    {
+        cursor: pointer;
+        margin: 10px;
+        text-align: center;
+    }
+
+    .item
+    {
+        margin: 15px;
+        height: 50px;
+        width: 250px;
+        border-radius: 10px;
+        font-weight: 600;
+        background: #0066a1;
+        background: linear-gradient(90deg, #0066a1 25%, #00a6fb 100%);
+        cursor: pointer;
+        box-shadow: 0px 4px 10px -7px rgba(66, 68, 90, 1);
+        transition: all ease-in-out 0.2s;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .item:hover
+    {
+        opacity: 0.9;
+    }
+
+    h4:hover
+    {
+        opacity: 0.9;
+    }
+
+    a
+    {
+        text-decoration: none;
+        color: #00446b;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}

@@ -1,0 +1,63 @@
+<ng-template appPlaceholder></ng-template>
+<div class="wrapper">
+    <div class="box">
+        <app-logo/>
+        <div class="form-box">
+            <form #form="ngForm">
+                <div>
+                    <label>Imię</label>
+                    <input
+                        type="text"
+                        placeholder="imię"
+                        name="firstname"
+                        required
+                        minlength="2"
+                        [(ngModel)]="userData.firstname"
+                    >
+                </div>
+                <div>
+                    <label>Nazwisko</label>
+                    <input
+                        type="text"
+                        placeholder="nazwisko"
+                        name="lastname"
+                        required
+                        minlength="2"
+                        [(ngModel)]="userData.lastname"
+                    >
+                </div>
+                <div>
+                    <label>E-mail</label>
+                    <input
+                        type="e-mail"
+                        placeholder="e-mail"
+                        name="email"
+                        required
+                        email
+                        [(ngModel)]="userData.email"
+                    >
+                </div>
+                <div>
+                    <label>Hasło</label>
+                    <input
+                        type="password"
+                        name="password"
+                        required
+                        [(ngModel)]="userData.password"
+                    >
+                </div>
+                <div>
+                    <label>Powtórz hasło</label>
+                    <input
+                        type="password"
+                        name="repeatedPassword"
+                        required
+                        [(ngModel)]="userData.repeatedPassword"
+                    >
+                </div>
+                <button [ngClass]="form.valid === true ? null : 'unactive'" type="submit" (click)="SubmitForm()">Załóż konto</button>
+            </form>
+        </div>
+        <p class="error" *ngIf="error">{{error}}</p>
+    </div>
+</div>

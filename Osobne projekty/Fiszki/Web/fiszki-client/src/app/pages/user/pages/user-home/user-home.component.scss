@@ -1,0 +1,12 @@
+@use '../../../../../assets/scss/shared-styles.scss';
+@use '../../../../../assets/scss/base';
+
+.wrapper
+{
+   @include shared-styles.user-wrapper;
+}
+
+.box
+{
+    @include shared-styles.user-box;
+}

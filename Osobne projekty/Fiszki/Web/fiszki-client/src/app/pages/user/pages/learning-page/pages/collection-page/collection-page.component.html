@@ -1,0 +1,13 @@
+<ng-template appPlaceholder></ng-template>
+<app-loader *ngIf="isLoading"></app-loader>
+<div class="wrapper">
+    <h4>Wybierz kolekcje</h4>
+    <div class="box">
+        <h4 *ngIf="collections.length === 0 && isLoading === false">Brak kolekcji</h4>
+        <app-collection-item *ngFor="let collection of collections; let i=index"
+            (click)="SetCollection(i)"
+            [collectionName]="collection.collectionName"
+            [flashcardsQuantity]="collection.flashcardsQuantity"
+        />
+    </div>
+</div>

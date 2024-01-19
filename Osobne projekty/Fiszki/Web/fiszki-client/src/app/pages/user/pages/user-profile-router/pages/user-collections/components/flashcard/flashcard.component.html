@@ -1,0 +1,24 @@
+<div class="container" *ngIf="flashcard">
+    <div class="flashcard" [class.flipped]="isFlipped" (click)="ToggleCard()">
+        <div class="front">
+            <div class="header">
+                <h3>{{flashcard.word}}</h3>
+            </div>
+            <div class="body">
+                <p>{{flashcard.example}}</p>
+            </div>
+            <div class="icons">
+                <div  *ngIf="flashcard.id" (click)="OnEdit(flashcard.id)"><fa-icon [icon]="faEdit"></fa-icon></div>
+                <div *ngIf="flashcard.id" (click)="OnDelete(flashcard.id)"><fa-icon [icon]="faTrash"></fa-icon></div>
+            </div>
+        </div>
+        <div class="back">
+            <div class="header">
+                <h3>{{flashcard.translatedWord}}</h3>
+            </div>
+            <div class="body">
+                <p>{{flashcard.translatedExample}}</p>
+            </div>
+        </div>
+    </div>
+</div>

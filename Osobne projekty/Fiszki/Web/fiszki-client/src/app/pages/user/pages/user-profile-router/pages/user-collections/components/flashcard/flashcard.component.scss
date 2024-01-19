@@ -1,0 +1,90 @@
+@use '../../../../../../../../../assets/scss/base';
+
+.container
+{
+    width: 250px;
+    height: 250px;
+    position: relative;
+    margin: 10px;
+}
+
+.flashcard
+{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border: 1px solid gainsboro;
+    color: base.$secondary-color;
+    font-family: base.$main-font;
+    cursor: pointer;
+    position: absolute;
+    transform-style: preserve-3d;
+    transition: all 0.5s ease;
+    border-radius: 5px;
+}
+
+.flashcard.flipped
+{
+    transform: rotateY(180deg);
+}
+
+.front
+{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+}
+
+.back
+{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    transform: rotateY(180deg);
+}
+
+.header
+{
+    width: 100%;
+    height: 30%;
+    background-color: base.$primary-color;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.body
+{
+    padding: 25px 5px;
+    text-align: center;
+}
+
+.icons
+{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 10px;
+    font-size: 20px;
+
+    div
+    {
+        padding: 5px;
+        transition: all ease-in 0.1s;
+    }
+}
+
+.icons div:hover
+{
+    color: base.$primary-color;
+}

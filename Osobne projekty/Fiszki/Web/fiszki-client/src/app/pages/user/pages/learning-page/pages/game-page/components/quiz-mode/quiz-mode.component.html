@@ -1,0 +1,20 @@
+<div class="wrapper">
+    <div class="box">
+        <h3>Pozostałe Fiszki : {{this.quiz.length - round - 1}}</h3>
+        <div class="timer">
+            <div [ngStyle]="{'width.px' : timerWidth, 'background-color': timerWidth >= 300 ? 'red' : '#00a6fb'}"></div>
+        </div>
+        <div class="game-board">
+            <h3>{{quiz[round].question}}</h3>
+            <div class="wariants" #wariantRef >
+                <div *ngFor="let wariant of quiz[round].wariants" (click)="ChooseWariant(wariant)">
+                    {{wariant}}
+                </div>
+            </div>
+        </div>
+        <h3 class="points">Punkty : {{points}}</h3>
+    </div>
+</div>
+<app-quiz-summary *ngIf="round === quiz.length - 1 && isClicked"
+    [scoredPoints]="points"
+/>

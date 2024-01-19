@@ -1,0 +1,25 @@
+<app-loader *ngIf="isLoading"/>
+<ng-template appPlaceholder></ng-template>
+<div class="wrapper">
+    <div class="container">
+        <div class="button" (click)="OpenForm()">Dodaj fiszkę</div>
+        <div class="box">
+            <h3 *ngIf="collection.length === 0 && !isLoading">Brak fiszek</h3>
+            <div *ngIf="collection.length > 0">
+                <app-flashcard *ngFor="let flashcard of collection; index as i"
+                    [flashcard]="flashcard"
+                    (onDeleteEvent)="OnDelete($event)"
+                    (onEditEvent)="OnEdit($event)"
+                />
+            </div>
+        </div>
+    </div>
+</div>
+<app-flashcard-edit-form 
+    *ngIf="isFormOpen"
+    (closeFormEvent)="isFormOpen=false"
+    (flashcardEvent)="OnAdd($event)"
+    [flashcard]="flashcard"
+    [editMode]="editMode"
+    [collectionName]="collectionName"
+/>

@@ -1,0 +1,30 @@
+@use './../../../assets/scss/shared-styles.scss';
+@use './../../../assets/scss/base.scss';
+
+.wrapper
+{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    padding: 300px;
+    top: 0;
+    @include shared-styles.background-gradient;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: base.$main-font;
+    letter-spacing: 2px;
+    color: white;
+
+    h1
+    {
+        padding: 10px;
+    }
+
+    a
+    {
+        color: base.$secondary-color;
+        text-decoration: none;
+    }
+}

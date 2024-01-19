@@ -1,0 +1,118 @@
+@use '../../../../../../../../../assets/scss/shared-styles.scss';
+@use '../../../../../../../../../assets/scss/base.scss';
+
+.wrapper
+{
+    width: 100%;
+    height: 100%;
+    background-color: #0000009a;
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cross
+{
+    position: absolute;
+    top: 10px;
+    right: -310px;
+    font-size: 25px;
+    cursor: pointer;
+    color: base.$primary-color;
+}
+
+.box
+{
+    @include shared-styles.forms;
+    width: 80%;
+    max-width: 500px;
+    min-width: 300px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    position: relative;
+
+    div
+    {
+        width: 70%;
+    }
+
+    input
+    {
+        border: 2px solid base.$primary-color;
+    }
+
+    h3
+    {
+        text-transform: uppercase;
+        color: base.$secondary-color;
+        padding: 20px;
+    }
+
+    label
+    {
+        display: flex;
+        align-items: center;
+        letter-spacing: 2px;
+
+        img
+        {
+            padding: 5px;
+        }
+    }
+
+    button
+    {
+        @include shared-styles.button;
+        margin-bottom: 15px;
+    }
+
+    .unactive
+    {
+        @include shared-styles.unactive-button;
+    }
+
+    .active
+    {
+        transition: all ease-in-out 0.2s;
+    }
+
+    .active:hover
+    {
+        cursor: pointer;
+        background-color: base.$primary-color;
+    }
+
+    select
+    {
+        
+        text-indent: 1px;
+        text-overflow: '';
+        width: 150px;
+        padding: 10px;
+        border-radius: 10px;
+        border: 2px solid base.$primary-color;
+        color: base.$secondary-color;
+        cursor: pointer;
+        text-transform: uppercase;
+        font-family: base.$main-font;
+        letter-spacing: 2px;
+
+        option 
+        {
+            background-color: #ffffff;
+        }
+
+    }
+    
+    option:hover 
+    {
+        background-color: #f0f0f0;
+    }
+}
+

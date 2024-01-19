@@ -1,0 +1,19 @@
+<ng-template appPlaceholder></ng-template>
+<div class="wrapper">
+    <div class="box">
+        <div class="icon" (click)="CloseForm()"><fa-icon [icon]="faRemove"/></div>
+        <h2>Dodaj zestaw</h2>
+        <form #form="ngForm" (ngSubmit)="OnAdd(collectionName)">
+            <h5>Nazwa zestawu</h5>
+            <input 
+                type="text"
+                placeholder="nazwa"
+                name="name"
+                required
+                [(ngModel)]="collectionName"
+            >
+            <button type="submit" [ngClass]="form.valid === true ? 'active' : 'unactive'">Dodaj</button>
+        </form>
+    </div>
+</div>
+<app-loader *ngIf='isLoading'/>

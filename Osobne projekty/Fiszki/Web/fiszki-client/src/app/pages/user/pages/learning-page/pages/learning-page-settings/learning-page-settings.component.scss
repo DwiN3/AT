@@ -1,0 +1,53 @@
+@use '../../../../../../../assets/scss/shared-styles.scss';
+@use '../../../../../../../assets/scss/base';
+
+.wrapper
+{
+    width: 100%;
+    font-family: base.$main-font;
+    letter-spacing: 2px;
+}
+
+.box
+{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 50px;
+    @include shared-styles.user-box;
+}
+
+.check-box
+{
+    margin-bottom: 30px;
+
+    div
+    {
+        display: flex;
+    }
+
+    input
+    {
+        cursor: pointer;
+    }
+}
+
+.flags
+{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    img
+    {
+        margin: 30px;
+        width: 70px;
+    }
+}
+
+.icon
+{
+    font-size: 30px;
+    cursor: pointer;
+}

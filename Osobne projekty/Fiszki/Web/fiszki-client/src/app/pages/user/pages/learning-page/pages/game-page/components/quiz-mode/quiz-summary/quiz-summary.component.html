@@ -1,0 +1,13 @@
+<app-loader *ngIf="isLoading"/>
+<div class="wrapper">
+    <div class="box" *ngIf="!isLoading">
+        <h3>Twój level: {{userLevel.level}}</h3>
+        <div class="level">
+            <span  
+            [ngStyle]="{'width': levelWidth + '%'}">
+            </span>
+            <h3>{{userLevel.points}} / {{userLevel.nextLevelPoints}}</h3>
+        </div>
+        <button (click)="Navigate()">Menu</button>
+    </div>
+</div>

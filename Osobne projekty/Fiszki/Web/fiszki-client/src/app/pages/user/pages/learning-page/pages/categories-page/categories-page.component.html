@@ -1,0 +1,20 @@
+<ng-template appPlaceholder></ng-template>
+<app-loader *ngIf="isLoading"></app-loader>
+<div class="wrapper">
+    <div class="limit">
+        <h4>Ustaw limit fiszek</h4>
+        <div>
+            <input type="range" min="5" max="30" [(ngModel)]="limit">
+            <h4>{{limit}}</h4>
+        </div>
+    </div>
+    <h4>Wybierz kategorie</h4>
+    <div class="box">
+        <app-categories-item 
+            *ngFor="let category of categories; let i=index"
+            (click)="SetCategory(i)"
+            [categoryName]="category.categoryName"
+            [icon]="category.icon"    
+        />
+    </div>
+</div>

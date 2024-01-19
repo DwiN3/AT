@@ -1,0 +1,36 @@
+<ng-template appPlaceholder></ng-template>
+<app-loader *ngIf="isLoading"/>
+<div class="wrapper">
+    <div class="box">
+        <app-logo/>
+        <div class="form-box">
+            <form #form="ngForm" (ngSubmit)="Submit()">
+                <div>
+                    <label>E-mail</label>
+                    <input
+                        type="e-mail"
+                        placeholder="e-mail"
+                        name="email"
+                        required
+                        email
+                        [(ngModel)]="userData.email"
+                    >
+                </div>
+                <div>
+                    <label>Hasło</label>
+                    <input
+                        type="password"
+                        placeholder="hasło"
+                        name="password"
+                        required
+                        [(ngModel)]="userData.password"
+                    >
+                </div>
+                <button [ngClass]="form.valid === true ? null : 'unactive'" type="submit">Zaloguj się</button>
+            </form>
+        </div>
+        <a [routerLink]="['register']">Załóż konto</a>
+        <a [routerLink]="['password-reset']">Resetowanie hasła</a>
+        <p class="error" *ngIf="error">{{this.error}}</p>
+    </div>
+</div>
