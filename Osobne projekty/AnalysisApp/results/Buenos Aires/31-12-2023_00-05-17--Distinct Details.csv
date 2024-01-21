@@ -1,0 +1,1128 @@
+"simulationTime[s]","districtName","districtSafetyLevel","amountOfPatrols","amountOfPatrollingPatrols","amountOfCalculatingPathPatrols","amountOfTransferToInterventionPatrols","amountOfTransferToFiringPatrols","amountOfInterventionPatrols","amountOfFiringPatrols","amountOfReturningToHqPatrols","amountOfIncidents","isNight"
+3603,Villa Santa Rita,RatherSafe,0,0,0,0,0,0,0,0,0,0
+3603,Villa del Parque,NotSafe,1,0,1,0,0,0,0,0,1,0
+3603,Villa General Mitre,Safe,0,0,0,0,0,0,0,0,0,0
+3603,Villa Devoto,RatherSafe,5,0,0,1,0,0,4,0,3,0
+3603,Villa Pueyrredón,RatherSafe,1,0,0,0,0,1,0,0,1,0
+3603,Agronomía,Safe,0,0,0,0,0,0,0,0,1,0
+3603,La Paternal,NotSafe,3,0,1,2,0,0,0,0,1,0
+3603,Parque Chas,RatherSafe,0,0,0,0,0,0,0,0,1,0
+3603,Chacarita,RatherSafe,0,0,0,0,0,0,0,0,0,0
+3603,Villa Ortúzar,RatherSafe,1,1,0,0,0,0,0,0,1,0
+3603,Villa Crespo,NotSafe,1,1,0,0,0,0,0,0,2,0
+3603,Caballito,Safe,0,0,0,0,0,0,0,0,1,0
+3603,Monte Castro,RatherSafe,0,0,0,0,0,0,0,0,0,0
+3603,Floresta,RatherSafe,1,1,0,0,0,0,0,0,0,0
+3603,Flores,RatherSafe,1,0,1,0,0,0,0,0,0,0
+3603,Villa Real,RatherSafe,0,0,0,0,0,0,0,0,1,0
+3603,Versalles,NotSafe,5,0,0,0,0,0,5,0,3,0
+3603,Villa Luro,Safe,1,0,1,0,0,0,0,0,1,0
+3603,Vélez Sarsfield,RatherSafe,2,2,0,0,0,0,0,0,1,0
+3603,Villa Urquiza,RatherSafe,0,0,0,0,0,0,0,0,2,0
+3603,Saavedra,RatherSafe,0,0,0,0,0,0,0,0,0,0
+3603,Nú?ez,RatherSafe,1,0,0,1,0,0,0,0,2,0
+3603,Colegiales,NotSafe,0,0,0,0,0,0,0,0,0,0
+3603,Belgrano,Safe,0,0,0,0,0,0,0,0,1,0
+3603,Palermo,RatherSafe,1,0,1,0,0,0,0,0,0,0
+3603,Liniers,RatherSafe,0,0,0,0,0,0,0,0,1,0
+3603,Mataderos,RatherSafe,0,0,0,0,0,0,0,0,1,0
+3603,Parque Avellaneda,Safe,6,0,0,1,0,0,5,0,2,0
+3603,Parque Chacabuco,NotSafe,1,0,1,0,0,0,0,0,1,0
+3603,Almagro,RatherSafe,1,0,1,0,0,0,0,0,0,0
+3603,Boedo,RatherSafe,1,0,0,0,0,1,0,0,1,0
+3603,Balvanera,RatherSafe,1,1,0,0,0,0,0,0,0,0
+3603,San Cristóbal,RatherSafe,2,0,2,0,0,0,0,0,0,0
+3603,Monserrat,RatherSafe,0,0,0,0,0,0,0,0,0,0
+3603,San Nicolás,RatherSafe,1,1,0,0,0,0,0,0,0,0
+3603,San Telmo,RatherSafe,0,0,0,0,0,0,0,0,2,0
+3603,Constitución,Safe,1,0,1,0,0,0,0,0,0,0
+3603,Parque Patricios,NotSafe,2,0,0,0,0,0,2,0,3,0
+3603,Nueva Pompeya,RatherSafe,2,0,0,0,0,2,0,0,3,0
+3603,Villa Lugano,RatherSafe,0,0,0,0,0,0,0,0,2,0
+3603,Villa Soldati,RatherSafe,0,0,0,0,0,0,0,0,0,0
+3603,Villa Riachuelo,RatherSafe,0,0,0,0,0,0,0,0,2,0
+3603,Barracas,RatherSafe,1,0,0,0,0,1,0,0,3,0
+3603,La Boca,RatherSafe,0,0,0,0,0,0,0,0,0,0
+3603,Recoleta,RatherSafe,0,0,0,0,0,0,0,0,1,0
+3603,Retiro,RatherSafe,2,0,0,0,2,0,0,0,2,0
+3603,Puerto Madero,RatherSafe,0,0,0,0,0,0,0,0,0,0
+3603,Coghlan,RatherSafe,3,0,1,0,0,2,0,0,1,0
+3603,Buenos Aires,RatherSafe,0,0,0,0,0,0,0,0,0,0
+7200,Villa Santa Rita,RatherSafe,1,0,0,0,0,1,0,0,1,0
+7200,Villa del Parque,NotSafe,0,0,0,0,0,0,0,0,0,0
+7200,Villa General Mitre,Safe,2,1,0,0,0,1,0,0,1,0
+7200,Villa Devoto,RatherSafe,2,0,0,1,0,1,0,0,2,0
+7200,Villa Pueyrredón,RatherSafe,1,0,0,0,0,1,0,0,2,0
+7200,Agronomía,Safe,1,0,0,1,0,0,0,0,0,0
+7200,La Paternal,NotSafe,6,0,0,0,0,2,4,0,3,0
+7200,Parque Chas,RatherSafe,1,0,1,0,0,0,0,0,0,0
+7200,Chacarita,RatherSafe,2,1,0,0,0,1,0,0,1,0
+7200,Villa Ortúzar,RatherSafe,0,0,0,0,0,0,0,0,0,0
+7200,Villa Crespo,NotSafe,0,0,0,0,0,0,0,0,0,0
+7200,Caballito,Safe,4,3,0,1,0,0,0,0,0,0
+7200,Monte Castro,RatherSafe,0,0,0,0,0,0,0,0,0,0
+7200,Floresta,RatherSafe,0,0,0,0,0,0,0,0,0,0
+7200,Flores,RatherSafe,3,2,0,0,0,1,0,0,1,0
+7200,Villa Real,RatherSafe,2,0,0,0,0,2,0,0,2,0
+7200,Versalles,NotSafe,12,0,0,0,0,1,11,0,5,0
+7200,Villa Luro,Safe,0,0,0,0,0,0,0,0,1,0
+7200,Vélez Sarsfield,RatherSafe,2,0,0,0,0,2,0,0,2,0
+7200,Villa Urquiza,RatherSafe,0,0,0,0,0,0,0,0,0,0
+7200,Saavedra,RatherSafe,1,0,0,0,0,1,0,0,1,0
+7200,Nú?ez,RatherSafe,0,0,0,0,0,0,0,0,1,0
+7200,Colegiales,NotSafe,2,0,0,1,0,1,0,0,2,0
+7200,Belgrano,Safe,1,0,0,1,0,0,0,0,0,0
+7200,Palermo,RatherSafe,1,0,0,1,0,0,0,0,0,0
+7200,Liniers,RatherSafe,0,0,0,0,0,0,0,0,0,0
+7200,Mataderos,RatherSafe,5,0,0,0,0,0,5,0,2,0
+7200,Parque Avellaneda,Safe,1,0,0,1,0,0,0,0,0,0
+7200,Parque Chacabuco,NotSafe,2,1,0,0,0,1,0,0,1,0
+7200,Almagro,RatherSafe,0,0,0,0,0,0,0,0,0,0
+7200,Boedo,RatherSafe,2,0,0,0,0,2,0,0,2,0
+7200,Balvanera,RatherSafe,3,0,0,1,0,2,0,0,2,0
+7200,San Cristóbal,RatherSafe,4,1,1,0,0,2,0,0,2,0
+7200,Monserrat,RatherSafe,0,0,0,0,0,0,0,0,0,0
+7200,San Nicolás,RatherSafe,2,0,0,0,0,2,0,0,2,0
+7200,San Telmo,RatherSafe,1,0,0,0,0,1,0,0,1,0
+7200,Constitución,Safe,1,0,0,0,0,1,0,0,1,0
+7200,Parque Patricios,NotSafe,7,2,0,0,0,0,5,0,1,0
+7200,Nueva Pompeya,RatherSafe,0,0,0,0,0,0,0,0,0,0
+7200,Villa Lugano,RatherSafe,1,0,0,0,0,1,0,0,2,0
+7200,Villa Soldati,RatherSafe,1,0,0,1,0,0,0,0,0,0
+7200,Villa Riachuelo,RatherSafe,2,0,0,0,0,2,0,0,2,0
+7200,Barracas,RatherSafe,1,1,0,0,0,0,0,0,0,0
+7200,La Boca,RatherSafe,0,0,0,0,0,0,0,0,0,0
+7200,Recoleta,RatherSafe,0,0,0,0,0,0,0,0,0,0
+7200,Retiro,RatherSafe,0,0,0,0,0,0,0,0,0,0
+7200,Puerto Madero,RatherSafe,0,0,0,0,0,0,0,0,1,0
+7200,Coghlan,RatherSafe,0,0,0,0,0,0,0,0,0,0
+7200,Buenos Aires,RatherSafe,0,0,0,0,0,0,0,0,0,0
+10801,Villa Santa Rita,RatherSafe,7,0,0,0,0,2,5,0,3,0
+10801,Villa del Parque,NotSafe,3,0,0,1,0,1,1,0,3,0
+10801,Villa General Mitre,Safe,0,0,0,0,0,0,0,0,0,0
+10801,Villa Devoto,RatherSafe,1,0,0,1,0,0,0,0,0,0
+10801,Villa Pueyrredón,RatherSafe,0,0,0,0,0,0,0,0,0,0
+10801,Agronomía,Safe,2,0,0,0,0,2,0,0,2,0
+10801,La Paternal,NotSafe,1,0,0,0,0,1,0,0,1,0
+10801,Parque Chas,RatherSafe,0,0,0,0,0,0,0,0,0,0
+10801,Chacarita,RatherSafe,1,0,0,0,0,1,0,0,1,0
+10801,Villa Ortúzar,RatherSafe,2,0,0,0,0,2,0,0,2,0
+10801,Villa Crespo,NotSafe,2,1,0,0,0,1,0,0,2,0
+10801,Caballito,Safe,3,2,0,0,0,0,1,0,1,0
+10801,Monte Castro,RatherSafe,2,1,0,0,0,1,0,0,1,0
+10801,Floresta,RatherSafe,0,0,0,0,0,0,0,0,0,0
+10801,Flores,RatherSafe,7,3,0,0,0,0,4,0,1,0
+10801,Villa Real,RatherSafe,0,0,0,0,0,0,0,0,0,0
+10801,Versalles,NotSafe,0,0,0,0,0,0,0,0,0,0
+10801,Villa Luro,Safe,5,1,0,0,0,0,4,0,2,0
+10801,Vélez Sarsfield,RatherSafe,0,0,0,0,0,0,0,0,0,0
+10801,Villa Urquiza,RatherSafe,3,0,1,0,0,1,1,0,2,0
+10801,Saavedra,RatherSafe,1,0,0,1,0,0,0,0,1,0
+10801,Nú?ez,RatherSafe,5,0,0,0,0,1,4,0,2,0
+10801,Colegiales,NotSafe,3,0,0,0,0,0,3,0,1,0
+10801,Belgrano,Safe,1,0,0,0,0,1,0,0,1,0
+10801,Palermo,RatherSafe,1,1,0,0,0,0,0,0,1,0
+10801,Liniers,RatherSafe,0,0,0,0,0,0,0,0,0,0
+10801,Mataderos,RatherSafe,2,1,0,0,0,1,0,0,2,0
+10801,Parque Avellaneda,Safe,3,3,0,0,0,0,0,0,1,0
+10801,Parque Chacabuco,NotSafe,1,0,0,1,0,0,0,0,0,0
+10801,Almagro,RatherSafe,2,0,0,1,0,1,0,0,1,0
+10801,Boedo,RatherSafe,0,0,0,0,0,0,0,0,0,0
+10801,Balvanera,RatherSafe,1,1,0,0,0,0,0,0,0,0
+10801,San Cristóbal,RatherSafe,0,0,0,0,0,0,0,0,0,0
+10801,Monserrat,RatherSafe,1,0,0,0,0,1,0,0,1,0
+10801,San Nicolás,RatherSafe,3,0,0,0,0,0,3,0,1,0
+10801,San Telmo,RatherSafe,1,0,1,0,0,0,0,0,0,0
+10801,Constitución,Safe,2,0,0,1,0,1,0,0,1,0
+10801,Parque Patricios,NotSafe,0,0,0,0,0,0,0,0,0,0
+10801,Nueva Pompeya,RatherSafe,3,0,1,0,0,2,0,0,2,0
+10801,Villa Lugano,RatherSafe,1,1,0,0,0,0,0,0,1,0
+10801,Villa Soldati,RatherSafe,2,1,0,0,0,1,0,0,1,0
+10801,Villa Riachuelo,RatherSafe,0,0,0,0,0,0,0,0,0,0
+10801,Barracas,RatherSafe,1,0,0,1,0,0,0,0,2,0
+10801,La Boca,RatherSafe,1,0,0,1,0,0,0,0,1,0
+10801,Recoleta,RatherSafe,1,0,1,0,0,0,0,0,0,0
+10801,Retiro,RatherSafe,1,0,0,1,0,0,0,0,1,0
+10801,Puerto Madero,RatherSafe,0,0,0,0,0,0,0,0,0,0
+10801,Coghlan,RatherSafe,1,0,0,0,0,1,0,0,1,0
+10801,Buenos Aires,RatherSafe,0,0,0,0,0,0,0,0,0,0
+14400,Villa Santa Rita,RatherSafe,4,0,0,0,1,2,1,0,3,0
+14400,Villa del Parque,NotSafe,0,0,0,0,0,0,0,0,0,0
+14400,Villa General Mitre,Safe,0,0,0,0,0,0,0,0,0,0
+14400,Villa Devoto,RatherSafe,3,1,0,0,0,2,0,0,2,0
+14400,Villa Pueyrredón,RatherSafe,0,0,0,0,0,0,0,0,0,0
+14400,Agronomía,Safe,0,0,0,0,0,0,0,0,0,0
+14400,La Paternal,NotSafe,2,0,0,0,0,2,0,0,3,0
+14400,Parque Chas,RatherSafe,8,0,1,0,0,0,7,0,1,0
+14400,Chacarita,RatherSafe,1,0,0,0,0,1,0,0,1,0
+14400,Villa Ortúzar,RatherSafe,1,0,0,0,0,1,0,0,1,0
+14400,Villa Crespo,NotSafe,3,2,0,0,0,1,0,0,1,0
+14400,Caballito,Safe,2,1,0,0,0,1,0,0,1,0
+14400,Monte Castro,RatherSafe,1,1,0,0,0,0,0,0,0,0
+14400,Floresta,RatherSafe,0,0,0,0,0,0,0,0,1,0
+14400,Flores,RatherSafe,2,1,0,1,0,0,0,0,0,0
+14400,Villa Real,RatherSafe,0,0,0,0,0,0,0,0,0,0
+14400,Versalles,NotSafe,3,0,0,0,0,0,3,0,1,0
+14400,Villa Luro,Safe,0,0,0,0,0,0,0,0,0,0
+14400,Vélez Sarsfield,RatherSafe,1,1,0,0,0,0,0,0,0,0
+14400,Villa Urquiza,RatherSafe,1,0,1,0,0,0,0,0,0,0
+14400,Saavedra,RatherSafe,2,1,0,0,0,1,0,0,1,0
+14400,Nú?ez,RatherSafe,2,1,1,0,0,0,0,0,0,0
+14400,Colegiales,NotSafe,1,0,0,0,0,1,0,0,1,0
+14400,Belgrano,Safe,0,0,0,0,0,0,0,0,0,0
+14400,Palermo,RatherSafe,2,2,0,0,0,0,0,0,0,0
+14400,Liniers,RatherSafe,1,0,1,0,0,0,0,0,0,0
+14400,Mataderos,RatherSafe,0,0,0,0,0,0,0,0,0,0
+14400,Parque Avellaneda,Safe,1,0,0,0,0,1,0,0,1,0
+14400,Parque Chacabuco,NotSafe,3,2,0,0,0,1,0,0,1,0
+14400,Almagro,RatherSafe,1,1,0,0,0,0,0,0,0,0
+14400,Boedo,RatherSafe,2,1,0,0,0,1,0,0,1,0
+14400,Balvanera,RatherSafe,2,1,0,0,0,1,0,0,1,0
+14400,San Cristóbal,RatherSafe,2,0,0,0,0,2,0,0,2,0
+14400,Monserrat,RatherSafe,0,0,0,0,0,0,0,0,0,0
+14400,San Nicolás,RatherSafe,0,0,0,0,0,0,0,0,0,0
+14400,San Telmo,RatherSafe,0,0,0,0,0,0,0,0,1,0
+14400,Constitución,Safe,1,0,1,0,0,0,0,0,0,0
+14400,Parque Patricios,NotSafe,1,0,0,0,0,1,0,0,1,0
+14400,Nueva Pompeya,RatherSafe,3,3,0,0,0,0,0,0,0,0
+14400,Villa Lugano,RatherSafe,4,0,0,0,0,0,4,0,1,0
+14400,Villa Soldati,RatherSafe,1,1,0,0,0,0,0,0,0,0
+14400,Villa Riachuelo,RatherSafe,1,0,0,0,0,1,0,0,1,0
+14400,Barracas,RatherSafe,4,0,0,0,0,2,2,0,3,0
+14400,La Boca,RatherSafe,0,0,0,0,0,0,0,0,0,0
+14400,Recoleta,RatherSafe,3,2,0,0,0,1,0,0,1,0
+14400,Retiro,RatherSafe,3,2,0,0,0,1,0,0,1,0
+14400,Puerto Madero,RatherSafe,3,1,0,0,0,2,0,0,2,0
+14400,Coghlan,RatherSafe,1,0,0,0,0,1,0,0,1,0
+14400,Buenos Aires,RatherSafe,0,0,0,0,0,0,0,0,0,0
+18001,Villa Santa Rita,RatherSafe,2,0,0,0,0,0,2,0,1,0
+18001,Villa del Parque,NotSafe,1,0,0,0,0,1,0,0,1,0
+18001,Villa General Mitre,Safe,0,0,0,0,0,0,0,0,0,0
+18001,Villa Devoto,RatherSafe,6,1,0,0,0,0,5,0,1,0
+18001,Villa Pueyrredón,RatherSafe,2,1,0,0,0,1,0,0,1,0
+18001,Agronomía,Safe,3,1,0,0,1,1,0,0,2,0
+18001,La Paternal,NotSafe,2,0,0,0,0,2,0,0,3,0
+18001,Parque Chas,RatherSafe,0,0,0,0,0,0,0,0,0,0
+18001,Chacarita,RatherSafe,2,0,0,0,0,2,0,0,2,0
+18001,Villa Ortúzar,RatherSafe,3,1,1,0,0,1,0,0,1,0
+18001,Villa Crespo,NotSafe,5,0,0,0,1,0,4,0,1,0
+18001,Caballito,Safe,2,2,0,0,0,0,0,0,0,0
+18001,Monte Castro,RatherSafe,1,1,0,0,0,0,0,0,1,0
+18001,Floresta,RatherSafe,1,1,0,0,0,0,0,0,0,0
+18001,Flores,RatherSafe,3,1,0,0,0,2,0,0,2,0
+18001,Villa Real,RatherSafe,1,0,0,1,0,0,0,0,1,0
+18001,Versalles,NotSafe,1,0,0,1,0,0,0,0,0,0
+18001,Villa Luro,Safe,0,0,0,0,0,0,0,0,0,0
+18001,Vélez Sarsfield,RatherSafe,0,0,0,0,0,0,0,0,0,0
+18001,Villa Urquiza,RatherSafe,1,0,0,0,0,0,1,0,1,0
+18001,Saavedra,RatherSafe,1,0,1,0,0,0,0,0,0,0
+18001,Nú?ez,RatherSafe,0,0,0,0,0,0,0,0,0,0
+18001,Colegiales,NotSafe,1,1,0,0,0,0,0,0,0,0
+18001,Belgrano,Safe,0,0,0,0,0,0,0,0,0,0
+18001,Palermo,RatherSafe,4,3,1,0,0,0,0,0,0,0
+18001,Liniers,RatherSafe,1,0,0,1,0,0,0,0,0,0
+18001,Mataderos,RatherSafe,1,1,0,0,0,0,0,0,0,0
+18001,Parque Avellaneda,Safe,0,0,0,0,0,0,0,0,0,0
+18001,Parque Chacabuco,NotSafe,2,1,0,0,0,1,0,0,1,0
+18001,Almagro,RatherSafe,1,1,0,0,0,0,0,0,0,0
+18001,Boedo,RatherSafe,1,1,0,0,0,0,0,0,0,0
+18001,Balvanera,RatherSafe,5,0,0,1,0,0,4,0,2,0
+18001,San Cristóbal,RatherSafe,0,0,0,0,0,0,0,0,0,0
+18001,Monserrat,RatherSafe,2,0,1,0,0,1,0,0,1,0
+18001,San Nicolás,RatherSafe,4,1,0,1,0,2,0,0,3,0
+18001,San Telmo,RatherSafe,0,0,0,0,0,0,0,0,0,0
+18001,Constitución,Safe,2,2,0,0,0,0,0,0,0,0
+18001,Parque Patricios,NotSafe,6,3,0,1,0,2,0,0,3,0
+18001,Nueva Pompeya,RatherSafe,1,1,0,0,0,0,0,0,0,0
+18001,Villa Lugano,RatherSafe,3,0,0,0,0,1,2,0,2,0
+18001,Villa Soldati,RatherSafe,0,0,0,0,0,0,0,0,0,0
+18001,Villa Riachuelo,RatherSafe,1,1,0,0,0,0,0,0,1,0
+18001,Barracas,RatherSafe,1,1,0,0,0,0,0,0,0,0
+18001,La Boca,RatherSafe,0,0,0,0,0,0,0,0,0,0
+18001,Recoleta,RatherSafe,2,1,0,0,0,1,0,0,1,0
+18001,Retiro,RatherSafe,0,0,0,0,0,0,0,0,0,0
+18001,Puerto Madero,RatherSafe,2,0,0,0,0,2,0,0,2,0
+18001,Coghlan,RatherSafe,0,0,0,0,0,0,0,0,0,0
+18001,Buenos Aires,RatherSafe,0,0,0,0,0,0,0,0,0,0
+21602,Villa Santa Rita,RatherSafe,0,0,0,0,0,0,0,0,0,0
+21602,Villa del Parque,NotSafe,1,1,0,0,0,0,0,0,0,0
+21602,Villa General Mitre,Safe,3,2,0,0,0,1,0,0,1,0
+21602,Villa Devoto,RatherSafe,2,1,0,0,0,1,0,0,1,0
+21602,Villa Pueyrredón,RatherSafe,1,1,0,0,0,0,0,0,0,0
+21602,Agronomía,Safe,0,0,0,0,0,0,0,0,0,0
+21602,La Paternal,NotSafe,5,0,0,0,0,2,3,0,4,0
+21602,Parque Chas,RatherSafe,1,0,0,0,0,1,0,0,1,0
+21602,Chacarita,RatherSafe,1,0,0,1,0,0,0,0,0,0
+21602,Villa Ortúzar,RatherSafe,0,0,0,0,0,0,0,0,0,0
+21602,Villa Crespo,NotSafe,10,2,0,0,0,0,8,0,2,0
+21602,Caballito,Safe,1,1,0,0,0,0,0,0,0,0
+21602,Monte Castro,RatherSafe,0,0,0,0,0,0,0,0,1,0
+21602,Floresta,RatherSafe,0,0,0,0,0,0,0,0,0,0
+21602,Flores,RatherSafe,4,2,1,0,0,1,0,0,1,0
+21602,Villa Real,RatherSafe,0,0,0,0,0,0,0,0,0,0
+21602,Versalles,NotSafe,1,0,0,0,0,1,0,0,1,0
+21602,Villa Luro,Safe,1,0,0,0,0,1,0,0,1,0
+21602,Vélez Sarsfield,RatherSafe,3,1,0,0,0,2,0,0,2,0
+21602,Villa Urquiza,RatherSafe,1,1,0,0,0,0,0,0,0,0
+21602,Saavedra,RatherSafe,2,0,0,0,0,2,0,0,2,0
+21602,Nú?ez,RatherSafe,2,0,1,0,0,0,1,0,1,0
+21602,Colegiales,NotSafe,1,0,0,0,0,1,0,0,2,0
+21602,Belgrano,Safe,1,0,0,1,0,0,0,0,0,0
+21602,Palermo,RatherSafe,2,1,1,0,0,0,0,0,0,0
+21602,Liniers,RatherSafe,2,0,0,0,0,2,0,0,2,0
+21602,Mataderos,RatherSafe,0,0,0,0,0,0,0,0,0,0
+21602,Parque Avellaneda,Safe,1,1,0,0,0,0,0,0,0,0
+21602,Parque Chacabuco,NotSafe,1,1,0,0,0,0,0,0,0,0
+21602,Almagro,RatherSafe,2,1,0,1,0,0,0,0,0,0
+21602,Boedo,RatherSafe,0,0,0,0,0,0,0,0,0,0
+21602,Balvanera,RatherSafe,2,0,0,0,0,0,2,0,1,0
+21602,San Cristóbal,RatherSafe,0,0,0,0,0,0,0,0,0,0
+21602,Monserrat,RatherSafe,1,1,0,0,0,0,0,0,0,0
+21602,San Nicolás,RatherSafe,0,0,0,0,0,0,0,0,0,0
+21602,San Telmo,RatherSafe,0,0,0,0,0,0,0,0,1,0
+21602,Constitución,Safe,0,0,0,0,0,0,0,0,0,0
+21602,Parque Patricios,NotSafe,6,0,0,0,0,0,6,0,2,0
+21602,Nueva Pompeya,RatherSafe,1,1,0,0,0,0,0,0,0,0
+21602,Villa Lugano,RatherSafe,5,1,0,0,0,0,4,0,2,0
+21602,Villa Soldati,RatherSafe,0,0,0,0,0,0,0,0,0,0
+21602,Villa Riachuelo,RatherSafe,2,0,0,0,0,2,0,0,3,0
+21602,Barracas,RatherSafe,7,1,0,0,0,1,5,0,2,0
+21602,La Boca,RatherSafe,0,0,0,0,0,0,0,0,0,0
+21602,Recoleta,RatherSafe,0,0,0,0,0,0,0,0,0,0
+21602,Retiro,RatherSafe,3,1,0,2,0,0,0,0,1,0
+21602,Puerto Madero,RatherSafe,1,0,0,1,0,0,0,0,0,0
+21602,Coghlan,RatherSafe,0,0,0,0,0,0,0,0,0,0
+21602,Buenos Aires,RatherSafe,0,0,0,0,0,0,0,0,0,0
+25201,Villa Santa Rita,RatherSafe,3,1,0,0,0,2,0,0,2,0
+25201,Villa del Parque,NotSafe,0,0,0,0,0,0,0,0,0,0
+25201,Villa General Mitre,Safe,0,0,0,0,0,0,0,0,0,0
+25201,Villa Devoto,RatherSafe,0,0,0,0,0,0,0,0,0,0
+25201,Villa Pueyrredón,RatherSafe,0,0,0,0,0,0,0,0,0,0
+25201,Agronomía,Safe,0,0,0,0,0,0,0,0,0,0
+25201,La Paternal,NotSafe,4,1,0,0,0,3,0,0,4,0
+25201,Parque Chas,RatherSafe,5,0,0,0,0,0,5,0,1,0
+25201,Chacarita,RatherSafe,2,1,0,0,0,1,0,0,1,0
+25201,Villa Ortúzar,RatherSafe,1,0,0,0,0,1,0,0,1,0
+25201,Villa Crespo,NotSafe,7,0,0,0,0,1,6,0,2,0
+25201,Caballito,Safe,1,1,0,0,0,0,0,0,0,0
+25201,Monte Castro,RatherSafe,0,0,0,0,0,0,0,0,1,0
+25201,Floresta,RatherSafe,5,0,0,0,0,0,5,0,1,0
+25201,Flores,RatherSafe,3,1,0,0,0,2,0,0,2,0
+25201,Villa Real,RatherSafe,0,0,0,0,0,0,0,0,1,0
+25201,Versalles,NotSafe,0,0,0,0,0,0,0,0,0,0
+25201,Villa Luro,Safe,1,1,0,0,0,0,0,0,0,0
+25201,Vélez Sarsfield,RatherSafe,2,1,0,0,0,1,0,0,1,0
+25201,Villa Urquiza,RatherSafe,3,1,0,0,0,2,0,0,2,0
+25201,Saavedra,RatherSafe,4,0,0,1,0,0,3,0,2,0
+25201,Nú?ez,RatherSafe,0,0,0,0,0,0,0,0,0,0
+25201,Colegiales,NotSafe,1,1,0,0,0,0,0,0,0,0
+25201,Belgrano,Safe,0,0,0,0,0,0,0,0,0,0
+25201,Palermo,RatherSafe,1,1,0,0,0,0,0,0,0,0
+25201,Liniers,RatherSafe,1,0,0,0,0,1,0,0,1,0
+25201,Mataderos,RatherSafe,1,0,0,0,0,1,0,0,1,0
+25201,Parque Avellaneda,Safe,1,0,0,1,0,0,0,0,2,0
+25201,Parque Chacabuco,NotSafe,2,1,0,1,0,0,0,0,0,0
+25201,Almagro,RatherSafe,0,0,0,0,0,0,0,0,0,0
+25201,Boedo,RatherSafe,2,1,0,0,0,1,0,0,1,0
+25201,Balvanera,RatherSafe,2,2,0,0,0,0,0,0,0,0
+25201,San Cristóbal,RatherSafe,0,0,0,0,0,0,0,0,0,0
+25201,Monserrat,RatherSafe,0,0,0,0,0,0,0,0,0,0
+25201,San Nicolás,RatherSafe,1,1,0,0,0,0,0,0,0,0
+25201,San Telmo,RatherSafe,2,1,0,0,0,1,0,0,2,0
+25201,Constitución,Safe,1,1,0,0,0,0,0,0,0,0
+25201,Parque Patricios,NotSafe,6,0,0,0,0,1,5,0,2,0
+25201,Nueva Pompeya,RatherSafe,3,0,0,0,0,0,3,0,1,0
+25201,Villa Lugano,RatherSafe,2,1,0,1,0,0,0,0,1,0
+25201,Villa Soldati,RatherSafe,1,0,0,0,0,1,0,0,1,0
+25201,Villa Riachuelo,RatherSafe,1,0,0,0,0,1,0,0,2,0
+25201,Barracas,RatherSafe,0,0,0,0,0,0,0,0,0,0
+25201,La Boca,RatherSafe,1,0,0,0,0,1,0,0,2,0
+25201,Recoleta,RatherSafe,4,3,0,1,0,0,0,0,0,0
+25201,Retiro,RatherSafe,3,1,0,1,0,1,0,0,1,0
+25201,Puerto Madero,RatherSafe,0,0,0,0,0,0,0,0,0,0
+25201,Coghlan,RatherSafe,0,0,0,0,0,0,0,0,0,0
+25201,Buenos Aires,RatherSafe,0,0,0,0,0,0,0,0,0,0
+28800,Villa Santa Rita,RatherSafe,1,0,0,0,0,1,0,0,1,0
+28800,Villa del Parque,NotSafe,0,0,0,0,0,0,0,0,0,0
+28800,Villa General Mitre,Safe,1,1,0,0,0,0,0,0,0,0
+28800,Villa Devoto,RatherSafe,0,0,0,0,0,0,0,0,0,0
+28800,Villa Pueyrredón,RatherSafe,0,0,0,0,0,0,0,0,0,0
+28800,Agronomía,Safe,0,0,0,0,0,0,0,0,0,0
+28800,La Paternal,NotSafe,4,0,0,0,0,0,4,0,2,0
+28800,Parque Chas,RatherSafe,4,0,0,0,0,1,3,0,2,0
+28800,Chacarita,RatherSafe,1,1,0,0,0,0,0,0,0,0
+28800,Villa Ortúzar,RatherSafe,1,0,0,0,0,1,0,0,1,0
+28800,Villa Crespo,NotSafe,1,1,0,0,0,0,0,0,0,0
+28800,Caballito,Safe,2,2,0,0,0,0,0,0,0,0
+28800,Monte Castro,RatherSafe,0,0,0,0,0,0,0,0,0,0
+28800,Floresta,RatherSafe,1,1,0,0,0,0,0,0,0,0
+28800,Flores,RatherSafe,1,0,0,0,0,1,0,0,1,0
+28800,Villa Real,RatherSafe,0,0,0,0,0,0,0,0,1,0
+28800,Versalles,NotSafe,0,0,0,0,0,0,0,0,0,0
+28800,Villa Luro,Safe,1,0,0,0,0,1,0,0,1,0
+28800,Vélez Sarsfield,RatherSafe,4,2,0,0,0,2,0,0,2,0
+28800,Villa Urquiza,RatherSafe,2,0,0,1,0,1,0,0,2,0
+28800,Saavedra,RatherSafe,3,0,0,0,0,0,3,0,1,0
+28800,Nú?ez,RatherSafe,0,0,0,0,0,0,0,0,0,0
+28800,Colegiales,NotSafe,6,0,0,0,0,0,6,0,1,0
+28800,Belgrano,Safe,0,0,0,0,0,0,0,0,0,0
+28800,Palermo,RatherSafe,6,0,0,0,0,0,6,0,1,0
+28800,Liniers,RatherSafe,4,0,0,0,0,0,4,0,1,0
+28800,Mataderos,RatherSafe,1,1,0,0,0,0,0,0,0,0
+28800,Parque Avellaneda,Safe,0,0,0,0,0,0,0,0,0,0
+28800,Parque Chacabuco,NotSafe,1,1,0,0,0,0,0,0,0,0
+28800,Almagro,RatherSafe,4,1,0,0,0,3,0,0,3,0
+28800,Boedo,RatherSafe,0,0,0,0,0,0,0,0,0,0
+28800,Balvanera,RatherSafe,2,0,1,1,0,0,0,0,0,0
+28800,San Cristóbal,RatherSafe,7,1,0,0,0,1,5,0,2,0
+28800,Monserrat,RatherSafe,0,0,0,0,0,0,0,0,1,0
+28800,San Nicolás,RatherSafe,1,0,0,0,0,1,0,0,1,0
+28800,San Telmo,RatherSafe,2,0,0,0,0,2,0,0,2,0
+28800,Constitución,Safe,0,0,0,0,0,0,0,0,0,0
+28800,Parque Patricios,NotSafe,4,0,0,0,0,0,4,0,1,0
+28800,Nueva Pompeya,RatherSafe,2,0,0,0,0,2,0,0,2,0
+28800,Villa Lugano,RatherSafe,0,0,0,0,0,0,0,0,1,0
+28800,Villa Soldati,RatherSafe,2,0,0,0,0,2,0,0,2,0
+28800,Villa Riachuelo,RatherSafe,0,0,0,0,0,0,0,0,0,0
+28800,Barracas,RatherSafe,2,0,0,0,0,2,0,0,2,0
+28800,La Boca,RatherSafe,1,0,0,0,0,1,0,0,1,0
+28800,Recoleta,RatherSafe,7,0,0,1,0,0,6,0,2,0
+28800,Retiro,RatherSafe,3,0,0,1,0,0,2,0,3,0
+28800,Puerto Madero,RatherSafe,0,0,0,0,0,0,0,0,0,0
+28800,Coghlan,RatherSafe,1,0,0,1,0,0,0,0,1,0
+28800,Buenos Aires,RatherSafe,0,0,0,0,0,0,0,0,0,0
+32400,Villa Santa Rita,RatherSafe,1,0,0,0,0,1,0,0,1,0
+32400,Villa del Parque,NotSafe,12,0,0,0,0,2,10,0,4,0
+32400,Villa General Mitre,Safe,0,0,0,0,0,0,0,0,0,0
+32400,Villa Devoto,RatherSafe,0,0,0,0,0,0,0,0,0,0
+32400,Villa Pueyrredón,RatherSafe,2,0,0,0,0,2,0,0,2,0
+32400,Agronomía,Safe,0,0,0,0,0,0,0,0,0,0
+32400,La Paternal,NotSafe,0,0,0,0,0,0,0,0,1,0
+32400,Parque Chas,RatherSafe,0,0,0,0,0,0,0,0,0,0
+32400,Chacarita,RatherSafe,1,1,0,0,0,0,0,0,0,0
+32400,Villa Ortúzar,RatherSafe,2,0,0,0,0,2,0,0,2,0
+32400,Villa Crespo,NotSafe,6,2,0,0,0,0,4,0,1,0
+32400,Caballito,Safe,5,5,0,0,0,0,0,0,0,0
+32400,Monte Castro,RatherSafe,0,0,0,0,0,0,0,0,1,0
+32400,Floresta,RatherSafe,7,0,0,0,0,2,5,0,3,0
+32400,Flores,RatherSafe,2,0,0,0,0,1,1,0,2,0
+32400,Villa Real,RatherSafe,2,1,1,0,0,0,0,0,0,0
+32400,Versalles,NotSafe,0,0,0,0,0,0,0,0,2,0
+32400,Villa Luro,Safe,1,0,0,1,0,0,0,0,1,0
+32400,Vélez Sarsfield,RatherSafe,0,0,0,0,0,0,0,0,0,0
+32400,Villa Urquiza,RatherSafe,1,0,0,0,0,1,0,0,1,0
+32400,Saavedra,RatherSafe,0,0,0,0,0,0,0,0,0,0
+32400,Nú?ez,RatherSafe,2,0,0,0,0,2,0,0,2,0
+32400,Colegiales,NotSafe,8,0,0,0,0,2,6,0,3,0
+32400,Belgrano,Safe,1,1,0,0,0,0,0,0,0,0
+32400,Palermo,RatherSafe,10,4,0,0,0,0,6,0,1,0
+32400,Liniers,RatherSafe,0,0,0,0,0,0,0,0,0,0
+32400,Mataderos,RatherSafe,1,1,0,0,0,0,0,0,1,0
+32400,Parque Avellaneda,Safe,2,0,0,2,0,0,0,0,0,0
+32400,Parque Chacabuco,NotSafe,0,0,0,0,0,0,0,0,0,0
+32400,Almagro,RatherSafe,3,3,0,0,0,0,0,0,0,0
+32400,Boedo,RatherSafe,1,0,0,0,0,1,0,0,1,0
+32400,Balvanera,RatherSafe,1,1,0,0,0,0,0,0,0,0
+32400,San Cristóbal,RatherSafe,1,0,0,0,0,0,1,0,1,0
+32400,Monserrat,RatherSafe,1,0,0,0,0,1,0,0,1,0
+32400,San Nicolás,RatherSafe,0,0,0,0,0,0,0,0,0,0
+32400,San Telmo,RatherSafe,0,0,0,0,0,0,0,0,0,0
+32400,Constitución,Safe,0,0,0,0,0,0,0,0,0,0
+32400,Parque Patricios,NotSafe,3,0,0,2,0,1,0,0,1,0
+32400,Nueva Pompeya,RatherSafe,0,0,0,0,0,0,0,0,0,0
+32400,Villa Lugano,RatherSafe,0,0,0,0,0,0,0,0,1,0
+32400,Villa Soldati,RatherSafe,2,1,0,1,0,0,0,0,0,0
+32400,Villa Riachuelo,RatherSafe,2,0,0,0,0,0,2,0,1,0
+32400,Barracas,RatherSafe,2,0,0,0,0,0,2,0,2,0
+32400,La Boca,RatherSafe,0,0,0,0,0,0,0,0,0,0
+32400,Recoleta,RatherSafe,1,1,0,0,0,0,0,0,1,0
+32400,Retiro,RatherSafe,2,2,0,0,0,0,0,0,0,0
+32400,Puerto Madero,RatherSafe,0,0,0,0,0,0,0,0,0,0
+32400,Coghlan,RatherSafe,0,0,0,0,0,0,0,0,0,0
+32400,Buenos Aires,RatherSafe,0,0,0,0,0,0,0,0,0,0
+36000,Villa Santa Rita,RatherSafe,1,0,0,1,0,0,0,0,1,0
+36000,Villa del Parque,NotSafe,8,0,0,1,0,0,5,2,1,0
+36000,Villa General Mitre,Safe,1,0,0,1,0,0,0,0,0,0
+36000,Villa Devoto,RatherSafe,0,0,0,0,0,0,0,0,1,0
+36000,Villa Pueyrredón,RatherSafe,0,0,0,0,0,0,0,0,0,0
+36000,Agronomía,Safe,2,0,0,0,0,2,0,0,2,0
+36000,La Paternal,NotSafe,4,2,0,0,0,2,0,0,3,0
+36000,Parque Chas,RatherSafe,1,0,0,0,0,1,0,0,1,0
+36000,Chacarita,RatherSafe,2,0,0,1,0,1,0,0,2,0
+36000,Villa Ortúzar,RatherSafe,0,0,0,0,0,0,0,0,0,0
+36000,Villa Crespo,NotSafe,2,1,0,0,0,1,0,0,1,0
+36000,Caballito,Safe,3,0,0,1,0,0,2,0,1,0
+36000,Monte Castro,RatherSafe,1,0,0,0,0,1,0,0,1,0
+36000,Floresta,RatherSafe,2,1,0,0,0,1,0,0,1,0
+36000,Flores,RatherSafe,5,3,0,0,0,0,0,2,0,0
+36000,Villa Real,RatherSafe,4,0,0,0,0,0,4,0,3,0
+36000,Versalles,NotSafe,11,0,0,0,0,2,9,0,4,0
+36000,Villa Luro,Safe,0,0,0,0,0,0,0,0,0,0
+36000,Vélez Sarsfield,RatherSafe,1,1,0,0,0,0,0,0,0,0
+36000,Villa Urquiza,RatherSafe,0,0,0,0,0,0,0,0,0,0
+36000,Saavedra,RatherSafe,0,0,0,0,0,0,0,0,0,0
+36000,Nú?ez,RatherSafe,0,0,0,0,0,0,0,0,0,0
+36000,Colegiales,NotSafe,0,0,0,0,0,0,0,0,0,0
+36000,Belgrano,Safe,0,0,0,0,0,0,0,0,0,0
+36000,Palermo,RatherSafe,0,0,0,0,0,0,0,0,0,0
+36000,Liniers,RatherSafe,3,0,0,0,0,3,0,0,3,0
+36000,Mataderos,RatherSafe,1,0,0,0,0,1,0,0,1,0
+36000,Parque Avellaneda,Safe,2,1,0,0,0,1,0,0,1,0
+36000,Parque Chacabuco,NotSafe,2,0,0,0,0,2,0,0,2,0
+36000,Almagro,RatherSafe,0,0,0,0,0,0,0,0,0,0
+36000,Boedo,RatherSafe,0,0,0,0,0,0,0,0,2,0
+36000,Balvanera,RatherSafe,2,1,0,0,0,1,0,0,1,0
+36000,San Cristóbal,RatherSafe,0,0,0,0,0,0,0,0,0,0
+36000,Monserrat,RatherSafe,1,0,0,0,0,1,0,0,1,0
+36000,San Nicolás,RatherSafe,1,0,0,0,0,1,0,0,1,0
+36000,San Telmo,RatherSafe,1,0,0,0,0,1,0,0,1,0
+36000,Constitución,Safe,0,0,0,0,0,0,0,0,2,0
+36000,Parque Patricios,NotSafe,6,0,0,0,0,1,5,0,2,0
+36000,Nueva Pompeya,RatherSafe,0,0,0,0,0,0,0,0,1,0
+36000,Villa Lugano,RatherSafe,3,2,0,1,0,0,0,0,1,0
+36000,Villa Soldati,RatherSafe,0,0,0,0,0,0,0,0,0,0
+36000,Villa Riachuelo,RatherSafe,0,0,0,0,0,0,0,0,0,0
+36000,Barracas,RatherSafe,1,1,0,0,0,0,0,0,0,0
+36000,La Boca,RatherSafe,2,1,0,0,0,1,0,0,2,0
+36000,Recoleta,RatherSafe,0,0,0,0,0,0,0,0,0,0
+36000,Retiro,RatherSafe,1,0,0,1,0,0,0,0,0,0
+36000,Puerto Madero,RatherSafe,0,0,0,0,0,0,0,0,0,0
+36000,Coghlan,RatherSafe,0,0,0,0,0,0,0,0,0,0
+36000,Buenos Aires,RatherSafe,0,0,0,0,0,0,0,0,0,0
+39600,Villa Santa Rita,RatherSafe,4,0,0,0,0,0,4,0,1,0
+39600,Villa del Parque,NotSafe,2,1,0,0,0,1,0,0,1,0
+39600,Villa General Mitre,Safe,1,0,0,0,0,1,0,0,1,0
+39600,Villa Devoto,RatherSafe,1,1,0,0,0,0,0,0,0,0
+39600,Villa Pueyrredón,RatherSafe,1,0,0,0,0,1,0,0,1,0
+39600,Agronomía,Safe,1,0,0,0,0,1,0,0,1,0
+39600,La Paternal,NotSafe,1,0,0,0,0,1,0,0,2,0
+39600,Parque Chas,RatherSafe,0,0,0,0,0,0,0,0,0,0
+39600,Chacarita,RatherSafe,1,1,0,0,0,0,0,0,0,0
+39600,Villa Ortúzar,RatherSafe,1,0,0,0,0,1,0,0,1,0
+39600,Villa Crespo,NotSafe,2,1,0,0,0,1,0,0,1,0
+39600,Caballito,Safe,1,1,0,0,0,0,0,0,0,0
+39600,Monte Castro,RatherSafe,1,0,0,0,0,1,0,0,1,0
+39600,Floresta,RatherSafe,2,0,0,0,0,2,0,0,2,0
+39600,Flores,RatherSafe,2,0,1,0,0,1,0,0,2,0
+39600,Villa Real,RatherSafe,0,0,0,0,0,0,0,0,0,0
+39600,Versalles,NotSafe,0,0,0,0,0,0,0,0,0,0
+39600,Villa Luro,Safe,0,0,0,0,0,0,0,0,0,0
+39600,Vélez Sarsfield,RatherSafe,1,0,0,0,0,1,0,0,1,0
+39600,Villa Urquiza,RatherSafe,0,0,0,0,0,0,0,0,0,0
+39600,Saavedra,RatherSafe,0,0,0,0,0,0,0,0,0,0
+39600,Nú?ez,RatherSafe,1,0,0,1,0,0,0,0,1,0
+39600,Colegiales,NotSafe,4,1,0,0,0,3,0,0,3,0
+39600,Belgrano,Safe,0,0,0,0,0,0,0,0,0,0
+39600,Palermo,RatherSafe,0,0,0,0,0,0,0,0,1,0
+39600,Liniers,RatherSafe,1,0,0,0,0,1,0,0,2,0
+39600,Mataderos,RatherSafe,4,0,0,0,0,0,4,0,1,0
+39600,Parque Avellaneda,Safe,0,0,0,0,0,0,0,0,0,0
+39600,Parque Chacabuco,NotSafe,2,1,0,0,0,1,0,0,1,0
+39600,Almagro,RatherSafe,2,0,0,0,0,2,0,0,2,0
+39600,Boedo,RatherSafe,1,0,0,1,0,0,0,0,0,0
+39600,Balvanera,RatherSafe,0,0,0,0,0,0,0,0,0,0
+39600,San Cristóbal,RatherSafe,1,1,0,0,0,0,0,0,0,0
+39600,Monserrat,RatherSafe,2,0,0,0,0,2,0,0,2,0
+39600,San Nicolás,RatherSafe,3,0,0,0,0,3,0,0,3,0
+39600,San Telmo,RatherSafe,1,0,0,1,0,0,0,0,0,0
+39600,Constitución,Safe,0,0,0,0,0,0,0,0,0,0
+39600,Parque Patricios,NotSafe,10,0,0,0,0,0,10,0,3,0
+39600,Nueva Pompeya,RatherSafe,3,0,0,0,0,0,3,0,1,0
+39600,Villa Lugano,RatherSafe,0,0,0,0,0,0,0,0,1,0
+39600,Villa Soldati,RatherSafe,0,0,0,0,0,0,0,0,0,0
+39600,Villa Riachuelo,RatherSafe,2,0,0,0,0,0,2,0,1,0
+39600,Barracas,RatherSafe,1,1,0,0,0,0,0,0,0,0
+39600,La Boca,RatherSafe,0,0,0,0,0,0,0,0,0,0
+39600,Recoleta,RatherSafe,4,0,0,2,0,2,0,0,2,0
+39600,Retiro,RatherSafe,0,0,0,0,0,0,0,0,0,0
+39600,Puerto Madero,RatherSafe,0,0,0,0,0,0,0,0,0,0
+39600,Coghlan,RatherSafe,1,1,0,0,0,0,0,0,0,0
+39600,Buenos Aires,RatherSafe,0,0,0,0,0,0,0,0,0,0
+43201,Villa Santa Rita,RatherSafe,1,1,0,0,0,0,0,0,0,0
+43201,Villa del Parque,NotSafe,1,1,0,0,0,0,0,0,0,0
+43201,Villa General Mitre,Safe,0,0,0,0,0,0,0,0,0,0
+43201,Villa Devoto,RatherSafe,2,1,0,0,0,1,0,0,1,0
+43201,Villa Pueyrredón,RatherSafe,0,0,0,0,0,0,0,0,0,0
+43201,Agronomía,Safe,1,1,0,0,0,0,0,0,0,0
+43201,La Paternal,NotSafe,2,0,0,0,0,2,0,0,3,0
+43201,Parque Chas,RatherSafe,0,0,0,0,0,0,0,0,0,0
+43201,Chacarita,RatherSafe,1,0,0,0,0,1,0,0,1,0
+43201,Villa Ortúzar,RatherSafe,0,0,0,0,0,0,0,0,0,0
+43201,Villa Crespo,NotSafe,8,1,0,0,0,2,5,0,3,0
+43201,Caballito,Safe,1,1,0,0,0,0,0,0,0,0
+43201,Monte Castro,RatherSafe,0,0,0,0,0,0,0,0,1,0
+43201,Floresta,RatherSafe,0,0,0,0,0,0,0,0,0,0
+43201,Flores,RatherSafe,2,1,0,0,0,1,0,0,1,0
+43201,Villa Real,RatherSafe,0,0,0,0,0,0,0,0,1,0
+43201,Versalles,NotSafe,1,0,0,0,0,1,0,0,2,0
+43201,Villa Luro,Safe,0,0,0,0,0,0,0,0,0,0
+43201,Vélez Sarsfield,RatherSafe,3,0,1,0,0,0,2,0,1,0
+43201,Villa Urquiza,RatherSafe,1,1,0,0,0,0,0,0,0,0
+43201,Saavedra,RatherSafe,1,0,0,0,0,1,0,0,1,0
+43201,Nú?ez,RatherSafe,1,1,0,0,0,0,0,0,0,0
+43201,Colegiales,NotSafe,0,0,0,0,0,0,0,0,0,0
+43201,Belgrano,Safe,1,1,0,0,0,0,0,0,0,0
+43201,Palermo,RatherSafe,1,0,0,1,0,0,0,0,1,0
+43201,Liniers,RatherSafe,1,0,0,0,0,1,0,0,2,0
+43201,Mataderos,RatherSafe,0,0,0,0,0,0,0,0,0,0
+43201,Parque Avellaneda,Safe,2,1,0,0,0,1,0,0,1,0
+43201,Parque Chacabuco,NotSafe,1,0,0,0,0,1,0,0,1,0
+43201,Almagro,RatherSafe,1,1,0,0,0,0,0,0,0,0
+43201,Boedo,RatherSafe,1,0,0,1,0,0,0,0,1,0
+43201,Balvanera,RatherSafe,0,0,0,0,0,0,0,0,0,0
+43201,San Cristóbal,RatherSafe,0,0,0,0,0,0,0,0,0,0
+43201,Monserrat,RatherSafe,2,0,1,0,0,0,1,0,1,0
+43201,San Nicolás,RatherSafe,6,0,0,1,0,1,4,0,3,0
+43201,San Telmo,RatherSafe,0,0,0,0,0,0,0,0,2,0
+43201,Constitución,Safe,0,0,0,0,0,0,0,0,1,0
+43201,Parque Patricios,NotSafe,0,0,0,0,0,0,0,0,0,0
+43201,Nueva Pompeya,RatherSafe,1,1,0,0,0,0,0,0,0,0
+43201,Villa Lugano,RatherSafe,4,1,0,0,0,2,1,0,3,0
+43201,Villa Soldati,RatherSafe,0,0,0,0,0,0,0,0,0,0
+43201,Villa Riachuelo,RatherSafe,3,0,0,0,0,1,2,0,2,0
+43201,Barracas,RatherSafe,5,0,0,0,0,0,5,0,1,0
+43201,La Boca,RatherSafe,0,0,0,0,0,0,0,0,0,0
+43201,Recoleta,RatherSafe,0,0,0,0,0,0,0,0,0,0
+43201,Retiro,RatherSafe,5,1,0,0,4,0,0,0,0,0
+43201,Puerto Madero,RatherSafe,3,0,0,1,0,2,0,0,2,0
+43201,Coghlan,RatherSafe,1,0,0,0,0,1,0,0,1,0
+43201,Buenos Aires,RatherSafe,0,0,0,0,0,0,0,0,0,0
+46800,Villa Santa Rita,RatherSafe,0,0,0,0,0,0,0,0,0,0
+46800,Villa del Parque,NotSafe,1,0,0,0,1,0,0,0,1,0
+46800,Villa General Mitre,Safe,1,0,0,0,0,1,0,0,1,0
+46800,Villa Devoto,RatherSafe,2,0,1,1,0,0,0,0,0,0
+46800,Villa Pueyrredón,RatherSafe,0,0,0,0,0,0,0,0,1,0
+46800,Agronomía,Safe,0,0,0,0,0,0,0,0,1,0
+46800,La Paternal,NotSafe,13,0,0,0,0,0,13,0,4,0
+46800,Parque Chas,RatherSafe,1,0,0,0,0,1,0,0,1,0
+46800,Chacarita,RatherSafe,1,0,0,0,0,1,0,0,1,0
+46800,Villa Ortúzar,RatherSafe,0,0,0,0,0,0,0,0,0,0
+46800,Villa Crespo,NotSafe,2,1,0,1,0,0,0,0,1,0
+46800,Caballito,Safe,2,2,0,0,0,0,0,0,0,0
+46800,Monte Castro,RatherSafe,2,1,0,0,0,1,0,0,1,0
+46800,Floresta,RatherSafe,0,0,0,0,0,0,0,0,0,0
+46800,Flores,RatherSafe,3,2,0,1,0,0,0,0,0,0
+46800,Villa Real,RatherSafe,0,0,0,0,0,0,0,0,1,0
+46800,Versalles,NotSafe,7,0,0,0,0,3,4,0,4,0
+46800,Villa Luro,Safe,2,1,0,0,0,1,0,0,1,0
+46800,Vélez Sarsfield,RatherSafe,1,0,0,0,0,1,0,0,2,0
+46800,Villa Urquiza,RatherSafe,1,1,0,0,0,0,0,0,0,0
+46800,Saavedra,RatherSafe,1,1,0,0,0,0,0,0,0,0
+46800,Nú?ez,RatherSafe,1,0,0,0,0,1,0,0,1,0
+46800,Colegiales,NotSafe,1,0,0,0,0,1,0,0,2,0
+46800,Belgrano,Safe,1,0,0,1,0,0,0,0,0,0
+46800,Palermo,RatherSafe,0,0,0,0,0,0,0,0,0,0
+46800,Liniers,RatherSafe,0,0,0,0,0,0,0,0,0,0
+46800,Mataderos,RatherSafe,1,0,0,0,0,1,0,0,1,0
+46800,Parque Avellaneda,Safe,0,0,0,0,0,0,0,0,0,0
+46800,Parque Chacabuco,NotSafe,2,1,0,0,0,1,0,0,2,0
+46800,Almagro,RatherSafe,1,1,0,0,0,0,0,0,0,0
+46800,Boedo,RatherSafe,1,1,0,0,0,0,0,0,0,0
+46800,Balvanera,RatherSafe,2,1,0,0,0,1,0,0,1,0
+46800,San Cristóbal,RatherSafe,0,0,0,0,0,0,0,0,0,0
+46800,Monserrat,RatherSafe,0,0,0,0,0,0,0,0,0,0
+46800,San Nicolás,RatherSafe,3,0,0,0,0,1,2,0,2,0
+46800,San Telmo,RatherSafe,5,0,0,0,0,1,4,0,2,0
+46800,Constitución,Safe,0,0,0,0,0,0,0,0,0,0
+46800,Parque Patricios,NotSafe,2,1,0,0,0,1,0,0,1,0
+46800,Nueva Pompeya,RatherSafe,0,0,0,0,0,0,0,0,0,0
+46800,Villa Lugano,RatherSafe,1,1,0,0,0,0,0,0,0,0
+46800,Villa Soldati,RatherSafe,0,0,0,0,0,0,0,0,0,0
+46800,Villa Riachuelo,RatherSafe,0,0,0,0,0,0,0,0,2,0
+46800,Barracas,RatherSafe,1,1,0,0,0,0,0,0,0,0
+46800,La Boca,RatherSafe,0,0,0,0,0,0,0,0,0,0
+46800,Recoleta,RatherSafe,4,1,0,1,0,0,2,0,1,0
+46800,Retiro,RatherSafe,1,1,0,0,0,0,0,0,0,0
+46800,Puerto Madero,RatherSafe,0,0,0,0,0,0,0,0,0,0
+46800,Coghlan,RatherSafe,1,0,0,0,0,1,0,0,2,0
+46800,Buenos Aires,RatherSafe,0,0,0,0,0,0,0,0,0,0
+50401,Villa Santa Rita,RatherSafe,7,0,0,0,2,1,4,0,2,0
+50401,Villa del Parque,NotSafe,1,0,0,0,0,0,1,0,1,0
+50401,Villa General Mitre,Safe,0,0,0,0,0,0,0,0,0,0
+50401,Villa Devoto,RatherSafe,3,0,1,1,0,1,0,0,2,0
+50401,Villa Pueyrredón,RatherSafe,0,0,0,0,0,0,0,0,0,0
+50401,Agronomía,Safe,1,0,1,0,0,0,0,0,0,0
+50401,La Paternal,NotSafe,3,0,0,0,0,0,3,0,2,0
+50401,Parque Chas,RatherSafe,0,0,0,0,0,0,0,0,1,0
+50401,Chacarita,RatherSafe,0,0,0,0,0,0,0,0,0,0
+50401,Villa Ortúzar,RatherSafe,1,0,0,0,0,1,0,0,1,0
+50401,Villa Crespo,NotSafe,1,0,1,0,0,0,0,0,1,0
+50401,Caballito,Safe,1,0,1,0,0,0,0,0,0,0
+50401,Monte Castro,RatherSafe,0,0,0,0,0,0,0,0,0,0
+50401,Floresta,RatherSafe,2,0,0,0,0,2,0,0,2,0
+50401,Flores,RatherSafe,0,0,0,0,0,0,0,0,0,0
+50401,Villa Real,RatherSafe,1,0,0,0,0,1,0,0,1,0
+50401,Versalles,NotSafe,4,0,0,0,0,0,4,0,1,0
+50401,Villa Luro,Safe,0,0,0,0,0,0,0,0,1,0
+50401,Vélez Sarsfield,RatherSafe,6,4,0,0,0,0,2,0,1,0
+50401,Villa Urquiza,RatherSafe,0,0,0,0,0,0,0,0,0,0
+50401,Saavedra,RatherSafe,1,0,0,1,0,0,0,0,1,0
+50401,Nú?ez,RatherSafe,0,0,0,0,0,0,0,0,1,0
+50401,Colegiales,NotSafe,2,0,1,0,0,1,0,0,1,0
+50401,Belgrano,Safe,2,0,0,0,0,0,2,0,1,0
+50401,Palermo,RatherSafe,1,0,0,1,0,0,0,0,2,0
+50401,Liniers,RatherSafe,2,0,0,0,0,2,0,0,2,0
+50401,Mataderos,RatherSafe,1,1,0,0,0,0,0,0,0,0
+50401,Parque Avellaneda,Safe,0,0,0,0,0,0,0,0,0,0
+50401,Parque Chacabuco,NotSafe,6,0,0,0,0,1,5,0,2,0
+50401,Almagro,RatherSafe,3,2,0,1,0,0,0,0,0,0
+50401,Boedo,RatherSafe,1,0,0,0,0,1,0,0,1,0
+50401,Balvanera,RatherSafe,1,1,0,0,0,0,0,0,0,0
+50401,San Cristóbal,RatherSafe,0,0,0,0,0,0,0,0,0,0
+50401,Monserrat,RatherSafe,2,0,0,0,0,2,0,0,2,0
+50401,San Nicolás,RatherSafe,0,0,0,0,0,0,0,0,0,0
+50401,San Telmo,RatherSafe,4,1,0,1,0,2,0,0,3,0
+50401,Constitución,Safe,2,0,0,0,0,2,0,0,2,0
+50401,Parque Patricios,NotSafe,0,0,0,0,0,0,0,0,0,0
+50401,Nueva Pompeya,RatherSafe,1,1,0,0,0,0,0,0,0,0
+50401,Villa Lugano,RatherSafe,0,0,0,0,0,0,0,0,0,0
+50401,Villa Soldati,RatherSafe,0,0,0,0,0,0,0,0,0,0
+50401,Villa Riachuelo,RatherSafe,2,0,0,0,0,0,2,0,2,0
+50401,Barracas,RatherSafe,2,0,0,0,0,2,0,0,2,0
+50401,La Boca,RatherSafe,0,0,0,0,0,0,0,0,0,0
+50401,Recoleta,RatherSafe,2,1,0,1,0,0,0,0,0,0
+50401,Retiro,RatherSafe,1,0,0,0,0,1,0,0,1,0
+50401,Puerto Madero,RatherSafe,1,0,0,0,0,1,0,0,2,0
+50401,Coghlan,RatherSafe,0,0,0,0,0,0,0,0,0,0
+50401,Buenos Aires,RatherSafe,0,0,0,0,0,0,0,0,0,0
+54001,Villa Santa Rita,RatherSafe,4,0,0,0,0,0,4,0,1,0
+54001,Villa del Parque,NotSafe,2,0,0,1,0,1,0,0,1,0
+54001,Villa General Mitre,Safe,0,0,0,0,0,0,0,0,0,0
+54001,Villa Devoto,RatherSafe,1,0,0,0,0,1,0,0,0,0
+54001,Villa Pueyrredón,RatherSafe,0,0,0,0,0,0,0,0,0,0
+54001,Agronomía,Safe,0,0,0,0,0,0,0,0,0,0
+54001,La Paternal,NotSafe,5,0,0,0,0,0,5,0,3,0
+54001,Parque Chas,RatherSafe,0,0,0,0,0,0,0,0,0,0
+54001,Chacarita,RatherSafe,2,0,0,1,0,1,0,0,1,0
+54001,Villa Ortúzar,RatherSafe,1,0,0,0,0,1,0,0,1,0
+54001,Villa Crespo,NotSafe,4,0,0,0,0,0,4,0,1,0
+54001,Caballito,Safe,1,0,0,0,0,1,0,0,1,0
+54001,Monte Castro,RatherSafe,1,0,1,0,0,0,0,0,0,0
+54001,Floresta,RatherSafe,0,0,0,0,0,0,0,0,0,0
+54001,Flores,RatherSafe,1,0,0,0,0,1,0,0,1,0
+54001,Villa Real,RatherSafe,0,0,0,0,0,0,0,0,0,0
+54001,Versalles,NotSafe,1,0,0,0,0,1,0,0,2,0
+54001,Villa Luro,Safe,0,0,0,0,0,0,0,0,0,0
+54001,Vélez Sarsfield,RatherSafe,3,0,1,2,0,0,0,0,1,0
+54001,Villa Urquiza,RatherSafe,1,0,0,0,0,1,0,0,2,0
+54001,Saavedra,RatherSafe,0,0,0,0,0,0,0,0,0,0
+54001,Nú?ez,RatherSafe,1,0,0,0,0,1,0,0,2,0
+54001,Colegiales,NotSafe,1,0,0,0,0,1,0,0,2,0
+54001,Belgrano,Safe,0,0,0,0,0,0,0,0,0,0
+54001,Palermo,RatherSafe,3,0,0,0,0,0,3,0,2,0
+54001,Liniers,RatherSafe,2,0,0,0,0,2,0,0,2,0
+54001,Mataderos,RatherSafe,1,0,0,0,0,1,0,0,1,0
+54001,Parque Avellaneda,Safe,0,0,0,0,0,0,0,0,0,0
+54001,Parque Chacabuco,NotSafe,1,0,0,0,0,1,0,0,1,0
+54001,Almagro,RatherSafe,2,1,0,0,0,1,0,0,1,0
+54001,Boedo,RatherSafe,1,0,0,0,0,1,0,0,2,0
+54001,Balvanera,RatherSafe,4,1,0,0,0,0,3,0,1,0
+54001,San Cristóbal,RatherSafe,2,0,0,0,0,0,2,0,1,0
+54001,Monserrat,RatherSafe,1,0,0,1,0,0,0,0,0,0
+54001,San Nicolás,RatherSafe,1,0,0,0,0,1,0,0,1,0
+54001,San Telmo,RatherSafe,3,0,0,0,0,0,3,0,2,0
+54001,Constitución,Safe,2,0,0,2,0,0,0,0,0,0
+54001,Parque Patricios,NotSafe,0,0,0,0,0,0,0,0,0,0
+54001,Nueva Pompeya,RatherSafe,0,0,0,0,0,0,0,0,0,0
+54001,Villa Lugano,RatherSafe,7,0,0,0,0,2,5,0,3,0
+54001,Villa Soldati,RatherSafe,2,0,0,0,0,2,0,0,2,0
+54001,Villa Riachuelo,RatherSafe,0,0,0,0,0,0,0,0,0,0
+54001,Barracas,RatherSafe,1,0,0,0,0,0,1,0,1,0
+54001,La Boca,RatherSafe,0,0,0,0,0,0,0,0,1,0
+54001,Recoleta,RatherSafe,4,1,0,3,0,0,0,0,1,0
+54001,Retiro,RatherSafe,0,0,0,0,0,0,0,0,2,0
+54001,Puerto Madero,RatherSafe,4,0,0,0,0,0,4,0,2,0
+54001,Coghlan,RatherSafe,1,0,0,0,0,1,0,0,1,0
+54001,Buenos Aires,RatherSafe,0,0,0,0,0,0,0,0,0,0
+57606,Villa Santa Rita,RatherSafe,1,1,0,0,0,0,0,0,2,1
+57606,Villa del Parque,NotSafe,1,0,0,0,0,1,0,0,1,1
+57606,Villa General Mitre,Safe,2,1,0,0,0,1,0,0,1,1
+57606,Villa Devoto,RatherSafe,3,2,0,0,0,1,0,0,2,1
+57606,Villa Pueyrredón,RatherSafe,3,0,0,1,0,2,0,0,2,1
+57606,Agronomía,Safe,0,0,0,0,0,0,0,0,0,1
+57606,La Paternal,NotSafe,3,0,0,0,0,1,2,0,3,1
+57606,Parque Chas,RatherSafe,0,0,0,0,0,0,0,0,0,1
+57606,Chacarita,RatherSafe,2,2,0,0,0,0,0,0,1,1
+57606,Villa Ortúzar,RatherSafe,1,0,0,0,0,1,0,0,1,1
+57606,Villa Crespo,NotSafe,7,5,0,2,0,0,0,0,2,1
+57606,Caballito,Safe,2,2,0,0,0,0,0,0,0,1
+57606,Monte Castro,RatherSafe,1,0,0,0,0,1,0,0,1,1
+57606,Floresta,RatherSafe,1,1,0,0,0,0,0,0,1,1
+57606,Flores,RatherSafe,3,2,0,0,0,1,0,0,1,1
+57606,Villa Real,RatherSafe,0,0,0,0,0,0,0,0,0,1
+57606,Versalles,NotSafe,5,0,0,0,0,2,3,0,3,1
+57606,Villa Luro,Safe,3,0,0,0,0,1,2,0,2,1
+57606,Vélez Sarsfield,RatherSafe,1,1,0,0,0,0,0,0,0,1
+57606,Villa Urquiza,RatherSafe,1,0,0,0,0,1,0,0,1,1
+57606,Saavedra,RatherSafe,1,0,0,0,0,1,0,0,2,1
+57606,Nú?ez,RatherSafe,2,1,1,0,0,0,0,0,0,1
+57606,Colegiales,NotSafe,1,1,0,0,0,0,0,0,0,1
+57606,Belgrano,Safe,3,2,0,1,0,0,0,0,0,1
+57606,Palermo,RatherSafe,0,0,0,0,0,0,0,0,0,1
+57606,Liniers,RatherSafe,0,0,0,0,0,0,0,0,0,1
+57606,Mataderos,RatherSafe,0,0,0,0,0,0,0,0,0,1
+57606,Parque Avellaneda,Safe,1,1,0,0,0,0,0,0,1,1
+57606,Parque Chacabuco,NotSafe,3,0,0,0,0,0,3,0,1,1
+57606,Almagro,RatherSafe,2,2,0,0,0,0,0,0,0,1
+57606,Boedo,RatherSafe,1,0,0,0,0,1,0,0,1,1
+57606,Balvanera,RatherSafe,2,1,0,0,0,1,0,0,1,1
+57606,San Cristóbal,RatherSafe,0,0,0,0,0,0,0,0,0,1
+57606,Monserrat,RatherSafe,1,0,0,0,0,1,0,0,1,1
+57606,San Nicolás,RatherSafe,0,0,0,0,0,0,0,0,0,1
+57606,San Telmo,RatherSafe,1,0,0,0,0,1,0,0,1,1
+57606,Constitución,Safe,2,1,0,0,0,1,0,0,1,1
+57606,Parque Patricios,NotSafe,0,0,0,0,0,0,0,0,0,1
+57606,Nueva Pompeya,RatherSafe,0,0,0,0,0,0,0,0,0,1
+57606,Villa Lugano,RatherSafe,4,3,0,0,0,0,0,0,0,1
+57606,Villa Soldati,RatherSafe,2,1,0,1,0,0,0,0,1,1
+57606,Villa Riachuelo,RatherSafe,0,0,0,0,0,0,0,0,1,1
+57606,Barracas,RatherSafe,1,1,0,0,0,0,0,0,0,1
+57606,La Boca,RatherSafe,0,0,0,0,0,0,0,0,0,1
+57606,Recoleta,RatherSafe,3,0,1,0,0,0,2,0,1,1
+57606,Retiro,RatherSafe,2,1,0,0,0,1,0,0,1,1
+57606,Puerto Madero,RatherSafe,2,0,0,0,1,1,0,0,1,1
+57606,Coghlan,RatherSafe,1,0,0,0,0,1,0,0,1,1
+57606,Buenos Aires,RatherSafe,0,0,0,0,0,0,0,0,0,1
+61200,Villa Santa Rita,RatherSafe,3,0,0,0,0,1,2,0,3,1
+61200,Villa del Parque,NotSafe,5,0,0,0,0,0,5,0,1,1
+61200,Villa General Mitre,Safe,1,0,0,0,0,1,0,0,1,1
+61200,Villa Devoto,RatherSafe,3,1,0,1,0,1,0,0,2,1
+61200,Villa Pueyrredón,RatherSafe,1,1,0,0,0,0,0,0,0,1
+61200,Agronomía,Safe,0,0,0,0,0,0,0,0,0,1
+61200,La Paternal,NotSafe,2,0,0,0,1,0,1,0,2,1
+61200,Parque Chas,RatherSafe,2,0,0,0,0,2,0,0,2,1
+61200,Chacarita,RatherSafe,3,0,0,0,2,1,0,0,1,1
+61200,Villa Ortúzar,RatherSafe,2,1,1,0,0,0,0,0,0,1
+61200,Villa Crespo,NotSafe,2,0,0,0,1,1,0,0,1,1
+61200,Caballito,Safe,2,2,0,0,0,0,0,0,0,1
+61200,Monte Castro,RatherSafe,1,1,0,0,0,0,0,0,0,1
+61200,Floresta,RatherSafe,1,0,0,0,0,1,0,0,1,1
+61200,Flores,RatherSafe,2,1,0,1,0,0,0,0,1,1
+61200,Villa Real,RatherSafe,5,0,0,0,0,0,4,1,2,1
+61200,Versalles,NotSafe,2,0,0,1,0,1,0,0,1,1
+61200,Villa Luro,Safe,1,1,0,0,0,0,0,0,0,1
+61200,Vélez Sarsfield,RatherSafe,2,1,0,1,0,0,0,0,1,1
+61200,Villa Urquiza,RatherSafe,1,0,1,0,0,0,0,0,0,1
+61200,Saavedra,RatherSafe,0,0,0,0,0,0,0,0,0,1
+61200,Nú?ez,RatherSafe,1,0,0,0,0,1,0,0,1,1
+61200,Colegiales,NotSafe,0,0,0,0,0,0,0,0,0,1
+61200,Belgrano,Safe,1,1,0,0,0,0,0,0,0,1
+61200,Palermo,RatherSafe,2,1,0,0,0,1,0,0,1,1
+61200,Liniers,RatherSafe,0,0,0,0,0,0,0,0,0,1
+61200,Mataderos,RatherSafe,1,1,0,0,0,0,0,0,0,1
+61200,Parque Avellaneda,Safe,5,2,1,0,0,2,0,0,2,1
+61200,Parque Chacabuco,NotSafe,0,0,0,0,0,0,0,0,1,1
+61200,Almagro,RatherSafe,4,0,0,0,0,0,4,0,1,1
+61200,Boedo,RatherSafe,2,2,0,0,0,0,0,0,0,1
+61200,Balvanera,RatherSafe,3,3,0,0,0,0,0,0,0,1
+61200,San Cristóbal,RatherSafe,11,3,0,0,0,1,7,0,2,1
+61200,Monserrat,RatherSafe,1,0,0,0,0,1,0,0,1,1
+61200,San Nicolás,RatherSafe,2,0,0,0,0,2,0,0,2,1
+61200,San Telmo,RatherSafe,0,0,0,0,0,0,0,0,0,1
+61200,Constitución,Safe,0,0,0,0,0,0,0,0,0,1
+61200,Parque Patricios,NotSafe,0,0,0,0,0,0,0,0,0,1
+61200,Nueva Pompeya,RatherSafe,2,2,0,0,0,0,0,0,0,1
+61200,Villa Lugano,RatherSafe,2,0,0,0,0,2,0,0,2,1
+61200,Villa Soldati,RatherSafe,0,0,0,0,0,0,0,0,0,1
+61200,Villa Riachuelo,RatherSafe,1,0,0,0,0,1,0,0,2,1
+61200,Barracas,RatherSafe,2,0,0,0,0,0,2,0,1,1
+61200,La Boca,RatherSafe,4,1,0,0,0,0,3,0,1,1
+61200,Recoleta,RatherSafe,2,1,0,1,0,0,0,0,0,1
+61200,Retiro,RatherSafe,1,1,0,0,0,0,0,0,0,1
+61200,Puerto Madero,RatherSafe,2,1,0,0,0,1,0,0,1,1
+61200,Coghlan,RatherSafe,1,0,0,0,0,1,0,0,1,1
+61200,Buenos Aires,RatherSafe,0,0,0,0,0,0,0,0,0,1
+64800,Villa Santa Rita,RatherSafe,1,0,0,0,0,1,0,0,2,1
+64800,Villa del Parque,NotSafe,0,0,0,0,0,0,0,0,0,1
+64800,Villa General Mitre,Safe,0,0,0,0,0,0,0,0,0,1
+64800,Villa Devoto,RatherSafe,6,0,0,1,0,0,5,0,2,1
+64800,Villa Pueyrredón,RatherSafe,0,0,0,0,0,0,0,0,0,1
+64800,Agronomía,Safe,0,0,0,0,0,0,0,0,0,1
+64800,La Paternal,NotSafe,8,0,0,0,0,3,5,0,5,1
+64800,Parque Chas,RatherSafe,0,0,0,0,0,0,0,0,0,1
+64800,Chacarita,RatherSafe,3,0,1,1,0,1,0,0,1,1
+64800,Villa Ortúzar,RatherSafe,4,1,0,0,0,0,3,0,1,1
+64800,Villa Crespo,NotSafe,6,0,0,0,0,1,5,0,3,1
+64800,Caballito,Safe,1,0,0,1,0,0,0,0,0,1
+64800,Monte Castro,RatherSafe,0,0,0,0,0,0,0,0,0,1
+64800,Floresta,RatherSafe,1,0,0,0,0,1,0,0,1,1
+64800,Flores,RatherSafe,1,0,0,0,0,0,0,1,2,1
+64800,Villa Real,RatherSafe,1,0,0,0,0,1,0,0,2,1
+64800,Versalles,NotSafe,2,0,0,1,0,1,0,0,3,1
+64800,Villa Luro,Safe,0,0,0,0,0,0,0,0,0,1
+64800,Vélez Sarsfield,RatherSafe,1,0,0,0,0,1,0,0,1,1
+64800,Villa Urquiza,RatherSafe,0,0,0,0,0,0,0,0,0,1
+64800,Saavedra,RatherSafe,1,0,0,0,1,0,0,0,0,1
+64800,Nú?ez,RatherSafe,1,1,0,0,0,0,0,0,0,1
+64800,Colegiales,NotSafe,3,0,0,0,0,0,3,0,1,1
+64800,Belgrano,Safe,2,1,0,0,1,0,0,0,0,1
+64800,Palermo,RatherSafe,3,1,0,0,0,2,0,0,2,1
+64800,Liniers,RatherSafe,1,0,0,0,0,1,0,0,1,1
+64800,Mataderos,RatherSafe,5,0,0,0,0,0,5,0,2,1
+64800,Parque Avellaneda,Safe,0,0,0,0,0,0,0,0,0,1
+64800,Parque Chacabuco,NotSafe,2,0,0,0,0,2,0,0,3,1
+64800,Almagro,RatherSafe,2,0,0,0,0,2,0,0,2,1
+64800,Boedo,RatherSafe,3,0,0,0,0,3,0,0,3,1
+64800,Balvanera,RatherSafe,0,0,0,0,0,0,0,0,0,1
+64800,San Cristóbal,RatherSafe,4,1,0,0,0,0,3,0,1,1
+64800,Monserrat,RatherSafe,1,1,0,0,0,0,0,0,0,1
+64800,San Nicolás,RatherSafe,1,0,0,0,0,1,0,0,1,1
+64800,San Telmo,RatherSafe,1,0,0,0,0,1,0,0,1,1
+64800,Constitución,Safe,0,0,0,0,0,0,0,0,0,1
+64800,Parque Patricios,NotSafe,7,0,0,0,0,2,5,0,3,1
+64800,Nueva Pompeya,RatherSafe,0,0,0,0,0,0,0,0,0,1
+64800,Villa Lugano,RatherSafe,0,0,0,0,0,0,0,0,0,1
+64800,Villa Soldati,RatherSafe,4,0,0,0,0,0,4,0,1,1
+64800,Villa Riachuelo,RatherSafe,0,0,0,0,0,0,0,0,1,1
+64800,Barracas,RatherSafe,0,0,0,0,0,0,0,0,0,1
+64800,La Boca,RatherSafe,0,0,0,0,0,0,0,0,0,1
+64800,Recoleta,RatherSafe,0,0,0,0,0,0,0,0,0,1
+64800,Retiro,RatherSafe,1,1,0,0,0,0,0,0,0,1
+64800,Puerto Madero,RatherSafe,2,0,0,1,0,1,0,0,1,1
+64800,Coghlan,RatherSafe,0,0,0,0,0,0,0,0,0,1
+64800,Buenos Aires,RatherSafe,0,0,0,0,0,0,0,0,0,1
+68400,Villa Santa Rita,RatherSafe,1,0,0,1,0,0,0,0,1,1
+68400,Villa del Parque,NotSafe,5,0,0,0,0,1,4,0,3,1
+68400,Villa General Mitre,Safe,0,0,0,0,0,0,0,0,1,1
+68400,Villa Devoto,RatherSafe,0,0,0,0,0,0,0,0,1,1
+68400,Villa Pueyrredón,RatherSafe,0,0,0,0,0,0,0,0,0,1
+68400,Agronomía,Safe,1,0,0,0,0,1,0,0,1,1
+68400,La Paternal,NotSafe,12,0,0,1,0,2,9,0,6,1
+68400,Parque Chas,RatherSafe,1,0,0,0,0,1,0,0,1,1
+68400,Chacarita,RatherSafe,1,0,1,0,0,0,0,0,0,1
+68400,Villa Ortúzar,RatherSafe,1,0,1,0,0,0,0,0,0,1
+68400,Villa Crespo,NotSafe,15,0,0,0,0,0,15,0,4,1
+68400,Caballito,Safe,3,0,1,2,0,0,0,0,0,1
+68400,Monte Castro,RatherSafe,4,0,0,1,0,1,2,0,2,1
+68400,Floresta,RatherSafe,0,0,0,0,0,0,0,0,0,1
+68400,Flores,RatherSafe,5,0,0,1,0,0,4,0,3,1
+68400,Villa Real,RatherSafe,1,0,0,0,0,1,0,0,1,1
+68400,Versalles,NotSafe,6,0,0,0,0,1,5,0,3,1
+68400,Villa Luro,Safe,0,0,0,0,0,0,0,0,0,1
+68400,Vélez Sarsfield,RatherSafe,3,0,0,1,0,2,0,0,2,1
+68400,Villa Urquiza,RatherSafe,0,0,0,0,0,0,0,0,0,1
+68400,Saavedra,RatherSafe,3,0,0,0,1,1,1,0,2,1
+68400,Nú?ez,RatherSafe,0,0,0,0,0,0,0,0,1,1
+68400,Colegiales,NotSafe,1,0,0,0,0,1,0,0,3,1
+68400,Belgrano,Safe,0,0,0,0,0,0,0,0,1,1
+68400,Palermo,RatherSafe,0,0,0,0,0,0,0,0,0,1
+68400,Liniers,RatherSafe,2,0,0,0,0,2,0,0,3,1
+68400,Mataderos,RatherSafe,3,3,0,0,0,0,0,0,0,1
+68400,Parque Avellaneda,Safe,1,0,0,0,0,1,0,0,2,1
+68400,Parque Chacabuco,NotSafe,2,0,0,0,0,0,2,0,1,1
+68400,Almagro,RatherSafe,1,1,0,0,0,0,0,0,1,1
+68400,Boedo,RatherSafe,1,0,0,0,0,1,0,0,2,1
+68400,Balvanera,RatherSafe,0,0,0,0,0,0,0,0,0,1
+68400,San Cristóbal,RatherSafe,1,0,0,0,0,1,0,0,1,1
+68400,Monserrat,RatherSafe,0,0,0,0,0,0,0,0,0,1
+68400,San Nicolás,RatherSafe,0,0,0,0,0,0,0,0,0,1
+68400,San Telmo,RatherSafe,2,0,1,0,0,1,0,0,1,1
+68400,Constitución,Safe,0,0,0,0,0,0,0,0,1,1
+68400,Parque Patricios,NotSafe,2,0,0,0,0,1,1,0,3,1
+68400,Nueva Pompeya,RatherSafe,0,0,0,0,0,0,0,0,0,1
+68400,Villa Lugano,RatherSafe,0,0,0,0,0,0,0,0,0,1
+68400,Villa Soldati,RatherSafe,2,0,0,0,0,1,1,0,2,1
+68400,Villa Riachuelo,RatherSafe,1,0,0,0,0,1,0,0,1,1
+68400,Barracas,RatherSafe,0,0,0,0,0,0,0,0,0,1
+68400,La Boca,RatherSafe,4,0,0,0,0,0,4,0,2,1
+68400,Recoleta,RatherSafe,2,1,1,0,0,0,0,0,0,1
+68400,Retiro,RatherSafe,3,0,0,0,2,1,0,0,2,1
+68400,Puerto Madero,RatherSafe,0,0,0,0,0,0,0,0,0,1
+68400,Coghlan,RatherSafe,0,0,0,0,0,0,0,0,1,1
+68400,Buenos Aires,RatherSafe,0,0,0,0,0,0,0,0,0,1
+72002,Villa Santa Rita,RatherSafe,0,0,0,0,0,0,0,0,1,1
+72002,Villa del Parque,NotSafe,5,1,0,0,0,0,4,0,1,1
+72002,Villa General Mitre,Safe,2,1,0,0,0,0,0,1,0,1
+72002,Villa Devoto,RatherSafe,0,0,0,0,0,0,0,0,0,1
+72002,Villa Pueyrredón,RatherSafe,1,0,0,0,0,1,0,0,1,1
+72002,Agronomía,Safe,0,0,0,0,0,0,0,0,0,1
+72002,La Paternal,NotSafe,1,1,0,0,0,0,0,0,1,1
+72002,Parque Chas,RatherSafe,1,0,0,0,0,1,0,0,1,1
+72002,Chacarita,RatherSafe,2,1,0,0,0,1,0,0,1,1
+72002,Villa Ortúzar,RatherSafe,0,0,0,0,0,0,0,0,0,1
+72002,Villa Crespo,NotSafe,5,4,0,0,0,0,0,1,0,1
+72002,Caballito,Safe,2,2,0,0,0,0,0,0,0,1
+72002,Monte Castro,RatherSafe,7,0,0,0,0,2,5,0,3,1
+72002,Floresta,RatherSafe,0,0,0,0,0,0,0,0,0,1
+72002,Flores,RatherSafe,1,1,0,0,0,0,0,0,0,1
+72002,Villa Real,RatherSafe,0,0,0,0,0,0,0,0,1,1
+72002,Versalles,NotSafe,3,0,0,0,0,2,1,0,3,1
+72002,Villa Luro,Safe,1,0,0,0,0,1,0,0,1,1
+72002,Vélez Sarsfield,RatherSafe,0,0,0,0,0,0,0,0,0,1
+72002,Villa Urquiza,RatherSafe,2,1,0,0,0,1,0,0,1,1
+72002,Saavedra,RatherSafe,5,0,0,0,0,0,5,0,1,1
+72002,Nú?ez,RatherSafe,2,0,0,1,1,0,0,0,1,1
+72002,Colegiales,NotSafe,0,0,0,0,0,0,0,0,1,1
+72002,Belgrano,Safe,1,0,0,0,0,1,0,0,1,1
+72002,Palermo,RatherSafe,2,2,0,0,0,0,0,0,0,1
+72002,Liniers,RatherSafe,1,0,0,0,0,1,0,0,1,1
+72002,Mataderos,RatherSafe,1,0,0,0,0,1,0,0,1,1
+72002,Parque Avellaneda,Safe,0,0,0,0,0,0,0,0,0,1
+72002,Parque Chacabuco,NotSafe,6,0,0,0,0,0,6,0,2,1
+72002,Almagro,RatherSafe,7,1,0,0,0,0,6,0,1,1
+72002,Boedo,RatherSafe,0,0,0,0,0,0,0,0,0,1
+72002,Balvanera,RatherSafe,5,5,0,0,0,0,0,0,0,1
+72002,San Cristóbal,RatherSafe,2,1,0,0,0,1,0,0,2,1
+72002,Monserrat,RatherSafe,1,1,0,0,0,0,0,0,1,1
+72002,San Nicolás,RatherSafe,5,1,0,2,0,2,0,0,3,1
+72002,San Telmo,RatherSafe,0,0,0,0,0,0,0,0,0,1
+72002,Constitución,Safe,1,1,0,0,0,0,0,0,0,1
+72002,Parque Patricios,NotSafe,3,0,0,0,0,0,3,0,1,1
+72002,Nueva Pompeya,RatherSafe,3,2,0,0,0,1,0,0,1,1
+72002,Villa Lugano,RatherSafe,1,0,0,0,0,1,0,0,2,1
+72002,Villa Soldati,RatherSafe,0,0,0,0,0,0,0,0,0,1
+72002,Villa Riachuelo,RatherSafe,0,0,0,0,0,0,0,0,0,1
+72002,Barracas,RatherSafe,1,0,0,0,0,1,0,0,1,1
+72002,La Boca,RatherSafe,0,0,0,0,0,0,0,0,0,1
+72002,Recoleta,RatherSafe,3,3,0,0,0,0,0,0,0,1
+72002,Retiro,RatherSafe,2,0,0,0,0,2,0,0,2,1
+72002,Puerto Madero,RatherSafe,0,0,0,0,0,0,0,0,2,1
+72002,Coghlan,RatherSafe,0,0,0,0,0,0,0,0,0,1
+72002,Buenos Aires,RatherSafe,0,0,0,0,0,0,0,0,0,1
+75600,Villa Santa Rita,RatherSafe,1,0,0,1,0,0,0,0,1,1
+75600,Villa del Parque,NotSafe,6,0,0,0,0,0,6,0,1,1
+75600,Villa General Mitre,Safe,1,1,0,0,0,0,0,0,0,1
+75600,Villa Devoto,RatherSafe,0,0,0,0,0,0,0,0,0,1
+75600,Villa Pueyrredón,RatherSafe,1,0,0,0,0,1,0,0,2,1
+75600,Agronomía,Safe,1,0,1,0,0,0,0,0,0,1
+75600,La Paternal,NotSafe,0,0,0,0,0,0,0,0,1,1
+75600,Parque Chas,RatherSafe,0,0,0,0,0,0,0,0,0,1
+75600,Chacarita,RatherSafe,6,0,0,0,0,1,5,0,2,1
+75600,Villa Ortúzar,RatherSafe,3,0,0,0,0,0,3,0,1,1
+75600,Villa Crespo,NotSafe,1,0,0,0,0,1,0,0,1,1
+75600,Caballito,Safe,0,0,0,0,0,0,0,0,0,1
+75600,Monte Castro,RatherSafe,1,1,0,0,0,0,0,0,0,1
+75600,Floresta,RatherSafe,2,0,0,0,0,1,0,1,1,1
+75600,Flores,RatherSafe,2,1,0,1,0,0,0,0,0,1
+75600,Villa Real,RatherSafe,1,0,0,0,0,1,0,0,1,1
+75600,Versalles,NotSafe,2,0,0,0,0,0,2,0,2,1
+75600,Villa Luro,Safe,0,0,0,0,0,0,0,0,0,1
+75600,Vélez Sarsfield,RatherSafe,0,0,0,0,0,0,0,0,2,1
+75600,Villa Urquiza,RatherSafe,0,0,0,0,0,0,0,0,0,1
+75600,Saavedra,RatherSafe,1,0,0,0,0,1,0,0,2,1
+75600,Nú?ez,RatherSafe,3,0,0,0,0,0,3,0,1,1
+75600,Colegiales,NotSafe,4,1,0,0,0,0,3,0,2,1
+75600,Belgrano,Safe,0,0,0,0,0,0,0,0,1,1
+75600,Palermo,RatherSafe,2,2,0,0,0,0,0,0,0,1
+75600,Liniers,RatherSafe,1,0,0,0,0,1,0,0,2,1
+75600,Mataderos,RatherSafe,0,0,0,0,0,0,0,0,0,1
+75600,Parque Avellaneda,Safe,1,0,0,0,0,1,0,0,2,1
+75600,Parque Chacabuco,NotSafe,1,0,0,0,0,1,0,0,2,1
+75600,Almagro,RatherSafe,1,1,0,0,0,0,0,0,0,1
+75600,Boedo,RatherSafe,2,0,0,1,1,0,0,0,0,1
+75600,Balvanera,RatherSafe,1,0,0,1,0,0,0,0,0,1
+75600,San Cristóbal,RatherSafe,7,0,0,0,1,2,4,0,4,1
+75600,Monserrat,RatherSafe,2,0,0,0,0,0,2,0,2,1
+75600,San Nicolás,RatherSafe,1,0,0,1,0,0,0,0,0,1
+75600,San Telmo,RatherSafe,2,0,0,0,0,2,0,0,2,1
+75600,Constitución,Safe,1,0,0,0,1,0,0,0,0,1
+75600,Parque Patricios,NotSafe,8,0,0,0,2,1,5,0,3,1
+75600,Nueva Pompeya,RatherSafe,0,0,0,0,0,0,0,0,0,1
+75600,Villa Lugano,RatherSafe,3,0,0,0,0,1,2,0,2,1
+75600,Villa Soldati,RatherSafe,1,0,0,0,0,1,0,0,2,1
+75600,Villa Riachuelo,RatherSafe,1,0,0,0,0,0,1,0,1,1
+75600,Barracas,RatherSafe,0,0,0,0,0,0,0,0,0,1
+75600,La Boca,RatherSafe,0,0,0,0,0,0,0,0,0,1
+75600,Recoleta,RatherSafe,2,0,0,0,0,2,0,0,2,1
+75600,Retiro,RatherSafe,5,1,0,2,0,2,0,0,2,1
+75600,Puerto Madero,RatherSafe,0,0,0,0,0,0,0,0,1,1
+75600,Coghlan,RatherSafe,3,0,0,0,0,1,2,0,2,1
+75600,Buenos Aires,RatherSafe,0,0,0,0,0,0,0,0,0,1
+79202,Villa Santa Rita,RatherSafe,2,0,0,0,0,2,0,0,3,1
+79202,Villa del Parque,NotSafe,0,0,0,0,0,0,0,0,0,1
+79202,Villa General Mitre,Safe,1,0,0,0,0,1,0,0,1,1
+79202,Villa Devoto,RatherSafe,3,0,0,0,0,0,3,0,2,1
+79202,Villa Pueyrredón,RatherSafe,1,0,0,0,0,1,0,0,2,1
+79202,Agronomía,Safe,1,0,0,0,0,1,0,0,1,1
+79202,La Paternal,NotSafe,0,0,0,0,0,0,0,0,1,1
+79202,Parque Chas,RatherSafe,1,1,0,0,0,0,0,0,0,1
+79202,Chacarita,RatherSafe,0,0,0,0,0,0,0,0,0,1
+79202,Villa Ortúzar,RatherSafe,0,0,0,0,0,0,0,0,1,1
+79202,Villa Crespo,NotSafe,11,1,0,0,0,1,9,0,3,1
+79202,Caballito,Safe,0,0,0,0,0,0,0,0,0,1
+79202,Monte Castro,RatherSafe,0,0,0,0,0,0,0,0,0,1
+79202,Floresta,RatherSafe,1,0,0,0,0,1,0,0,1,1
+79202,Flores,RatherSafe,7,2,0,2,0,0,3,0,2,1
+79202,Villa Real,RatherSafe,1,0,1,0,0,0,0,0,0,1
+79202,Versalles,NotSafe,3,0,0,0,0,1,2,0,2,1
+79202,Villa Luro,Safe,0,0,0,0,0,0,0,0,0,1
+79202,Vélez Sarsfield,RatherSafe,7,0,0,0,0,1,6,0,5,1
+79202,Villa Urquiza,RatherSafe,1,0,0,0,0,1,0,0,1,1
+79202,Saavedra,RatherSafe,0,0,0,0,0,0,0,0,0,1
+79202,Nú?ez,RatherSafe,1,0,0,0,0,0,1,0,1,1
+79202,Colegiales,NotSafe,8,0,3,0,0,0,5,0,4,1
+79202,Belgrano,Safe,3,0,0,0,1,0,2,0,1,1
+79202,Palermo,RatherSafe,2,1,0,0,0,1,0,0,1,1
+79202,Liniers,RatherSafe,2,0,0,0,0,1,1,0,2,1
+79202,Mataderos,RatherSafe,0,0,0,0,0,0,0,0,0,1
+79202,Parque Avellaneda,Safe,1,0,0,1,0,0,0,0,1,1
+79202,Parque Chacabuco,NotSafe,1,0,0,0,0,1,0,0,1,1
+79202,Almagro,RatherSafe,2,0,0,0,0,1,0,1,1,1
+79202,Boedo,RatherSafe,0,0,0,0,0,0,0,0,0,1
+79202,Balvanera,RatherSafe,0,0,0,0,0,0,0,0,0,1
+79202,San Cristóbal,RatherSafe,5,0,0,0,0,1,4,0,2,1
+79202,Monserrat,RatherSafe,1,0,0,0,0,1,0,0,1,1
+79202,San Nicolás,RatherSafe,0,0,0,0,0,0,0,0,0,1
+79202,San Telmo,RatherSafe,0,0,0,0,0,0,0,0,0,1
+79202,Constitución,Safe,0,0,0,0,0,0,0,0,0,1
+79202,Parque Patricios,NotSafe,6,0,0,0,0,1,5,0,2,1
+79202,Nueva Pompeya,RatherSafe,1,1,0,0,0,0,0,0,0,1
+79202,Villa Lugano,RatherSafe,2,1,0,1,0,0,0,0,0,1
+79202,Villa Soldati,RatherSafe,0,0,0,0,0,0,0,0,0,1
+79202,Villa Riachuelo,RatherSafe,1,0,0,0,0,0,1,0,2,1
+79202,Barracas,RatherSafe,1,0,0,0,0,1,0,0,1,1
+79202,La Boca,RatherSafe,1,1,0,0,0,0,0,0,1,1
+79202,Recoleta,RatherSafe,8,3,0,1,0,0,4,0,1,1
+79202,Retiro,RatherSafe,0,0,0,0,0,0,0,0,0,1
+79202,Puerto Madero,RatherSafe,4,4,0,0,0,0,0,0,0,1
+79202,Coghlan,RatherSafe,1,0,0,0,0,1,0,0,1,1
+79202,Buenos Aires,RatherSafe,0,0,0,0,0,0,0,0,0,1
+82803,Villa Santa Rita,RatherSafe,5,0,0,0,0,0,5,0,2,1
+82803,Villa del Parque,NotSafe,5,0,0,0,0,0,5,0,1,1
+82803,Villa General Mitre,Safe,1,0,0,0,0,1,0,0,1,1
+82803,Villa Devoto,RatherSafe,2,0,0,1,0,1,0,0,2,1
+82803,Villa Pueyrredón,RatherSafe,0,0,0,0,0,0,0,0,0,1
+82803,Agronomía,Safe,0,0,0,0,0,0,0,0,0,1
+82803,La Paternal,NotSafe,3,0,1,0,0,1,1,0,3,1
+82803,Parque Chas,RatherSafe,0,0,0,0,0,0,0,0,0,1
+82803,Chacarita,RatherSafe,4,0,1,0,0,0,3,0,1,1
+82803,Villa Ortúzar,RatherSafe,5,0,4,0,0,0,1,0,1,1
+82803,Villa Crespo,NotSafe,3,0,0,0,0,0,3,0,2,1
+82803,Caballito,Safe,3,2,1,0,0,0,0,0,0,1
+82803,Monte Castro,RatherSafe,3,0,0,0,0,1,2,0,2,1
+82803,Floresta,RatherSafe,1,0,0,0,0,1,0,0,1,1
+82803,Flores,RatherSafe,4,4,0,0,0,0,0,0,0,1
+82803,Villa Real,RatherSafe,0,0,0,0,0,0,0,0,0,1
+82803,Versalles,NotSafe,10,0,0,0,0,2,8,0,6,1
+82803,Villa Luro,Safe,1,0,0,1,0,0,0,0,0,1
+82803,Vélez Sarsfield,RatherSafe,0,0,0,0,0,0,0,0,0,1
+82803,Villa Urquiza,RatherSafe,0,0,0,0,0,0,0,0,0,1
+82803,Saavedra,RatherSafe,1,1,0,0,0,0,0,0,0,1
+82803,Nú?ez,RatherSafe,2,0,0,2,0,0,0,0,1,1
+82803,Colegiales,NotSafe,12,1,0,0,0,0,11,0,5,1
+82803,Belgrano,Safe,0,0,0,0,0,0,0,0,0,1
+82803,Palermo,RatherSafe,3,2,0,1,0,0,0,0,0,1
+82803,Liniers,RatherSafe,1,0,0,0,0,1,0,0,1,1
+82803,Mataderos,RatherSafe,1,1,0,0,0,0,0,0,0,1
+82803,Parque Avellaneda,Safe,0,0,0,0,0,0,0,0,0,1
+82803,Parque Chacabuco,NotSafe,2,1,1,0,0,0,0,0,0,1
+82803,Almagro,RatherSafe,0,0,0,0,0,0,0,0,1,1
+82803,Boedo,RatherSafe,1,0,0,0,0,1,0,0,2,1
+82803,Balvanera,RatherSafe,0,0,0,0,0,0,0,0,1,1
+82803,San Cristóbal,RatherSafe,2,0,0,0,0,0,2,0,1,1
+82803,Monserrat,RatherSafe,0,0,0,0,0,0,0,0,0,1
+82803,San Nicolás,RatherSafe,2,1,0,0,0,1,0,0,1,1
+82803,San Telmo,RatherSafe,0,0,0,0,0,0,0,0,0,1
+82803,Constitución,Safe,0,0,0,0,0,0,0,0,0,1
+82803,Parque Patricios,NotSafe,3,1,1,0,0,1,0,0,1,1
+82803,Nueva Pompeya,RatherSafe,0,0,0,0,0,0,0,0,1,1
+82803,Villa Lugano,RatherSafe,1,0,1,0,0,0,0,0,0,1
+82803,Villa Soldati,RatherSafe,0,0,0,0,0,0,0,0,0,1
+82803,Villa Riachuelo,RatherSafe,1,0,0,1,0,0,0,0,2,1
+82803,Barracas,RatherSafe,1,0,0,0,0,1,0,0,1,1
+82803,La Boca,RatherSafe,0,0,0,0,0,0,0,0,0,1
+82803,Recoleta,RatherSafe,0,0,0,0,0,0,0,0,0,1
+82803,Retiro,RatherSafe,2,1,0,1,0,0,0,0,0,1
+82803,Puerto Madero,RatherSafe,3,0,0,0,0,3,0,0,3,1
+82803,Coghlan,RatherSafe,1,0,0,0,0,1,0,0,1,1
+82803,Buenos Aires,RatherSafe,0,0,0,0,0,0,0,0,0,1

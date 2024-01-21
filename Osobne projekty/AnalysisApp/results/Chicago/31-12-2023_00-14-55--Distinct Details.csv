@@ -1,0 +1,1772 @@
+"simulationTime[s]","districtName","districtSafetyLevel","amountOfPatrols","amountOfPatrollingPatrols","amountOfCalculatingPathPatrols","amountOfTransferToInterventionPatrols","amountOfTransferToFiringPatrols","amountOfInterventionPatrols","amountOfFiringPatrols","amountOfReturningToHqPatrols","amountOfIncidents","isNight"
+3601,Rogers Park,RatherSafe,0,0,0,0,0,0,0,0,0,0
+3601,Edison Park,NotSafe,2,0,0,0,0,2,0,0,2,0
+3601,Norwood Park,Safe,0,0,0,0,0,0,0,0,1,0
+3601,West Ridge,RatherSafe,1,0,0,0,0,1,0,0,1,0
+3601,North Park,RatherSafe,1,0,0,0,0,1,0,0,1,0
+3601,Forest Glen,RatherSafe,2,0,0,0,0,2,0,0,2,0
+3601,O'Hare,RatherSafe,0,0,0,0,0,0,0,0,1,0
+3601,Dunning,RatherSafe,1,0,0,1,0,0,0,0,1,0
+3601,Montclare,RatherSafe,0,0,0,0,0,0,0,0,0,0
+3601,Austin,RatherSafe,3,0,0,0,0,3,0,0,3,0
+3601,North Lawndale,RatherSafe,2,0,0,0,0,2,0,0,2,0
+3601,South Lawndale,RatherSafe,1,0,0,0,0,1,0,0,1,0
+3601,Garfield Ridge,RatherSafe,0,0,0,0,0,0,0,0,0,0
+3601,Clearing,RatherSafe,0,0,0,0,0,0,0,0,0,0
+3601,West Lawn,RatherSafe,0,0,0,0,0,0,0,0,0,0
+3601,Ashburn,NotSafe,0,0,0,0,0,0,0,0,4,0
+3601,Beverly,Safe,0,0,0,0,0,0,0,0,1,0
+3601,Mount Greenwood,RatherSafe,0,0,0,0,0,0,0,0,1,0
+3601,Morgan Park,RatherSafe,0,0,0,0,0,0,0,0,0,0
+3601,West Pullman,RatherSafe,0,0,0,0,0,0,0,0,1,0
+3601,Riverdale,RatherSafe,0,0,0,0,0,0,0,0,2,0
+3601,Hegewisch,RatherSafe,0,0,0,0,0,0,0,0,1,0
+3601,Edgewater,RatherSafe,2,0,0,0,0,2,0,0,2,0
+3601,Uptown,RatherSafe,1,0,0,0,0,1,0,0,3,0
+3601,Lake View,RatherSafe,1,0,0,0,0,1,0,0,1,0
+3601,Lincoln Park,RatherSafe,3,0,0,1,0,2,0,0,2,0
+3601,Near North Side,RatherSafe,1,0,0,0,0,1,0,0,3,0
+3601,Loop,RatherSafe,0,0,0,0,0,0,0,0,0,0
+3601,Near South Side,NotSafe,0,0,0,0,0,0,0,0,1,0
+3601,Douglas,Safe,1,0,0,0,0,1,0,0,1,0
+3601,Oakland,RatherSafe,2,0,0,1,0,1,0,0,3,0
+3601,Kenwood,RatherSafe,1,0,0,1,0,0,0,0,0,0
+3601,Hyde Park,RatherSafe,0,0,0,0,0,0,0,0,2,0
+3601,Woodlawn,RatherSafe,0,0,0,0,0,0,0,0,1,0
+3601,South Shore,RatherSafe,0,0,0,0,0,0,0,0,2,0
+3601,South Chicago,RatherSafe,0,0,0,0,0,0,0,0,2,0
+3601,East Side,RatherSafe,0,0,0,0,0,0,0,0,3,0
+3601,Washington Park,RatherSafe,1,0,0,1,0,0,0,0,3,0
+3601,Grand Boulevard,RatherSafe,1,0,0,1,0,0,0,0,2,0
+3601,South Deering,RatherSafe,0,0,0,0,0,0,0,0,3,0
+3601,Calumet Heights,RatherSafe,0,0,0,0,0,0,0,0,1,0
+3601,Avalon Park,RatherSafe,0,0,0,0,0,0,0,0,0,0
+3601,Burnside,RatherSafe,0,0,0,0,0,0,0,0,3,0
+3601,Pullman,RatherSafe,0,0,0,0,0,0,0,0,3,0
+3601,Jefferson Park,RatherSafe,0,0,0,0,0,0,0,0,0,0
+3601,Portage Park,RatherSafe,0,0,0,0,0,0,0,0,1,0
+3601,Greater Grand Crossing,RatherSafe,0,0,0,0,0,0,0,0,1,0
+3601,Fuller Park,NotSafe,0,0,0,0,0,0,0,0,1,0
+3601,Armour Square,Safe,0,0,0,0,0,0,0,0,0,0
+3601,Chatham,RatherSafe,0,0,0,0,0,0,0,0,1,0
+3601,Roseland,RatherSafe,0,0,0,0,0,0,0,0,1,0
+3601,Washington Heights,RatherSafe,0,0,0,0,0,0,0,0,2,0
+3601,Englewood,NotSafe,0,0,0,0,0,0,0,0,4,0
+3601,West Englewood,Safe,0,0,0,0,0,0,0,0,2,0
+3601,New City,RatherSafe,0,0,0,0,0,0,0,0,0,0
+3601,Auburn Gresham,RatherSafe,0,0,0,0,0,0,0,0,2,0
+3601,Chicago Lawn,RatherSafe,0,0,0,0,0,0,0,0,3,0
+3601,Gage Park,NotSafe,0,0,0,0,0,0,0,0,3,0
+3601,West Elsdon,Safe,0,0,0,0,0,0,0,0,1,0
+3601,Archer Heights,RatherSafe,0,0,0,0,0,0,0,0,2,0
+3601,Brighton Park,RatherSafe,0,0,0,0,0,0,0,0,0,0
+3601,McKinley Park,RatherSafe,1,0,0,1,0,0,0,0,2,0
+3601,Bridgeport,RatherSafe,1,0,0,0,0,1,0,0,3,0
+3601,Near West Side,RatherSafe,2,0,0,0,0,2,0,0,2,0
+3601,Lower West Side,NotSafe,0,0,0,0,0,0,0,0,0,0
+3601,East Garfield Park,Safe,1,0,0,0,0,1,0,0,1,0
+3601,West Garfield Park,RatherSafe,1,0,0,0,0,1,0,0,2,0
+3601,Humboldt Park,RatherSafe,1,0,0,0,0,1,0,0,3,0
+3601,West Town,RatherSafe,0,0,0,0,0,0,0,0,0,0
+3601,Belmont Cragin,RatherSafe,2,0,0,0,0,2,0,0,3,0
+3601,Hermosa,RatherSafe,0,0,0,0,0,0,0,0,0,0
+3601,Logan Square,RatherSafe,2,0,0,0,0,2,0,0,3,0
+3601,Lincoln Square,RatherSafe,0,0,0,0,0,0,0,0,1,0
+3601,North Center,RatherSafe,0,0,0,0,0,0,0,0,1,0
+3601,Albany Park,RatherSafe,1,0,0,1,0,0,0,0,2,0
+3601,Irving Park,RatherSafe,2,0,0,0,0,2,0,0,3,0
+3601,Avondale,RatherSafe,6,0,5,1,0,0,0,0,0,0
+7200,Rogers Park,RatherSafe,1,0,0,0,0,1,0,0,1,0
+7200,Edison Park,NotSafe,5,0,0,0,0,0,5,0,4,0
+7200,Norwood Park,Safe,0,0,0,0,0,0,0,0,0,0
+7200,West Ridge,RatherSafe,1,0,0,0,0,1,0,0,1,0
+7200,North Park,RatherSafe,1,0,1,0,0,0,0,0,0,0
+7200,Forest Glen,RatherSafe,0,0,0,0,0,0,0,0,0,0
+7200,O'Hare,RatherSafe,1,0,0,0,0,0,1,0,1,0
+7200,Dunning,RatherSafe,3,0,0,1,0,2,0,0,2,0
+7200,Montclare,RatherSafe,2,0,0,0,0,0,2,0,1,0
+7200,Austin,RatherSafe,0,0,0,0,0,0,0,0,1,0
+7200,North Lawndale,RatherSafe,3,0,0,2,0,1,0,0,1,0
+7200,South Lawndale,RatherSafe,2,1,0,0,0,1,0,0,2,0
+7200,Garfield Ridge,RatherSafe,0,0,0,0,0,0,0,0,1,0
+7200,Clearing,RatherSafe,0,0,0,0,0,0,0,0,0,0
+7200,West Lawn,RatherSafe,0,0,0,0,0,0,0,0,2,0
+7200,Ashburn,NotSafe,3,1,2,0,0,0,0,0,1,0
+7200,Beverly,Safe,0,0,0,0,0,0,0,0,1,0
+7200,Mount Greenwood,RatherSafe,0,0,0,0,0,0,0,0,2,0
+7200,Morgan Park,RatherSafe,0,0,0,0,0,0,0,0,3,0
+7200,West Pullman,RatherSafe,0,0,0,0,0,0,0,0,2,0
+7200,Riverdale,RatherSafe,1,0,0,0,0,1,0,0,4,0
+7200,Hegewisch,RatherSafe,0,0,0,0,0,0,0,0,3,0
+7200,Edgewater,RatherSafe,1,0,0,0,0,1,0,0,1,0
+7200,Uptown,RatherSafe,0,0,0,0,0,0,0,0,0,0
+7200,Lake View,RatherSafe,0,0,0,0,0,0,0,0,1,0
+7200,Lincoln Park,RatherSafe,2,1,0,1,0,0,0,0,0,0
+7200,Near North Side,RatherSafe,1,0,0,0,0,1,0,0,2,0
+7200,Loop,RatherSafe,1,0,0,0,0,1,0,0,2,0
+7200,Near South Side,NotSafe,5,0,0,0,0,0,5,0,1,0
+7200,Douglas,Safe,0,0,0,0,0,0,0,0,1,0
+7200,Oakland,RatherSafe,0,0,0,0,0,0,0,0,2,0
+7200,Kenwood,RatherSafe,0,0,0,0,0,0,0,0,1,0
+7200,Hyde Park,RatherSafe,0,0,0,0,0,0,0,0,2,0
+7200,Woodlawn,RatherSafe,0,0,0,0,0,0,0,0,3,0
+7200,South Shore,RatherSafe,1,0,1,0,0,0,0,0,3,0
+7200,South Chicago,RatherSafe,0,0,0,0,0,0,0,0,3,0
+7200,East Side,RatherSafe,1,0,0,0,0,0,1,0,6,0
+7200,Washington Park,RatherSafe,5,0,0,0,0,0,5,0,2,0
+7200,Grand Boulevard,RatherSafe,0,0,0,0,0,0,0,0,0,0
+7200,South Deering,RatherSafe,0,0,0,0,0,0,0,0,3,0
+7200,Calumet Heights,RatherSafe,0,0,0,0,0,0,0,0,2,0
+7200,Avalon Park,RatherSafe,0,0,0,0,0,0,0,0,3,0
+7200,Burnside,RatherSafe,0,0,0,0,0,0,0,0,3,0
+7200,Pullman,RatherSafe,0,0,0,0,0,0,0,0,6,0
+7200,Jefferson Park,RatherSafe,0,0,0,0,0,0,0,0,1,0
+7200,Portage Park,RatherSafe,1,0,1,0,0,0,0,0,0,0
+7200,Greater Grand Crossing,RatherSafe,0,0,0,0,0,0,0,0,2,0
+7200,Fuller Park,NotSafe,3,0,0,0,0,0,3,0,5,0
+7200,Armour Square,Safe,0,0,0,0,0,0,0,0,0,0
+7200,Chatham,RatherSafe,0,0,0,0,0,0,0,0,1,0
+7200,Roseland,RatherSafe,0,0,0,0,0,0,0,0,3,0
+7200,Washington Heights,RatherSafe,1,0,0,0,0,1,0,0,3,0
+7200,Englewood,NotSafe,6,0,0,0,2,0,4,0,4,0
+7200,West Englewood,Safe,1,0,0,0,1,0,0,0,2,0
+7200,New City,RatherSafe,0,0,0,0,0,0,0,0,1,0
+7200,Auburn Gresham,RatherSafe,1,0,0,1,0,0,0,0,2,0
+7200,Chicago Lawn,RatherSafe,0,0,0,0,0,0,0,0,2,0
+7200,Gage Park,NotSafe,2,1,0,0,0,1,0,0,5,0
+7200,West Elsdon,Safe,0,0,0,0,0,0,0,0,1,0
+7200,Archer Heights,RatherSafe,1,0,0,1,0,0,0,0,1,0
+7200,Brighton Park,RatherSafe,1,0,0,0,0,1,0,0,1,0
+7200,McKinley Park,RatherSafe,0,0,0,0,0,0,0,0,1,0
+7200,Bridgeport,RatherSafe,1,0,0,0,0,1,0,0,2,0
+7200,Near West Side,RatherSafe,0,0,0,0,0,0,0,0,0,0
+7200,Lower West Side,NotSafe,0,0,0,0,0,0,0,0,2,0
+7200,East Garfield Park,Safe,0,0,0,0,0,0,0,0,0,0
+7200,West Garfield Park,RatherSafe,0,0,0,0,0,0,0,0,3,0
+7200,Humboldt Park,RatherSafe,0,0,0,0,0,0,0,0,1,0
+7200,West Town,RatherSafe,1,0,0,0,0,1,0,0,1,0
+7200,Belmont Cragin,RatherSafe,0,0,0,0,0,0,0,0,1,0
+7200,Hermosa,RatherSafe,0,0,0,0,0,0,0,0,0,0
+7200,Logan Square,RatherSafe,1,0,0,1,0,0,0,0,3,0
+7200,Lincoln Square,RatherSafe,2,0,0,0,0,2,0,0,2,0
+7200,North Center,RatherSafe,0,0,0,0,0,0,0,0,3,0
+7200,Albany Park,RatherSafe,0,0,0,0,0,0,0,0,2,0
+7200,Irving Park,RatherSafe,2,0,0,2,0,0,0,0,2,0
+7200,Avondale,RatherSafe,0,0,0,0,0,0,0,0,0,0
+10809,Rogers Park,RatherSafe,1,0,1,0,0,0,0,0,0,0
+10809,Edison Park,NotSafe,8,0,0,0,5,0,3,0,6,0
+10809,Norwood Park,Safe,1,0,0,0,0,1,0,0,0,0
+10809,West Ridge,RatherSafe,1,0,0,0,0,1,0,0,1,0
+10809,North Park,RatherSafe,2,0,1,0,0,1,0,0,1,0
+10809,Forest Glen,RatherSafe,0,0,0,0,0,0,0,0,0,0
+10809,O'Hare,RatherSafe,3,0,0,0,0,0,3,0,1,0
+10809,Dunning,RatherSafe,1,0,0,0,0,1,0,0,1,0
+10809,Montclare,RatherSafe,2,0,0,0,0,0,2,0,3,0
+10809,Austin,RatherSafe,1,0,0,0,0,1,0,0,1,0
+10809,North Lawndale,RatherSafe,4,0,0,0,3,0,1,0,2,0
+10809,South Lawndale,RatherSafe,2,0,0,0,0,2,0,0,3,0
+10809,Garfield Ridge,RatherSafe,1,0,0,1,0,0,0,0,2,0
+10809,Clearing,RatherSafe,0,0,0,0,0,0,0,0,1,0
+10809,West Lawn,RatherSafe,1,0,0,0,0,1,0,0,2,0
+10809,Ashburn,NotSafe,0,0,0,0,0,0,0,0,5,0
+10809,Beverly,Safe,0,0,0,0,0,0,0,0,0,0
+10809,Mount Greenwood,RatherSafe,0,0,0,0,0,0,0,0,4,0
+10809,Morgan Park,RatherSafe,0,0,0,0,0,0,0,0,4,0
+10809,West Pullman,RatherSafe,0,0,0,0,0,0,0,0,2,0
+10809,Riverdale,RatherSafe,0,0,0,0,0,0,0,0,5,0
+10809,Hegewisch,RatherSafe,0,0,0,0,0,0,0,0,3,0
+10809,Edgewater,RatherSafe,3,0,0,0,0,3,0,0,3,0
+10809,Uptown,RatherSafe,2,0,0,0,0,2,0,0,3,0
+10809,Lake View,RatherSafe,1,0,0,0,0,1,0,0,3,0
+10809,Lincoln Park,RatherSafe,0,0,0,0,0,0,0,0,0,0
+10809,Near North Side,RatherSafe,0,0,0,0,0,0,0,0,0,0
+10809,Loop,RatherSafe,1,0,0,1,0,0,0,0,2,0
+10809,Near South Side,NotSafe,5,0,0,0,0,0,5,0,1,0
+10809,Douglas,Safe,1,1,0,0,0,0,0,0,1,0
+10809,Oakland,RatherSafe,1,0,0,1,0,0,0,0,0,0
+10809,Kenwood,RatherSafe,0,0,0,0,0,0,0,0,1,0
+10809,Hyde Park,RatherSafe,7,0,0,0,0,0,7,0,4,0
+10809,Woodlawn,RatherSafe,0,0,0,0,0,0,0,0,3,0
+10809,South Shore,RatherSafe,0,0,0,0,0,0,0,0,5,0
+10809,South Chicago,RatherSafe,0,0,0,0,0,0,0,0,4,0
+10809,East Side,RatherSafe,4,0,0,0,1,0,3,0,5,0
+10809,Washington Park,RatherSafe,0,0,0,0,0,0,0,0,3,0
+10809,Grand Boulevard,RatherSafe,0,0,0,0,0,0,0,0,1,0
+10809,South Deering,RatherSafe,0,0,0,0,0,0,0,0,3,0
+10809,Calumet Heights,RatherSafe,0,0,0,0,0,0,0,0,3,0
+10809,Avalon Park,RatherSafe,0,0,0,0,0,0,0,0,5,0
+10809,Burnside,RatherSafe,1,0,0,1,0,0,0,0,3,0
+10809,Pullman,RatherSafe,3,1,0,0,0,0,2,0,8,0
+10809,Jefferson Park,RatherSafe,0,0,0,0,0,0,0,0,3,0
+10809,Portage Park,RatherSafe,0,0,0,0,0,0,0,0,3,0
+10809,Greater Grand Crossing,RatherSafe,0,0,0,0,0,0,0,0,4,0
+10809,Fuller Park,NotSafe,4,2,1,0,0,1,0,0,4,0
+10809,Armour Square,Safe,0,0,0,0,0,0,0,0,2,0
+10809,Chatham,RatherSafe,0,0,0,0,0,0,0,0,2,0
+10809,Roseland,RatherSafe,2,0,0,0,0,0,2,0,6,0
+10809,Washington Heights,RatherSafe,0,0,0,0,0,0,0,0,1,0
+10809,Englewood,NotSafe,12,0,0,0,0,0,12,0,5,0
+10809,West Englewood,Safe,1,1,0,0,0,0,0,0,3,0
+10809,New City,RatherSafe,2,0,0,2,0,0,0,0,4,0
+10809,Auburn Gresham,RatherSafe,2,0,1,0,0,1,0,0,4,0
+10809,Chicago Lawn,RatherSafe,0,0,0,0,0,0,0,0,1,0
+10809,Gage Park,NotSafe,0,0,0,0,0,0,0,0,3,0
+10809,West Elsdon,Safe,0,0,0,0,0,0,0,0,1,0
+10809,Archer Heights,RatherSafe,1,1,0,0,0,0,0,0,1,0
+10809,Brighton Park,RatherSafe,1,0,0,1,0,0,0,0,0,0
+10809,McKinley Park,RatherSafe,1,1,0,0,0,0,0,0,2,0
+10809,Bridgeport,RatherSafe,1,0,1,0,0,0,0,0,3,0
+10809,Near West Side,RatherSafe,1,0,0,1,0,0,0,0,0,0
+10809,Lower West Side,NotSafe,0,0,0,0,0,0,0,0,1,0
+10809,East Garfield Park,Safe,0,0,0,0,0,0,0,0,2,0
+10809,West Garfield Park,RatherSafe,0,0,0,0,0,0,0,0,2,0
+10809,Humboldt Park,RatherSafe,1,0,0,1,0,0,0,0,1,0
+10809,West Town,RatherSafe,2,0,0,2,0,0,0,0,2,0
+10809,Belmont Cragin,RatherSafe,0,0,0,0,0,0,0,0,2,0
+10809,Hermosa,RatherSafe,0,0,0,0,0,0,0,0,0,0
+10809,Logan Square,RatherSafe,0,0,0,0,0,0,0,0,2,0
+10809,Lincoln Square,RatherSafe,1,1,0,0,0,0,0,0,2,0
+10809,North Center,RatherSafe,0,0,0,0,0,0,0,0,2,0
+10809,Albany Park,RatherSafe,1,0,1,0,0,0,0,0,1,0
+10809,Irving Park,RatherSafe,1,1,0,0,0,0,0,0,0,0
+10809,Avondale,RatherSafe,0,0,0,0,0,0,0,0,3,0
+14401,Rogers Park,RatherSafe,0,0,0,0,0,0,0,0,1,0
+14401,Edison Park,NotSafe,10,0,0,0,0,0,9,0,5,0
+14401,Norwood Park,Safe,0,0,0,0,0,0,0,0,1,0
+14401,West Ridge,RatherSafe,0,0,0,0,0,0,0,0,3,0
+14401,North Park,RatherSafe,0,0,0,0,0,0,0,0,2,0
+14401,Forest Glen,RatherSafe,0,0,0,0,0,0,0,0,0,0
+14401,O'Hare,RatherSafe,0,0,0,0,0,0,0,0,1,0
+14401,Dunning,RatherSafe,0,0,0,0,0,0,0,0,2,0
+14401,Montclare,RatherSafe,3,0,0,0,0,0,3,0,3,0
+14401,Austin,RatherSafe,0,0,0,0,0,0,0,0,3,0
+14401,North Lawndale,RatherSafe,4,0,0,0,0,0,4,0,1,0
+14401,South Lawndale,RatherSafe,0,0,0,0,0,0,0,0,2,0
+14401,Garfield Ridge,RatherSafe,0,0,0,0,0,0,0,0,3,0
+14401,Clearing,RatherSafe,0,0,0,0,0,0,0,0,1,0
+14401,West Lawn,RatherSafe,2,1,0,0,0,1,0,0,1,0
+14401,Ashburn,NotSafe,3,0,1,1,0,1,0,0,1,0
+14401,Beverly,Safe,0,0,0,0,0,0,0,0,2,0
+14401,Mount Greenwood,RatherSafe,3,0,0,0,0,0,3,0,4,0
+14401,Morgan Park,RatherSafe,1,0,0,0,0,1,0,0,1,0
+14401,West Pullman,RatherSafe,0,0,0,0,0,0,0,0,0,0
+14401,Riverdale,RatherSafe,5,0,0,0,1,0,4,0,8,0
+14401,Hegewisch,RatherSafe,3,0,1,0,0,2,0,0,4,0
+14401,Edgewater,RatherSafe,0,0,0,0,0,0,0,0,2,0
+14401,Uptown,RatherSafe,0,0,0,0,0,0,0,0,0,0
+14401,Lake View,RatherSafe,6,0,0,0,0,0,6,0,1,0
+14401,Lincoln Park,RatherSafe,0,0,0,0,0,0,0,0,3,0
+14401,Near North Side,RatherSafe,0,0,0,0,0,0,0,0,0,0
+14401,Loop,RatherSafe,4,0,0,0,0,0,4,0,1,0
+14401,Near South Side,NotSafe,0,0,0,0,0,0,0,0,0,0
+14401,Douglas,Safe,2,0,0,0,0,0,2,0,1,0
+14401,Oakland,RatherSafe,0,0,0,0,0,0,0,0,0,0
+14401,Kenwood,RatherSafe,0,0,0,0,0,0,0,0,2,0
+14401,Hyde Park,RatherSafe,0,0,0,0,0,0,0,0,1,0
+14401,Woodlawn,RatherSafe,0,0,0,0,0,0,0,0,1,0
+14401,South Shore,RatherSafe,3,0,0,0,0,3,0,0,5,0
+14401,South Chicago,RatherSafe,1,0,0,0,0,1,0,0,4,0
+14401,East Side,RatherSafe,0,0,0,0,0,0,0,0,3,0
+14401,Washington Park,RatherSafe,2,0,0,1,0,1,0,0,2,0
+14401,Grand Boulevard,RatherSafe,1,0,0,0,0,1,0,0,3,0
+14401,South Deering,RatherSafe,3,0,0,1,0,0,2,0,1,0
+14401,Calumet Heights,RatherSafe,2,0,0,0,1,1,0,0,1,0
+14401,Avalon Park,RatherSafe,3,0,0,0,2,0,1,0,5,0
+14401,Burnside,RatherSafe,3,0,0,0,0,0,3,0,3,0
+14401,Pullman,RatherSafe,6,1,0,0,0,1,4,0,6,0
+14401,Jefferson Park,RatherSafe,0,0,0,0,0,0,0,0,3,0
+14401,Portage Park,RatherSafe,1,0,1,0,0,0,0,0,2,0
+14401,Greater Grand Crossing,RatherSafe,2,0,1,1,0,0,0,0,4,0
+14401,Fuller Park,NotSafe,1,0,0,0,0,1,0,0,3,0
+14401,Armour Square,Safe,0,0,0,0,0,0,0,0,1,0
+14401,Chatham,RatherSafe,0,0,0,0,0,0,0,0,5,0
+14401,Roseland,RatherSafe,4,0,0,0,1,1,2,0,5,0
+14401,Washington Heights,RatherSafe,0,0,0,0,0,0,0,0,3,0
+14401,Englewood,NotSafe,1,0,0,1,0,0,0,0,4,0
+14401,West Englewood,Safe,0,0,0,0,0,0,0,0,2,0
+14401,New City,RatherSafe,2,0,0,0,0,2,0,0,4,0
+14401,Auburn Gresham,RatherSafe,2,1,0,0,0,1,0,0,6,0
+14401,Chicago Lawn,RatherSafe,1,0,0,0,0,1,0,0,1,0
+14401,Gage Park,NotSafe,5,0,0,0,0,0,5,0,5,0
+14401,West Elsdon,Safe,0,0,0,0,0,0,0,0,2,0
+14401,Archer Heights,RatherSafe,0,0,0,0,0,0,0,0,1,0
+14401,Brighton Park,RatherSafe,0,0,0,0,0,0,0,0,2,0
+14401,McKinley Park,RatherSafe,1,0,0,1,0,0,0,0,1,0
+14401,Bridgeport,RatherSafe,3,0,0,1,0,2,0,0,5,0
+14401,Near West Side,RatherSafe,1,0,0,1,0,0,0,0,0,0
+14401,Lower West Side,NotSafe,1,0,0,0,0,1,0,0,5,0
+14401,East Garfield Park,Safe,0,0,0,0,0,0,0,0,0,0
+14401,West Garfield Park,RatherSafe,0,0,0,0,0,0,0,0,3,0
+14401,Humboldt Park,RatherSafe,0,0,0,0,0,0,0,0,0,0
+14401,West Town,RatherSafe,0,0,0,0,0,0,0,0,3,0
+14401,Belmont Cragin,RatherSafe,0,0,0,0,0,0,0,0,1,0
+14401,Hermosa,RatherSafe,0,0,0,0,0,0,0,0,3,0
+14401,Logan Square,RatherSafe,0,0,0,0,0,0,0,0,2,0
+14401,Lincoln Square,RatherSafe,2,0,1,0,0,1,0,0,3,0
+14401,North Center,RatherSafe,2,0,0,1,0,1,0,0,3,0
+14401,Albany Park,RatherSafe,0,0,0,0,0,0,0,0,3,0
+14401,Irving Park,RatherSafe,0,0,0,0,0,0,0,0,3,0
+14401,Avondale,RatherSafe,0,0,0,0,0,0,0,0,4,0
+18024,Rogers Park,RatherSafe,1,0,0,0,0,1,0,0,2,0
+18024,Edison Park,NotSafe,3,0,0,0,0,3,0,0,6,0
+18024,Norwood Park,Safe,0,0,0,0,0,0,0,0,0,0
+18024,West Ridge,RatherSafe,2,0,1,0,0,1,0,0,3,0
+18024,North Park,RatherSafe,1,0,0,0,0,1,0,0,3,0
+18024,Forest Glen,RatherSafe,0,0,0,0,0,0,0,0,0,0
+18024,O'Hare,RatherSafe,1,0,0,0,0,1,0,0,4,0
+18024,Dunning,RatherSafe,0,0,0,0,0,0,0,0,3,0
+18024,Montclare,RatherSafe,4,0,0,0,0,0,4,0,2,0
+18024,Austin,RatherSafe,1,0,0,0,0,1,0,0,5,0
+18024,North Lawndale,RatherSafe,0,0,0,0,0,0,0,0,0,0
+18024,South Lawndale,RatherSafe,0,0,0,0,0,0,0,0,3,0
+18024,Garfield Ridge,RatherSafe,2,0,1,0,0,1,0,0,4,0
+18024,Clearing,RatherSafe,0,0,0,0,0,0,0,0,0,0
+18024,West Lawn,RatherSafe,0,0,0,0,0,0,0,0,2,0
+18024,Ashburn,NotSafe,0,0,0,0,0,0,0,0,4,0
+18024,Beverly,Safe,0,0,0,0,0,0,0,0,2,0
+18024,Mount Greenwood,RatherSafe,0,0,0,0,0,0,0,0,0,0
+18024,Morgan Park,RatherSafe,0,0,0,0,0,0,0,0,0,0
+18024,West Pullman,RatherSafe,0,0,0,0,0,0,0,0,0,0
+18024,Riverdale,RatherSafe,7,0,6,0,0,0,0,0,2,0
+18024,Hegewisch,RatherSafe,2,0,0,0,0,0,2,0,4,0
+18024,Edgewater,RatherSafe,2,0,1,0,0,1,0,0,2,0
+18024,Uptown,RatherSafe,0,0,0,0,0,0,0,0,3,0
+18024,Lake View,RatherSafe,0,0,0,0,0,0,0,0,2,0
+18024,Lincoln Park,RatherSafe,1,0,0,0,0,1,0,0,1,0
+18024,Near North Side,RatherSafe,0,0,0,0,0,0,0,0,3,0
+18024,Loop,RatherSafe,0,0,0,0,0,0,0,0,0,0
+18024,Near South Side,NotSafe,0,0,0,0,0,0,0,0,4,0
+18024,Douglas,Safe,0,0,0,0,0,0,0,0,0,0
+18024,Oakland,RatherSafe,1,0,1,0,0,0,0,0,0,0
+18024,Kenwood,RatherSafe,2,0,1,1,0,0,0,0,1,0
+18024,Hyde Park,RatherSafe,0,0,0,0,0,0,0,0,3,0
+18024,Woodlawn,RatherSafe,0,0,0,0,0,0,0,0,3,0
+18024,South Shore,RatherSafe,0,0,0,0,0,0,0,0,1,0
+18024,South Chicago,RatherSafe,1,0,1,0,0,0,0,0,2,0
+18024,East Side,RatherSafe,1,0,0,1,0,0,0,0,3,0
+18024,Washington Park,RatherSafe,0,0,0,0,0,0,0,0,1,0
+18024,Grand Boulevard,RatherSafe,2,0,0,1,0,1,0,0,5,0
+18024,South Deering,RatherSafe,1,0,0,1,0,0,0,0,3,0
+18024,Calumet Heights,RatherSafe,0,0,0,0,0,0,0,0,3,0
+18024,Avalon Park,RatherSafe,6,0,0,2,0,0,4,0,4,0
+18024,Burnside,RatherSafe,2,0,0,1,0,1,0,0,2,0
+18024,Pullman,RatherSafe,3,0,0,0,0,3,0,0,5,0
+18024,Jefferson Park,RatherSafe,3,0,0,0,0,3,0,0,5,0
+18024,Portage Park,RatherSafe,1,0,0,0,0,1,0,0,2,0
+18024,Greater Grand Crossing,RatherSafe,2,0,0,2,0,0,0,0,2,0
+18024,Fuller Park,NotSafe,3,0,0,1,0,2,0,0,5,0
+18024,Armour Square,Safe,1,0,0,0,0,1,0,0,3,0
+18024,Chatham,RatherSafe,3,0,2,0,0,1,0,0,3,0
+18024,Roseland,RatherSafe,4,2,2,0,0,0,0,0,0,0
+18024,Washington Heights,RatherSafe,2,0,0,0,0,2,0,0,2,0
+18024,Englewood,NotSafe,7,0,2,0,0,0,5,0,2,0
+18024,West Englewood,Safe,2,0,0,1,0,1,0,0,1,0
+18024,New City,RatherSafe,1,0,1,0,0,0,0,0,1,0
+18024,Auburn Gresham,RatherSafe,3,0,0,2,0,1,0,0,3,0
+18024,Chicago Lawn,RatherSafe,1,0,0,1,0,0,0,0,0,0
+18024,Gage Park,NotSafe,3,0,0,0,0,0,3,0,5,0
+18024,West Elsdon,Safe,1,0,1,0,0,0,0,0,2,0
+18024,Archer Heights,RatherSafe,0,0,0,0,0,0,0,0,1,0
+18024,Brighton Park,RatherSafe,0,0,0,0,0,0,0,0,2,0
+18024,McKinley Park,RatherSafe,0,0,0,0,0,0,0,0,1,0
+18024,Bridgeport,RatherSafe,5,0,0,1,0,0,4,0,4,0
+18024,Near West Side,RatherSafe,1,0,0,1,0,0,0,0,1,0
+18024,Lower West Side,NotSafe,1,0,0,1,0,0,0,0,5,0
+18024,East Garfield Park,Safe,0,0,0,0,0,0,0,0,0,0
+18024,West Garfield Park,RatherSafe,0,0,0,0,0,0,0,0,2,0
+18024,Humboldt Park,RatherSafe,4,0,0,4,0,0,0,0,0,0
+18024,West Town,RatherSafe,4,0,0,3,0,1,0,0,5,0
+18024,Belmont Cragin,RatherSafe,2,0,0,0,0,0,2,0,2,0
+18024,Hermosa,RatherSafe,2,0,0,0,0,2,0,0,5,0
+18024,Logan Square,RatherSafe,2,0,0,2,0,0,0,0,3,0
+18024,Lincoln Square,RatherSafe,0,0,0,0,0,0,0,0,3,0
+18024,North Center,RatherSafe,6,0,0,0,0,1,5,0,3,0
+18024,Albany Park,RatherSafe,1,0,0,0,0,1,0,0,5,0
+18024,Irving Park,RatherSafe,2,0,0,0,1,0,1,0,4,0
+18024,Avondale,RatherSafe,1,0,0,0,0,1,0,0,5,0
+21606,Rogers Park,RatherSafe,2,0,0,2,0,0,0,0,3,0
+21606,Edison Park,NotSafe,0,0,0,0,0,0,0,0,1,0
+21606,Norwood Park,Safe,2,0,2,0,0,0,0,0,1,0
+21606,West Ridge,RatherSafe,0,0,0,0,0,0,0,0,0,0
+21606,North Park,RatherSafe,6,0,1,2,0,0,3,0,4,0
+21606,Forest Glen,RatherSafe,0,0,0,0,0,0,0,0,0,0
+21606,O'Hare,RatherSafe,1,0,1,0,0,0,0,0,2,0
+21606,Dunning,RatherSafe,0,0,0,0,0,0,0,0,2,0
+21606,Montclare,RatherSafe,0,0,0,0,0,0,0,0,3,0
+21606,Austin,RatherSafe,3,0,0,0,2,0,1,0,4,0
+21606,North Lawndale,RatherSafe,0,0,0,0,0,0,0,0,3,0
+21606,South Lawndale,RatherSafe,2,0,0,2,0,0,0,0,1,0
+21606,Garfield Ridge,RatherSafe,1,0,0,0,0,0,1,0,0,0
+21606,Clearing,RatherSafe,0,0,0,0,0,0,0,0,1,0
+21606,West Lawn,RatherSafe,0,0,0,0,0,0,0,0,1,0
+21606,Ashburn,NotSafe,4,0,0,0,0,0,4,0,2,0
+21606,Beverly,Safe,0,0,0,0,0,0,0,0,0,0
+21606,Mount Greenwood,RatherSafe,1,0,0,0,0,1,0,0,2,0
+21606,Morgan Park,RatherSafe,0,0,0,0,0,0,0,0,1,0
+21606,West Pullman,RatherSafe,0,0,0,0,0,0,0,0,1,0
+21606,Riverdale,RatherSafe,0,0,0,0,0,0,0,0,2,0
+21606,Hegewisch,RatherSafe,1,0,0,0,0,0,1,0,1,0
+21606,Edgewater,RatherSafe,0,0,0,0,0,0,0,0,0,0
+21606,Uptown,RatherSafe,1,0,1,0,0,0,0,0,0,0
+21606,Lake View,RatherSafe,1,0,0,0,0,1,0,0,1,0
+21606,Lincoln Park,RatherSafe,1,0,1,0,0,0,0,0,0,0
+21606,Near North Side,RatherSafe,2,0,1,0,0,1,0,0,3,0
+21606,Loop,RatherSafe,0,0,0,0,0,0,0,0,1,0
+21606,Near South Side,NotSafe,5,0,0,0,0,0,5,0,6,0
+21606,Douglas,Safe,0,0,0,0,0,0,0,0,0,0
+21606,Oakland,RatherSafe,0,0,0,0,0,0,0,0,0,0
+21606,Kenwood,RatherSafe,0,0,0,0,0,0,0,0,0,0
+21606,Hyde Park,RatherSafe,4,0,0,0,0,0,4,0,4,0
+21606,Woodlawn,RatherSafe,0,0,0,0,0,0,0,0,0,0
+21606,South Shore,RatherSafe,5,0,4,0,0,1,0,0,1,0
+21606,South Chicago,RatherSafe,1,0,1,0,0,0,0,0,3,0
+21606,East Side,RatherSafe,1,0,0,0,0,0,1,0,1,0
+21606,Washington Park,RatherSafe,6,0,1,1,0,1,3,0,3,0
+21606,Grand Boulevard,RatherSafe,2,0,0,0,0,0,2,0,1,0
+21606,South Deering,RatherSafe,3,0,1,0,0,2,0,0,1,0
+21606,Calumet Heights,RatherSafe,6,0,0,1,0,1,4,0,4,0
+21606,Avalon Park,RatherSafe,3,0,1,0,0,2,0,0,3,0
+21606,Burnside,RatherSafe,1,0,0,0,0,1,0,0,3,0
+21606,Pullman,RatherSafe,1,0,0,1,0,0,0,0,1,0
+21606,Jefferson Park,RatherSafe,1,0,1,0,0,0,0,0,4,0
+21606,Portage Park,RatherSafe,1,0,0,1,0,0,0,0,2,0
+21606,Greater Grand Crossing,RatherSafe,0,0,0,0,0,0,0,0,0,0
+21606,Fuller Park,NotSafe,0,0,0,0,0,0,0,0,3,0
+21606,Armour Square,Safe,0,0,0,0,0,0,0,0,2,0
+21606,Chatham,RatherSafe,1,0,0,1,0,0,0,0,3,0
+21606,Roseland,RatherSafe,2,0,1,0,1,0,0,0,0,0
+21606,Washington Heights,RatherSafe,0,0,0,0,0,0,0,0,2,0
+21606,Englewood,NotSafe,5,0,0,1,0,1,3,0,5,0
+21606,West Englewood,Safe,0,0,0,0,0,0,0,0,1,0
+21606,New City,RatherSafe,1,0,0,0,0,1,0,0,4,0
+21606,Auburn Gresham,RatherSafe,0,0,0,0,0,0,0,0,4,0
+21606,Chicago Lawn,RatherSafe,0,0,0,0,0,0,0,0,1,0
+21606,Gage Park,NotSafe,6,0,0,0,0,1,5,0,3,0
+21606,West Elsdon,Safe,1,0,0,0,0,1,0,0,0,0
+21606,Archer Heights,RatherSafe,1,0,1,0,0,0,0,0,2,0
+21606,Brighton Park,RatherSafe,1,0,0,0,0,1,0,0,3,0
+21606,McKinley Park,RatherSafe,1,0,0,0,0,1,0,0,4,0
+21606,Bridgeport,RatherSafe,0,0,0,0,0,0,0,0,1,0
+21606,Near West Side,RatherSafe,0,0,0,0,0,0,0,0,3,0
+21606,Lower West Side,NotSafe,5,0,0,0,0,0,5,0,2,0
+21606,East Garfield Park,Safe,1,0,0,0,0,1,0,0,2,0
+21606,West Garfield Park,RatherSafe,0,0,0,0,0,0,0,0,2,0
+21606,Humboldt Park,RatherSafe,0,0,0,0,0,0,0,0,0,0
+21606,West Town,RatherSafe,4,0,2,1,0,1,0,0,4,0
+21606,Belmont Cragin,RatherSafe,1,0,0,0,0,1,0,0,4,0
+21606,Hermosa,RatherSafe,1,0,0,0,0,0,1,0,1,0
+21606,Logan Square,RatherSafe,2,0,0,1,0,1,0,0,4,0
+21606,Lincoln Square,RatherSafe,2,0,1,0,0,1,0,0,2,0
+21606,North Center,RatherSafe,0,0,0,0,0,0,0,0,1,0
+21606,Albany Park,RatherSafe,3,0,0,1,0,2,0,0,3,0
+21606,Irving Park,RatherSafe,3,0,0,1,0,1,1,0,2,0
+21606,Avondale,RatherSafe,2,0,0,1,0,1,0,0,5,0
+25204,Rogers Park,RatherSafe,0,0,0,0,0,0,0,0,0,0
+25204,Edison Park,NotSafe,0,0,0,0,0,0,0,0,4,0
+25204,Norwood Park,Safe,4,0,0,0,0,0,4,0,3,0
+25204,West Ridge,RatherSafe,1,0,0,0,0,1,0,0,3,0
+25204,North Park,RatherSafe,0,0,0,0,0,0,0,0,2,0
+25204,Forest Glen,RatherSafe,1,0,0,1,0,0,0,0,0,0
+25204,O'Hare,RatherSafe,1,0,0,0,0,1,0,0,2,0
+25204,Dunning,RatherSafe,0,0,0,0,0,0,0,0,1,0
+25204,Montclare,RatherSafe,0,0,0,0,0,0,0,0,0,0
+25204,Austin,RatherSafe,3,0,0,3,0,0,0,0,2,0
+25204,North Lawndale,RatherSafe,7,0,0,3,0,0,4,0,4,0
+25204,South Lawndale,RatherSafe,0,0,0,0,0,0,0,0,2,0
+25204,Garfield Ridge,RatherSafe,1,0,0,0,0,0,1,0,0,0
+25204,Clearing,RatherSafe,3,0,1,1,0,1,0,0,2,0
+25204,West Lawn,RatherSafe,0,0,0,0,0,0,0,0,1,0
+25204,Ashburn,NotSafe,3,0,0,0,0,3,0,0,4,0
+25204,Beverly,Safe,1,0,0,1,0,0,0,0,1,0
+25204,Mount Greenwood,RatherSafe,0,0,0,0,0,0,0,0,1,0
+25204,Morgan Park,RatherSafe,1,0,0,1,0,0,0,0,2,0
+25204,West Pullman,RatherSafe,0,0,0,0,0,0,0,0,0,0
+25204,Riverdale,RatherSafe,0,0,0,0,0,0,0,0,3,0
+25204,Hegewisch,RatherSafe,1,0,0,0,0,0,1,0,4,0
+25204,Edgewater,RatherSafe,0,0,0,0,0,0,0,0,0,0
+25204,Uptown,RatherSafe,1,0,0,1,0,0,0,0,2,0
+25204,Lake View,RatherSafe,0,0,0,0,0,0,0,0,1,0
+25204,Lincoln Park,RatherSafe,0,0,0,0,0,0,0,0,0,0
+25204,Near North Side,RatherSafe,0,0,0,0,0,0,0,0,2,0
+25204,Loop,RatherSafe,0,0,0,0,0,0,0,0,0,0
+25204,Near South Side,NotSafe,10,0,0,0,0,0,10,0,3,0
+25204,Douglas,Safe,2,0,0,0,1,1,0,0,1,0
+25204,Oakland,RatherSafe,1,0,1,0,0,0,0,0,2,0
+25204,Kenwood,RatherSafe,1,0,0,0,0,1,0,0,3,0
+25204,Hyde Park,RatherSafe,0,0,0,0,0,0,0,0,2,0
+25204,Woodlawn,RatherSafe,0,0,0,0,0,0,0,0,0,0
+25204,South Shore,RatherSafe,1,0,0,0,0,1,0,0,3,0
+25204,South Chicago,RatherSafe,3,0,1,1,0,1,0,0,2,0
+25204,East Side,RatherSafe,0,0,0,0,0,0,0,0,2,0
+25204,Washington Park,RatherSafe,1,0,0,1,0,0,0,0,0,0
+25204,Grand Boulevard,RatherSafe,0,0,0,0,0,0,0,0,3,0
+25204,South Deering,RatherSafe,0,0,0,0,0,0,0,0,1,0
+25204,Calumet Heights,RatherSafe,2,0,0,1,0,1,0,0,1,0
+25204,Avalon Park,RatherSafe,1,0,1,0,0,0,0,0,2,0
+25204,Burnside,RatherSafe,0,0,0,0,0,0,0,0,1,0
+25204,Pullman,RatherSafe,1,0,0,0,1,0,0,0,0,0
+25204,Jefferson Park,RatherSafe,4,0,1,0,0,0,3,0,4,0
+25204,Portage Park,RatherSafe,0,0,0,0,0,0,0,0,2,0
+25204,Greater Grand Crossing,RatherSafe,2,0,0,2,0,0,0,0,3,0
+25204,Fuller Park,NotSafe,0,0,0,0,0,0,0,0,3,0
+25204,Armour Square,Safe,0,0,0,0,0,0,0,0,1,0
+25204,Chatham,RatherSafe,3,0,0,0,0,0,3,0,2,0
+25204,Roseland,RatherSafe,0,0,0,0,0,0,0,0,1,0
+25204,Washington Heights,RatherSafe,1,0,0,1,0,0,0,0,4,0
+25204,Englewood,NotSafe,10,0,0,2,0,1,7,0,5,0
+25204,West Englewood,Safe,3,0,0,0,0,0,3,0,3,0
+25204,New City,RatherSafe,0,0,0,0,0,0,0,0,1,0
+25204,Auburn Gresham,RatherSafe,3,0,0,0,0,1,2,0,3,0
+25204,Chicago Lawn,RatherSafe,1,0,0,0,0,1,0,0,3,0
+25204,Gage Park,NotSafe,1,0,0,1,0,0,0,0,4,0
+25204,West Elsdon,Safe,0,0,0,0,0,0,0,0,0,0
+25204,Archer Heights,RatherSafe,2,0,1,1,0,0,0,0,3,0
+25204,Brighton Park,RatherSafe,6,0,1,0,0,0,5,0,1,0
+25204,McKinley Park,RatherSafe,3,0,0,2,0,1,0,0,3,0
+25204,Bridgeport,RatherSafe,1,0,0,0,0,1,0,0,1,0
+25204,Near West Side,RatherSafe,2,0,1,0,0,1,0,0,3,0
+25204,Lower West Side,NotSafe,1,0,1,0,0,0,0,0,1,0
+25204,East Garfield Park,Safe,0,0,0,0,0,0,0,0,0,0
+25204,West Garfield Park,RatherSafe,2,0,0,0,0,0,2,0,2,0
+25204,Humboldt Park,RatherSafe,1,0,0,1,0,0,0,0,0,0
+25204,West Town,RatherSafe,5,0,1,1,0,3,0,0,4,0
+25204,Belmont Cragin,RatherSafe,2,0,0,0,0,2,0,0,5,0
+25204,Hermosa,RatherSafe,2,0,0,0,0,0,2,0,1,0
+25204,Logan Square,RatherSafe,4,0,0,2,0,2,0,0,3,0
+25204,Lincoln Square,RatherSafe,7,0,1,0,0,1,5,0,2,0
+25204,North Center,RatherSafe,0,0,0,0,0,0,0,0,2,0
+25204,Albany Park,RatherSafe,3,0,0,1,0,2,0,0,4,0
+25204,Irving Park,RatherSafe,0,0,0,0,0,0,0,0,0,0
+25204,Avondale,RatherSafe,3,0,1,0,0,2,0,0,4,0
+28800,Rogers Park,RatherSafe,2,0,0,0,0,1,1,0,3,0
+28800,Edison Park,NotSafe,2,0,0,0,0,0,2,0,3,0
+28800,Norwood Park,Safe,0,0,0,0,0,0,0,0,2,0
+28800,West Ridge,RatherSafe,0,0,0,0,0,0,0,0,0,0
+28800,North Park,RatherSafe,3,0,0,0,0,1,2,0,2,0
+28800,Forest Glen,RatherSafe,1,0,0,1,0,0,0,0,2,0
+28800,O'Hare,RatherSafe,0,0,0,0,0,0,0,0,2,0
+28800,Dunning,RatherSafe,0,0,0,0,0,0,0,0,1,0
+28800,Montclare,RatherSafe,1,0,0,0,0,1,0,0,2,0
+28800,Austin,RatherSafe,1,0,0,0,0,1,0,0,1,0
+28800,North Lawndale,RatherSafe,1,0,0,0,0,1,0,0,1,0
+28800,South Lawndale,RatherSafe,0,0,0,0,0,0,0,0,0,0
+28800,Garfield Ridge,RatherSafe,0,0,0,0,0,0,0,0,0,0
+28800,Clearing,RatherSafe,0,0,0,0,0,0,0,0,1,0
+28800,West Lawn,RatherSafe,4,0,0,2,0,2,0,0,3,0
+28800,Ashburn,NotSafe,0,0,0,0,0,0,0,0,2,0
+28800,Beverly,Safe,0,0,0,0,0,0,0,0,1,0
+28800,Mount Greenwood,RatherSafe,0,0,0,0,0,0,0,0,0,0
+28800,Morgan Park,RatherSafe,1,0,0,1,0,0,0,0,0,0
+28800,West Pullman,RatherSafe,2,2,0,0,0,0,0,0,0,0
+28800,Riverdale,RatherSafe,5,0,0,0,0,0,5,0,4,0
+28800,Hegewisch,RatherSafe,0,0,0,0,0,0,0,0,0,0
+28800,Edgewater,RatherSafe,0,0,0,0,0,0,0,0,0,0
+28800,Uptown,RatherSafe,0,0,0,0,0,0,0,0,0,0
+28800,Lake View,RatherSafe,0,0,0,0,0,0,0,0,2,0
+28800,Lincoln Park,RatherSafe,0,0,0,0,0,0,0,0,0,0
+28800,Near North Side,RatherSafe,3,0,1,0,0,2,0,0,3,0
+28800,Loop,RatherSafe,0,0,0,0,0,0,0,0,0,0
+28800,Near South Side,NotSafe,11,0,0,0,0,0,11,0,5,0
+28800,Douglas,Safe,1,0,1,0,0,0,0,0,0,0
+28800,Oakland,RatherSafe,3,0,0,0,0,0,3,0,3,0
+28800,Kenwood,RatherSafe,3,0,0,0,0,0,3,0,3,0
+28800,Hyde Park,RatherSafe,0,0,0,0,0,0,0,0,0,0
+28800,Woodlawn,RatherSafe,0,0,0,0,0,0,0,0,0,0
+28800,South Shore,RatherSafe,1,0,0,0,0,1,0,0,2,0
+28800,South Chicago,RatherSafe,0,0,0,0,0,0,0,0,1,0
+28800,East Side,RatherSafe,1,0,0,0,0,1,0,0,1,0
+28800,Washington Park,RatherSafe,0,0,0,0,0,0,0,0,1,0
+28800,Grand Boulevard,RatherSafe,0,0,0,0,0,0,0,0,1,0
+28800,South Deering,RatherSafe,1,0,0,0,0,1,0,0,2,0
+28800,Calumet Heights,RatherSafe,1,0,0,0,0,1,0,0,1,0
+28800,Avalon Park,RatherSafe,7,1,1,0,0,1,4,0,4,0
+28800,Burnside,RatherSafe,2,0,1,1,0,0,0,0,0,0
+28800,Pullman,RatherSafe,0,0,0,0,0,0,0,0,1,0
+28800,Jefferson Park,RatherSafe,6,0,0,0,0,1,5,0,3,0
+28800,Portage Park,RatherSafe,7,0,0,2,0,1,4,0,2,0
+28800,Greater Grand Crossing,RatherSafe,2,0,0,0,0,2,0,0,2,0
+28800,Fuller Park,NotSafe,1,0,0,0,0,0,1,0,2,0
+28800,Armour Square,Safe,0,0,0,0,0,0,0,0,1,0
+28800,Chatham,RatherSafe,2,0,0,1,0,1,0,0,2,0
+28800,Roseland,RatherSafe,2,0,0,0,0,2,0,0,3,0
+28800,Washington Heights,RatherSafe,1,0,0,1,0,0,0,0,2,0
+28800,Englewood,NotSafe,0,0,0,0,0,0,0,0,1,0
+28800,West Englewood,Safe,0,0,0,0,0,0,0,0,0,0
+28800,New City,RatherSafe,2,0,0,1,0,1,0,0,2,0
+28800,Auburn Gresham,RatherSafe,1,0,0,1,0,0,0,0,1,0
+28800,Chicago Lawn,RatherSafe,2,0,0,0,0,2,0,0,2,0
+28800,Gage Park,NotSafe,5,0,0,0,0,1,4,0,2,0
+28800,West Elsdon,Safe,1,0,0,0,0,1,0,0,1,0
+28800,Archer Heights,RatherSafe,0,0,0,0,0,0,0,0,0,0
+28800,Brighton Park,RatherSafe,0,0,0,0,0,0,0,0,2,0
+28800,McKinley Park,RatherSafe,4,0,0,2,2,0,0,0,3,0
+28800,Bridgeport,RatherSafe,5,0,1,1,0,0,3,0,1,0
+28800,Near West Side,RatherSafe,7,1,0,0,0,1,5,0,3,0
+28800,Lower West Side,NotSafe,4,0,0,0,0,0,4,0,1,0
+28800,East Garfield Park,Safe,1,0,0,1,0,0,0,0,0,0
+28800,West Garfield Park,RatherSafe,2,0,0,1,0,1,0,0,2,0
+28800,Humboldt Park,RatherSafe,0,0,0,0,0,0,0,0,0,0
+28800,West Town,RatherSafe,2,0,0,0,0,1,1,0,3,0
+28800,Belmont Cragin,RatherSafe,0,0,0,0,0,0,0,0,1,0
+28800,Hermosa,RatherSafe,0,0,0,0,0,0,0,0,0,0
+28800,Logan Square,RatherSafe,2,0,0,1,0,1,0,0,2,0
+28800,Lincoln Square,RatherSafe,0,0,0,0,0,0,0,0,0,0
+28800,North Center,RatherSafe,4,0,0,1,0,3,0,0,3,0
+28800,Albany Park,RatherSafe,3,0,0,0,0,0,3,0,1,0
+28800,Irving Park,RatherSafe,2,0,0,0,0,2,0,0,3,0
+28800,Avondale,RatherSafe,0,0,0,0,0,0,0,0,0,0
+32412,Rogers Park,RatherSafe,8,0,0,0,0,0,8,0,2,0
+32412,Edison Park,NotSafe,7,0,0,0,0,0,7,0,6,0
+32412,Norwood Park,Safe,0,0,0,0,0,0,0,0,0,0
+32412,West Ridge,RatherSafe,0,0,0,0,0,0,0,0,1,0
+32412,North Park,RatherSafe,2,1,1,0,0,0,0,0,2,0
+32412,Forest Glen,RatherSafe,0,0,0,0,0,0,0,0,2,0
+32412,O'Hare,RatherSafe,0,0,0,0,0,0,0,0,1,0
+32412,Dunning,RatherSafe,2,0,1,1,0,0,0,0,1,0
+32412,Montclare,RatherSafe,0,0,0,0,0,0,0,0,1,0
+32412,Austin,RatherSafe,4,0,0,0,0,0,4,0,2,0
+32412,North Lawndale,RatherSafe,1,1,0,0,0,0,0,0,0,0
+32412,South Lawndale,RatherSafe,1,1,0,0,0,0,0,0,0,0
+32412,Garfield Ridge,RatherSafe,0,0,0,0,0,0,0,0,1,0
+32412,Clearing,RatherSafe,3,0,0,0,1,0,2,0,2,0
+32412,West Lawn,RatherSafe,1,0,0,0,0,1,0,0,1,0
+32412,Ashburn,NotSafe,4,0,0,0,0,1,3,0,4,0
+32412,Beverly,Safe,0,0,0,0,0,0,0,0,0,0
+32412,Mount Greenwood,RatherSafe,1,0,0,0,0,1,0,0,3,0
+32412,Morgan Park,RatherSafe,1,0,1,0,0,0,0,0,0,0
+32412,West Pullman,RatherSafe,0,0,0,0,0,0,0,0,0,0
+32412,Riverdale,RatherSafe,6,1,5,0,0,0,0,0,0,0
+32412,Hegewisch,RatherSafe,2,0,1,0,0,1,0,0,2,0
+32412,Edgewater,RatherSafe,0,0,0,0,0,0,0,0,0,0
+32412,Uptown,RatherSafe,0,0,0,0,0,0,0,0,1,0
+32412,Lake View,RatherSafe,0,0,0,0,0,0,0,0,0,0
+32412,Lincoln Park,RatherSafe,3,1,0,0,0,2,0,0,2,0
+32412,Near North Side,RatherSafe,2,0,0,0,0,2,0,0,3,0
+32412,Loop,RatherSafe,3,3,0,0,0,0,0,0,0,0
+32412,Near South Side,NotSafe,6,0,0,0,0,1,5,0,3,0
+32412,Douglas,Safe,1,0,1,0,0,0,0,0,0,0
+32412,Oakland,RatherSafe,3,0,0,0,2,1,0,0,4,0
+32412,Kenwood,RatherSafe,3,0,0,0,0,0,3,0,1,0
+32412,Hyde Park,RatherSafe,0,0,0,0,0,0,0,0,0,0
+32412,Woodlawn,RatherSafe,0,0,0,0,0,0,0,0,0,0
+32412,South Shore,RatherSafe,1,0,0,0,0,1,0,0,2,0
+32412,South Chicago,RatherSafe,3,1,0,0,0,2,0,0,2,0
+32412,East Side,RatherSafe,0,0,0,0,0,0,0,0,3,0
+32412,Washington Park,RatherSafe,1,0,0,0,0,0,1,0,2,0
+32412,Grand Boulevard,RatherSafe,0,0,0,0,0,0,0,0,1,0
+32412,South Deering,RatherSafe,5,1,0,1,0,0,3,0,3,0
+32412,Calumet Heights,RatherSafe,1,0,0,1,0,0,0,0,0,0
+32412,Avalon Park,RatherSafe,1,0,1,0,0,0,0,0,1,0
+32412,Burnside,RatherSafe,0,0,0,0,0,0,0,0,0,0
+32412,Pullman,RatherSafe,2,0,0,0,0,2,0,0,3,0
+32412,Jefferson Park,RatherSafe,4,1,1,1,0,0,1,0,2,0
+32412,Portage Park,RatherSafe,3,2,0,1,0,0,0,0,1,0
+32412,Greater Grand Crossing,RatherSafe,4,0,0,1,1,1,0,1,2,0
+32412,Fuller Park,NotSafe,9,2,2,0,0,1,4,0,4,0
+32412,Armour Square,Safe,1,0,0,1,0,0,0,0,1,0
+32412,Chatham,RatherSafe,2,0,0,0,0,2,0,0,2,0
+32412,Roseland,RatherSafe,3,1,0,0,0,2,0,0,1,0
+32412,Washington Heights,RatherSafe,1,0,0,1,0,0,0,0,0,0
+32412,Englewood,NotSafe,1,0,0,0,0,1,0,0,2,0
+32412,West Englewood,Safe,0,0,0,0,0,0,0,0,0,0
+32412,New City,RatherSafe,2,0,1,1,0,0,0,0,0,0
+32412,Auburn Gresham,RatherSafe,2,0,0,1,0,1,0,0,0,0
+32412,Chicago Lawn,RatherSafe,0,0,0,0,0,0,0,0,1,0
+32412,Gage Park,NotSafe,10,0,0,0,0,1,9,0,2,0
+32412,West Elsdon,Safe,0,0,0,0,0,0,0,0,0,0
+32412,Archer Heights,RatherSafe,2,0,1,0,0,1,0,0,1,0
+32412,Brighton Park,RatherSafe,1,0,1,0,0,0,0,0,0,0
+32412,McKinley Park,RatherSafe,5,0,4,0,0,1,0,0,2,0
+32412,Bridgeport,RatherSafe,1,0,0,1,0,0,0,0,1,0
+32412,Near West Side,RatherSafe,3,0,0,0,0,1,0,2,2,0
+32412,Lower West Side,NotSafe,6,1,3,2,0,0,0,0,2,0
+32412,East Garfield Park,Safe,1,1,0,0,0,0,0,0,0,0
+32412,West Garfield Park,RatherSafe,0,0,0,0,0,0,0,0,0,0
+32412,Humboldt Park,RatherSafe,1,1,0,0,0,0,0,0,0,0
+32412,West Town,RatherSafe,4,0,0,1,0,0,1,2,1,0
+32412,Belmont Cragin,RatherSafe,1,1,0,0,0,0,0,0,0,0
+32412,Hermosa,RatherSafe,2,1,0,0,0,1,0,0,2,0
+32412,Logan Square,RatherSafe,2,0,0,2,0,0,0,0,3,0
+32412,Lincoln Square,RatherSafe,1,0,0,0,0,1,0,0,1,0
+32412,North Center,RatherSafe,0,0,0,0,0,0,0,0,0,0
+32412,Albany Park,RatherSafe,7,0,0,1,0,1,5,0,3,0
+32412,Irving Park,RatherSafe,3,2,0,0,0,1,0,0,2,0
+32412,Avondale,RatherSafe,3,0,1,0,0,0,0,2,0,0
+36001,Rogers Park,RatherSafe,1,0,0,0,0,1,0,0,1,0
+36001,Edison Park,NotSafe,1,0,0,0,0,1,0,0,2,0
+36001,Norwood Park,Safe,0,0,0,0,0,0,0,0,1,0
+36001,West Ridge,RatherSafe,1,0,0,0,0,1,0,0,2,0
+36001,North Park,RatherSafe,2,1,0,0,0,1,0,0,1,0
+36001,Forest Glen,RatherSafe,3,1,0,0,0,1,0,1,1,0
+36001,O'Hare,RatherSafe,1,0,0,0,0,1,0,0,1,0
+36001,Dunning,RatherSafe,0,0,0,0,0,0,0,0,0,0
+36001,Montclare,RatherSafe,0,0,0,0,0,0,0,0,0,0
+36001,Austin,RatherSafe,2,0,0,1,0,1,0,0,2,0
+36001,North Lawndale,RatherSafe,0,0,0,0,0,0,0,0,0,0
+36001,South Lawndale,RatherSafe,2,0,0,0,0,2,0,0,2,0
+36001,Garfield Ridge,RatherSafe,4,0,0,0,0,0,4,0,3,0
+36001,Clearing,RatherSafe,4,0,0,0,0,2,2,0,3,0
+36001,West Lawn,RatherSafe,0,0,0,0,0,0,0,0,1,0
+36001,Ashburn,NotSafe,2,0,1,0,0,1,0,0,1,0
+36001,Beverly,Safe,0,0,0,0,0,0,0,0,0,0
+36001,Mount Greenwood,RatherSafe,0,0,0,0,0,0,0,0,0,0
+36001,Morgan Park,RatherSafe,0,0,0,0,0,0,0,0,0,0
+36001,West Pullman,RatherSafe,0,0,0,0,0,0,0,0,1,0
+36001,Riverdale,RatherSafe,2,0,0,0,0,2,0,0,2,0
+36001,Hegewisch,RatherSafe,1,0,0,0,0,1,0,0,1,0
+36001,Edgewater,RatherSafe,0,0,0,0,0,0,0,0,0,0
+36001,Uptown,RatherSafe,0,0,0,0,0,0,0,0,1,0
+36001,Lake View,RatherSafe,2,0,0,1,0,1,0,0,1,0
+36001,Lincoln Park,RatherSafe,2,0,0,1,0,1,0,0,2,0
+36001,Near North Side,RatherSafe,1,0,1,0,0,0,0,0,1,0
+36001,Loop,RatherSafe,1,0,1,0,0,0,0,0,1,0
+36001,Near South Side,NotSafe,2,0,0,0,0,2,0,0,2,0
+36001,Douglas,Safe,0,0,0,0,0,0,0,0,0,0
+36001,Oakland,RatherSafe,2,0,0,0,0,0,0,2,0,0
+36001,Kenwood,RatherSafe,1,0,0,0,0,1,0,0,2,0
+36001,Hyde Park,RatherSafe,2,0,0,0,0,2,0,0,2,0
+36001,Woodlawn,RatherSafe,1,0,0,0,0,0,1,0,1,0
+36001,South Shore,RatherSafe,1,0,0,0,0,0,0,1,0,0
+36001,South Chicago,RatherSafe,0,0,0,0,0,0,0,0,0,0
+36001,East Side,RatherSafe,0,0,0,0,0,0,0,0,1,0
+36001,Washington Park,RatherSafe,5,2,1,1,0,1,0,0,1,0
+36001,Grand Boulevard,RatherSafe,0,0,0,0,0,0,0,0,0,0
+36001,South Deering,RatherSafe,0,0,0,0,0,0,0,0,0,0
+36001,Calumet Heights,RatherSafe,3,0,0,0,1,0,2,0,1,0
+36001,Avalon Park,RatherSafe,0,0,0,0,0,0,0,0,1,0
+36001,Burnside,RatherSafe,1,0,0,0,0,1,0,0,1,0
+36001,Pullman,RatherSafe,2,1,0,0,0,0,1,0,2,0
+36001,Jefferson Park,RatherSafe,2,2,0,0,0,0,0,0,1,0
+36001,Portage Park,RatherSafe,4,2,0,0,0,2,0,0,2,0
+36001,Greater Grand Crossing,RatherSafe,2,1,0,1,0,0,0,0,0,0
+36001,Fuller Park,NotSafe,9,1,0,0,0,1,6,1,3,0
+36001,Armour Square,Safe,0,0,0,0,0,0,0,0,0,0
+36001,Chatham,RatherSafe,6,0,0,0,0,1,5,0,2,0
+36001,Roseland,RatherSafe,2,0,0,1,0,1,0,0,1,0
+36001,Washington Heights,RatherSafe,4,2,0,0,0,0,2,0,2,0
+36001,Englewood,NotSafe,0,0,0,0,0,0,0,0,0,0
+36001,West Englewood,Safe,1,0,0,0,0,0,0,1,1,0
+36001,New City,RatherSafe,1,0,0,0,0,1,0,0,1,0
+36001,Auburn Gresham,RatherSafe,0,0,0,0,0,0,0,0,0,0
+36001,Chicago Lawn,RatherSafe,4,1,0,0,0,1,0,2,1,0
+36001,Gage Park,NotSafe,11,1,0,0,0,0,9,1,3,0
+36001,West Elsdon,Safe,0,0,0,0,0,0,0,0,0,0
+36001,Archer Heights,RatherSafe,0,0,0,0,0,0,0,0,0,0
+36001,Brighton Park,RatherSafe,3,1,0,0,0,1,0,1,1,0
+36001,McKinley Park,RatherSafe,0,0,0,0,0,0,0,0,0,0
+36001,Bridgeport,RatherSafe,0,0,0,0,0,0,0,0,0,0
+36001,Near West Side,RatherSafe,4,1,1,1,0,1,0,0,2,0
+36001,Lower West Side,NotSafe,3,0,0,0,0,0,3,0,1,0
+36001,East Garfield Park,Safe,1,0,0,0,0,0,0,1,0,0
+36001,West Garfield Park,RatherSafe,4,0,0,0,0,0,4,0,1,0
+36001,Humboldt Park,RatherSafe,3,1,0,0,0,1,0,1,1,0
+36001,West Town,RatherSafe,9,2,0,0,0,2,4,1,3,0
+36001,Belmont Cragin,RatherSafe,0,0,0,0,0,0,0,0,0,0
+36001,Hermosa,RatherSafe,5,0,1,0,0,0,4,0,1,0
+36001,Logan Square,RatherSafe,9,1,0,0,0,0,6,2,4,0
+36001,Lincoln Square,RatherSafe,0,0,0,0,0,0,0,0,0,0
+36001,North Center,RatherSafe,2,0,0,0,0,2,0,0,2,0
+36001,Albany Park,RatherSafe,0,0,0,0,0,0,0,0,0,0
+36001,Irving Park,RatherSafe,1,0,0,1,0,0,0,0,0,0
+36001,Avondale,RatherSafe,2,0,0,0,0,1,0,1,2,0
+39609,Rogers Park,RatherSafe,1,0,0,0,0,1,0,0,1,0
+39609,Edison Park,NotSafe,0,0,0,0,0,0,0,0,0,0
+39609,Norwood Park,Safe,2,1,0,0,1,0,0,0,2,0
+39609,West Ridge,RatherSafe,0,0,0,0,0,0,0,0,0,0
+39609,North Park,RatherSafe,5,0,0,0,0,1,4,0,2,0
+39609,Forest Glen,RatherSafe,0,0,0,0,0,0,0,0,1,0
+39609,O'Hare,RatherSafe,0,0,0,0,0,0,0,0,1,0
+39609,Dunning,RatherSafe,1,1,0,0,0,0,0,0,0,0
+39609,Montclare,RatherSafe,2,0,0,0,0,1,0,1,1,0
+39609,Austin,RatherSafe,0,0,0,0,0,0,0,0,0,0
+39609,North Lawndale,RatherSafe,1,0,0,0,0,1,0,0,1,0
+39609,South Lawndale,RatherSafe,0,0,0,0,0,0,0,0,0,0
+39609,Garfield Ridge,RatherSafe,1,1,0,0,0,0,0,0,0,0
+39609,Clearing,RatherSafe,1,0,0,0,0,1,0,0,1,0
+39609,West Lawn,RatherSafe,2,0,0,2,0,0,0,0,0,0
+39609,Ashburn,NotSafe,3,1,0,1,0,1,0,0,3,0
+39609,Beverly,Safe,0,0,0,0,0,0,0,0,0,0
+39609,Mount Greenwood,RatherSafe,1,1,0,0,0,0,0,0,0,0
+39609,Morgan Park,RatherSafe,1,1,0,0,0,0,0,0,1,0
+39609,West Pullman,RatherSafe,1,0,1,0,0,0,0,0,1,0
+39609,Riverdale,RatherSafe,0,0,0,0,0,0,0,0,0,0
+39609,Hegewisch,RatherSafe,2,0,0,0,0,0,2,0,1,0
+39609,Edgewater,RatherSafe,0,0,0,0,0,0,0,0,0,0
+39609,Uptown,RatherSafe,0,0,0,0,0,0,0,0,0,0
+39609,Lake View,RatherSafe,1,0,0,0,0,1,0,0,1,0
+39609,Lincoln Park,RatherSafe,0,0,0,0,0,0,0,0,2,0
+39609,Near North Side,RatherSafe,4,3,1,0,0,0,0,0,1,0
+39609,Loop,RatherSafe,5,1,0,0,0,0,4,0,1,0
+39609,Near South Side,NotSafe,1,0,1,0,0,0,0,0,1,0
+39609,Douglas,Safe,0,0,0,0,0,0,0,0,0,0
+39609,Oakland,RatherSafe,2,0,1,0,0,1,0,0,2,0
+39609,Kenwood,RatherSafe,0,0,0,0,0,0,0,0,0,0
+39609,Hyde Park,RatherSafe,0,0,0,0,0,0,0,0,0,0
+39609,Woodlawn,RatherSafe,3,0,1,1,0,1,0,0,1,0
+39609,South Shore,RatherSafe,3,0,0,1,0,2,0,0,2,0
+39609,South Chicago,RatherSafe,6,0,0,0,0,1,5,0,3,0
+39609,East Side,RatherSafe,0,0,0,0,0,0,0,0,1,0
+39609,Washington Park,RatherSafe,5,0,0,0,0,1,0,4,1,0
+39609,Grand Boulevard,RatherSafe,0,0,0,0,0,0,0,0,1,0
+39609,South Deering,RatherSafe,0,0,0,0,0,0,0,0,0,0
+39609,Calumet Heights,RatherSafe,0,0,0,0,0,0,0,0,0,0
+39609,Avalon Park,RatherSafe,1,0,0,0,0,1,0,0,3,0
+39609,Burnside,RatherSafe,0,0,0,0,0,0,0,0,3,0
+39609,Pullman,RatherSafe,1,0,0,0,0,1,0,0,3,0
+39609,Jefferson Park,RatherSafe,3,0,1,1,0,1,0,0,2,0
+39609,Portage Park,RatherSafe,1,0,0,1,0,0,0,0,0,0
+39609,Greater Grand Crossing,RatherSafe,2,1,0,0,0,1,0,0,1,0
+39609,Fuller Park,NotSafe,6,0,0,0,0,0,6,0,1,0
+39609,Armour Square,Safe,0,0,0,0,0,0,0,0,0,0
+39609,Chatham,RatherSafe,1,0,0,0,0,0,0,1,1,0
+39609,Roseland,RatherSafe,2,1,0,0,0,1,0,0,2,0
+39609,Washington Heights,RatherSafe,0,0,0,0,0,0,0,0,1,0
+39609,Englewood,NotSafe,2,0,0,0,0,2,0,0,3,0
+39609,West Englewood,Safe,1,1,0,0,0,0,0,0,1,0
+39609,New City,RatherSafe,2,0,0,2,0,0,0,0,0,0
+39609,Auburn Gresham,RatherSafe,1,0,0,0,0,1,0,0,1,0
+39609,Chicago Lawn,RatherSafe,1,1,0,0,0,0,0,0,0,0
+39609,Gage Park,NotSafe,1,0,0,1,0,0,0,0,1,0
+39609,West Elsdon,Safe,1,0,1,0,0,0,0,0,0,0
+39609,Archer Heights,RatherSafe,0,0,0,0,0,0,0,0,0,0
+39609,Brighton Park,RatherSafe,2,0,1,1,0,0,0,0,0,0
+39609,McKinley Park,RatherSafe,2,0,1,0,0,1,0,0,1,0
+39609,Bridgeport,RatherSafe,4,0,0,0,0,0,4,0,2,0
+39609,Near West Side,RatherSafe,3,0,0,0,0,0,0,3,0,0
+39609,Lower West Side,NotSafe,3,0,0,1,0,2,0,0,2,0
+39609,East Garfield Park,Safe,1,0,0,0,0,1,0,0,1,0
+39609,West Garfield Park,RatherSafe,0,0,0,0,0,0,0,0,0,0
+39609,Humboldt Park,RatherSafe,1,0,0,0,0,1,0,0,1,0
+39609,West Town,RatherSafe,2,0,0,0,0,1,0,1,1,0
+39609,Belmont Cragin,RatherSafe,2,1,0,1,0,0,0,0,0,0
+39609,Hermosa,RatherSafe,1,0,0,0,0,1,0,0,1,0
+39609,Logan Square,RatherSafe,5,1,0,1,0,1,0,2,1,0
+39609,Lincoln Square,RatherSafe,0,0,0,0,0,0,0,0,0,0
+39609,North Center,RatherSafe,2,0,0,0,0,2,0,0,2,0
+39609,Albany Park,RatherSafe,0,0,0,0,0,0,0,0,0,0
+39609,Irving Park,RatherSafe,1,0,0,0,1,0,0,0,0,0
+39609,Avondale,RatherSafe,3,0,1,0,0,1,0,1,1,0
+43201,Rogers Park,RatherSafe,0,0,0,0,0,0,0,0,2,0
+43201,Edison Park,NotSafe,0,0,0,0,0,0,0,0,0,0
+43201,Norwood Park,Safe,1,0,1,0,0,0,0,0,1,0
+43201,West Ridge,RatherSafe,0,0,0,0,0,0,0,0,0,0
+43201,North Park,RatherSafe,2,0,0,0,0,2,0,0,2,0
+43201,Forest Glen,RatherSafe,2,0,0,0,0,0,2,0,1,0
+43201,O'Hare,RatherSafe,0,0,0,0,0,0,0,0,0,0
+43201,Dunning,RatherSafe,0,0,0,0,0,0,0,0,0,0
+43201,Montclare,RatherSafe,2,0,0,1,0,1,0,0,2,0
+43201,Austin,RatherSafe,0,0,0,0,0,0,0,0,0,0
+43201,North Lawndale,RatherSafe,4,0,0,0,0,0,3,1,1,0
+43201,South Lawndale,RatherSafe,0,0,0,0,0,0,0,0,1,0
+43201,Garfield Ridge,RatherSafe,0,0,0,0,0,0,0,0,1,0
+43201,Clearing,RatherSafe,0,0,0,0,0,0,0,0,1,0
+43201,West Lawn,RatherSafe,2,0,1,0,1,0,0,0,0,0
+43201,Ashburn,NotSafe,4,1,0,0,0,0,3,0,2,0
+43201,Beverly,Safe,0,0,0,0,0,0,0,0,0,0
+43201,Mount Greenwood,RatherSafe,1,0,0,0,0,1,0,0,1,0
+43201,Morgan Park,RatherSafe,1,0,0,1,0,0,0,0,0,0
+43201,West Pullman,RatherSafe,0,0,0,0,0,0,0,0,0,0
+43201,Riverdale,RatherSafe,1,1,0,0,0,0,0,0,0,0
+43201,Hegewisch,RatherSafe,0,0,0,0,0,0,0,0,0,0
+43201,Edgewater,RatherSafe,4,0,0,0,0,0,4,0,1,0
+43201,Uptown,RatherSafe,0,0,0,0,0,0,0,0,1,0
+43201,Lake View,RatherSafe,0,0,0,0,0,0,0,0,0,0
+43201,Lincoln Park,RatherSafe,5,0,0,0,0,1,4,0,3,0
+43201,Near North Side,RatherSafe,2,0,0,0,0,2,0,0,2,0
+43201,Loop,RatherSafe,0,0,0,0,0,0,0,0,1,0
+43201,Near South Side,NotSafe,1,0,0,1,0,0,0,0,0,0
+43201,Douglas,Safe,0,0,0,0,0,0,0,0,0,0
+43201,Oakland,RatherSafe,3,0,0,0,0,0,3,0,1,0
+43201,Kenwood,RatherSafe,0,0,0,0,0,0,0,0,0,0
+43201,Hyde Park,RatherSafe,0,0,0,0,0,0,0,0,0,0
+43201,Woodlawn,RatherSafe,2,0,0,0,0,0,0,2,0,0
+43201,South Shore,RatherSafe,0,0,0,0,0,0,0,0,1,0
+43201,South Chicago,RatherSafe,0,0,0,0,0,0,0,0,1,0
+43201,East Side,RatherSafe,0,0,0,0,0,0,0,0,1,0
+43201,Washington Park,RatherSafe,1,0,1,0,0,0,0,0,2,0
+43201,Grand Boulevard,RatherSafe,0,0,0,0,0,0,0,0,2,0
+43201,South Deering,RatherSafe,1,0,1,0,0,0,0,0,2,0
+43201,Calumet Heights,RatherSafe,4,0,0,1,0,0,0,3,2,0
+43201,Avalon Park,RatherSafe,7,0,0,0,0,1,6,0,4,0
+43201,Burnside,RatherSafe,2,0,1,1,0,0,0,0,2,0
+43201,Pullman,RatherSafe,1,0,1,0,0,0,0,0,1,0
+43201,Jefferson Park,RatherSafe,0,0,0,0,0,0,0,0,1,0
+43201,Portage Park,RatherSafe,0,0,0,0,0,0,0,0,0,0
+43201,Greater Grand Crossing,RatherSafe,1,0,0,0,1,0,0,0,0,0
+43201,Fuller Park,NotSafe,0,0,0,0,0,0,0,0,0,0
+43201,Armour Square,Safe,0,0,0,0,0,0,0,0,0,0
+43201,Chatham,RatherSafe,2,0,0,1,0,1,0,0,0,0
+43201,Roseland,RatherSafe,2,0,0,1,0,1,0,0,2,0
+43201,Washington Heights,RatherSafe,0,0,0,0,0,0,0,0,1,0
+43201,Englewood,NotSafe,6,0,1,0,0,1,4,0,2,0
+43201,West Englewood,Safe,0,0,0,0,0,0,0,0,0,0
+43201,New City,RatherSafe,0,0,0,0,0,0,0,0,1,0
+43201,Auburn Gresham,RatherSafe,2,0,0,1,0,1,0,0,2,0
+43201,Chicago Lawn,RatherSafe,1,0,0,0,0,1,0,0,1,0
+43201,Gage Park,NotSafe,0,0,0,0,0,0,0,0,1,0
+43201,West Elsdon,Safe,0,0,0,0,0,0,0,0,0,0
+43201,Archer Heights,RatherSafe,1,0,0,0,0,1,0,0,2,0
+43201,Brighton Park,RatherSafe,1,0,0,0,0,1,0,0,1,0
+43201,McKinley Park,RatherSafe,2,0,0,0,0,0,2,0,1,0
+43201,Bridgeport,RatherSafe,1,0,0,0,0,0,0,1,0,0
+43201,Near West Side,RatherSafe,1,0,0,0,0,0,0,1,0,0
+43201,Lower West Side,NotSafe,5,0,0,0,0,0,5,0,3,0
+43201,East Garfield Park,Safe,0,0,0,0,0,0,0,0,0,0
+43201,West Garfield Park,RatherSafe,0,0,0,0,0,0,0,0,0,0
+43201,Humboldt Park,RatherSafe,0,0,0,0,0,0,0,0,0,0
+43201,West Town,RatherSafe,0,0,0,0,0,0,0,0,0,0
+43201,Belmont Cragin,RatherSafe,2,0,1,0,0,1,0,0,2,0
+43201,Hermosa,RatherSafe,2,0,0,0,0,2,0,0,2,0
+43201,Logan Square,RatherSafe,0,0,0,0,0,0,0,0,0,0
+43201,Lincoln Square,RatherSafe,2,0,0,0,2,0,0,0,0,0
+43201,North Center,RatherSafe,1,0,0,0,0,1,0,0,2,0
+43201,Albany Park,RatherSafe,1,0,0,1,0,0,0,0,0,0
+43201,Irving Park,RatherSafe,0,0,0,0,0,0,0,0,0,0
+43201,Avondale,RatherSafe,2,0,1,0,0,0,1,0,2,0
+46801,Rogers Park,RatherSafe,0,0,0,0,0,0,0,0,0,0
+46801,Edison Park,NotSafe,0,0,0,0,0,0,0,0,0,0
+46801,Norwood Park,Safe,2,0,0,1,0,1,0,0,1,0
+46801,West Ridge,RatherSafe,2,0,0,0,0,2,0,0,2,0
+46801,North Park,RatherSafe,0,0,0,0,0,0,0,0,0,0
+46801,Forest Glen,RatherSafe,2,0,0,0,0,2,0,0,2,0
+46801,O'Hare,RatherSafe,1,0,0,0,0,1,0,0,3,0
+46801,Dunning,RatherSafe,0,0,0,0,0,0,0,0,0,0
+46801,Montclare,RatherSafe,1,0,0,0,0,1,0,0,2,0
+46801,Austin,RatherSafe,0,0,0,0,0,0,0,0,0,0
+46801,North Lawndale,RatherSafe,5,0,0,0,0,0,5,0,1,0
+46801,South Lawndale,RatherSafe,0,0,0,0,0,0,0,0,0,0
+46801,Garfield Ridge,RatherSafe,0,0,0,0,0,0,0,0,1,0
+46801,Clearing,RatherSafe,0,0,0,0,0,0,0,0,1,0
+46801,West Lawn,RatherSafe,1,0,0,0,0,1,0,0,1,0
+46801,Ashburn,NotSafe,8,0,0,1,0,1,6,0,6,0
+46801,Beverly,Safe,0,0,0,0,0,0,0,0,1,0
+46801,Mount Greenwood,RatherSafe,1,0,1,0,0,0,0,0,1,0
+46801,Morgan Park,RatherSafe,0,0,0,0,0,0,0,0,0,0
+46801,West Pullman,RatherSafe,1,0,0,1,0,0,0,0,0,0
+46801,Riverdale,RatherSafe,0,0,0,0,0,0,0,0,1,0
+46801,Hegewisch,RatherSafe,1,0,0,0,0,1,0,0,1,0
+46801,Edgewater,RatherSafe,5,4,0,0,0,1,0,0,1,0
+46801,Uptown,RatherSafe,2,0,0,0,0,2,0,0,3,0
+46801,Lake View,RatherSafe,1,0,0,0,0,1,0,0,1,0
+46801,Lincoln Park,RatherSafe,0,0,0,0,0,0,0,0,1,0
+46801,Near North Side,RatherSafe,1,0,0,0,0,1,0,0,1,0
+46801,Loop,RatherSafe,0,0,0,0,0,0,0,0,0,0
+46801,Near South Side,NotSafe,1,0,0,0,0,1,0,0,2,0
+46801,Douglas,Safe,2,0,0,0,1,1,0,0,1,0
+46801,Oakland,RatherSafe,0,0,0,0,0,0,0,0,1,0
+46801,Kenwood,RatherSafe,0,0,0,0,0,0,0,0,0,0
+46801,Hyde Park,RatherSafe,0,0,0,0,0,0,0,0,0,0
+46801,Woodlawn,RatherSafe,0,0,0,0,0,0,0,0,0,0
+46801,South Shore,RatherSafe,1,0,0,0,0,1,0,0,1,0
+46801,South Chicago,RatherSafe,3,0,0,1,1,1,0,0,1,0
+46801,East Side,RatherSafe,1,0,0,0,0,1,0,0,2,0
+46801,Washington Park,RatherSafe,0,0,0,0,0,0,0,0,0,0
+46801,Grand Boulevard,RatherSafe,0,0,0,0,0,0,0,0,0,0
+46801,South Deering,RatherSafe,1,0,0,0,0,1,0,0,1,0
+46801,Calumet Heights,RatherSafe,3,0,0,0,1,0,2,0,3,0
+46801,Avalon Park,RatherSafe,0,0,0,0,0,0,0,0,1,0
+46801,Burnside,RatherSafe,0,0,0,0,0,0,0,0,1,0
+46801,Pullman,RatherSafe,8,0,0,2,0,1,5,0,3,0
+46801,Jefferson Park,RatherSafe,1,0,0,1,0,0,0,0,3,0
+46801,Portage Park,RatherSafe,0,0,0,0,0,0,0,0,2,0
+46801,Greater Grand Crossing,RatherSafe,0,0,0,0,0,0,0,0,3,0
+46801,Fuller Park,NotSafe,3,0,0,1,0,2,0,0,2,0
+46801,Armour Square,Safe,0,0,0,0,0,0,0,0,0,0
+46801,Chatham,RatherSafe,0,0,0,0,0,0,0,0,0,0
+46801,Roseland,RatherSafe,0,0,0,0,0,0,0,0,1,0
+46801,Washington Heights,RatherSafe,0,0,0,0,0,0,0,0,2,0
+46801,Englewood,NotSafe,5,0,0,0,0,0,5,0,1,0
+46801,West Englewood,Safe,1,0,0,0,0,1,0,0,2,0
+46801,New City,RatherSafe,0,0,0,0,0,0,0,0,1,0
+46801,Auburn Gresham,RatherSafe,1,0,0,0,0,1,0,0,1,0
+46801,Chicago Lawn,RatherSafe,0,0,0,0,0,0,0,0,0,0
+46801,Gage Park,NotSafe,0,0,0,0,0,0,0,0,1,0
+46801,West Elsdon,Safe,0,0,0,0,0,0,0,0,0,0
+46801,Archer Heights,RatherSafe,0,0,0,0,0,0,0,0,1,0
+46801,Brighton Park,RatherSafe,0,0,0,0,0,0,0,0,1,0
+46801,McKinley Park,RatherSafe,7,0,0,0,0,1,6,0,2,0
+46801,Bridgeport,RatherSafe,0,0,0,0,0,0,0,0,3,0
+46801,Near West Side,RatherSafe,0,0,0,0,0,0,0,0,2,0
+46801,Lower West Side,NotSafe,8,4,1,0,0,1,2,0,3,0
+46801,East Garfield Park,Safe,0,0,0,0,0,0,0,0,0,0
+46801,West Garfield Park,RatherSafe,0,0,0,0,0,0,0,0,1,0
+46801,Humboldt Park,RatherSafe,1,0,0,1,0,0,0,0,1,0
+46801,West Town,RatherSafe,0,0,0,0,0,0,0,0,0,0
+46801,Belmont Cragin,RatherSafe,4,0,0,0,0,0,4,0,2,0
+46801,Hermosa,RatherSafe,0,0,0,0,0,0,0,0,0,0
+46801,Logan Square,RatherSafe,2,0,0,1,0,1,0,0,3,0
+46801,Lincoln Square,RatherSafe,0,0,0,0,0,0,0,0,1,0
+46801,North Center,RatherSafe,0,0,0,0,0,0,0,0,0,0
+46801,Albany Park,RatherSafe,0,0,0,0,0,0,0,0,3,0
+46801,Irving Park,RatherSafe,0,0,0,0,0,0,0,0,0,0
+46801,Avondale,RatherSafe,7,2,2,1,0,0,2,0,2,0
+50401,Rogers Park,RatherSafe,1,0,0,0,0,1,0,0,2,0
+50401,Edison Park,NotSafe,2,0,0,0,0,2,0,0,3,0
+50401,Norwood Park,Safe,1,0,0,1,0,0,0,0,1,0
+50401,West Ridge,RatherSafe,0,0,0,0,0,0,0,0,3,0
+50401,North Park,RatherSafe,1,0,0,1,0,0,0,0,0,0
+50401,Forest Glen,RatherSafe,2,0,0,0,0,0,2,0,1,0
+50401,O'Hare,RatherSafe,0,0,0,0,0,0,0,0,0,0
+50401,Dunning,RatherSafe,0,0,0,0,0,0,0,0,0,0
+50401,Montclare,RatherSafe,0,0,0,0,0,0,0,0,0,0
+50401,Austin,RatherSafe,1,0,0,0,0,1,0,0,1,0
+50401,North Lawndale,RatherSafe,3,0,1,1,0,1,0,0,2,0
+50401,South Lawndale,RatherSafe,1,0,1,0,0,0,0,0,0,0
+50401,Garfield Ridge,RatherSafe,1,0,1,0,0,0,0,0,2,0
+50401,Clearing,RatherSafe,0,0,0,0,0,0,0,0,1,0
+50401,West Lawn,RatherSafe,2,0,0,0,0,1,1,0,2,0
+50401,Ashburn,NotSafe,1,0,0,0,0,1,0,0,1,0
+50401,Beverly,Safe,1,0,0,1,0,0,0,0,0,0
+50401,Mount Greenwood,RatherSafe,0,0,0,0,0,0,0,0,0,0
+50401,Morgan Park,RatherSafe,1,0,0,0,0,1,0,0,2,0
+50401,West Pullman,RatherSafe,0,0,0,0,0,0,0,0,0,0
+50401,Riverdale,RatherSafe,1,0,0,1,0,0,0,0,1,0
+50401,Hegewisch,RatherSafe,5,0,0,0,0,1,4,0,3,0
+50401,Edgewater,RatherSafe,0,0,0,0,0,0,0,0,0,0
+50401,Uptown,RatherSafe,5,0,0,0,0,0,5,0,2,0
+50401,Lake View,RatherSafe,0,0,0,0,0,0,0,0,2,0
+50401,Lincoln Park,RatherSafe,1,0,0,0,0,1,0,0,3,0
+50401,Near North Side,RatherSafe,1,0,0,1,0,0,0,0,1,0
+50401,Loop,RatherSafe,1,0,1,0,0,0,0,0,1,0
+50401,Near South Side,NotSafe,3,0,0,0,0,3,0,0,3,0
+50401,Douglas,Safe,1,0,0,1,0,0,0,0,0,0
+50401,Oakland,RatherSafe,1,0,0,0,0,1,0,0,1,0
+50401,Kenwood,RatherSafe,0,0,0,0,0,0,0,0,2,0
+50401,Hyde Park,RatherSafe,1,0,0,0,0,1,0,0,1,0
+50401,Woodlawn,RatherSafe,2,0,0,0,0,2,0,0,3,0
+50401,South Shore,RatherSafe,0,0,0,0,0,0,0,0,0,0
+50401,South Chicago,RatherSafe,0,0,0,0,0,0,0,0,2,0
+50401,East Side,RatherSafe,0,0,0,0,0,0,0,0,0,0
+50401,Washington Park,RatherSafe,2,0,0,0,0,2,0,0,3,0
+50401,Grand Boulevard,RatherSafe,0,0,0,0,0,0,0,0,0,0
+50401,South Deering,RatherSafe,0,0,0,0,0,0,0,0,3,0
+50401,Calumet Heights,RatherSafe,2,0,0,0,1,1,0,0,2,0
+50401,Avalon Park,RatherSafe,9,0,0,1,1,0,7,0,3,0
+50401,Burnside,RatherSafe,2,0,0,1,0,1,0,0,3,0
+50401,Pullman,RatherSafe,1,0,0,1,0,0,0,0,1,0
+50401,Jefferson Park,RatherSafe,2,0,0,0,0,0,2,0,2,0
+50401,Portage Park,RatherSafe,2,0,0,0,0,2,0,0,4,0
+50401,Greater Grand Crossing,RatherSafe,4,0,0,3,0,1,0,0,4,0
+50401,Fuller Park,NotSafe,4,0,0,0,0,0,4,0,2,0
+50401,Armour Square,Safe,0,0,0,0,0,0,0,0,0,0
+50401,Chatham,RatherSafe,2,0,0,0,0,0,0,2,0,0
+50401,Roseland,RatherSafe,5,1,0,2,0,0,0,2,0,0
+50401,Washington Heights,RatherSafe,0,0,0,0,0,0,0,0,0,0
+50401,Englewood,NotSafe,1,0,0,0,0,1,0,0,2,0
+50401,West Englewood,Safe,1,0,0,0,0,1,0,0,2,0
+50401,New City,RatherSafe,0,0,0,0,0,0,0,0,0,0
+50401,Auburn Gresham,RatherSafe,2,0,0,1,0,1,0,0,1,0
+50401,Chicago Lawn,RatherSafe,1,0,1,0,0,0,0,0,1,0
+50401,Gage Park,NotSafe,1,0,0,0,0,0,0,1,1,0
+50401,West Elsdon,Safe,0,0,0,0,0,0,0,0,0,0
+50401,Archer Heights,RatherSafe,3,0,0,0,0,0,2,1,2,0
+50401,Brighton Park,RatherSafe,3,0,1,0,0,0,0,2,0,0
+50401,McKinley Park,RatherSafe,0,0,0,0,0,0,0,0,0,0
+50401,Bridgeport,RatherSafe,0,0,0,0,0,0,0,0,1,0
+50401,Near West Side,RatherSafe,2,0,0,0,0,2,0,0,2,0
+50401,Lower West Side,NotSafe,2,0,1,0,0,0,1,0,3,0
+50401,East Garfield Park,Safe,2,0,0,1,0,1,0,0,2,0
+50401,West Garfield Park,RatherSafe,0,0,0,0,0,0,0,0,1,0
+50401,Humboldt Park,RatherSafe,2,0,0,0,0,2,0,0,2,0
+50401,West Town,RatherSafe,1,1,0,0,0,0,0,0,0,0
+50401,Belmont Cragin,RatherSafe,0,0,0,0,0,0,0,0,0,0
+50401,Hermosa,RatherSafe,0,0,0,0,0,0,0,0,1,0
+50401,Logan Square,RatherSafe,2,0,0,0,0,1,0,1,1,0
+50401,Lincoln Square,RatherSafe,1,0,0,0,0,1,0,0,1,0
+50401,North Center,RatherSafe,1,0,0,1,0,0,0,0,0,0
+50401,Albany Park,RatherSafe,5,0,0,0,0,1,4,0,3,0
+50401,Irving Park,RatherSafe,0,0,0,0,0,0,0,0,0,0
+50401,Avondale,RatherSafe,2,0,0,1,0,0,0,1,0,0
+54000,Rogers Park,RatherSafe,0,0,0,0,0,0,0,0,0,0
+54000,Edison Park,NotSafe,0,0,0,0,0,0,0,0,0,0
+54000,Norwood Park,Safe,2,0,0,1,0,1,0,0,3,0
+54000,West Ridge,RatherSafe,2,0,0,0,0,0,2,0,1,0
+54000,North Park,RatherSafe,0,0,0,0,0,0,0,0,1,0
+54000,Forest Glen,RatherSafe,1,0,0,0,0,1,0,0,1,0
+54000,O'Hare,RatherSafe,0,0,0,0,0,0,0,0,0,0
+54000,Dunning,RatherSafe,3,0,0,0,0,1,2,0,2,0
+54000,Montclare,RatherSafe,0,0,0,0,0,0,0,0,3,0
+54000,Austin,RatherSafe,2,0,2,0,0,0,0,0,0,0
+54000,North Lawndale,RatherSafe,0,0,0,0,0,0,0,0,0,0
+54000,South Lawndale,RatherSafe,2,0,0,1,0,1,0,0,1,0
+54000,Garfield Ridge,RatherSafe,1,0,0,0,0,1,0,0,2,0
+54000,Clearing,RatherSafe,2,0,1,0,0,1,0,0,1,0
+54000,West Lawn,RatherSafe,0,0,0,0,0,0,0,0,0,0
+54000,Ashburn,NotSafe,0,0,0,0,0,0,0,0,1,0
+54000,Beverly,Safe,1,0,0,0,0,1,0,0,1,0
+54000,Mount Greenwood,RatherSafe,1,0,0,0,0,1,0,0,1,0
+54000,Morgan Park,RatherSafe,0,0,0,0,0,0,0,0,1,0
+54000,West Pullman,RatherSafe,2,0,0,1,0,1,0,0,2,0
+54000,Riverdale,RatherSafe,1,0,0,1,0,0,0,0,0,0
+54000,Hegewisch,RatherSafe,4,0,0,0,0,0,4,0,1,0
+54000,Edgewater,RatherSafe,1,0,0,0,0,1,0,0,2,0
+54000,Uptown,RatherSafe,0,0,0,0,0,0,0,0,0,0
+54000,Lake View,RatherSafe,0,0,0,0,0,0,0,0,0,0
+54000,Lincoln Park,RatherSafe,4,0,0,0,0,1,3,0,4,0
+54000,Near North Side,RatherSafe,1,0,0,1,0,0,0,0,0,0
+54000,Loop,RatherSafe,0,0,0,0,0,0,0,0,3,0
+54000,Near South Side,NotSafe,5,0,0,1,0,0,4,0,3,0
+54000,Douglas,Safe,0,0,0,0,0,0,0,0,0,0
+54000,Oakland,RatherSafe,1,0,0,0,0,1,0,0,2,0
+54000,Kenwood,RatherSafe,0,0,0,0,0,0,0,0,2,0
+54000,Hyde Park,RatherSafe,1,0,0,0,0,1,0,0,2,0
+54000,Woodlawn,RatherSafe,2,0,0,1,0,1,0,0,1,0
+54000,South Shore,RatherSafe,0,0,0,0,0,0,0,0,0,0
+54000,South Chicago,RatherSafe,4,0,0,0,0,0,4,0,1,0
+54000,East Side,RatherSafe,0,0,0,0,0,0,0,0,0,0
+54000,Washington Park,RatherSafe,1,0,0,1,0,0,0,0,0,0
+54000,Grand Boulevard,RatherSafe,1,0,0,1,0,0,0,0,2,0
+54000,South Deering,RatherSafe,2,0,0,1,0,1,0,0,3,0
+54000,Calumet Heights,RatherSafe,6,0,0,1,0,1,4,0,2,0
+54000,Avalon Park,RatherSafe,2,0,0,1,0,1,0,0,2,0
+54000,Burnside,RatherSafe,2,0,0,0,0,2,0,0,2,0
+54000,Pullman,RatherSafe,2,0,0,2,0,0,0,0,3,0
+54000,Jefferson Park,RatherSafe,0,0,0,0,0,0,0,0,1,0
+54000,Portage Park,RatherSafe,5,0,1,0,0,0,4,0,2,0
+54000,Greater Grand Crossing,RatherSafe,1,0,0,1,0,0,0,0,0,0
+54000,Fuller Park,NotSafe,5,0,0,0,0,2,3,0,5,0
+54000,Armour Square,Safe,1,0,0,0,1,0,0,0,0,0
+54000,Chatham,RatherSafe,0,0,0,0,0,0,0,0,0,0
+54000,Roseland,RatherSafe,0,0,0,0,0,0,0,0,0,0
+54000,Washington Heights,RatherSafe,0,0,0,0,0,0,0,0,0,0
+54000,Englewood,NotSafe,2,0,0,2,0,0,0,0,2,0
+54000,West Englewood,Safe,1,0,0,1,0,0,0,0,2,0
+54000,New City,RatherSafe,0,0,0,0,0,0,0,0,2,0
+54000,Auburn Gresham,RatherSafe,4,0,0,0,0,0,4,0,3,0
+54000,Chicago Lawn,RatherSafe,0,0,0,0,0,0,0,0,1,0
+54000,Gage Park,NotSafe,2,0,0,0,0,2,0,0,5,0
+54000,West Elsdon,Safe,0,0,0,0,0,0,0,0,0,0
+54000,Archer Heights,RatherSafe,1,0,1,0,0,0,0,0,1,0
+54000,Brighton Park,RatherSafe,0,0,0,0,0,0,0,0,0,0
+54000,McKinley Park,RatherSafe,0,0,0,0,0,0,0,0,2,0
+54000,Bridgeport,RatherSafe,0,0,0,0,0,0,0,0,2,0
+54000,Near West Side,RatherSafe,0,0,0,0,0,0,0,0,0,0
+54000,Lower West Side,NotSafe,8,0,0,1,0,2,5,0,3,0
+54000,East Garfield Park,Safe,2,0,0,0,0,1,1,0,2,0
+54000,West Garfield Park,RatherSafe,0,0,0,0,0,0,0,0,0,0
+54000,Humboldt Park,RatherSafe,0,0,0,0,0,0,0,0,2,0
+54000,West Town,RatherSafe,3,0,0,3,0,0,0,0,0,0
+54000,Belmont Cragin,RatherSafe,0,0,0,0,0,0,0,0,1,0
+54000,Hermosa,RatherSafe,2,0,0,0,0,2,0,0,3,0
+54000,Logan Square,RatherSafe,0,0,0,0,0,0,0,0,1,0
+54000,Lincoln Square,RatherSafe,0,0,0,0,0,0,0,0,3,0
+54000,North Center,RatherSafe,0,0,0,0,0,0,0,0,1,0
+54000,Albany Park,RatherSafe,2,0,0,1,0,1,0,0,2,0
+54000,Irving Park,RatherSafe,1,0,0,0,0,1,0,0,2,0
+54000,Avondale,RatherSafe,3,0,1,0,0,1,0,1,1,0
+57600,Rogers Park,RatherSafe,0,0,0,0,0,0,0,0,0,1
+57600,Edison Park,NotSafe,0,0,0,0,0,0,0,0,1,1
+57600,Norwood Park,Safe,0,0,0,0,0,0,0,0,2,1
+57600,West Ridge,RatherSafe,4,0,0,0,1,0,3,0,1,1
+57600,North Park,RatherSafe,5,0,0,0,0,0,5,0,1,1
+57600,Forest Glen,RatherSafe,1,0,0,0,0,1,0,0,1,1
+57600,O'Hare,RatherSafe,0,0,0,0,0,0,0,0,2,1
+57600,Dunning,RatherSafe,3,0,0,1,0,0,2,0,1,1
+57600,Montclare,RatherSafe,2,0,0,0,0,2,0,0,2,1
+57600,Austin,RatherSafe,1,0,0,0,0,1,0,0,1,1
+57600,North Lawndale,RatherSafe,1,0,0,0,0,1,0,0,1,1
+57600,South Lawndale,RatherSafe,1,0,0,0,0,1,0,0,2,1
+57600,Garfield Ridge,RatherSafe,1,0,1,0,0,0,0,0,0,1
+57600,Clearing,RatherSafe,1,0,1,0,0,0,0,0,1,1
+57600,West Lawn,RatherSafe,0,0,0,0,0,0,0,0,1,1
+57600,Ashburn,NotSafe,5,0,0,0,0,0,4,0,2,1
+57600,Beverly,Safe,0,0,0,0,0,0,0,0,1,1
+57600,Mount Greenwood,RatherSafe,1,0,0,0,0,0,1,0,2,1
+57600,Morgan Park,RatherSafe,0,0,0,0,0,0,0,0,1,1
+57600,West Pullman,RatherSafe,0,0,0,0,0,0,0,0,1,1
+57600,Riverdale,RatherSafe,0,0,0,0,0,0,0,0,0,1
+57600,Hegewisch,RatherSafe,2,0,1,0,0,1,0,0,1,1
+57600,Edgewater,RatherSafe,0,0,0,0,0,0,0,0,2,1
+57600,Uptown,RatherSafe,0,0,0,0,0,0,0,0,1,1
+57600,Lake View,RatherSafe,1,0,0,0,0,1,0,0,1,1
+57600,Lincoln Park,RatherSafe,5,0,0,0,0,0,5,0,1,1
+57600,Near North Side,RatherSafe,1,0,0,1,0,0,0,0,0,1
+57600,Loop,RatherSafe,1,0,0,0,0,1,0,0,4,1
+57600,Near South Side,NotSafe,6,0,5,0,0,1,0,0,1,1
+57600,Douglas,Safe,0,0,0,0,0,0,0,0,0,1
+57600,Oakland,RatherSafe,1,0,1,0,0,0,0,0,1,1
+57600,Kenwood,RatherSafe,2,0,0,0,0,2,0,0,4,1
+57600,Hyde Park,RatherSafe,0,0,0,0,0,0,0,0,0,1
+57600,Woodlawn,RatherSafe,0,0,0,0,0,0,0,0,0,1
+57600,South Shore,RatherSafe,2,0,0,1,0,1,0,0,2,1
+57600,South Chicago,RatherSafe,1,0,0,1,0,0,0,0,2,1
+57600,East Side,RatherSafe,1,0,0,0,0,1,0,0,2,1
+57600,Washington Park,RatherSafe,0,0,0,0,0,0,0,0,0,1
+57600,Grand Boulevard,RatherSafe,1,0,0,1,0,0,0,0,0,1
+57600,South Deering,RatherSafe,0,0,0,0,0,0,0,0,1,1
+57600,Calumet Heights,RatherSafe,1,0,0,1,0,0,0,0,1,1
+57600,Avalon Park,RatherSafe,1,0,0,1,0,0,0,0,0,1
+57600,Burnside,RatherSafe,1,0,0,0,0,1,0,0,2,1
+57600,Pullman,RatherSafe,4,1,1,1,1,0,0,0,2,1
+57600,Jefferson Park,RatherSafe,1,0,0,1,0,0,0,0,1,1
+57600,Portage Park,RatherSafe,1,0,0,0,0,1,0,0,1,1
+57600,Greater Grand Crossing,RatherSafe,2,0,0,2,0,0,0,0,1,1
+57600,Fuller Park,NotSafe,8,0,0,0,0,0,8,0,2,1
+57600,Armour Square,Safe,1,0,0,1,0,0,0,0,1,1
+57600,Chatham,RatherSafe,4,0,0,0,0,0,4,0,2,1
+57600,Roseland,RatherSafe,0,0,0,0,0,0,0,0,2,1
+57600,Washington Heights,RatherSafe,1,0,0,0,0,1,0,0,1,1
+57600,Englewood,NotSafe,7,0,0,3,0,0,4,0,4,1
+57600,West Englewood,Safe,0,0,0,0,0,0,0,0,0,1
+57600,New City,RatherSafe,2,0,0,2,0,0,0,0,0,1
+57600,Auburn Gresham,RatherSafe,1,0,0,0,0,1,0,0,3,1
+57600,Chicago Lawn,RatherSafe,1,0,0,0,0,0,1,0,0,1
+57600,Gage Park,NotSafe,9,0,0,0,0,1,8,0,6,1
+57600,West Elsdon,Safe,0,0,0,0,0,0,0,0,2,1
+57600,Archer Heights,RatherSafe,0,0,0,0,0,0,0,0,0,1
+57600,Brighton Park,RatherSafe,0,0,0,0,0,0,0,0,1,1
+57600,McKinley Park,RatherSafe,5,0,0,1,0,0,4,0,1,1
+57600,Bridgeport,RatherSafe,1,0,0,1,0,0,0,0,1,1
+57600,Near West Side,RatherSafe,0,0,0,0,0,0,0,0,0,1
+57600,Lower West Side,NotSafe,2,0,0,0,0,2,0,0,2,1
+57600,East Garfield Park,Safe,0,0,0,0,0,0,0,0,1,1
+57600,West Garfield Park,RatherSafe,1,0,0,0,0,1,0,0,1,1
+57600,Humboldt Park,RatherSafe,0,0,0,0,0,0,0,0,1,1
+57600,West Town,RatherSafe,1,0,0,0,0,1,0,0,1,1
+57600,Belmont Cragin,RatherSafe,0,0,0,0,0,0,0,0,0,1
+57600,Hermosa,RatherSafe,1,0,0,0,0,1,0,0,1,1
+57600,Logan Square,RatherSafe,2,0,0,0,0,2,0,0,2,1
+57600,Lincoln Square,RatherSafe,5,0,0,0,0,0,5,0,1,1
+57600,North Center,RatherSafe,1,0,0,0,0,1,0,0,2,1
+57600,Albany Park,RatherSafe,2,1,0,0,0,1,0,0,1,1
+57600,Irving Park,RatherSafe,1,0,0,1,0,0,0,0,0,1
+57600,Avondale,RatherSafe,0,0,0,0,0,0,0,0,0,1
+61209,Rogers Park,RatherSafe,1,0,0,0,0,1,0,0,2,1
+61209,Edison Park,NotSafe,4,0,1,0,1,1,1,0,4,1
+61209,Norwood Park,Safe,0,0,0,0,0,0,0,0,0,1
+61209,West Ridge,RatherSafe,4,0,0,0,0,0,4,0,1,1
+61209,North Park,RatherSafe,1,0,0,0,0,1,0,0,1,1
+61209,Forest Glen,RatherSafe,2,0,0,0,0,2,0,0,3,1
+61209,O'Hare,RatherSafe,0,0,0,0,0,0,0,0,0,1
+61209,Dunning,RatherSafe,3,0,0,0,0,0,3,0,1,1
+61209,Montclare,RatherSafe,4,0,0,0,0,0,4,0,1,1
+61209,Austin,RatherSafe,0,0,0,0,0,0,0,0,0,1
+61209,North Lawndale,RatherSafe,1,0,0,0,0,1,0,0,1,1
+61209,South Lawndale,RatherSafe,0,0,0,0,0,0,0,0,1,1
+61209,Garfield Ridge,RatherSafe,0,0,0,0,0,0,0,0,0,1
+61209,Clearing,RatherSafe,3,2,0,0,0,1,0,0,1,1
+61209,West Lawn,RatherSafe,0,0,0,0,0,0,0,0,0,1
+61209,Ashburn,NotSafe,7,2,2,0,1,0,2,0,2,1
+61209,Beverly,Safe,2,1,0,0,0,1,0,0,1,1
+61209,Mount Greenwood,RatherSafe,0,0,0,0,0,0,0,0,0,1
+61209,Morgan Park,RatherSafe,1,0,0,1,0,0,0,0,1,1
+61209,West Pullman,RatherSafe,1,0,1,0,0,0,0,0,0,1
+61209,Riverdale,RatherSafe,2,1,0,0,0,1,0,0,1,1
+61209,Hegewisch,RatherSafe,2,0,0,0,0,2,0,0,2,1
+61209,Edgewater,RatherSafe,1,0,0,0,0,1,0,0,1,1
+61209,Uptown,RatherSafe,2,0,0,0,0,2,0,0,2,1
+61209,Lake View,RatherSafe,2,0,0,0,0,2,0,0,2,1
+61209,Lincoln Park,RatherSafe,1,0,0,0,0,1,0,0,1,1
+61209,Near North Side,RatherSafe,2,0,0,0,0,2,0,0,2,1
+61209,Loop,RatherSafe,0,0,0,0,0,0,0,0,1,1
+61209,Near South Side,NotSafe,7,0,1,0,0,1,5,0,2,1
+61209,Douglas,Safe,0,0,0,0,0,0,0,0,1,1
+61209,Oakland,RatherSafe,0,0,0,0,0,0,0,0,0,1
+61209,Kenwood,RatherSafe,2,0,0,0,0,0,2,0,2,1
+61209,Hyde Park,RatherSafe,0,0,0,0,0,0,0,0,1,1
+61209,Woodlawn,RatherSafe,6,0,0,1,0,0,5,0,3,1
+61209,South Shore,RatherSafe,4,0,1,0,0,0,2,1,2,1
+61209,South Chicago,RatherSafe,0,0,0,0,0,0,0,0,0,1
+61209,East Side,RatherSafe,1,0,0,1,0,0,0,0,1,1
+61209,Washington Park,RatherSafe,0,0,0,0,0,0,0,0,1,1
+61209,Grand Boulevard,RatherSafe,2,0,0,0,0,0,2,0,1,1
+61209,South Deering,RatherSafe,1,0,0,0,1,0,0,0,4,1
+61209,Calumet Heights,RatherSafe,0,0,0,0,0,0,0,0,0,1
+61209,Avalon Park,RatherSafe,0,0,0,0,0,0,0,0,0,1
+61209,Burnside,RatherSafe,3,0,0,0,0,0,3,0,2,1
+61209,Pullman,RatherSafe,1,0,0,0,0,1,0,0,4,1
+61209,Jefferson Park,RatherSafe,1,0,0,1,0,0,0,0,0,1
+61209,Portage Park,RatherSafe,3,1,0,0,0,2,0,0,2,1
+61209,Greater Grand Crossing,RatherSafe,1,0,0,0,0,1,0,0,2,1
+61209,Fuller Park,NotSafe,17,0,0,0,0,0,17,0,5,1
+61209,Armour Square,Safe,1,0,0,0,0,0,1,0,1,1
+61209,Chatham,RatherSafe,0,0,0,0,0,0,0,0,0,1
+61209,Roseland,RatherSafe,0,0,0,0,0,0,0,0,0,1
+61209,Washington Heights,RatherSafe,1,0,1,0,0,0,0,0,1,1
+61209,Englewood,NotSafe,1,0,0,1,0,0,0,0,3,1
+61209,West Englewood,Safe,2,1,1,0,0,0,0,0,0,1
+61209,New City,RatherSafe,4,0,0,0,0,0,3,1,2,1
+61209,Auburn Gresham,RatherSafe,1,0,0,0,0,1,0,0,1,1
+61209,Chicago Lawn,RatherSafe,2,0,2,0,0,0,0,0,1,1
+61209,Gage Park,NotSafe,3,0,3,0,0,0,0,0,1,1
+61209,West Elsdon,Safe,2,0,0,0,0,1,1,0,2,1
+61209,Archer Heights,RatherSafe,1,0,0,1,0,0,0,0,1,1
+61209,Brighton Park,RatherSafe,3,0,0,0,0,1,0,2,3,1
+61209,McKinley Park,RatherSafe,1,1,0,0,0,0,0,0,0,1
+61209,Bridgeport,RatherSafe,2,1,0,0,0,0,0,1,0,1
+61209,Near West Side,RatherSafe,3,0,0,1,0,0,0,2,1,1
+61209,Lower West Side,NotSafe,3,1,0,0,0,0,0,2,1,1
+61209,East Garfield Park,Safe,1,0,0,0,0,0,0,1,0,1
+61209,West Garfield Park,RatherSafe,0,0,0,0,0,0,0,0,0,1
+61209,Humboldt Park,RatherSafe,2,1,0,1,0,0,0,0,0,1
+61209,West Town,RatherSafe,8,0,0,0,0,0,4,4,1,1
+61209,Belmont Cragin,RatherSafe,1,0,0,0,0,1,0,0,1,1
+61209,Hermosa,RatherSafe,4,0,0,0,0,1,2,1,2,1
+61209,Logan Square,RatherSafe,7,1,5,1,0,0,0,0,1,1
+61209,Lincoln Square,RatherSafe,4,2,1,0,0,1,0,0,1,1
+61209,North Center,RatherSafe,0,0,0,0,0,0,0,0,0,1
+61209,Albany Park,RatherSafe,1,0,0,0,0,1,0,0,2,1
+61209,Irving Park,RatherSafe,3,0,0,1,0,2,0,0,3,1
+61209,Avondale,RatherSafe,0,0,0,0,0,0,0,0,0,1
+64802,Rogers Park,RatherSafe,0,0,0,0,0,0,0,0,1,1
+64802,Edison Park,NotSafe,3,0,2,0,0,0,1,0,2,1
+64802,Norwood Park,Safe,0,0,0,0,0,0,0,0,0,1
+64802,West Ridge,RatherSafe,0,0,0,0,0,0,0,0,2,1
+64802,North Park,RatherSafe,1,0,0,1,0,0,0,0,0,1
+64802,Forest Glen,RatherSafe,5,0,0,0,0,1,4,0,3,1
+64802,O'Hare,RatherSafe,0,0,0,0,0,0,0,0,0,1
+64802,Dunning,RatherSafe,0,0,0,0,0,0,0,0,0,1
+64802,Montclare,RatherSafe,2,0,0,0,0,0,2,0,1,1
+64802,Austin,RatherSafe,0,0,0,0,0,0,0,0,0,1
+64802,North Lawndale,RatherSafe,0,0,0,0,0,0,0,0,2,1
+64802,South Lawndale,RatherSafe,2,0,1,0,0,1,0,0,1,1
+64802,Garfield Ridge,RatherSafe,0,0,0,0,0,0,0,0,0,1
+64802,Clearing,RatherSafe,1,0,0,0,1,0,0,0,0,1
+64802,West Lawn,RatherSafe,1,0,0,0,0,1,0,0,2,1
+64802,Ashburn,NotSafe,9,0,0,0,0,2,6,1,4,1
+64802,Beverly,Safe,0,0,0,0,0,0,0,0,0,1
+64802,Mount Greenwood,RatherSafe,0,0,0,0,0,0,0,0,0,1
+64802,Morgan Park,RatherSafe,0,0,0,0,0,0,0,0,0,1
+64802,West Pullman,RatherSafe,1,0,0,0,0,1,0,0,2,1
+64802,Riverdale,RatherSafe,2,0,0,0,0,2,0,0,2,1
+64802,Hegewisch,RatherSafe,1,0,0,1,0,0,0,0,1,1
+64802,Edgewater,RatherSafe,0,0,0,0,0,0,0,0,0,1
+64802,Uptown,RatherSafe,1,0,0,0,0,1,0,0,1,1
+64802,Lake View,RatherSafe,1,0,0,0,0,1,0,0,1,1
+64802,Lincoln Park,RatherSafe,0,0,0,0,0,0,0,0,0,1
+64802,Near North Side,RatherSafe,0,0,0,0,0,0,0,0,0,1
+64802,Loop,RatherSafe,1,0,0,0,0,1,0,0,2,1
+64802,Near South Side,NotSafe,4,0,0,1,0,1,2,0,3,1
+64802,Douglas,Safe,0,0,0,0,0,0,0,0,0,1
+64802,Oakland,RatherSafe,4,0,0,0,0,1,3,0,2,1
+64802,Kenwood,RatherSafe,3,0,0,0,0,0,1,2,2,1
+64802,Hyde Park,RatherSafe,1,0,0,0,0,1,0,0,1,1
+64802,Woodlawn,RatherSafe,0,0,0,0,0,0,0,0,0,1
+64802,South Shore,RatherSafe,1,0,0,1,0,0,0,0,2,1
+64802,South Chicago,RatherSafe,1,0,0,0,0,1,0,0,1,1
+64802,East Side,RatherSafe,2,0,0,0,0,2,0,0,2,1
+64802,Washington Park,RatherSafe,0,0,0,0,0,0,0,0,0,1
+64802,Grand Boulevard,RatherSafe,0,0,0,0,0,0,0,0,0,1
+64802,South Deering,RatherSafe,4,0,0,0,0,1,3,0,3,1
+64802,Calumet Heights,RatherSafe,1,0,0,0,0,1,0,0,1,1
+64802,Avalon Park,RatherSafe,1,0,0,0,0,1,0,0,1,1
+64802,Burnside,RatherSafe,4,0,0,0,0,0,4,0,1,1
+64802,Pullman,RatherSafe,0,0,0,0,0,0,0,0,2,1
+64802,Jefferson Park,RatherSafe,0,0,0,0,0,0,0,0,0,1
+64802,Portage Park,RatherSafe,2,0,0,1,0,1,0,0,1,1
+64802,Greater Grand Crossing,RatherSafe,0,0,0,0,0,0,0,0,1,1
+64802,Fuller Park,NotSafe,14,0,0,0,0,1,13,0,5,1
+64802,Armour Square,Safe,1,0,1,0,0,0,0,0,0,1
+64802,Chatham,RatherSafe,2,0,0,1,0,1,0,0,1,1
+64802,Roseland,RatherSafe,2,0,0,0,0,2,0,0,2,1
+64802,Washington Heights,RatherSafe,2,0,0,0,0,2,0,0,2,1
+64802,Englewood,NotSafe,5,0,0,0,0,0,5,0,5,1
+64802,West Englewood,Safe,2,0,1,0,0,1,0,0,1,1
+64802,New City,RatherSafe,1,0,0,0,0,0,1,0,1,1
+64802,Auburn Gresham,RatherSafe,0,0,0,0,0,0,0,0,0,1
+64802,Chicago Lawn,RatherSafe,0,0,0,0,0,0,0,0,1,1
+64802,Gage Park,NotSafe,5,0,0,0,2,1,2,0,4,1
+64802,West Elsdon,Safe,0,0,0,0,0,0,0,0,0,1
+64802,Archer Heights,RatherSafe,4,0,1,0,0,0,3,0,2,1
+64802,Brighton Park,RatherSafe,6,0,0,0,0,1,5,0,2,1
+64802,McKinley Park,RatherSafe,0,0,0,0,0,0,0,0,1,1
+64802,Bridgeport,RatherSafe,3,0,0,0,0,0,3,0,1,1
+64802,Near West Side,RatherSafe,0,0,0,0,0,0,0,0,0,1
+64802,Lower West Side,NotSafe,11,1,0,0,0,4,5,1,5,1
+64802,East Garfield Park,Safe,1,0,1,0,0,0,0,0,0,1
+64802,West Garfield Park,RatherSafe,1,0,0,0,0,1,0,0,1,1
+64802,Humboldt Park,RatherSafe,1,0,0,0,0,0,1,0,1,1
+64802,West Town,RatherSafe,1,0,0,0,0,0,0,1,0,1
+64802,Belmont Cragin,RatherSafe,1,0,0,0,0,1,0,0,1,1
+64802,Hermosa,RatherSafe,1,0,0,0,0,1,0,0,1,1
+64802,Logan Square,RatherSafe,1,0,0,0,0,0,0,1,0,1
+64802,Lincoln Square,RatherSafe,0,0,0,0,0,0,0,0,0,1
+64802,North Center,RatherSafe,1,0,0,0,0,1,0,0,1,1
+64802,Albany Park,RatherSafe,0,0,0,0,0,0,0,0,0,1
+64802,Irving Park,RatherSafe,3,0,0,1,0,0,2,0,1,1
+64802,Avondale,RatherSafe,0,0,0,0,0,0,0,0,0,1
+68401,Rogers Park,RatherSafe,1,0,0,0,0,0,1,0,3,1
+68401,Edison Park,NotSafe,8,0,1,0,0,1,6,0,2,1
+68401,Norwood Park,Safe,2,1,0,1,0,0,0,0,2,1
+68401,West Ridge,RatherSafe,2,0,0,0,0,0,2,0,1,1
+68401,North Park,RatherSafe,0,0,0,0,0,0,0,0,0,1
+68401,Forest Glen,RatherSafe,2,0,0,0,0,2,0,0,2,1
+68401,O'Hare,RatherSafe,1,0,0,0,0,1,0,0,1,1
+68401,Dunning,RatherSafe,1,0,0,0,0,0,0,1,0,1
+68401,Montclare,RatherSafe,0,0,0,0,0,0,0,0,0,1
+68401,Austin,RatherSafe,0,0,0,0,0,0,0,0,0,1
+68401,North Lawndale,RatherSafe,3,0,0,0,0,0,3,0,1,1
+68401,South Lawndale,RatherSafe,0,0,0,0,0,0,0,0,0,1
+68401,Garfield Ridge,RatherSafe,0,0,0,0,0,0,0,0,1,1
+68401,Clearing,RatherSafe,2,0,0,0,0,2,0,0,2,1
+68401,West Lawn,RatherSafe,3,0,0,0,0,1,2,0,2,1
+68401,Ashburn,NotSafe,3,0,0,1,0,2,0,0,3,1
+68401,Beverly,Safe,2,0,1,1,0,0,0,0,1,1
+68401,Mount Greenwood,RatherSafe,1,0,0,0,0,1,0,0,2,1
+68401,Morgan Park,RatherSafe,0,0,0,0,0,0,0,0,0,1
+68401,West Pullman,RatherSafe,1,0,0,0,0,1,0,0,1,1
+68401,Riverdale,RatherSafe,0,0,0,0,0,0,0,0,2,1
+68401,Hegewisch,RatherSafe,0,0,0,0,0,0,0,0,0,1
+68401,Edgewater,RatherSafe,0,0,0,0,0,0,0,0,0,1
+68401,Uptown,RatherSafe,0,0,0,0,0,0,0,0,0,1
+68401,Lake View,RatherSafe,1,0,0,0,0,1,0,0,2,1
+68401,Lincoln Park,RatherSafe,1,0,0,0,0,1,0,0,1,1
+68401,Near North Side,RatherSafe,0,0,0,0,0,0,0,0,0,1
+68401,Loop,RatherSafe,5,0,1,0,0,0,3,1,2,1
+68401,Near South Side,NotSafe,1,0,0,0,0,1,0,0,2,1
+68401,Douglas,Safe,0,0,0,0,0,0,0,0,1,1
+68401,Oakland,RatherSafe,0,0,0,0,0,0,0,0,0,1
+68401,Kenwood,RatherSafe,1,0,0,0,0,1,0,0,3,1
+68401,Hyde Park,RatherSafe,3,0,0,0,0,1,2,0,2,1
+68401,Woodlawn,RatherSafe,0,0,0,0,0,0,0,0,0,1
+68401,South Shore,RatherSafe,0,0,0,0,0,0,0,0,0,1
+68401,South Chicago,RatherSafe,5,0,0,0,0,2,3,0,3,1
+68401,East Side,RatherSafe,0,0,0,0,0,0,0,0,1,1
+68401,Washington Park,RatherSafe,1,0,0,0,1,0,0,0,0,1
+68401,Grand Boulevard,RatherSafe,1,0,0,0,0,0,1,0,2,1
+68401,South Deering,RatherSafe,1,0,0,0,0,0,0,1,1,1
+68401,Calumet Heights,RatherSafe,0,0,0,0,0,0,0,0,2,1
+68401,Avalon Park,RatherSafe,0,0,0,0,0,0,0,0,0,1
+68401,Burnside,RatherSafe,1,0,0,0,0,1,0,0,1,1
+68401,Pullman,RatherSafe,1,0,0,1,0,0,0,0,3,1
+68401,Jefferson Park,RatherSafe,0,0,0,0,0,0,0,0,0,1
+68401,Portage Park,RatherSafe,2,0,0,0,0,2,0,0,3,1
+68401,Greater Grand Crossing,RatherSafe,3,0,2,0,1,0,0,0,0,1
+68401,Fuller Park,NotSafe,0,0,0,0,0,0,0,0,0,1
+68401,Armour Square,Safe,0,0,0,0,0,0,0,0,0,1
+68401,Chatham,RatherSafe,1,0,0,0,0,1,0,0,1,1
+68401,Roseland,RatherSafe,3,0,0,0,0,0,3,0,1,1
+68401,Washington Heights,RatherSafe,0,0,0,0,0,0,0,0,2,1
+68401,Englewood,NotSafe,10,0,0,0,0,0,10,0,3,1
+68401,West Englewood,Safe,0,0,0,0,0,0,0,0,0,1
+68401,New City,RatherSafe,1,0,1,0,0,0,0,0,0,1
+68401,Auburn Gresham,RatherSafe,1,0,0,1,0,0,0,0,0,1
+68401,Chicago Lawn,RatherSafe,0,0,0,0,0,0,0,0,0,1
+68401,Gage Park,NotSafe,4,0,0,0,0,0,4,0,2,1
+68401,West Elsdon,Safe,0,0,0,0,0,0,0,0,0,1
+68401,Archer Heights,RatherSafe,3,0,0,0,0,0,3,0,2,1
+68401,Brighton Park,RatherSafe,2,0,0,0,0,2,0,0,2,1
+68401,McKinley Park,RatherSafe,4,0,0,0,0,2,2,0,3,1
+68401,Bridgeport,RatherSafe,0,0,0,0,0,0,0,0,0,1
+68401,Near West Side,RatherSafe,3,1,0,1,0,0,0,1,1,1
+68401,Lower West Side,NotSafe,8,0,0,1,0,0,7,0,2,1
+68401,East Garfield Park,Safe,0,0,0,0,0,0,0,0,0,1
+68401,West Garfield Park,RatherSafe,0,0,0,0,0,0,0,0,1,1
+68401,Humboldt Park,RatherSafe,3,0,0,0,0,0,3,0,1,1
+68401,West Town,RatherSafe,1,0,0,0,0,1,0,0,1,1
+68401,Belmont Cragin,RatherSafe,0,0,0,0,0,0,0,0,0,1
+68401,Hermosa,RatherSafe,0,0,0,0,0,0,0,0,2,1
+68401,Logan Square,RatherSafe,2,0,0,1,0,0,0,1,1,1
+68401,Lincoln Square,RatherSafe,1,0,0,0,0,1,0,0,1,1
+68401,North Center,RatherSafe,0,0,0,0,0,0,0,0,0,1
+68401,Albany Park,RatherSafe,1,0,0,0,0,1,0,0,1,1
+68401,Irving Park,RatherSafe,2,0,0,0,0,0,2,0,1,1
+68401,Avondale,RatherSafe,6,0,1,0,0,1,0,4,1,1
+72001,Rogers Park,RatherSafe,5,0,0,0,0,1,4,0,3,1
+72001,Edison Park,NotSafe,14,0,0,0,0,2,12,0,6,1
+72001,Norwood Park,Safe,1,0,0,0,1,0,0,0,1,1
+72001,West Ridge,RatherSafe,1,0,0,0,0,0,1,0,1,1
+72001,North Park,RatherSafe,1,0,0,1,0,0,0,0,2,1
+72001,Forest Glen,RatherSafe,0,0,0,0,0,0,0,0,0,1
+72001,O'Hare,RatherSafe,0,0,0,0,0,0,0,0,1,1
+72001,Dunning,RatherSafe,0,0,0,0,0,0,0,0,1,1
+72001,Montclare,RatherSafe,1,0,0,0,0,1,0,0,3,1
+72001,Austin,RatherSafe,1,0,0,0,0,0,1,0,2,1
+72001,North Lawndale,RatherSafe,0,0,0,0,0,0,0,0,0,1
+72001,South Lawndale,RatherSafe,2,0,0,2,0,0,0,0,0,1
+72001,Garfield Ridge,RatherSafe,0,0,0,0,0,0,0,0,0,1
+72001,Clearing,RatherSafe,0,0,0,0,0,0,0,0,0,1
+72001,West Lawn,RatherSafe,0,0,0,0,0,0,0,0,0,1
+72001,Ashburn,NotSafe,5,0,0,0,0,0,5,0,4,1
+72001,Beverly,Safe,0,0,0,0,0,0,0,0,0,1
+72001,Mount Greenwood,RatherSafe,3,0,0,0,0,0,3,0,2,1
+72001,Morgan Park,RatherSafe,0,0,0,0,0,0,0,0,1,1
+72001,West Pullman,RatherSafe,1,0,0,0,0,1,0,0,1,1
+72001,Riverdale,RatherSafe,1,0,0,0,0,1,0,0,4,1
+72001,Hegewisch,RatherSafe,1,0,0,0,0,1,0,0,1,1
+72001,Edgewater,RatherSafe,0,0,0,0,0,0,0,0,1,1
+72001,Uptown,RatherSafe,0,0,0,0,0,0,0,0,1,1
+72001,Lake View,RatherSafe,4,0,0,0,0,0,4,0,3,1
+72001,Lincoln Park,RatherSafe,3,0,0,2,0,1,0,0,2,1
+72001,Near North Side,RatherSafe,1,0,0,1,0,0,0,0,0,1
+72001,Loop,RatherSafe,5,0,3,1,0,1,0,0,3,1
+72001,Near South Side,NotSafe,3,0,0,1,0,0,2,0,3,1
+72001,Douglas,Safe,0,0,0,0,0,0,0,0,0,1
+72001,Oakland,RatherSafe,1,0,0,0,0,1,0,0,1,1
+72001,Kenwood,RatherSafe,0,0,0,0,0,0,0,0,1,1
+72001,Hyde Park,RatherSafe,1,0,0,0,0,1,0,0,2,1
+72001,Woodlawn,RatherSafe,0,0,0,0,0,0,0,0,0,1
+72001,South Shore,RatherSafe,1,0,0,0,0,1,0,0,1,1
+72001,South Chicago,RatherSafe,5,0,0,0,0,0,5,0,1,1
+72001,East Side,RatherSafe,2,0,0,1,0,1,0,0,3,1
+72001,Washington Park,RatherSafe,0,0,0,0,0,0,0,0,0,1
+72001,Grand Boulevard,RatherSafe,0,0,0,0,0,0,0,0,1,1
+72001,South Deering,RatherSafe,2,0,1,0,0,1,0,0,2,1
+72001,Calumet Heights,RatherSafe,1,0,0,1,0,0,0,0,1,1
+72001,Avalon Park,RatherSafe,0,0,0,0,0,0,0,0,0,1
+72001,Burnside,RatherSafe,0,0,0,0,0,0,0,0,0,1
+72001,Pullman,RatherSafe,0,0,0,0,0,0,0,0,1,1
+72001,Jefferson Park,RatherSafe,0,0,0,0,0,0,0,0,0,1
+72001,Portage Park,RatherSafe,1,0,1,0,0,0,0,0,1,1
+72001,Greater Grand Crossing,RatherSafe,2,0,0,2,0,0,0,0,0,1
+72001,Fuller Park,NotSafe,0,0,0,0,0,0,0,0,0,1
+72001,Armour Square,Safe,1,0,0,1,0,0,0,0,0,1
+72001,Chatham,RatherSafe,1,0,0,1,0,0,0,0,1,1
+72001,Roseland,RatherSafe,2,0,0,1,1,0,0,0,0,1
+72001,Washington Heights,RatherSafe,0,0,0,0,0,0,0,0,0,1
+72001,Englewood,NotSafe,11,0,1,2,0,1,7,0,3,1
+72001,West Englewood,Safe,1,0,0,0,0,1,0,0,1,1
+72001,New City,RatherSafe,2,0,0,2,0,0,0,0,1,1
+72001,Auburn Gresham,RatherSafe,2,0,0,2,0,0,0,0,1,1
+72001,Chicago Lawn,RatherSafe,0,0,0,0,0,0,0,0,3,1
+72001,Gage Park,NotSafe,1,0,0,1,0,0,0,0,1,1
+72001,West Elsdon,Safe,1,0,0,0,0,0,1,0,1,1
+72001,Archer Heights,RatherSafe,0,0,0,0,0,0,0,0,0,1
+72001,Brighton Park,RatherSafe,0,0,0,0,0,0,0,0,2,1
+72001,McKinley Park,RatherSafe,6,0,0,1,0,0,5,0,2,1
+72001,Bridgeport,RatherSafe,0,0,0,0,0,0,0,0,1,1
+72001,Near West Side,RatherSafe,0,0,0,0,0,0,0,0,0,1
+72001,Lower West Side,NotSafe,3,0,0,0,0,0,3,0,1,1
+72001,East Garfield Park,Safe,0,0,0,0,0,0,0,0,0,1
+72001,West Garfield Park,RatherSafe,2,0,1,0,0,1,0,0,2,1
+72001,Humboldt Park,RatherSafe,1,0,0,1,0,0,0,0,1,1
+72001,West Town,RatherSafe,0,0,0,0,0,0,0,0,1,1
+72001,Belmont Cragin,RatherSafe,0,0,0,0,0,0,0,0,0,1
+72001,Hermosa,RatherSafe,0,0,0,0,0,0,0,0,1,1
+72001,Logan Square,RatherSafe,0,0,0,0,0,0,0,0,1,1
+72001,Lincoln Square,RatherSafe,0,0,0,0,0,0,0,0,2,1
+72001,North Center,RatherSafe,0,0,0,0,0,0,0,0,2,1
+72001,Albany Park,RatherSafe,1,0,0,1,0,0,0,0,2,1
+72001,Irving Park,RatherSafe,0,0,0,0,0,0,0,0,0,1
+72001,Avondale,RatherSafe,0,0,0,0,0,0,0,0,0,1
+75602,Rogers Park,RatherSafe,0,0,0,0,0,0,0,0,0,1
+75602,Edison Park,NotSafe,11,0,0,0,0,1,10,0,5,1
+75602,Norwood Park,Safe,4,0,1,1,0,0,2,0,2,1
+75602,West Ridge,RatherSafe,0,0,0,0,0,0,0,0,0,1
+75602,North Park,RatherSafe,4,0,0,0,0,0,4,0,1,1
+75602,Forest Glen,RatherSafe,0,0,0,0,0,0,0,0,0,1
+75602,O'Hare,RatherSafe,0,0,0,0,0,0,0,0,2,1
+75602,Dunning,RatherSafe,0,0,0,0,0,0,0,0,2,1
+75602,Montclare,RatherSafe,6,0,0,0,0,0,6,0,3,1
+75602,Austin,RatherSafe,0,0,0,0,0,0,0,0,1,1
+75602,North Lawndale,RatherSafe,1,0,0,0,0,1,0,0,2,1
+75602,South Lawndale,RatherSafe,1,0,0,0,0,1,0,0,2,1
+75602,Garfield Ridge,RatherSafe,1,0,0,0,0,0,1,0,3,1
+75602,Clearing,RatherSafe,0,0,0,0,0,0,0,0,0,1
+75602,West Lawn,RatherSafe,1,0,0,0,0,1,0,0,1,1
+75602,Ashburn,NotSafe,5,0,0,0,0,0,5,0,2,1
+75602,Beverly,Safe,1,0,0,0,0,1,0,0,2,1
+75602,Mount Greenwood,RatherSafe,4,0,0,0,0,0,4,0,2,1
+75602,Morgan Park,RatherSafe,1,0,0,0,0,1,0,0,1,1
+75602,West Pullman,RatherSafe,2,0,0,1,0,1,0,0,2,1
+75602,Riverdale,RatherSafe,2,0,0,1,0,1,0,0,2,1
+75602,Hegewisch,RatherSafe,0,0,0,0,0,0,0,0,1,1
+75602,Edgewater,RatherSafe,1,0,0,0,0,1,0,0,1,1
+75602,Uptown,RatherSafe,0,0,0,0,0,0,0,0,0,1
+75602,Lake View,RatherSafe,0,0,0,0,0,0,0,0,0,1
+75602,Lincoln Park,RatherSafe,0,0,0,0,0,0,0,0,2,1
+75602,Near North Side,RatherSafe,1,0,0,0,0,1,0,0,1,1
+75602,Loop,RatherSafe,1,0,0,1,0,0,0,0,1,1
+75602,Near South Side,NotSafe,2,1,0,0,0,1,0,0,1,1
+75602,Douglas,Safe,2,0,0,1,0,0,1,0,1,1
+75602,Oakland,RatherSafe,0,0,0,0,0,0,0,0,0,1
+75602,Kenwood,RatherSafe,0,0,0,0,0,0,0,0,1,1
+75602,Hyde Park,RatherSafe,1,0,0,0,0,0,0,1,2,1
+75602,Woodlawn,RatherSafe,0,0,0,0,0,0,0,0,0,1
+75602,South Shore,RatherSafe,2,0,0,1,0,1,0,0,3,1
+75602,South Chicago,RatherSafe,0,0,0,0,0,0,0,0,1,1
+75602,East Side,RatherSafe,0,0,0,0,0,0,0,0,0,1
+75602,Washington Park,RatherSafe,0,0,0,0,0,0,0,0,1,1
+75602,Grand Boulevard,RatherSafe,1,0,1,0,0,0,0,0,0,1
+75602,South Deering,RatherSafe,0,0,0,0,0,0,0,0,1,1
+75602,Calumet Heights,RatherSafe,2,0,1,0,0,1,0,0,1,1
+75602,Avalon Park,RatherSafe,1,0,0,0,0,1,0,0,1,1
+75602,Burnside,RatherSafe,0,0,0,0,0,0,0,0,1,1
+75602,Pullman,RatherSafe,1,0,0,0,0,1,0,0,3,1
+75602,Jefferson Park,RatherSafe,3,0,0,3,0,0,0,0,1,1
+75602,Portage Park,RatherSafe,8,0,0,2,0,0,6,0,3,1
+75602,Greater Grand Crossing,RatherSafe,4,0,0,0,0,0,4,0,2,1
+75602,Fuller Park,NotSafe,0,0,0,0,0,0,0,0,0,1
+75602,Armour Square,Safe,0,0,0,0,0,0,0,0,1,1
+75602,Chatham,RatherSafe,0,0,0,0,0,0,0,0,0,1
+75602,Roseland,RatherSafe,3,0,0,1,0,2,0,0,2,1
+75602,Washington Heights,RatherSafe,0,0,0,0,0,0,0,0,1,1
+75602,Englewood,NotSafe,7,0,0,1,0,1,5,0,4,1
+75602,West Englewood,Safe,0,0,0,0,0,0,0,0,2,1
+75602,New City,RatherSafe,2,0,0,0,0,1,0,1,1,1
+75602,Auburn Gresham,RatherSafe,1,0,0,0,0,1,0,0,2,1
+75602,Chicago Lawn,RatherSafe,5,0,0,0,0,0,5,0,2,1
+75602,Gage Park,NotSafe,2,0,0,0,0,2,0,0,3,1
+75602,West Elsdon,Safe,0,0,0,0,0,0,0,0,0,1
+75602,Archer Heights,RatherSafe,0,0,0,0,0,0,0,0,0,1
+75602,Brighton Park,RatherSafe,1,0,0,1,0,0,0,0,0,1
+75602,McKinley Park,RatherSafe,7,0,0,2,0,1,4,0,2,1
+75602,Bridgeport,RatherSafe,0,0,0,0,0,0,0,0,0,1
+75602,Near West Side,RatherSafe,0,0,0,0,0,0,0,0,0,1
+75602,Lower West Side,NotSafe,2,0,0,1,0,1,0,0,3,1
+75602,East Garfield Park,Safe,1,0,0,0,0,1,0,0,1,1
+75602,West Garfield Park,RatherSafe,1,0,0,0,0,1,0,0,1,1
+75602,Humboldt Park,RatherSafe,3,0,0,1,0,0,2,0,2,1
+75602,West Town,RatherSafe,0,0,0,0,0,0,0,0,1,1
+75602,Belmont Cragin,RatherSafe,0,0,0,0,0,0,0,0,0,1
+75602,Hermosa,RatherSafe,0,0,0,0,0,0,0,0,3,1
+75602,Logan Square,RatherSafe,1,0,0,1,0,0,0,0,0,1
+75602,Lincoln Square,RatherSafe,4,0,0,0,0,0,4,0,2,1
+75602,North Center,RatherSafe,1,0,1,0,0,0,0,0,0,1
+75602,Albany Park,RatherSafe,0,0,0,0,0,0,0,0,2,1
+75602,Irving Park,RatherSafe,0,0,0,0,0,0,0,0,0,1
+75602,Avondale,RatherSafe,2,0,1,0,0,1,0,0,1,1
+79200,Rogers Park,RatherSafe,0,0,0,0,0,0,0,0,0,1
+79200,Edison Park,NotSafe,0,0,0,0,0,0,0,0,0,1
+79200,Norwood Park,Safe,0,0,0,0,0,0,0,0,0,1
+79200,West Ridge,RatherSafe,1,0,0,0,0,1,0,0,1,1
+79200,North Park,RatherSafe,2,0,0,0,0,2,0,0,2,1
+79200,Forest Glen,RatherSafe,3,0,1,0,0,2,0,0,3,1
+79200,O'Hare,RatherSafe,0,0,0,0,0,0,0,0,1,1
+79200,Dunning,RatherSafe,8,0,0,1,0,0,7,0,3,1
+79200,Montclare,RatherSafe,0,0,0,0,0,0,0,0,1,1
+79200,Austin,RatherSafe,0,0,0,0,0,0,0,0,0,1
+79200,North Lawndale,RatherSafe,2,0,0,0,1,1,0,0,1,1
+79200,South Lawndale,RatherSafe,2,0,0,1,0,0,1,0,2,1
+79200,Garfield Ridge,RatherSafe,3,0,0,0,0,0,3,0,4,1
+79200,Clearing,RatherSafe,0,0,0,0,0,0,0,0,0,1
+79200,West Lawn,RatherSafe,0,0,0,0,0,0,0,0,0,1
+79200,Ashburn,NotSafe,1,0,0,1,0,0,0,0,2,1
+79200,Beverly,Safe,3,0,0,0,0,0,3,0,1,1
+79200,Mount Greenwood,RatherSafe,1,0,0,0,0,1,0,0,3,1
+79200,Morgan Park,RatherSafe,1,0,0,0,0,1,0,0,1,1
+79200,West Pullman,RatherSafe,0,0,0,0,0,0,0,0,0,1
+79200,Riverdale,RatherSafe,0,0,0,0,0,0,0,0,2,1
+79200,Hegewisch,RatherSafe,0,0,0,0,0,0,0,0,1,1
+79200,Edgewater,RatherSafe,0,0,0,0,0,0,0,0,0,1
+79200,Uptown,RatherSafe,0,0,0,0,0,0,0,0,0,1
+79200,Lake View,RatherSafe,2,0,0,1,0,1,0,0,2,1
+79200,Lincoln Park,RatherSafe,2,0,0,0,0,0,2,0,1,1
+79200,Near North Side,RatherSafe,2,1,0,0,0,1,0,0,1,1
+79200,Loop,RatherSafe,1,0,0,1,0,0,0,0,3,1
+79200,Near South Side,NotSafe,3,0,0,0,0,0,3,0,3,1
+79200,Douglas,Safe,0,0,0,0,0,0,0,0,2,1
+79200,Oakland,RatherSafe,0,0,0,0,0,0,0,0,2,1
+79200,Kenwood,RatherSafe,0,0,0,0,0,0,0,0,1,1
+79200,Hyde Park,RatherSafe,0,0,0,0,0,0,0,0,0,1
+79200,Woodlawn,RatherSafe,0,0,0,0,0,0,0,0,0,1
+79200,South Shore,RatherSafe,1,0,0,1,0,0,0,0,0,1
+79200,South Chicago,RatherSafe,1,0,0,1,0,0,0,0,1,1
+79200,East Side,RatherSafe,1,0,0,1,0,0,0,0,1,1
+79200,Washington Park,RatherSafe,0,0,0,0,0,0,0,0,0,1
+79200,Grand Boulevard,RatherSafe,1,0,0,1,0,0,0,0,0,1
+79200,South Deering,RatherSafe,1,0,0,1,0,0,0,0,2,1
+79200,Calumet Heights,RatherSafe,3,0,0,0,0,1,2,0,2,1
+79200,Avalon Park,RatherSafe,2,0,1,1,0,0,0,0,0,1
+79200,Burnside,RatherSafe,0,0,0,0,0,0,0,0,0,1
+79200,Pullman,RatherSafe,1,0,0,1,0,0,0,0,2,1
+79200,Jefferson Park,RatherSafe,0,0,0,0,0,0,0,0,1,1
+79200,Portage Park,RatherSafe,1,0,0,0,0,1,0,0,1,1
+79200,Greater Grand Crossing,RatherSafe,5,0,0,1,0,0,4,0,2,1
+79200,Fuller Park,NotSafe,4,0,0,1,0,0,3,0,2,1
+79200,Armour Square,Safe,0,0,0,0,0,0,0,0,0,1
+79200,Chatham,RatherSafe,1,0,0,0,0,1,0,0,1,1
+79200,Roseland,RatherSafe,0,0,0,0,0,0,0,0,0,1
+79200,Washington Heights,RatherSafe,1,0,0,0,0,1,0,0,1,1
+79200,Englewood,NotSafe,9,0,0,0,0,1,8,0,3,1
+79200,West Englewood,Safe,0,0,0,0,0,0,0,0,0,1
+79200,New City,RatherSafe,2,2,0,0,0,0,0,0,0,1
+79200,Auburn Gresham,RatherSafe,1,0,0,1,0,0,0,0,0,1
+79200,Chicago Lawn,RatherSafe,1,0,0,0,0,1,0,0,1,1
+79200,Gage Park,NotSafe,4,0,0,0,0,1,3,0,3,1
+79200,West Elsdon,Safe,0,0,0,0,0,0,0,0,1,1
+79200,Archer Heights,RatherSafe,1,0,0,1,0,0,0,0,2,1
+79200,Brighton Park,RatherSafe,0,0,0,0,0,0,0,0,1,1
+79200,McKinley Park,RatherSafe,3,1,0,1,0,0,0,1,2,1
+79200,Bridgeport,RatherSafe,1,0,0,0,0,1,0,0,1,1
+79200,Near West Side,RatherSafe,1,0,0,0,0,0,0,1,0,1
+79200,Lower West Side,NotSafe,8,0,0,0,0,1,7,0,4,1
+79200,East Garfield Park,Safe,0,0,0,0,0,0,0,0,0,1
+79200,West Garfield Park,RatherSafe,0,0,0,0,0,0,0,0,2,1
+79200,Humboldt Park,RatherSafe,4,1,2,0,1,0,0,0,0,1
+79200,West Town,RatherSafe,2,0,0,0,0,0,0,2,0,1
+79200,Belmont Cragin,RatherSafe,2,1,0,0,0,0,0,1,0,1
+79200,Hermosa,RatherSafe,0,0,0,0,0,0,0,0,0,1
+79200,Logan Square,RatherSafe,1,0,0,1,0,0,0,0,0,1
+79200,Lincoln Square,RatherSafe,2,0,1,0,0,1,0,0,1,1
+79200,North Center,RatherSafe,1,0,0,0,0,1,0,0,1,1
+79200,Albany Park,RatherSafe,0,0,0,0,0,0,0,0,2,1
+79200,Irving Park,RatherSafe,2,1,0,0,0,1,0,0,1,1
+79200,Avondale,RatherSafe,2,0,0,0,0,0,0,2,0,1
+82802,Rogers Park,RatherSafe,0,0,0,0,0,0,0,0,0,1
+82802,Edison Park,NotSafe,2,0,0,0,0,2,0,0,2,1
+82802,Norwood Park,Safe,0,0,0,0,0,0,0,0,0,1
+82802,West Ridge,RatherSafe,1,0,0,0,0,1,0,0,2,1
+82802,North Park,RatherSafe,0,0,0,0,0,0,0,0,0,1
+82802,Forest Glen,RatherSafe,1,0,0,1,0,0,0,0,0,1
+82802,O'Hare,RatherSafe,0,0,0,0,0,0,0,0,0,1
+82802,Dunning,RatherSafe,5,1,2,1,0,1,0,0,2,1
+82802,Montclare,RatherSafe,7,0,1,0,0,2,4,0,4,1
+82802,Austin,RatherSafe,0,0,0,0,0,0,0,0,0,1
+82802,North Lawndale,RatherSafe,1,0,0,0,1,0,0,0,0,1
+82802,South Lawndale,RatherSafe,0,0,0,0,0,0,0,0,1,1
+82802,Garfield Ridge,RatherSafe,0,0,0,0,0,0,0,0,1,1
+82802,Clearing,RatherSafe,2,0,1,1,0,0,0,0,1,1
+82802,West Lawn,RatherSafe,1,0,0,0,0,1,0,0,2,1
+82802,Ashburn,NotSafe,2,0,0,0,0,2,0,0,4,1
+82802,Beverly,Safe,0,0,0,0,0,0,0,0,0,1
+82802,Mount Greenwood,RatherSafe,1,0,0,0,0,1,0,0,2,1
+82802,Morgan Park,RatherSafe,2,0,0,0,0,0,2,0,1,1
+82802,West Pullman,RatherSafe,1,0,0,0,0,1,0,0,3,1
+82802,Riverdale,RatherSafe,0,0,0,0,0,0,0,0,1,1
+82802,Hegewisch,RatherSafe,2,0,1,0,0,0,1,0,1,1
+82802,Edgewater,RatherSafe,2,0,0,0,0,2,0,0,2,1
+82802,Uptown,RatherSafe,1,0,0,0,0,1,0,0,3,1
+82802,Lake View,RatherSafe,6,0,0,0,0,3,3,0,4,1
+82802,Lincoln Park,RatherSafe,4,0,0,0,0,2,2,0,3,1
+82802,Near North Side,RatherSafe,2,0,0,0,0,2,0,0,3,1
+82802,Loop,RatherSafe,1,0,0,0,0,1,0,0,2,1
+82802,Near South Side,NotSafe,2,0,1,1,0,0,0,0,1,1
+82802,Douglas,Safe,0,0,0,0,0,0,0,0,1,1
+82802,Oakland,RatherSafe,4,0,0,0,0,1,3,0,2,1
+82802,Kenwood,RatherSafe,1,0,0,0,0,1,0,0,2,1
+82802,Hyde Park,RatherSafe,0,0,0,0,0,0,0,0,0,1
+82802,Woodlawn,RatherSafe,2,0,1,0,0,1,0,0,3,1
+82802,South Shore,RatherSafe,1,1,0,0,0,0,0,0,0,1
+82802,South Chicago,RatherSafe,0,0,0,0,0,0,0,0,0,1
+82802,East Side,RatherSafe,2,0,0,0,0,2,0,0,3,1
+82802,Washington Park,RatherSafe,0,0,0,0,0,0,0,0,0,1
+82802,Grand Boulevard,RatherSafe,1,0,0,0,0,1,0,0,1,1
+82802,South Deering,RatherSafe,2,0,0,1,0,1,0,0,3,1
+82802,Calumet Heights,RatherSafe,0,0,0,0,0,0,0,0,1,1
+82802,Avalon Park,RatherSafe,1,0,0,1,0,0,0,0,2,1
+82802,Burnside,RatherSafe,2,0,1,0,0,1,0,0,1,1
+82802,Pullman,RatherSafe,1,0,0,1,0,0,0,0,3,1
+82802,Jefferson Park,RatherSafe,1,0,0,0,0,1,0,0,1,1
+82802,Portage Park,RatherSafe,2,0,0,0,0,2,0,0,3,1
+82802,Greater Grand Crossing,RatherSafe,1,0,0,0,0,1,0,0,1,1
+82802,Fuller Park,NotSafe,0,0,0,0,0,0,0,0,0,1
+82802,Armour Square,Safe,1,0,0,0,0,1,0,0,2,1
+82802,Chatham,RatherSafe,2,0,0,1,0,1,0,0,2,1
+82802,Roseland,RatherSafe,1,0,0,1,0,0,0,0,0,1
+82802,Washington Heights,RatherSafe,0,0,0,0,0,0,0,0,1,1
+82802,Englewood,NotSafe,6,0,1,0,0,0,5,0,3,1
+82802,West Englewood,Safe,1,0,0,0,0,1,0,0,1,1
+82802,New City,RatherSafe,2,0,0,0,0,2,0,0,3,1
+82802,Auburn Gresham,RatherSafe,2,0,0,0,0,0,2,0,1,1
+82802,Chicago Lawn,RatherSafe,1,1,0,0,0,0,0,0,2,1
+82802,Gage Park,NotSafe,8,0,0,0,0,0,8,0,5,1
+82802,West Elsdon,Safe,0,0,0,0,0,0,0,0,0,1
+82802,Archer Heights,RatherSafe,2,0,0,0,1,0,1,0,0,1
+82802,Brighton Park,RatherSafe,0,0,0,0,0,0,0,0,0,1
+82802,McKinley Park,RatherSafe,4,0,0,0,0,1,3,0,3,1
+82802,Bridgeport,RatherSafe,0,0,0,0,0,0,0,0,0,1
+82802,Near West Side,RatherSafe,3,0,0,3,0,0,0,0,1,1
+82802,Lower West Side,NotSafe,3,0,0,0,0,0,3,0,4,1
+82802,East Garfield Park,Safe,0,0,0,0,0,0,0,0,0,1
+82802,West Garfield Park,RatherSafe,0,0,0,0,0,0,0,0,1,1
+82802,Humboldt Park,RatherSafe,1,0,0,1,0,0,0,0,0,1
+82802,West Town,RatherSafe,0,0,0,0,0,0,0,0,0,1
+82802,Belmont Cragin,RatherSafe,1,0,0,1,0,0,0,0,0,1
+82802,Hermosa,RatherSafe,0,0,0,0,0,0,0,0,0,1
+82802,Logan Square,RatherSafe,0,0,0,0,0,0,0,0,0,1
+82802,Lincoln Square,RatherSafe,3,0,0,0,0,1,2,0,2,1
+82802,North Center,RatherSafe,0,0,0,0,0,0,0,0,0,1
+82802,Albany Park,RatherSafe,1,0,0,0,0,1,0,0,1,1
+82802,Irving Park,RatherSafe,1,0,0,1,0,0,0,0,1,1
+82802,Avondale,RatherSafe,0,0,0,0,0,0,0,0,0,1

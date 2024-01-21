@@ -1,0 +1,7 @@
+"simulationTime[s]","firingID","districtName","districtSafetyLevel","revokedPatrols","isNight"
+9838,119cea77-8f2f-4e2d-b4a5-f9e03a298fba,Pankow,Safe,1,0
+11285,e76406ba-9f69-4d88-8b58-77dfd1467e67,Lichtenberg,RatherSafe,1,0
+60478,3458b878-328c-408b-88b8-95781e402fbb,Lichtenberg,RatherSafe,2,1
+64226,084a9c29-d8d3-4b02-9fbf-c300df27e6dc,Charlottenburg-Wilmersdorf,RatherSafe,1,1
+65305,05ce15eb-d30e-4d78-ae93-98a233cfd83e,Tempelhof-Schöneberg,NotSafe,1,1
+76222,dc5d9652-88e9-4c42-83ec-8f20e1206bae,Steglitz-Zehlendorf,NotSafe,2,1

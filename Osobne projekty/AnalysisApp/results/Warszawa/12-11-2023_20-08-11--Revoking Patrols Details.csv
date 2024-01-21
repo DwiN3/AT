@@ -1,0 +1,14 @@
+"simulationTime[s]","firingID","districtName","districtSafetyLevel","revokedPatrols","isNight"
+3404,ed740684-cc83-4bc0-9eb6-eaa1ab7d9116,Praga-Po³udnie,NotSafe,1,0
+30100,db8cfb48-10a8-4848-bf98-d2afaa0dd0c4,Targówek,NotSafe,3,0
+30634,95863e57-01af-4dce-8f77-fe8699c31ecf,¯oliborz,RatherSafe,2,0
+40654,860475b7-ec19-4f96-b482-51adba9de34a,Mokotów,NotSafe,1,0
+52302,696c7e3e-8c0e-484d-a56a-a278b3941f5b,W³ochy,NotSafe,2,0
+53149,ff359902-357a-403a-b72a-3a9ba4d9a995,Mokotów,NotSafe,1,0
+56351,42605f43-e0fa-4f49-8ebb-dc146468ef0c,Ochota,RatherSafe,2,0
+59287,1d30123d-8be6-4cd5-96f3-7b20a5ae8c90,Praga-Po³udnie,NotSafe,5,1
+59992,c3ff1442-f38e-47ba-a003-0115c960aece,Wola,Safe,1,1
+67591,a91cb2e2-24ca-497e-8c33-e480c14bde33,W³ochy,NotSafe,1,1
+68510,8bc92718-860b-4707-8a89-0ace696ff179,Targówek,NotSafe,1,1
+79011,ea01e942-64f0-46b5-95c1-122d750c0e32,¯oliborz,RatherSafe,1,1
+79859,7e6bbc07-d281-4224-a779-d12f3c48db7d,Rembertów,RatherSafe,1,1

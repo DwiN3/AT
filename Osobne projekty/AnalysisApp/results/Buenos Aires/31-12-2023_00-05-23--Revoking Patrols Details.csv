@@ -1,0 +1,45 @@
+"simulationTime[s]","firingID","districtName","districtSafetyLevel","revokedPatrols","isNight"
+3769,2f09aa40-2086-434e-b19c-ff145225c3ee,Parque Patricios,NotSafe,1,0
+5299,175f6fc9-0226-4dab-b9cf-7f98d11f8166,Versalles,NotSafe,1,0
+7935,ca5f2cd0-2781-46e2-9cf3-d1dc89779caf,Flores,RatherSafe,1,0
+10997,232f9e32-4da1-4367-a246-37e57fc3bfca,Villa del Parque,NotSafe,1,0
+11711,1a989124-71b8-44c9-9791-227bec1d4614,Villa Lugano,RatherSafe,1,0
+12950,3af2857d-575c-4560-85eb-9ce3b2f0b70a,Versalles,NotSafe,2,0
+14165,eb8ef4c2-48a2-4f4e-96e4-1bac73185d64,Barracas,RatherSafe,1,0
+14387,9a6eb0bf-68ad-4a54-b0f1-04e3e4e51253,Parque Chas,RatherSafe,1,0
+15676,9a5f2487-1460-41ea-82f0-6cf2ade959ee,Villa Lugano,RatherSafe,1,0
+17543,e21506aa-7184-43ef-bf57-bf1336f56f10,Balvanera,RatherSafe,1,0
+22579,4ca2a30f-be2f-4bad-859e-5296b4015ea8,Parque Patricios,NotSafe,1,0
+23225,0d5d1e3d-6120-4d7b-a921-ac989c62ce15,Villa Crespo,NotSafe,4,0
+25658,1b16c80c-dd4d-4df1-8aac-5c0de34bb92d,Parque Patricios,NotSafe,1,0
+26371,32bb2d0d-bab9-4de2-b357-67e28185ad01,Parque Chas,RatherSafe,1,0
+26400,3122f427-9d2b-445d-a0bf-0db7ce278f4c,Recoleta,RatherSafe,1,0
+29382,06d68869-cad0-4ce6-ba0d-ce546f1a85c7,Villa Soldati,RatherSafe,7,0
+36577,7ecbece8-4d82-4bfe-9e67-53c37a2a5346,Mataderos,RatherSafe,1,0
+42356,72684599-d64a-44db-9e3f-a3be7c121623,Vélez Sarsfield,RatherSafe,2,0
+45938,ef513e92-0976-45f8-9d2a-117752995504,Versalles,NotSafe,1,0
+46288,ee983d9c-14a4-4c99-9850-67dbc2b9af51,La Paternal,NotSafe,1,0
+48613,a67e9437-b35f-43ad-8813-5923555ce8df,Belgrano,Safe,1,0
+50407,5a77f6f2-ba31-4394-8de4-128f653b4835,Villa Santa Rita,RatherSafe,2,0
+51185,e34d30e4-c8ec-4c99-a4bb-c3a1ed7827a4,Villa Crespo,NotSafe,1,0
+56409,24a2dcc2-9c0e-42d3-8673-dcc678ecfa13,La Paternal,NotSafe,4,0
+60351,5cbe0e4c-9350-4667-8419-67a0a10c01f3,Villa Santa Rita,RatherSafe,3,1
+62856,fb12c093-634d-48e4-92e2-e32aa0be48a0,Colegiales,NotSafe,1,1
+65751,ebae63e0-a71b-4d75-8750-a9973ad966a6,Flores,RatherSafe,3,1
+65872,6e40576e-a528-4ace-bea5-a805370ec61a,Villa Crespo,NotSafe,1,1
+66487,b434b53d-bbe7-4fdf-87ec-9b50adaf15cb,Villa Crespo,NotSafe,1,1
+67384,624372f3-12a9-4cd0-8fbd-bc2af90a4849,La Paternal,NotSafe,2,1
+68352,18dd05e3-8b1f-44f4-baf8-441f44338a5c,Parque Chacabuco,NotSafe,1,1
+70248,4a0dfd32-1045-44f1-be56-f0f208e9689a,Parque Chacabuco,NotSafe,1,1
+71717,a3eebbcc-f5f8-46b2-b2ec-51c0b352587d,Almagro,RatherSafe,3,1
+73046,4b22071b-d729-440f-ab66-59aa44a37dd0,Villa Lugano,RatherSafe,1,1
+73611,0221a42d-f2dc-4f94-9dec-fa4df3708200,Villa del Parque,NotSafe,1,1
+73848,9e930855-7b74-4366-b3e2-5339ef746e00,Villa Ortúzar,RatherSafe,1,1
+74434,4022556d-5a8c-4abc-9826-926e206be418,Parque Patricios,NotSafe,1,1
+75021,a7b836d3-7ab2-4a25-9e56-882c7540cdfc,Coghlan,RatherSafe,1,1
+76353,35348dbb-d6ba-4bae-aa0f-8dec7924cb3a,San Cristóbal,RatherSafe,1,1
+76596,43a26cd5-c840-4949-bb14-03053ba1dde8,Vélez Sarsfield,RatherSafe,1,1
+79087,4be13db9-fb99-4e5a-9834-713cf07559e6,Flores,RatherSafe,3,1
+80385,a4e376f3-7e19-4878-8a06-09c27707f80e,Colegiales,NotSafe,1,1
+82972,65036b32-46fe-4cdc-8d7f-ee82017ed844,La Paternal,NotSafe,1,1
+84618,0a24942c-da63-4dcc-b19c-ace676deda5e,Villa Crespo,NotSafe,1,1

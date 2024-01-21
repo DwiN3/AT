@@ -1,0 +1,15 @@
+"simulationTime[s]","firingID","districtName","districtSafetyLevel","revokedPatrols","isNight"
+3943,299c1bda-f826-4eb2-a164-b1fe1288cf52,Stare Miasto,NotSafe,1,0
+15648,3fd738c2-8a16-4a0a-be77-9ce3d1519ed3,Podgórze Duchackie,NotSafe,2,0
+20452,ccd11071-f361-4a8d-8af5-72b8c4daa8ce,Czy¿yny,RatherSafe,1,0
+40434,086f26f9-eb19-48c3-a1c3-10b36b6b7e55,Stare Miasto,NotSafe,4,0
+46437,67a569fd-3bcc-4c85-8894-469a4083b966,Bronowice,NotSafe,1,0
+50502,e6cb22c7-cf0e-4e73-b5ca-b66e2facbef2,Pr¹dnik Czerwony,RatherSafe,4,0
+52236,01ae6a96-56f6-4bdf-a99b-4e748ef84920,Zwierzyniec,RatherSafe,2,0
+62283,731a9b59-eef0-4e33-a5a3-a18199905f84,Grzegórzki,RatherSafe,1,1
+63138,d94522c9-214e-4136-b896-c523a535ef08,Dêbniki,NotSafe,1,1
+64151,6ebb2b73-f0ca-43aa-ab31-23725bb48ada,Podgórze Duchackie,NotSafe,3,1
+66364,f858656f-f7b9-44d0-ac74-1db63a09ce0d,Podgórze Duchackie,NotSafe,2,1
+68136,fc72fa84-ad82-45a8-892c-6741498e9e87,Nowa Huta,NotSafe,1,1
+71328,f5d29b49-2fa7-482d-a74d-0385cda1921c,Nowa Huta,NotSafe,1,1
+75856,64957d4e-f057-406b-8f3c-7d7f09eb707c,Mistrzejowice,RatherSafe,1,1

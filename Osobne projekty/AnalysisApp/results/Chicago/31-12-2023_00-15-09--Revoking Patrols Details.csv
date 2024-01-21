@@ -1,0 +1,58 @@
+"simulationTime[s]","firingID","districtName","districtSafetyLevel","revokedPatrols","isNight"
+8079,ed40730a-0f94-484b-982e-b64eb129df33,Englewood,NotSafe,1,0
+12075,7d37e5b4-e795-47da-884a-e4c3af4e1e3b,Burnside,RatherSafe,4,0
+13769,3a4c10e7-7677-4094-9aa7-e6a633c8fee2,Gage Park,NotSafe,1,0
+14259,343fdf15-b7a3-4f3e-a082-04cd232cc63d,South Deering,RatherSafe,2,0
+16224,13fa2e39-aece-44b0-beb8-c3b9e7d80216,Hegewisch,RatherSafe,1,0
+16338,6adc7599-c87a-4e63-bd10-ae4f4b50266b,Englewood,NotSafe,1,0
+17766,87dc5c39-05b8-4515-be45-4707d2ea7b51,Belmont Cragin,RatherSafe,1,0
+21522,43f54dee-7b8a-4f8c-982d-5f0ea0ead0b2,Near South Side,NotSafe,1,0
+22231,73cf4741-9e7e-438c-8a47-924bd27d1f5e,Chatham,RatherSafe,4,0
+22490,42830143-fce8-4e32-a86d-066150adc8ed,Near South Side,NotSafe,1,0
+23523,aecb1660-6b95-4aa2-821b-b617cab6cab3,Chatham,RatherSafe,1,0
+24091,66454ae8-4f87-44be-9db3-47507b2c5cd1,West Englewood,Safe,1,0
+24613,2e279580-febd-48dc-9256-a7793400a1f0,Auburn Gresham,RatherSafe,3,0
+25882,0628be3c-883a-4a5f-a154-c1b9e9c08e48,Gage Park,NotSafe,1,0
+25883,b1cc3c5e-871c-4e26-adf1-5ffbc6fbc71b,Bridgeport,RatherSafe,3,0
+26074,b591f2a9-f3c9-45c6-a506-d9fc818ad500,Near South Side,NotSafe,1,0
+26703,97124203-e706-4868-84f4-30d55f5cbb62,Portage Park,RatherSafe,3,0
+27392,b1650b84-1c7b-4fb0-acd4-5a0e2ff7c4a9,Near South Side,NotSafe,2,0
+27689,8192323a-8890-46ae-b6c1-d28f1dc0e3d2,Oakland,RatherSafe,1,0
+28587,9d6c7158-d285-4834-9199-daeb82587c12,Avalon Park,RatherSafe,1,0
+30163,b19cd986-63df-4223-a596-70f331e11ab3,McKinley Park,RatherSafe,1,0
+30477,a2d2414c-23ae-4ab4-85d6-4d5c614dc1f2,Ashburn,NotSafe,1,0
+31791,b8a7b613-78bc-47f0-858a-5246fdee594b,Jefferson Park,RatherSafe,1,0
+32937,b0570ad9-7888-4a76-937b-f74e42d8dbea,Washington Park,RatherSafe,1,0
+33034,013fa383-bc9b-43ec-8b0e-d62ec0e507ab,Edison Park,NotSafe,1,0
+33465,3732677c-186e-41a4-a515-b0d9d1850caf,Logan Square,RatherSafe,1,0
+33636,a8b04a1a-1991-4fbe-85af-8f22408f1a70,Rogers Park,RatherSafe,1,0
+35505,3610db02-fb6a-4f42-8e6d-f9a5a9c4783b,Logan Square,RatherSafe,1,0
+35835,b13b1cb4-5330-4540-838c-e9e3329d684c,Fuller Park,NotSafe,2,0
+36441,3ae44865-c092-4733-b048-20314f00cdd4,Brighton Park,RatherSafe,5,0
+38783,bd45d427-1a4c-40da-ac9a-92b893a94c3b,South Chicago,RatherSafe,1,0
+43429,283e8290-10a7-4941-a527-cac4318814d7,Avondale,RatherSafe,1,0
+44652,fec5841f-b341-4afe-a4cb-68c633f4c4e3,McKinley Park,RatherSafe,1,0
+49317,7b654ee2-e59a-4a94-832a-50d86329efd6,Archer Heights,RatherSafe,2,0
+49605,d02fc94b-421f-4de4-ac38-723ab1ec8d18,Fuller Park,NotSafe,5,0
+52412,5921960b-f4e8-4650-8408-9b4b54fcdb51,Hegewisch,RatherSafe,3,0
+54485,e3603bd9-e12c-43d1-85ef-be1cae9aeb06,Fuller Park,NotSafe,2,0
+55804,f1f7934e-c0bb-4be6-ae81-a0fc787219d2,Fuller Park,NotSafe,1,0
+57474,f1331bf4-72a8-4d0a-b9d1-8ed080b82c9f,Englewood,NotSafe,1,0
+59142,8e802e87-1129-419c-8b22-ae960cda3fd8,West Town,RatherSafe,1,1
+60369,bfb974c3-fedc-446f-8e3f-e79d58edf01b,West Ridge,RatherSafe,1,1
+60371,67c265f4-d43d-4df2-b9ef-93a6e713379c,New City,RatherSafe,2,1
+60523,89efe2ff-3d0e-416e-85f9-70dddd64d720,Fuller Park,NotSafe,1,1
+64231,75f12092-e3d4-497f-8bf9-8573d5b6cc7a,Bridgeport,RatherSafe,1,1
+64710,25f88564-c0c2-4d99-9367-338b0690f05b,Irving Park,RatherSafe,1,1
+65404,9132d0ea-281f-4eee-936d-ed96117a3dce,Chatham,RatherSafe,1,1
+65725,099cb9da-f400-4cb7-b534-cd2710195ddc,Lower West Side,NotSafe,1,1
+67763,936b028d-842b-479a-b5f8-0f1353fcde12,Roseland,RatherSafe,1,1
+68658,7d31c57a-3611-4cac-950f-ba0fdc393f37,Grand Boulevard,RatherSafe,2,1
+71065,df8e1c8f-e30c-48c1-8625-43c140e0dd74,Rogers Park,RatherSafe,1,1
+71773,8587728c-33ff-4b74-aa7a-154793304adc,Lower West Side,NotSafe,1,1
+73673,729ac027-1093-44b8-a5eb-187cd633d71a,Montclare,RatherSafe,1,1
+78219,6e041a43-0263-4bc0-9a3c-ef946ecd7e22,Fuller Park,NotSafe,1,1
+84024,dc9286c8-6f79-48a1-b643-8d305939edba,Mount Greenwood,RatherSafe,1,1
+84994,2bdea3ec-e4d2-4d44-a527-0adb45429ced,Gage Park,NotSafe,1,1
+85539,fc2c9033-a7a2-43e7-9e1f-d19901bc2d21,Lower West Side,NotSafe,1,1
+85980,9365db90-de95-408c-ac1c-19ae79e4b379,Humboldt Park,RatherSafe,1,1
