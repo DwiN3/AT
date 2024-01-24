@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <title>Weather App</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" type="image/png" href="images/weather-logo.png">
+</head>
+<body class="light-mode">
+    <div class="container">
+        <div class="left_bar">
+            <div class="container_logo">
+                <img id="logo" src="./images/weather-logo.png">
+                <span class="logo_text">MyWeather</span>
+            </div>
+            <form class="search" id="search">
+                <input type="text" placeholder="Szukaj..." id="query" required>
+                <button type="submit" id="submitBtn"><img id="search_icon" src="./images/search.png"></button>
+            </form>
+            <div id="container_lasts">
+                <span id="last_searches">Ostatnio wyszukiwane:</span>
+                <button id="clearBtn" onclick="clearCity()"><img id="iconClear" src="./images/icons8-clear-50.png"></button>
+            </div>
+            <div class="container_settings">
+                <img id="settings_icon" src="./images/settings_light.png">
+                <span class="settings_text" id="settingsText">Ustawienia</span>
+            </div>   
+        </div>
+        <div id="right_bar">
+            <div id="weather_day_container">
+                <img id="weather_day_icon" src="images/temp/icons8-sun-96.png" alt="weather icon">
+                <div id = "day_temperature_time_container">
+                    <div id="info_temp">0°C</br></div>
+                    <div id="info_day">Monday, 15:15</div>
+                </div>
+                <span id = "location_day"><img id="location_day_icon" src="images/location.png"></span>
+            </div>
+            <div id="button_mode_container">
+                <span class="mode_button" id="day_button" onclick="display_mode('day')">Dzisiaj</span>
+                <span class="mode_button" id="week_button" onclick="display_mode('week')">Tydzień</span>
+            </div>
+            <div id="weather_main_content" onclick="show_today_info()" id="details_info">
+                <!-- Day -->
+                <div id="day_content">
+                </div>
+                <!-- Week -->
+                <div id="week_content">
+                </div>
+                <!-- Details -->
+                <div id="day_info_content">
+                </div>
+            </div>
+        </div>
+    </div>
+        <div class="main">
+            <div id="modal" class="modal">
+                <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <div class="mode-container">
+                        <div class="left_section">
+                            <span class="mode_text" id="darkModeText">Tryb ciemny</span>
+                        </div>
+                        <div class="midle_section">
+                            
+                        </div>
+                        <div class="right_section">
+                            <label class="switch">
+                                <input type="checkbox" id="darkModeToggle" onclick="toggleDarkMode()">
+                            </label>
+                        </div>
+                    </div>
+                    <div class="mode-container">
+                        <div class="left_section">
+                            <span class="mode_text" id="languageText">Język:</span>
+                        </div>
+                        <div class="midle_section">
+                            <label class="switch">
+                                <input type="checkbox" id="langTogglePL" value="pl" onclick="toggleLanguage(this)">
+                            </label>
+                            <span class="mode_text">PL</span>
+                        </div>
+                        <div class="right_section">
+                            <label class="switch">
+                                <input type="checkbox" id="langToggleEN" value="en" onclick="toggleLanguage(this)">
+                            </label>
+                            <span class="mode_text">ENG</span>
+                        </div>
+                    </div>
+                    <div class="mode-container">
+                        <div class="left_section">
+                            <span class="mode_text" id="temperatureText">Temperatura:</span>
+                        </div>
+                        <div class="midle_section">
+                            <label class="switch">
+                                <input type="checkbox" id="tempToggleC" value="C" onclick="toggleTemperature(this)">
+                            </label>
+                            <span class="mode_text">°C</span>
+                        </div>
+                        <div class="midle_section">
+                            <label class="switch">
+                                <input type="checkbox" id="tempToggleF" value="F" onclick="toggleTemperature(this)">
+                            </label>
+                            <span class="mode_text">°F</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <script src="./scripts/settings.js"></script>
+    <script src="./scripts/storage.js"></script>
+    <script src="./scripts/temperature.js"></script>
+    <script src="./scripts/darkMode.js"></script>
+    <script src="./scripts/language.js"></script>
+    <script src="./scripts/display.js"></script>
+    <script src="./scripts/api.js"></script>
+    <script src="./scripts/time.js"></script>
+    <script src="./scripts/values.js"></script>
+    <script src="./scripts/startup.js"></script>
+</body>
+</html>
