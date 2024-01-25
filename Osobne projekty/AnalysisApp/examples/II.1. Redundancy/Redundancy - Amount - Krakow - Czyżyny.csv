@@ -1,0 +1,8 @@
+simulationTime[s],firingID,districtName,districtSafetyLevel,generallyRequiredPatrols,solvingPatrols,reachingPatrols(including 'called'),calledPatrols,totalDistanceOfCalledPatrols,isNight,City,arrivedPatrols,simulationTime[h]
+3642,ed943c42-b4f3-4308-86f3-3648664800e9,Czyżyny,RatherSafe,2,1,1,1,1.4186789069425683,0,Krakow,2,1.0116666666666667
+9418,57e05b94-3876-42a8-a525-c0f2a45e0855,Czyżyny,RatherSafe,2,1,2,2,0.8914094806084859,0,Krakow,3,2.616111111111111
+20265,ccd11071-f361-4a8d-8af5-72b8c4daa8ce,Czyżyny,RatherSafe,3,1,3,3,5.911475939051112,0,Krakow,4,5.629166666666666
+40526,4aec0d65-f1a1-45dd-9f2c-8d9a5f8387a0,Czyżyny,RatherSafe,5,1,2,2,4.3352463328947115,0,Krakow,3,11.257222222222222
+40527,4aec0d65-f1a1-45dd-9f2c-8d9a5f8387a0,Czyżyny,RatherSafe,5,1,3,1,0.23342404269539244,0,Krakow,4,11.2575
+40556,4aec0d65-f1a1-45dd-9f2c-8d9a5f8387a0,Czyżyny,RatherSafe,5,1,4,1,2.3530224397102617,0,Krakow,5,11.265555555555556
+73627,1bf6f242-d5a6-4971-a51b-2e3c1df8b4fe,Czyżyny,RatherSafe,3,1,2,2,3.435243515660284,1,Krakow,3,20.451944444444443

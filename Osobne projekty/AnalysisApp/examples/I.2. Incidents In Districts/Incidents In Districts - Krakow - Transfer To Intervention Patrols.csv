@@ -1,0 +1,415 @@
+simulationTime[s],districtName,districtSafetyLevel,amountOfPatrols,amountOfPatrollingPatrols,amountOfCalculatingPathPatrols,amountOfTransferToInterventionPatrols,amountOfTransferToFiringPatrols,amountOfInterventionPatrols,amountOfFiringPatrols,amountOfReturningToHqPatrols,amountOfIncidents,isNight,City
+3611,Łagiewniki-Borek Fałęcki,RatherSafe,1,1,0,0,0,0,0,0,0,0,Krakow
+3611,Dębniki,NotSafe,2,2,0,0,0,0,0,0,0,0,Krakow
+3611,Swoszowice,Safe,6,4,1,0,0,1,0,0,1,0,Krakow
+3611,Podgórze,Safe,1,1,0,0,0,0,0,0,0,0,Krakow
+3611,Stare Miasto,NotSafe,2,0,0,1,0,1,0,0,2,0,Krakow
+3611,Zwierzyniec,RatherSafe,4,1,1,0,0,1,1,0,2,0,Krakow
+3611,Podgórze Duchackie,NotSafe,1,1,0,0,0,0,0,0,0,0,Krakow
+3611,Bieżanów-Prokocim,Safe,1,1,0,0,0,0,0,0,0,0,Krakow
+3611,Nowa Huta,NotSafe,4,1,1,0,0,2,0,0,2,0,Krakow
+3611,Wzgórza Krzesławickie,Safe,2,1,0,0,0,1,0,0,1,0,Krakow
+3611,Czyżyny,RatherSafe,3,2,0,0,0,1,0,0,1,0,Krakow
+3611,Grzegórzki,RatherSafe,4,2,0,0,0,2,0,0,2,0,Krakow
+3611,Krowodrza,RatherSafe,1,0,1,0,0,0,0,0,0,0,Krakow
+3611,Bronowice,NotSafe,2,0,2,0,0,0,0,0,0,0,Krakow
+3611,Prądnik Biały,Safe,2,1,0,0,0,1,0,0,1,0,Krakow
+3611,Prądnik Czerwony,RatherSafe,1,1,0,0,0,0,0,0,0,0,Krakow
+3611,Mistrzejowice,RatherSafe,2,0,1,0,0,1,0,0,1,0,Krakow
+3611,Bieńczyce,RatherSafe,1,0,0,0,0,1,0,0,1,0,Krakow
+7200,Łagiewniki-Borek Fałęcki,RatherSafe,2,1,0,1,0,0,0,0,0,0,Krakow
+7200,Dębniki,NotSafe,7,1,0,0,0,0,6,0,1,0,Krakow
+7200,Swoszowice,Safe,1,1,0,0,0,0,0,0,0,0,Krakow
+7200,Podgórze,Safe,5,4,1,0,0,0,0,0,0,0,Krakow
+7200,Stare Miasto,NotSafe,8,0,0,0,0,1,7,0,3,0,Krakow
+7200,Zwierzyniec,RatherSafe,7,3,0,0,0,0,4,0,1,0,Krakow
+7200,Podgórze Duchackie,NotSafe,0,0,0,0,0,0,0,0,1,0,Krakow
+7200,Bieżanów-Prokocim,Safe,3,3,0,0,0,0,0,0,0,0,Krakow
+7200,Nowa Huta,NotSafe,3,2,0,1,0,0,0,0,1,0,Krakow
+7200,Wzgórza Krzesławickie,Safe,0,0,0,0,0,0,0,0,0,0,Krakow
+7200,Czyżyny,RatherSafe,0,0,0,0,0,0,0,0,0,0,Krakow
+7200,Grzegórzki,RatherSafe,1,1,0,0,0,0,0,0,0,0,Krakow
+7200,Krowodrza,RatherSafe,2,0,0,1,0,1,0,0,3,0,Krakow
+7200,Bronowice,NotSafe,1,1,0,0,0,0,0,0,0,0,Krakow
+7200,Prądnik Biały,Safe,1,1,0,0,0,0,0,0,0,0,Krakow
+7200,Prądnik Czerwony,RatherSafe,1,0,0,0,0,1,0,0,1,0,Krakow
+7200,Mistrzejowice,RatherSafe,2,1,0,0,0,1,0,0,1,0,Krakow
+7200,Bieńczyce,RatherSafe,1,0,0,0,0,1,0,0,1,0,Krakow
+10800,Łagiewniki-Borek Fałęcki,RatherSafe,0,0,0,0,0,0,0,0,0,0,Krakow
+10800,Dębniki,NotSafe,5,4,1,0,0,0,0,0,0,0,Krakow
+10800,Swoszowice,Safe,2,1,0,1,0,0,0,0,1,0,Krakow
+10800,Podgórze,Safe,1,1,0,0,0,0,0,0,1,0,Krakow
+10800,Stare Miasto,NotSafe,5,0,0,0,0,0,5,0,1,0,Krakow
+10800,Zwierzyniec,RatherSafe,4,3,0,0,0,1,0,0,1,0,Krakow
+10800,Podgórze Duchackie,NotSafe,6,1,0,0,0,2,3,0,3,0,Krakow
+10800,Bieżanów-Prokocim,Safe,0,0,0,0,0,0,0,0,0,0,Krakow
+10800,Nowa Huta,NotSafe,5,0,0,0,0,0,4,0,2,0,Krakow
+10800,Wzgórza Krzesławickie,Safe,0,0,0,0,0,0,0,0,0,0,Krakow
+10800,Czyżyny,RatherSafe,3,0,0,0,0,0,3,0,2,0,Krakow
+10800,Grzegórzki,RatherSafe,2,1,0,0,0,1,0,0,1,0,Krakow
+10800,Krowodrza,RatherSafe,1,0,0,0,0,1,0,0,1,0,Krakow
+10800,Bronowice,NotSafe,8,0,0,0,0,2,6,0,3,0,Krakow
+10800,Prądnik Biały,Safe,0,0,0,0,0,0,0,0,0,0,Krakow
+10800,Prądnik Czerwony,RatherSafe,2,1,0,0,0,1,0,0,1,0,Krakow
+10800,Mistrzejowice,RatherSafe,0,0,0,0,0,0,0,0,0,0,Krakow
+10800,Bieńczyce,RatherSafe,1,0,0,1,0,0,0,0,0,0,Krakow
+14401,Łagiewniki-Borek Fałęcki,RatherSafe,1,0,0,0,0,1,0,0,1,0,Krakow
+14401,Dębniki,NotSafe,4,3,0,0,0,1,0,0,1,0,Krakow
+14401,Swoszowice,Safe,0,0,0,0,0,0,0,0,0,0,Krakow
+14401,Podgórze,Safe,4,4,0,0,0,0,0,0,0,0,Krakow
+14401,Stare Miasto,NotSafe,7,2,0,0,0,0,5,0,1,0,Krakow
+14401,Zwierzyniec,RatherSafe,1,0,0,1,0,0,0,0,0,0,Krakow
+14401,Podgórze Duchackie,NotSafe,0,0,0,0,0,0,0,0,1,0,Krakow
+14401,Bieżanów-Prokocim,Safe,2,1,0,1,0,0,0,0,0,0,Krakow
+14401,Nowa Huta,NotSafe,7,2,0,0,0,0,5,0,1,0,Krakow
+14401,Wzgórza Krzesławickie,Safe,1,1,0,0,0,0,0,0,0,0,Krakow
+14401,Czyżyny,RatherSafe,3,3,0,0,0,0,0,0,0,0,Krakow
+14401,Grzegórzki,RatherSafe,7,3,0,0,0,0,4,0,1,0,Krakow
+14401,Krowodrza,RatherSafe,1,0,0,1,0,0,0,0,0,0,Krakow
+14401,Bronowice,NotSafe,0,0,0,0,0,0,0,0,2,0,Krakow
+14401,Prądnik Biały,Safe,2,1,1,0,0,0,0,0,0,0,Krakow
+14401,Prądnik Czerwony,RatherSafe,1,0,0,0,0,1,0,0,1,0,Krakow
+14401,Mistrzejowice,RatherSafe,0,0,0,0,0,0,0,0,0,0,Krakow
+14401,Bieńczyce,RatherSafe,3,3,0,0,0,0,0,0,0,0,Krakow
+18002,Łagiewniki-Borek Fałęcki,RatherSafe,3,2,0,0,0,0,1,0,1,0,Krakow
+18002,Dębniki,NotSafe,3,3,0,0,0,0,0,0,0,0,Krakow
+18002,Swoszowice,Safe,2,2,0,0,0,0,0,0,0,0,Krakow
+18002,Podgórze,Safe,3,2,1,0,0,0,0,0,0,0,Krakow
+18002,Stare Miasto,NotSafe,4,0,0,0,0,1,3,0,1,0,Krakow
+18002,Zwierzyniec,RatherSafe,1,0,0,0,0,1,0,0,1,0,Krakow
+18002,Podgórze Duchackie,NotSafe,10,0,0,0,0,0,10,0,2,0,Krakow
+18002,Bieżanów-Prokocim,Safe,1,1,0,0,0,0,0,0,0,0,Krakow
+18002,Nowa Huta,NotSafe,6,3,1,0,0,2,0,0,2,0,Krakow
+18002,Wzgórza Krzesławickie,Safe,1,1,0,0,0,0,0,0,0,0,Krakow
+18002,Czyżyny,RatherSafe,1,1,0,0,0,0,0,0,0,0,Krakow
+18002,Grzegórzki,RatherSafe,4,0,0,0,0,1,3,0,2,0,Krakow
+18002,Krowodrza,RatherSafe,1,1,0,0,0,0,0,0,0,0,Krakow
+18002,Bronowice,NotSafe,0,0,0,0,0,0,0,0,0,0,Krakow
+18002,Prądnik Biały,Safe,0,0,0,0,0,0,0,0,0,0,Krakow
+18002,Prądnik Czerwony,RatherSafe,1,1,0,0,0,0,0,0,0,0,Krakow
+18002,Mistrzejowice,RatherSafe,3,0,1,0,0,2,0,0,2,0,Krakow
+18002,Bieńczyce,RatherSafe,0,0,0,0,0,0,0,0,0,0,Krakow
+21601,Łagiewniki-Borek Fałęcki,RatherSafe,0,0,0,0,0,0,0,0,0,0,Krakow
+21601,Dębniki,NotSafe,5,5,0,0,0,0,0,0,0,0,Krakow
+21601,Swoszowice,Safe,2,1,0,0,0,1,0,0,1,0,Krakow
+21601,Podgórze,Safe,5,3,0,0,0,2,0,0,2,0,Krakow
+21601,Stare Miasto,NotSafe,2,1,0,0,0,1,0,0,1,0,Krakow
+21601,Zwierzyniec,RatherSafe,6,5,0,0,0,1,0,0,1,0,Krakow
+21601,Podgórze Duchackie,NotSafe,1,1,0,0,0,0,0,0,0,0,Krakow
+21601,Bieżanów-Prokocim,Safe,2,2,0,0,0,0,0,0,0,0,Krakow
+21601,Nowa Huta,NotSafe,3,1,0,0,0,2,0,0,2,0,Krakow
+21601,Wzgórza Krzesławickie,Safe,0,0,0,0,0,0,0,0,0,0,Krakow
+21601,Czyżyny,RatherSafe,6,3,0,0,0,0,3,0,1,0,Krakow
+21601,Grzegórzki,RatherSafe,4,1,0,0,0,0,3,0,1,0,Krakow
+21601,Krowodrza,RatherSafe,1,1,0,0,0,0,0,0,0,0,Krakow
+21601,Bronowice,NotSafe,1,0,0,0,0,1,0,0,1,0,Krakow
+21601,Prądnik Biały,Safe,2,2,0,0,0,0,0,0,0,0,Krakow
+21601,Prądnik Czerwony,RatherSafe,2,1,0,0,0,1,0,0,1,0,Krakow
+21601,Mistrzejowice,RatherSafe,0,0,0,0,0,0,0,0,0,0,Krakow
+21601,Bieńczyce,RatherSafe,1,1,0,0,0,0,0,0,0,0,Krakow
+25200,Łagiewniki-Borek Fałęcki,RatherSafe,3,0,0,0,0,3,0,0,3,0,Krakow
+25200,Dębniki,NotSafe,2,1,0,0,0,1,0,0,1,0,Krakow
+25200,Swoszowice,Safe,0,0,0,0,0,0,0,0,0,0,Krakow
+25200,Podgórze,Safe,5,5,0,0,0,0,0,0,0,0,Krakow
+25200,Stare Miasto,NotSafe,9,0,0,0,0,3,6,0,4,0,Krakow
+25200,Zwierzyniec,RatherSafe,1,0,0,1,0,0,0,0,0,0,Krakow
+25200,Podgórze Duchackie,NotSafe,5,5,0,0,0,0,0,0,0,0,Krakow
+25200,Bieżanów-Prokocim,Safe,1,1,0,0,0,0,0,0,0,0,Krakow
+25200,Nowa Huta,NotSafe,5,3,0,1,0,1,0,0,1,0,Krakow
+25200,Wzgórza Krzesławickie,Safe,1,0,0,1,0,0,0,0,2,0,Krakow
+25200,Czyżyny,RatherSafe,2,2,0,0,0,0,0,0,0,0,Krakow
+25200,Grzegórzki,RatherSafe,5,0,0,0,0,0,5,0,1,0,Krakow
+25200,Krowodrza,RatherSafe,2,2,0,0,0,0,0,0,1,0,Krakow
+25200,Bronowice,NotSafe,2,0,0,0,0,2,0,0,3,0,Krakow
+25200,Prądnik Biały,Safe,0,0,0,0,0,0,0,0,0,0,Krakow
+25200,Prądnik Czerwony,RatherSafe,0,0,0,0,0,0,0,0,0,0,Krakow
+25200,Mistrzejowice,RatherSafe,1,1,0,0,0,0,0,0,0,0,Krakow
+25200,Bieńczyce,RatherSafe,0,0,0,0,0,0,0,0,0,0,Krakow
+28802,Łagiewniki-Borek Fałęcki,RatherSafe,0,0,0,0,0,0,0,0,0,0,Krakow
+28802,Dębniki,NotSafe,9,1,0,0,0,2,6,0,5,0,Krakow
+28802,Swoszowice,Safe,1,0,0,1,0,0,0,0,0,0,Krakow
+28802,Podgórze,Safe,2,1,0,1,0,0,0,0,1,0,Krakow
+28802,Stare Miasto,NotSafe,1,0,0,0,0,1,0,0,1,0,Krakow
+28802,Zwierzyniec,RatherSafe,2,0,0,1,0,1,0,0,1,0,Krakow
+28802,Podgórze Duchackie,NotSafe,6,0,0,0,0,1,5,0,2,0,Krakow
+28802,Bieżanów-Prokocim,Safe,2,1,0,0,0,1,0,0,1,0,Krakow
+28802,Nowa Huta,NotSafe,1,1,0,0,0,0,0,0,0,0,Krakow
+28802,Wzgórza Krzesławickie,Safe,1,1,0,0,0,0,0,0,0,0,Krakow
+28802,Czyżyny,RatherSafe,5,3,0,0,0,2,0,0,2,0,Krakow
+28802,Grzegórzki,RatherSafe,0,0,0,0,0,0,0,0,0,0,Krakow
+28802,Krowodrza,RatherSafe,2,2,0,0,0,0,0,0,0,0,Krakow
+28802,Bronowice,NotSafe,11,0,0,0,0,1,10,0,3,0,Krakow
+28802,Prądnik Biały,Safe,1,0,0,0,0,1,0,0,1,0,Krakow
+28802,Prądnik Czerwony,RatherSafe,1,1,0,0,0,0,0,0,0,0,Krakow
+28802,Mistrzejowice,RatherSafe,1,0,0,0,0,1,0,0,1,0,Krakow
+28802,Bieńczyce,RatherSafe,2,0,0,0,0,2,0,0,2,0,Krakow
+32400,Łagiewniki-Borek Fałęcki,RatherSafe,2,0,0,0,1,0,1,0,2,0,Krakow
+32400,Dębniki,NotSafe,4,3,0,0,0,1,0,0,1,0,Krakow
+32400,Swoszowice,Safe,0,0,0,0,0,0,0,0,0,0,Krakow
+32400,Podgórze,Safe,2,2,0,0,0,0,0,0,0,0,Krakow
+32400,Stare Miasto,NotSafe,6,4,0,0,0,2,0,0,2,0,Krakow
+32400,Zwierzyniec,RatherSafe,5,2,0,0,0,0,0,3,0,0,Krakow
+32400,Podgórze Duchackie,NotSafe,4,0,1,0,2,1,0,0,1,0,Krakow
+32400,Bieżanów-Prokocim,Safe,2,2,0,0,0,0,0,0,0,0,Krakow
+32400,Nowa Huta,NotSafe,6,5,0,0,0,1,0,0,1,0,Krakow
+32400,Wzgórza Krzesławickie,Safe,1,0,0,0,0,1,0,0,1,0,Krakow
+32400,Czyżyny,RatherSafe,2,1,0,1,0,0,0,0,0,0,Krakow
+32400,Grzegórzki,RatherSafe,1,1,0,0,0,0,0,0,0,0,Krakow
+32400,Krowodrza,RatherSafe,2,1,0,0,0,1,0,0,1,0,Krakow
+32400,Bronowice,NotSafe,3,1,0,0,0,2,0,0,2,0,Krakow
+32400,Prądnik Biały,Safe,2,1,0,0,0,1,0,0,1,0,Krakow
+32400,Prądnik Czerwony,RatherSafe,6,1,0,0,0,1,4,0,2,0,Krakow
+32400,Mistrzejowice,RatherSafe,2,1,0,0,0,1,0,0,2,0,Krakow
+32400,Bieńczyce,RatherSafe,2,2,0,0,0,0,0,0,0,0,Krakow
+36000,Łagiewniki-Borek Fałęcki,RatherSafe,3,1,0,0,0,2,0,0,2,0,Krakow
+36000,Dębniki,NotSafe,3,3,0,0,0,0,0,0,0,0,Krakow
+36000,Swoszowice,Safe,1,1,0,0,0,0,0,0,1,0,Krakow
+36000,Podgórze,Safe,7,4,0,0,0,0,3,0,1,0,Krakow
+36000,Stare Miasto,NotSafe,5,4,0,0,0,1,0,0,1,0,Krakow
+36000,Zwierzyniec,RatherSafe,2,2,0,0,0,0,0,0,0,0,Krakow
+36000,Podgórze Duchackie,NotSafe,1,0,0,1,0,0,0,0,0,0,Krakow
+36000,Bieżanów-Prokocim,Safe,3,3,0,0,0,0,0,0,0,0,Krakow
+36000,Nowa Huta,NotSafe,7,2,0,0,0,0,5,0,1,0,Krakow
+36000,Wzgórza Krzesławickie,Safe,1,1,0,0,0,0,0,0,0,0,Krakow
+36000,Czyżyny,RatherSafe,8,6,0,1,0,1,0,0,1,0,Krakow
+36000,Grzegórzki,RatherSafe,1,0,1,0,0,0,0,0,0,0,Krakow
+36000,Krowodrza,RatherSafe,1,0,1,0,0,0,0,0,0,0,Krakow
+36000,Bronowice,NotSafe,1,1,0,0,0,0,0,0,0,0,Krakow
+36000,Prądnik Biały,Safe,0,0,0,0,0,0,0,0,0,0,Krakow
+36000,Prądnik Czerwony,RatherSafe,1,0,0,0,0,1,0,0,1,0,Krakow
+36000,Mistrzejowice,RatherSafe,0,0,0,0,0,0,0,0,1,0,Krakow
+36000,Bieńczyce,RatherSafe,0,0,0,0,0,0,0,0,0,0,Krakow
+39600,Łagiewniki-Borek Fałęcki,RatherSafe,3,1,0,0,0,2,0,0,3,0,Krakow
+39600,Dębniki,NotSafe,5,3,0,1,0,1,0,0,2,0,Krakow
+39600,Swoszowice,Safe,4,2,0,0,0,2,0,0,2,0,Krakow
+39600,Podgórze,Safe,5,5,0,0,0,0,0,0,0,0,Krakow
+39600,Stare Miasto,NotSafe,2,2,0,0,0,0,0,0,0,0,Krakow
+39600,Zwierzyniec,RatherSafe,0,0,0,0,0,0,0,0,0,0,Krakow
+39600,Podgórze Duchackie,NotSafe,2,1,0,0,0,1,0,0,1,0,Krakow
+39600,Bieżanów-Prokocim,Safe,0,0,0,0,0,0,0,0,0,0,Krakow
+39600,Nowa Huta,NotSafe,7,3,0,1,0,0,3,0,2,0,Krakow
+39600,Wzgórza Krzesławickie,Safe,1,0,0,0,0,1,0,0,1,0,Krakow
+39600,Czyżyny,RatherSafe,2,2,0,0,0,0,0,0,0,0,Krakow
+39600,Grzegórzki,RatherSafe,4,0,0,0,0,1,3,0,2,0,Krakow
+39600,Krowodrza,RatherSafe,1,1,0,0,0,0,0,0,0,0,Krakow
+39600,Bronowice,NotSafe,2,1,0,0,0,1,0,0,1,0,Krakow
+39600,Prądnik Biały,Safe,3,2,1,0,0,0,0,0,0,0,Krakow
+39600,Prądnik Czerwony,RatherSafe,2,1,0,0,0,1,0,0,1,0,Krakow
+39600,Mistrzejowice,RatherSafe,0,0,0,0,0,0,0,0,0,0,Krakow
+39600,Bieńczyce,RatherSafe,1,0,0,0,0,1,0,0,1,0,Krakow
+43200,Łagiewniki-Borek Fałęcki,RatherSafe,4,0,0,0,0,1,3,0,2,0,Krakow
+43200,Dębniki,NotSafe,2,0,0,1,0,1,0,0,2,0,Krakow
+43200,Swoszowice,Safe,1,0,0,0,0,1,0,0,1,0,Krakow
+43200,Podgórze,Safe,1,0,0,1,0,0,0,0,0,0,Krakow
+43200,Stare Miasto,NotSafe,5,0,0,0,0,0,5,0,1,0,Krakow
+43200,Zwierzyniec,RatherSafe,1,0,0,1,0,0,0,0,1,0,Krakow
+43200,Podgórze Duchackie,NotSafe,6,0,0,0,0,0,6,0,2,0,Krakow
+43200,Bieżanów-Prokocim,Safe,0,0,0,0,0,0,0,0,0,0,Krakow
+43200,Nowa Huta,NotSafe,6,3,0,0,0,1,2,0,2,0,Krakow
+43200,Wzgórza Krzesławickie,Safe,0,0,0,0,0,0,0,0,2,0,Krakow
+43200,Czyżyny,RatherSafe,7,1,0,0,1,0,5,0,1,0,Krakow
+43200,Grzegórzki,RatherSafe,0,0,0,0,0,0,0,0,0,0,Krakow
+43200,Krowodrza,RatherSafe,2,0,0,0,0,2,0,0,2,0,Krakow
+43200,Bronowice,NotSafe,2,1,0,0,0,1,0,0,1,0,Krakow
+43200,Prądnik Biały,Safe,0,0,0,0,0,0,0,0,0,0,Krakow
+43200,Prądnik Czerwony,RatherSafe,5,0,0,0,0,1,4,0,2,0,Krakow
+43200,Mistrzejowice,RatherSafe,2,0,0,1,0,1,0,0,2,0,Krakow
+43200,Bieńczyce,RatherSafe,3,0,0,0,1,0,2,0,1,0,Krakow
+46801,Łagiewniki-Borek Fałęcki,RatherSafe,1,1,0,0,0,0,0,0,0,0,Krakow
+46801,Dębniki,NotSafe,2,2,0,0,0,0,0,0,0,0,Krakow
+46801,Swoszowice,Safe,2,2,0,0,0,0,0,0,0,0,Krakow
+46801,Podgórze,Safe,3,2,0,1,0,0,0,0,1,0,Krakow
+46801,Stare Miasto,NotSafe,5,3,1,0,0,1,0,0,2,0,Krakow
+46801,Zwierzyniec,RatherSafe,9,4,0,0,0,0,5,0,2,0,Krakow
+46801,Podgórze Duchackie,NotSafe,2,0,0,0,0,0,2,0,1,0,Krakow
+46801,Bieżanów-Prokocim,Safe,3,2,0,1,0,0,0,0,1,0,Krakow
+46801,Nowa Huta,NotSafe,6,1,0,0,0,1,4,0,3,0,Krakow
+46801,Wzgórza Krzesławickie,Safe,2,2,0,0,0,0,0,0,0,0,Krakow
+46801,Czyżyny,RatherSafe,1,1,0,0,0,0,0,0,0,0,Krakow
+46801,Grzegórzki,RatherSafe,2,1,0,0,0,1,0,0,1,0,Krakow
+46801,Krowodrza,RatherSafe,3,2,0,0,0,1,0,0,1,0,Krakow
+46801,Bronowice,NotSafe,3,0,0,0,0,0,3,0,1,0,Krakow
+46801,Prądnik Biały,Safe,2,0,1,0,0,1,0,0,1,0,Krakow
+46801,Prądnik Czerwony,RatherSafe,2,1,0,0,0,1,0,0,1,0,Krakow
+46801,Mistrzejowice,RatherSafe,0,0,0,0,0,0,0,0,0,0,Krakow
+46801,Bieńczyce,RatherSafe,5,1,0,0,0,0,4,0,1,0,Krakow
+50401,Łagiewniki-Borek Fałęcki,RatherSafe,1,1,0,0,0,0,0,0,0,0,Krakow
+50401,Dębniki,NotSafe,4,3,1,0,0,0,0,0,0,0,Krakow
+50401,Swoszowice,Safe,2,2,0,0,0,0,0,0,0,0,Krakow
+50401,Podgórze,Safe,6,5,0,0,0,1,0,0,1,0,Krakow
+50401,Stare Miasto,NotSafe,5,2,0,0,3,0,0,0,0,0,Krakow
+50401,Zwierzyniec,RatherSafe,2,0,0,1,0,1,0,0,1,0,Krakow
+50401,Podgórze Duchackie,NotSafe,6,1,0,0,0,1,4,0,2,0,Krakow
+50401,Bieżanów-Prokocim,Safe,0,0,0,0,0,0,0,0,0,0,Krakow
+50401,Nowa Huta,NotSafe,5,1,0,0,0,0,4,0,1,0,Krakow
+50401,Wzgórza Krzesławickie,Safe,2,2,0,0,0,0,0,0,0,0,Krakow
+50401,Czyżyny,RatherSafe,0,0,0,0,0,0,0,0,0,0,Krakow
+50401,Grzegórzki,RatherSafe,3,0,0,0,1,2,0,0,2,0,Krakow
+50401,Krowodrza,RatherSafe,5,3,0,1,0,1,0,0,2,0,Krakow
+50401,Bronowice,NotSafe,1,0,0,0,0,1,0,0,2,0,Krakow
+50401,Prądnik Biały,Safe,4,0,0,1,0,0,3,0,2,0,Krakow
+50401,Prądnik Czerwony,RatherSafe,5,0,0,0,3,0,2,0,1,0,Krakow
+50401,Mistrzejowice,RatherSafe,0,0,0,0,0,0,0,0,0,0,Krakow
+50401,Bieńczyce,RatherSafe,2,0,0,0,0,1,1,0,2,0,Krakow
+54002,Łagiewniki-Borek Fałęcki,RatherSafe,1,1,0,0,0,0,0,0,0,0,Krakow
+54002,Dębniki,NotSafe,4,4,0,0,0,0,0,0,0,0,Krakow
+54002,Swoszowice,Safe,1,0,0,0,0,1,0,0,1,0,Krakow
+54002,Podgórze,Safe,6,5,1,0,0,0,0,0,0,0,Krakow
+54002,Stare Miasto,NotSafe,1,1,0,0,0,0,0,0,0,0,Krakow
+54002,Zwierzyniec,RatherSafe,4,1,0,0,0,1,2,0,2,0,Krakow
+54002,Podgórze Duchackie,NotSafe,6,2,0,0,0,4,0,0,4,0,Krakow
+54002,Bieżanów-Prokocim,Safe,1,1,0,0,0,0,0,0,0,0,Krakow
+54002,Nowa Huta,NotSafe,8,5,0,1,0,2,0,0,2,0,Krakow
+54002,Wzgórza Krzesławickie,Safe,2,1,0,0,0,1,0,0,1,0,Krakow
+54002,Czyżyny,RatherSafe,3,2,0,0,0,1,0,0,1,0,Krakow
+54002,Grzegórzki,RatherSafe,1,1,0,0,0,0,0,0,0,0,Krakow
+54002,Krowodrza,RatherSafe,0,0,0,0,0,0,0,0,0,0,Krakow
+54002,Bronowice,NotSafe,3,0,0,0,2,0,1,0,1,0,Krakow
+54002,Prądnik Biały,Safe,2,0,0,0,1,1,0,0,1,0,Krakow
+54002,Prądnik Czerwony,RatherSafe,7,2,0,0,0,0,5,0,1,0,Krakow
+54002,Mistrzejowice,RatherSafe,2,0,0,0,0,0,2,0,1,0,Krakow
+54002,Bieńczyce,RatherSafe,1,0,0,0,0,1,0,0,2,0,Krakow
+57602,Łagiewniki-Borek Fałęcki,RatherSafe,0,0,0,0,0,0,0,0,0,1,Krakow
+57602,Dębniki,NotSafe,5,5,0,0,0,0,0,0,0,1,Krakow
+57602,Swoszowice,Safe,2,2,0,0,0,0,0,0,0,1,Krakow
+57602,Podgórze,Safe,3,3,0,0,0,0,0,0,0,1,Krakow
+57602,Stare Miasto,NotSafe,1,1,0,0,0,0,0,0,0,1,Krakow
+57602,Zwierzyniec,RatherSafe,3,2,0,0,0,1,0,0,1,1,Krakow
+57602,Podgórze Duchackie,NotSafe,2,2,0,0,0,0,0,0,0,1,Krakow
+57602,Bieżanów-Prokocim,Safe,6,6,0,0,0,0,0,0,0,1,Krakow
+57602,Nowa Huta,NotSafe,5,5,0,0,0,0,0,0,0,1,Krakow
+57602,Wzgórza Krzesławickie,Safe,0,0,0,0,0,0,0,0,0,1,Krakow
+57602,Czyżyny,RatherSafe,0,0,0,0,0,0,0,0,0,1,Krakow
+57602,Grzegórzki,RatherSafe,3,3,0,0,0,0,0,0,0,1,Krakow
+57602,Krowodrza,RatherSafe,2,1,0,0,0,1,0,0,1,1,Krakow
+57602,Bronowice,NotSafe,5,0,0,0,0,1,4,0,2,1,Krakow
+57602,Prądnik Biały,Safe,3,2,0,0,0,1,0,0,1,1,Krakow
+57602,Prądnik Czerwony,RatherSafe,3,3,0,0,0,0,0,0,0,1,Krakow
+57602,Mistrzejowice,RatherSafe,6,0,0,0,0,1,5,0,2,1,Krakow
+57602,Bieńczyce,RatherSafe,0,0,0,0,0,0,0,0,0,1,Krakow
+61201,Łagiewniki-Borek Fałęcki,RatherSafe,0,0,0,0,0,0,0,0,0,1,Krakow
+61201,Dębniki,NotSafe,5,4,1,0,0,0,0,0,0,1,Krakow
+61201,Swoszowice,Safe,4,4,0,0,0,0,0,0,0,1,Krakow
+61201,Podgórze,Safe,6,6,0,0,0,0,0,0,0,1,Krakow
+61201,Stare Miasto,NotSafe,4,2,0,0,0,2,0,0,2,1,Krakow
+61201,Zwierzyniec,RatherSafe,5,2,1,0,0,2,0,0,2,1,Krakow
+61201,Podgórze Duchackie,NotSafe,11,2,0,0,0,3,6,0,4,1,Krakow
+61201,Bieżanów-Prokocim,Safe,6,3,0,0,0,0,3,0,1,1,Krakow
+61201,Nowa Huta,NotSafe,4,4,0,0,0,0,0,0,0,1,Krakow
+61201,Wzgórza Krzesławickie,Safe,3,3,0,0,0,0,0,0,0,1,Krakow
+61201,Czyżyny,RatherSafe,3,3,0,0,0,0,0,0,0,1,Krakow
+61201,Grzegórzki,RatherSafe,3,1,0,0,0,0,2,0,1,1,Krakow
+61201,Krowodrza,RatherSafe,0,0,0,0,0,0,0,0,0,1,Krakow
+61201,Bronowice,NotSafe,1,1,0,0,0,0,0,0,0,1,Krakow
+61201,Prądnik Biały,Safe,2,2,0,0,0,0,0,0,0,1,Krakow
+61201,Prądnik Czerwony,RatherSafe,2,2,0,0,0,0,0,0,0,1,Krakow
+61201,Mistrzejowice,RatherSafe,1,1,0,0,0,0,0,0,0,1,Krakow
+61201,Bieńczyce,RatherSafe,1,1,0,0,0,0,0,0,0,1,Krakow
+64801,Łagiewniki-Borek Fałęcki,RatherSafe,2,1,0,0,0,1,0,0,1,1,Krakow
+64801,Dębniki,NotSafe,7,2,0,0,0,0,5,0,1,1,Krakow
+64801,Swoszowice,Safe,0,0,0,0,0,0,0,0,0,1,Krakow
+64801,Podgórze,Safe,4,4,0,0,0,0,0,0,0,1,Krakow
+64801,Stare Miasto,NotSafe,8,3,0,0,0,2,3,0,3,1,Krakow
+64801,Zwierzyniec,RatherSafe,0,0,0,0,0,0,0,0,0,1,Krakow
+64801,Podgórze Duchackie,NotSafe,9,5,0,0,0,1,3,0,2,1,Krakow
+64801,Bieżanów-Prokocim,Safe,3,2,0,0,0,1,0,0,1,1,Krakow
+64801,Nowa Huta,NotSafe,9,4,0,0,0,3,2,0,4,1,Krakow
+64801,Wzgórza Krzesławickie,Safe,0,0,0,0,0,0,0,0,0,1,Krakow
+64801,Czyżyny,RatherSafe,0,0,0,0,0,0,0,0,0,1,Krakow
+64801,Grzegórzki,RatherSafe,6,3,0,0,0,0,3,0,1,1,Krakow
+64801,Krowodrza,RatherSafe,4,0,0,0,2,0,2,0,1,1,Krakow
+64801,Bronowice,NotSafe,6,0,0,0,0,0,6,0,2,1,Krakow
+64801,Prądnik Biały,Safe,1,1,0,0,0,0,0,0,1,1,Krakow
+64801,Prądnik Czerwony,RatherSafe,1,0,0,0,0,1,0,0,1,1,Krakow
+64801,Mistrzejowice,RatherSafe,0,0,0,0,0,0,0,0,1,1,Krakow
+64801,Bieńczyce,RatherSafe,1,0,0,1,0,0,0,0,0,1,Krakow
+68400,Łagiewniki-Borek Fałęcki,RatherSafe,3,1,0,1,0,1,0,0,2,1,Krakow
+68400,Dębniki,NotSafe,2,2,0,0,0,0,0,0,0,1,Krakow
+68400,Swoszowice,Safe,1,1,0,0,0,0,0,0,0,1,Krakow
+68400,Podgórze,Safe,4,4,0,0,0,0,0,0,0,1,Krakow
+68400,Stare Miasto,NotSafe,7,1,1,0,0,3,2,0,4,1,Krakow
+68400,Zwierzyniec,RatherSafe,1,0,0,1,0,0,0,0,1,1,Krakow
+68400,Podgórze Duchackie,NotSafe,12,1,0,0,0,1,10,0,4,1,Krakow
+68400,Bieżanów-Prokocim,Safe,1,1,0,0,0,0,0,0,0,1,Krakow
+68400,Nowa Huta,NotSafe,13,0,0,1,0,1,11,0,5,1,Krakow
+68400,Wzgórza Krzesławickie,Safe,2,0,0,0,0,0,2,0,1,1,Krakow
+68400,Czyżyny,RatherSafe,1,1,0,0,0,0,0,0,0,1,Krakow
+68400,Grzegórzki,RatherSafe,0,0,0,0,0,0,0,0,1,1,Krakow
+68400,Krowodrza,RatherSafe,4,4,0,0,0,0,0,0,0,1,Krakow
+68400,Bronowice,NotSafe,8,1,0,0,0,1,6,0,2,1,Krakow
+68400,Prądnik Biały,Safe,2,1,0,0,0,1,0,0,1,1,Krakow
+68400,Prądnik Czerwony,RatherSafe,0,0,0,0,0,0,0,0,0,1,Krakow
+68400,Mistrzejowice,RatherSafe,0,0,0,0,0,0,0,0,0,1,Krakow
+68400,Bieńczyce,RatherSafe,0,0,0,0,0,0,0,0,0,1,Krakow
+72000,Łagiewniki-Borek Fałęcki,RatherSafe,1,1,0,0,0,0,0,0,0,1,Krakow
+72000,Dębniki,NotSafe,8,3,0,0,0,2,3,0,3,1,Krakow
+72000,Swoszowice,Safe,1,0,0,0,0,1,0,0,1,1,Krakow
+72000,Podgórze,Safe,7,6,0,0,0,0,0,1,0,1,Krakow
+72000,Stare Miasto,NotSafe,0,0,0,0,0,0,0,0,0,1,Krakow
+72000,Zwierzyniec,RatherSafe,8,0,0,0,0,1,7,0,3,1,Krakow
+72000,Podgórze Duchackie,NotSafe,0,0,0,0,0,0,0,0,0,1,Krakow
+72000,Bieżanów-Prokocim,Safe,0,0,0,0,0,0,0,0,0,1,Krakow
+72000,Nowa Huta,NotSafe,19,0,0,0,0,0,19,0,6,1,Krakow
+72000,Wzgórza Krzesławickie,Safe,1,1,0,0,0,0,0,0,0,1,Krakow
+72000,Czyżyny,RatherSafe,2,2,0,0,0,0,0,0,1,1,Krakow
+72000,Grzegórzki,RatherSafe,1,0,0,0,0,1,0,0,1,1,Krakow
+72000,Krowodrza,RatherSafe,4,2,1,0,0,1,0,0,1,1,Krakow
+72000,Bronowice,NotSafe,3,0,0,0,0,3,0,0,4,1,Krakow
+72000,Prądnik Biały,Safe,1,1,0,0,0,0,0,0,0,1,Krakow
+72000,Prądnik Czerwony,RatherSafe,1,1,0,0,0,0,0,0,0,1,Krakow
+72000,Mistrzejowice,RatherSafe,2,0,0,0,0,2,0,0,2,1,Krakow
+72000,Bieńczyce,RatherSafe,2,2,0,0,0,0,0,0,0,1,Krakow
+75600,Łagiewniki-Borek Fałęcki,RatherSafe,1,0,0,0,0,0,1,0,1,1,Krakow
+75600,Dębniki,NotSafe,6,1,0,0,0,2,3,0,4,1,Krakow
+75600,Swoszowice,Safe,0,0,0,0,0,0,0,0,0,1,Krakow
+75600,Podgórze,Safe,2,0,0,2,0,0,0,0,0,1,Krakow
+75600,Stare Miasto,NotSafe,1,0,0,0,0,1,0,0,2,1,Krakow
+75600,Zwierzyniec,RatherSafe,5,0,0,0,0,0,5,0,3,1,Krakow
+75600,Podgórze Duchackie,NotSafe,5,0,0,0,0,2,3,0,3,1,Krakow
+75600,Bieżanów-Prokocim,Safe,1,0,0,0,0,1,0,0,1,1,Krakow
+75600,Nowa Huta,NotSafe,15,4,0,1,0,2,6,2,5,1,Krakow
+75600,Wzgórza Krzesławickie,Safe,1,1,0,0,0,0,0,0,0,1,Krakow
+75600,Czyżyny,RatherSafe,5,0,0,1,0,1,3,0,2,1,Krakow
+75600,Grzegórzki,RatherSafe,1,0,0,1,0,0,0,0,0,1,Krakow
+75600,Krowodrza,RatherSafe,0,0,0,0,0,0,0,0,0,1,Krakow
+75600,Bronowice,NotSafe,7,0,0,0,1,1,5,0,4,1,Krakow
+75600,Prądnik Biały,Safe,0,0,0,0,0,0,0,0,1,1,Krakow
+75600,Prądnik Czerwony,RatherSafe,1,0,0,1,0,0,0,0,0,1,Krakow
+75600,Mistrzejowice,RatherSafe,6,0,0,0,0,1,5,0,2,1,Krakow
+75600,Bieńczyce,RatherSafe,1,0,0,0,0,1,0,0,1,1,Krakow
+79200,Łagiewniki-Borek Fałęcki,RatherSafe,0,0,0,0,0,0,0,0,0,1,Krakow
+79200,Dębniki,NotSafe,5,0,0,0,0,0,5,0,1,1,Krakow
+79200,Swoszowice,Safe,1,1,0,0,0,0,0,0,0,1,Krakow
+79200,Podgórze,Safe,0,0,0,0,0,0,0,0,0,1,Krakow
+79200,Stare Miasto,NotSafe,5,0,0,0,0,1,4,0,2,1,Krakow
+79200,Zwierzyniec,RatherSafe,0,0,0,0,0,0,0,0,0,1,Krakow
+79200,Podgórze Duchackie,NotSafe,10,1,0,0,0,2,7,0,4,1,Krakow
+79200,Bieżanów-Prokocim,Safe,2,2,0,0,0,0,0,0,0,1,Krakow
+79200,Nowa Huta,NotSafe,4,0,0,1,0,0,3,0,3,1,Krakow
+79200,Wzgórza Krzesławickie,Safe,2,0,0,1,0,1,0,0,2,1,Krakow
+79200,Czyżyny,RatherSafe,2,1,1,0,0,0,0,0,0,1,Krakow
+79200,Grzegórzki,RatherSafe,1,1,0,0,0,0,0,0,0,1,Krakow
+79200,Krowodrza,RatherSafe,0,0,0,0,0,0,0,0,0,1,Krakow
+79200,Bronowice,NotSafe,14,2,0,0,0,0,12,0,3,1,Krakow
+79200,Prądnik Biały,Safe,1,1,0,0,0,0,0,0,0,1,Krakow
+79200,Prądnik Czerwony,RatherSafe,2,0,0,0,0,0,2,0,1,1,Krakow
+79200,Mistrzejowice,RatherSafe,4,0,0,0,0,1,3,0,2,1,Krakow
+79200,Bieńczyce,RatherSafe,2,0,0,0,0,2,0,0,2,1,Krakow
+82800,Łagiewniki-Borek Fałęcki,RatherSafe,0,0,0,0,0,0,0,0,0,1,Krakow
+82800,Dębniki,NotSafe,12,5,0,0,0,1,6,0,2,1,Krakow
+82800,Swoszowice,Safe,3,3,0,0,0,0,0,0,0,1,Krakow
+82800,Podgórze,Safe,4,4,0,0,0,0,0,0,0,1,Krakow
+82800,Stare Miasto,NotSafe,0,0,0,0,0,0,0,0,0,1,Krakow
+82800,Zwierzyniec,RatherSafe,2,2,0,0,0,0,0,0,1,1,Krakow
+82800,Podgórze Duchackie,NotSafe,3,2,0,0,0,1,0,0,1,1,Krakow
+82800,Bieżanów-Prokocim,Safe,2,2,0,0,0,0,0,0,0,1,Krakow
+82800,Nowa Huta,NotSafe,6,1,0,1,0,0,4,0,3,1,Krakow
+82800,Wzgórza Krzesławickie,Safe,1,1,0,0,0,0,0,0,0,1,Krakow
+82800,Czyżyny,RatherSafe,4,4,0,0,0,0,0,0,0,1,Krakow
+82800,Grzegórzki,RatherSafe,2,1,0,0,0,1,0,0,1,1,Krakow
+82800,Krowodrza,RatherSafe,3,2,0,1,0,0,0,0,0,1,Krakow
+82800,Bronowice,NotSafe,1,0,0,0,0,1,0,0,3,1,Krakow
+82800,Prądnik Biały,Safe,7,1,0,0,4,0,2,0,1,1,Krakow
+82800,Prądnik Czerwony,RatherSafe,2,2,0,0,0,0,0,0,0,1,Krakow
+82800,Mistrzejowice,RatherSafe,2,1,0,0,0,1,0,0,1,1,Krakow
+82800,Bieńczyce,RatherSafe,0,0,0,0,0,0,0,0,0,1,Krakow
