@@ -1,2 +1,2 @@
-# ANS
-Repozytorium zawiera archiwum gotowych projekty i zadań
+# AT
+Repozytorium zawiera archiwum gotowych projekty i zadań z laboratoriów
