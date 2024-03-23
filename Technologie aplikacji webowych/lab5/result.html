@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Technologie aplikacji webowych</title>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        body, html {
+            height: 100%;
+            margin: 0;
+        }
+
+        .background {
+            height: 30px;
+            width: 30px;
+        }
+
+        .text {
+            height: 50vh;
+            background-color: #e8dbdb;
+            font-size: 36px;
+            padding: 15px;
+        }
+
+        nav {
+            position: fixed;
+            background-color: #fff;
+            width: 100%;
+            box-shadow: 10px 5px 5px black;
+        }
+
+        nav ul li {
+            list-style-type: none;
+            display: inline;
+            margin-right: 15px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #0d0fbf;
+            transition: 0.5s;
+        }
+
+        nav ul li a:hover {
+            text-decoration: underline;
+            color: #000;
+        }
+
+        footer {
+            text-align: center;
+        }
+
+        .other {
+            padding: 15px;
+        }
+
+        .kontakt {
+            padding: 15px;
+        }
+
+    </style>
+</head>
+<body>
+
+<nav>
+    <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#lab">Laboratorium</a></li>
+    </ul>
+</nav>
+
+<section id="home"></section>
+
+<div class="background"></div>
+
+<h1>Obliczenia<h1>
+<section id="lab" class="text">
+    Laboratorium 5. Na stronie znajdują się obliczenia.
+    <br>
+    <p><%= a %> <%= symbol %> <%= b %> = <%= result %></p>
+</section>
+
+
+
+<footer>
+    <p class="copy">Copyrights &copy; | 2024</p>
+</footer>
+
+</body>
+</html>
