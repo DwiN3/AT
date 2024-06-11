@@ -1,79 +1,50 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+# SneakerShop
 
-# Getting Started
+SneakerShop to zaawansowana aplikacja mobilna, stworzona z myślą o użytkownikach chcących wygodnie i szybko dokonywać zakupów obuwia. Aplikacja została zrealizowana przy użyciu technologii React Native, co zapewnia jej działanie na różnych platformach mobilnych. Projekt obejmuje zarówno frontend, jak i backend, tworząc spójny i wydajny system obsługi sklepu obuwniczego.
 
->**Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
+## Ekrany aplikacji:
+<div align="center">
+  <table>
+    <tr>
+      <td style="text-align: center;">
+        <img src="https://github.com/MichalPolak01/SneakerShop/assets/104890694/17d92d2b-ebbf-4300-97a2-f2c9bda4203b" alt="Logowanie" width="285" height="580"/>
+      </td>
+      <td style="text-align: center;">
+        <img src="https://github.com/MichalPolak01/SneakerShop/assets/104890694/536d2a12-ff59-499b-8850-bbb38b0d6564" alt="Menu główne" width="285" height="580"/>
+      </td>
+      <td style="text-align: center;">
+        <img src="https://github.com/MichalPolak01/SneakerShop/assets/104890694/32ac508a-9937-4fe0-a02e-80300c0d61bb" alt="Widok produktu" width="285" height="580"/>
+    </tr>
+  </table>
+</div>
+<br>
+<div align="center">
+  <table>
+    <tr>
+      <td style="text-align: center;">
+        <img src="https://github.com/MichalPolak01/SneakerShop/assets/104890694/89a7c101-4535-4dc5-9e99-2a8ced0846c3" alt="Panel użytkownika" width="285" height="580"/>
+      </td>
+      <td style="text-align: center;">
+        <img src="https://github.com/MichalPolak01/SneakerShop/assets/104890694/1ae3f398-12f1-411b-9219-64e1b962577d" alt="Dodawanie produktu" width="285" height="580"/>
+      </td>
+      <td style="text-align: center;">
+        <img src="https://github.com/MichalPolak01/SneakerShop/assets/104890694/847834de-b678-474d-aa48-8334dccc9b73" alt="Zarządzanie produktami" width="285" height="580"/>
+    </tr>
+  </table>
+</div>
+<br>
 
-## Step 1: Start the Metro Server
+Główne funkcje aplikacji
+* Przeglądanie oferty: Użytkownicy mogą przeglądać katalog dostępnych butów, korzystając z zaawansowanych filtrów i wyszukiwarek.
+* Szczegóły produktu: Każdy produkt posiada szczegółową stronę z informacjami o dostępnych rozmiarach i cenach.
+* Koszyk i zamówienia: Użytkownicy mogą dodawać produkty do koszyka i finalizować zakupy.
+* Profil użytkownika: Zarejestrowani użytkownicy mają dostęp do swojego profilu oraz ustawień konta.
+Zarządzanie produktami: Pracownicy sklepu mogą dodawać nowe produkty, zarządzać istniejącymi oraz zatwierdzać zamówienia.
 
-First, you will need to start **Metro**, the JavaScript _bundler_ that ships _with_ React Native.
+## Prezentacja aplikacji:
+https://www.youtube.com/watch?v=m54trbL4VEg
 
-To start Metro, run the following command from the _root_ of your React Native project:
-
-```bash
-# using npm
-npm start
-
-# OR using Yarn
-yarn start
-```
-
-## Step 2: Start your Application
-
-Let Metro Bundler run in its _own_ terminal. Open a _new_ terminal from the _root_ of your React Native project. Run the following command to start your _Android_ or _iOS_ app:
-
-### For Android
-
-```bash
-# using npm
-npm run android
-
-# OR using Yarn
-yarn android
-```
-
-### For iOS
-
-```bash
-# using npm
-npm run ios
-
-# OR using Yarn
-yarn ios
-```
-
-If everything is set up _correctly_, you should see your new app running in your _Android Emulator_ or _iOS Simulator_ shortly provided you have set up your emulator/simulator correctly.
-
-This is one way to run your app — you can also run it directly from within Android Studio and Xcode respectively.
-
-## Step 3: Modifying your App
-
-Now that you have successfully run the app, let's modify it.
-
-1. Open `App.tsx` in your text editor of choice and edit some lines.
-2. For **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Developer Menu** (<kbd>Ctrl</kbd> + <kbd>M</kbd> (on Window and Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (on macOS)) to see your changes!
-
-   For **iOS**: Hit <kbd>Cmd ⌘</kbd> + <kbd>R</kbd> in your iOS Simulator to reload the app and see your changes!
-
-## Congratulations! :tada:
-
-You've successfully run and modified your React Native App. :partying_face:
-
-### Now what?
-
-- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
-- If you're curious to learn more about React Native, check out the [Introduction to React Native](https://reactnative.dev/docs/getting-started).
-
-# Troubleshooting
-
-If you can't get this to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
-
-# Learn More
-
-To learn more about React Native, take a look at the following resources:
-
-- [React Native Website](https://reactnative.dev) - learn more about React Native.
-- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
-- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
-- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
-- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
+## Autorzy:
+- Kamil Dereń
+- Michał Polak
+- Bartek Kubik
