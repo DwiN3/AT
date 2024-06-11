@@ -1,0 +1,71 @@
+E:\Studia\6 semestr\Języki formalne i kompilatory\Test2\AntlrCSharp\bin\Debug\net7.0\AntlrCSharp.exe
+E:\Studia\6 semestr\Języki formalne i kompilatory\Test2\AntlrCSharp\bin\Debug\net7.0\AntlrCSharp.deps.json
+E:\Studia\6 semestr\Języki formalne i kompilatory\Test2\AntlrCSharp\bin\Debug\net7.0\AntlrCSharp.runtimeconfig.json
+E:\Studia\6 semestr\Języki formalne i kompilatory\Test2\AntlrCSharp\bin\Debug\net7.0\AntlrCSharp.dll
+E:\Studia\6 semestr\Języki formalne i kompilatory\Test2\AntlrCSharp\bin\Debug\net7.0\AntlrCSharp.pdb
+E:\Studia\6 semestr\Języki formalne i kompilatory\Test2\AntlrCSharp\bin\Debug\net7.0\Antlr4.Runtime.Standard.dll
+E:\Studia\6 semestr\Języki formalne i kompilatory\Test2\AntlrCSharp\obj\Debug\net7.0\AntlrCSharp.csproj.AssemblyReference.cache
+E:\Studia\6 semestr\Języki formalne i kompilatory\Test2\AntlrCSharp\obj\Debug\net7.0\AntlrCSharp.GeneratedMSBuildEditorConfig.editorconfig
+E:\Studia\6 semestr\Języki formalne i kompilatory\Test2\AntlrCSharp\obj\Debug\net7.0\AntlrCSharp.AssemblyInfoInputs.cache
+E:\Studia\6 semestr\Języki formalne i kompilatory\Test2\AntlrCSharp\obj\Debug\net7.0\AntlrCSharp.AssemblyInfo.cs
+E:\Studia\6 semestr\Języki formalne i kompilatory\Test2\AntlrCSharp\obj\Debug\net7.0\AntlrCSharp.csproj.CoreCompileInputs.cache
+E:\Studia\6 semestr\Języki formalne i kompilatory\Test2\AntlrCSharp\obj\Debug\net7.0\AntlrCSharp.csproj.CopyComplete
+E:\Studia\6 semestr\Języki formalne i kompilatory\Test2\AntlrCSharp\obj\Debug\net7.0\AntlrCSharp.dll
+E:\Studia\6 semestr\Języki formalne i kompilatory\Test2\AntlrCSharp\obj\Debug\net7.0\refint\AntlrCSharp.dll
+E:\Studia\6 semestr\Języki formalne i kompilatory\Test2\AntlrCSharp\obj\Debug\net7.0\AntlrCSharp.pdb
+E:\Studia\6 semestr\Języki formalne i kompilatory\Test2\AntlrCSharp\obj\Debug\net7.0\AntlrCSharp.genruntimeconfig.cache
+E:\Studia\6 semestr\Języki formalne i kompilatory\Test2\AntlrCSharp\obj\Debug\net7.0\ref\AntlrCSharp.dll
+C:\Users\dwini\Desktop\Test2\AntlrCSharp\bin\Debug\net7.0\AntlrCSharp.exe
+C:\Users\dwini\Desktop\Test2\AntlrCSharp\bin\Debug\net7.0\AntlrCSharp.deps.json
+C:\Users\dwini\Desktop\Test2\AntlrCSharp\bin\Debug\net7.0\AntlrCSharp.runtimeconfig.json
+C:\Users\dwini\Desktop\Test2\AntlrCSharp\bin\Debug\net7.0\AntlrCSharp.dll
+C:\Users\dwini\Desktop\Test2\AntlrCSharp\bin\Debug\net7.0\AntlrCSharp.pdb
+C:\Users\dwini\Desktop\Test2\AntlrCSharp\obj\Debug\net7.0\AntlrCSharp.csproj.AssemblyReference.cache
+C:\Users\dwini\Desktop\Test2\AntlrCSharp\obj\Debug\net7.0\AntlrCSharp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dwini\Desktop\Test2\AntlrCSharp\obj\Debug\net7.0\AntlrCSharp.AssemblyInfoInputs.cache
+C:\Users\dwini\Desktop\Test2\AntlrCSharp\obj\Debug\net7.0\AntlrCSharp.AssemblyInfo.cs
+C:\Users\dwini\Desktop\Test2\AntlrCSharp\obj\Debug\net7.0\AntlrCSharp.csproj.CoreCompileInputs.cache
+C:\Users\dwini\Desktop\Test2\AntlrCSharp\obj\Debug\net7.0\AntlrCSharp.dll
+C:\Users\dwini\Desktop\Test2\AntlrCSharp\obj\Debug\net7.0\refint\AntlrCSharp.dll
+C:\Users\dwini\Desktop\Test2\AntlrCSharp\obj\Debug\net7.0\AntlrCSharp.pdb
+C:\Users\dwini\Desktop\Test2\AntlrCSharp\obj\Debug\net7.0\AntlrCSharp.genruntimeconfig.cache
+C:\Users\dwini\Desktop\Test2\AntlrCSharp\obj\Debug\net7.0\ref\AntlrCSharp.dll
+C:\Users\dwini\Desktop\Test2\AntlrCSharp\bin\Debug\net7.0\LLVMSharp.dll
+C:\Users\dwini\Desktop\Test2\AntlrCSharp\bin\Debug\net7.0\LLVMSharp.Interop.dll
+C:\Users\dwini\Desktop\Test2\AntlrCSharp\bin\Debug\net7.0\Antlr4.Runtime.dll
+C:\Users\dwini\Desktop\Test2\AntlrCSharp\obj\Debug\net7.0\AntlrCSharp.csproj.Antlr4GeneratedCodeFileListAbsolute.txt
+C:\Users\dwini\Desktop\Test2\AntlrCSharp\obj\Debug\net7.0\CSharpLexer.cs
+C:\Users\dwini\Desktop\Test2\AntlrCSharp\obj\Debug\net7.0\CSharpParser.cs
+C:\Users\dwini\Desktop\Test2\AntlrCSharp\obj\Debug\net7.0\CSharpListener.cs
+C:\Users\dwini\Desktop\Test2\AntlrCSharp\obj\Debug\net7.0\CSharpBaseListener.cs
+C:\Users\dwini\Desktop\Test2\AntlrCSharp\obj\Debug\net7.0\CSharpVisitor.cs
+C:\Users\dwini\Desktop\Test2\AntlrCSharp\obj\Debug\net7.0\CSharpBaseVisitor.cs
+C:\Users\dwini\Desktop\Test2\AntlrCSharp\obj\Debug\net7.0\AntlrCSharp.sourcelink.json
+C:\Users\dwini\Desktop\Test2\AntlrCSharp\obj\Debug\net7.0\AntlrCSh.17F4D0D3.Up2Date
+C:\Users\dwini\Desktop\CSharpToLLVM\AntlrCSharp\bin\Debug\net7.0\AntlrCSharp.exe
+C:\Users\dwini\Desktop\CSharpToLLVM\AntlrCSharp\bin\Debug\net7.0\AntlrCSharp.deps.json
+C:\Users\dwini\Desktop\CSharpToLLVM\AntlrCSharp\bin\Debug\net7.0\AntlrCSharp.runtimeconfig.json
+C:\Users\dwini\Desktop\CSharpToLLVM\AntlrCSharp\bin\Debug\net7.0\AntlrCSharp.dll
+C:\Users\dwini\Desktop\CSharpToLLVM\AntlrCSharp\bin\Debug\net7.0\AntlrCSharp.pdb
+C:\Users\dwini\Desktop\CSharpToLLVM\AntlrCSharp\bin\Debug\net7.0\Antlr4.Runtime.dll
+C:\Users\dwini\Desktop\CSharpToLLVM\AntlrCSharp\bin\Debug\net7.0\LLVMSharp.dll
+C:\Users\dwini\Desktop\CSharpToLLVM\AntlrCSharp\bin\Debug\net7.0\LLVMSharp.Interop.dll
+C:\Users\dwini\Desktop\CSharpToLLVM\AntlrCSharp\obj\Debug\net7.0\AntlrCSharp.csproj.AssemblyReference.cache
+C:\Users\dwini\Desktop\CSharpToLLVM\AntlrCSharp\obj\Debug\net7.0\CSharpLexer.cs
+C:\Users\dwini\Desktop\CSharpToLLVM\AntlrCSharp\obj\Debug\net7.0\CSharpParser.cs
+C:\Users\dwini\Desktop\CSharpToLLVM\AntlrCSharp\obj\Debug\net7.0\CSharpListener.cs
+C:\Users\dwini\Desktop\CSharpToLLVM\AntlrCSharp\obj\Debug\net7.0\CSharpBaseListener.cs
+C:\Users\dwini\Desktop\CSharpToLLVM\AntlrCSharp\obj\Debug\net7.0\CSharpVisitor.cs
+C:\Users\dwini\Desktop\CSharpToLLVM\AntlrCSharp\obj\Debug\net7.0\CSharpBaseVisitor.cs
+C:\Users\dwini\Desktop\CSharpToLLVM\AntlrCSharp\obj\Debug\net7.0\AntlrCSharp.csproj.Antlr4GeneratedCodeFileListAbsolute.txt
+C:\Users\dwini\Desktop\CSharpToLLVM\AntlrCSharp\obj\Debug\net7.0\AntlrCSharp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dwini\Desktop\CSharpToLLVM\AntlrCSharp\obj\Debug\net7.0\AntlrCSharp.AssemblyInfoInputs.cache
+C:\Users\dwini\Desktop\CSharpToLLVM\AntlrCSharp\obj\Debug\net7.0\AntlrCSharp.AssemblyInfo.cs
+C:\Users\dwini\Desktop\CSharpToLLVM\AntlrCSharp\obj\Debug\net7.0\AntlrCSharp.csproj.CoreCompileInputs.cache
+C:\Users\dwini\Desktop\CSharpToLLVM\AntlrCSharp\obj\Debug\net7.0\AntlrCSharp.sourcelink.json
+C:\Users\dwini\Desktop\CSharpToLLVM\AntlrCSharp\obj\Debug\net7.0\AntlrCSh.17F4D0D3.Up2Date
+C:\Users\dwini\Desktop\CSharpToLLVM\AntlrCSharp\obj\Debug\net7.0\AntlrCSharp.dll
+C:\Users\dwini\Desktop\CSharpToLLVM\AntlrCSharp\obj\Debug\net7.0\refint\AntlrCSharp.dll
+C:\Users\dwini\Desktop\CSharpToLLVM\AntlrCSharp\obj\Debug\net7.0\AntlrCSharp.pdb
+C:\Users\dwini\Desktop\CSharpToLLVM\AntlrCSharp\obj\Debug\net7.0\AntlrCSharp.genruntimeconfig.cache
+C:\Users\dwini\Desktop\CSharpToLLVM\AntlrCSharp\obj\Debug\net7.0\ref\AntlrCSharp.dll

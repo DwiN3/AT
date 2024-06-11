@@ -1,0 +1,6 @@
+C:\Users\dwini\Desktop\CSharpToLLVM\AntlrCSharp\obj\Debug\net7.0\CSharpLexer.cs
+C:\Users\dwini\Desktop\CSharpToLLVM\AntlrCSharp\obj\Debug\net7.0\CSharpParser.cs
+C:\Users\dwini\Desktop\CSharpToLLVM\AntlrCSharp\obj\Debug\net7.0\CSharpListener.cs
+C:\Users\dwini\Desktop\CSharpToLLVM\AntlrCSharp\obj\Debug\net7.0\CSharpBaseListener.cs
+C:\Users\dwini\Desktop\CSharpToLLVM\AntlrCSharp\obj\Debug\net7.0\CSharpVisitor.cs
+C:\Users\dwini\Desktop\CSharpToLLVM\AntlrCSharp\obj\Debug\net7.0\CSharpBaseVisitor.cs
