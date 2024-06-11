@@ -1,0 +1,13 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "assets/fonts/Mina-Bold.ttf",
+      "sha1": "8ce89bf5ff9f18a7330529ad738cd19ca6cdded3"
+    },
+    {
+      "path": "assets/fonts/Mina-Regular.ttf",
+      "sha1": "3b769b4754ea41c06e5dbcf3e495a5a1924b6623"
+    }
+  ]
+}
