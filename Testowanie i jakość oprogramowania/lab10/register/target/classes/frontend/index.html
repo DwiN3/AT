@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Tomasz Gądek">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" type="image/png" href="./favicon/favicon.png">
+
+    <title>at register user</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/header.css">
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <script type="text/javascript" src="./js/register.js"></script>
+</head>
+
+<body>
+    <header><h1>Rejestracja użytkownika</h1></header>
+
+    <div class="messages" id="target">
+        <p><b class='init'>Czy formularz zawiera błędy?</b></p>
+    </div>
+
+    <div class="form-data">
+        <form name="register-user" id="register-user">
+
+            <label id="login-label" for="login">Login:</label>
+            <input id="login" name="login" type="text"/>
+
+            <label id="firstName-label" for="firstName">Imię:</label>
+            <input id="firstName" name="firstName" type="text"/>
+
+            <label id="lastName-label" for="lastName">Nazwisko:</label>
+            <input id="lastName" name="lastName" type="text"/>
+
+            <label id="password-label" for="password">Hasło:</label>
+            <input id="password" name="password" type="text"/>
+
+            <label id="pesel-label" for="pesel">PESEL:</label>
+            <input id="pesel" name="pesel" type="text"/>
+
+            <button type="submit">Zapisz</button>
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,12 @@
+header {
+    width: 100%;
+    padding: 10px;
+    background-color: #fd9535;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    padding: 20px;
+    text-shadow: 2px 2px #bb7124;
+}

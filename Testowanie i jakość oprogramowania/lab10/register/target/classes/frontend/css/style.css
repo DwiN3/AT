@@ -1,0 +1,62 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.form-data {
+    box-shadow: 10px 10px 5px #fd9535;
+    width: 310px;
+    margin: 40px auto;
+    text-align: left;
+    padding: 20px;
+    border-radius: 5px;
+    border: 1px solid #999;
+}
+
+button {
+    border: none;
+    outline: 0;
+    padding: 8px;
+    background-color: #fd9535;
+    text-align: center;
+    cursor: pointer;
+    margin-top: 20px;
+    border-radius: 5px;
+    display: block;
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
+form label {
+    display: block;
+    padding-bottom: 5px;
+    margin-top: 20px;
+}
+
+form input {
+    width: 300px;
+    outline: none;
+    border: 1px solid #fd9535;
+    font-size: 16px;
+    padding: 4px;
+    border-radius: 5px;
+}
+
+.messages {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.error {
+    color: #ff0000;
+}
+
+.ok {
+    color: #00aa00;
+}
+
+.init {
+    color: #999;
+}
