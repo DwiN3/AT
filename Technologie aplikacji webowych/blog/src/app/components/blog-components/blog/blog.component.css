@@ -1,0 +1,13 @@
+.card {
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 230px;
+    height: 350px;
+}
+.card-img-top {
+    width: 100%;
+    height: auto;
+}
+.card-text {
+    font-size: 16px;
+}

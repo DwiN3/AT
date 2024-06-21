@@ -1,0 +1,20 @@
+.content {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-size: 21px;
+    display: flex;
+}
+.image {
+    max-width: 100%; 
+    max-height: 400px;
+    border-radius: 10px;
+}
+.left-panel {
+    margin-left: 10px;
+}
+.right-panel {
+    margin-left: 50px;
+    max-width: 60%;
+}

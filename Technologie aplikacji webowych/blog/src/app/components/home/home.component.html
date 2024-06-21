@@ -1,0 +1,15 @@
+<div *ngIf="!authService.isLoggedIn()" class="container">
+  <h1>Witaj na stronie z blogami</h1>
+  <p>Aby skorzystać z pełnej możliwości strony zaloguj się lub załóż konto</p>
+  <footer>
+      Strona wykonana na przedmiocie Technologie aplikacji webowych
+  </footer>
+</div>
+
+<div *ngIf="authService.isLoggedIn()" class="container">
+  <h1>Witaj {{ userName ? userName : 'Użytkowniku' }}</h1>
+  <p>Zamieść post i podziel się swoimi przemyśleniami z innymi użytkownikami!</p>
+  <footer>
+      Strona wykonana na przedmiocie Technologie aplikacji webowych
+  </footer>
+</div>

@@ -1,0 +1,45 @@
+<div class="container">
+  <h1 class="entry-title" style="margin-top: 7px"><span>Utwórz post</span></h1>
+  <hr/>
+  <div class="content">
+    <div class="form-container">
+      <form (ngSubmit)="addPost()" #postForm="ngForm">
+        <div class="form-group form-input">
+          <label class="control-label col-sm-3">
+            Tytuł
+            <span class="text-danger"></span></label>
+          <input type="text" class="form-control" required [(ngModel)]="post.title" id="title" name="title" title="title"/>
+        </div>
+        <div class="form-group form-input">
+          <label class="control-label col-sm-3">
+            Opis
+            <span class="text-danger"></span>
+          </label>
+          <textarea class="form-control" style="height: 200px; width: 100%" id="text" required [(ngModel)]="post.text" name="text" title="description"
+          ></textarea>
+        </div>
+        <div style="display: flex; width: 400px">
+          <div class="form-group form-input">
+            <label class="control-label col-sm-3" style="width: 100px">
+              Adres Obrazu
+              <span class="text-danger"></span
+            ></label>
+            <input type="text" class="form-control" id="image" required [(ngModel)]="post.image" name="image" title="adress-image" />
+          </div>
+          <button type="button" style="margin-top: 39px; height: 39px" class="btn btn-primary" (click)="displayImage()">
+            Wyświetl
+          </button>
+        </div>
+        <button class="btn btn-primary form-input" [disabled]="!postForm.form.valid" type="submit" title="create-post">
+          Dodaj Post
+        </button>
+      </form>
+    </div>
+    <div style="display: flex; flex-direction: column; align-items: center; margin-left: 100px;">
+      <label><b>Pogląd obrazu</b></label>
+      <div class="image-container">
+        <img class="image" [src]="imageUrl" />
+      </div>
+    </div>
+  </div>
+</div>

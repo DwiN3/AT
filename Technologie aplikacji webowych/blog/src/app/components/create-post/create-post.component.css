@@ -1,0 +1,27 @@
+.form-container {
+    max-width: 200px;
+}
+.form-input {
+    margin-top: 15px;
+    width: 400px;
+}
+.content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.image{
+    max-width: 380px; 
+    max-height: 380px;
+    border-radius: 30px;
+}
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 400px;
+    background-color: rgb(46, 46, 46);
+    margin-top: 15px;
+    border-radius: 30px;
+}

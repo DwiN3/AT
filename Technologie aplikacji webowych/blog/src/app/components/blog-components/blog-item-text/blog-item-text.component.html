@@ -1,0 +1,13 @@
+<div class="card-container">
+    <div class="panel">
+        <p class="card-text"><b>{{ title | summary:15 }}</b></p>
+    </div>
+    <div class="panel" style="margin-top: 5px; height: 54px;">
+        <p class="card-text">{{ text | summary:35 }}</p>
+    </div>
+    <div style="height: 10px; margin-top: 5px;">
+        <a style="width: 100%;" href="#" class="btn btn-primary" [routerLink]="['/blog/detail/' + id]">
+            Więcej
+        </a>
+    </div>
+</div>

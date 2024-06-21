@@ -1,0 +1,12 @@
+.panel {
+    height: 30px;
+}
+.panel{
+    margin-left: 10px;
+}
+.card-container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-between;
+}

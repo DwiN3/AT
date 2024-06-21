@@ -1,0 +1,52 @@
+<section class="signup container">
+    <h1 class="entry-title"><span>Stwórz konto</span></h1><hr>
+    <div class="form-container">
+        <div *ngIf="MessageText" class="alert alert-danger">
+            {{ MessageText }}
+        </div>
+        <form class="form-horizontal" (ngSubmit)="create()" #signupForm="ngForm">
+            <div class="form-group form-margin">
+                <label class="control-label col-sm-3">Nazwa<span class="text-danger">*</span></label>
+                <div class="col-md-8 col-sm-9">
+                    <div class="input-group form-input">
+                        <input type="text" class="form-control" name="mem_name" id="mem_name" [(ngModel)]="credentials.name" required minlength="1" autocomplete="username">
+                    </div>
+                </div>
+            </div>
+            <div class="form-group form-margin">
+                <label class="control-label col-sm-3">Email<span class="text-danger">*</span></label>
+                <div class="col-md-8 col-sm-9">
+                    <div class="input-group form-input">
+                        <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
+                        <input type="email" class="form-control" name="emailid" id="emailid" [(ngModel)]="credentials.email" required minlength="1" autocomplete="email">
+                    </div>
+                </div>
+            </div>
+            <div class="form-group form-margin">
+                <label class="control-label col-sm-3">Hasło<span class="text-danger">*</span></label>
+                <div class="col-md-5 col-sm-8">
+                    <div class="input-group form-input">
+                        <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
+                        <input type="password" class="form-control" name="password" id="password" placeholder="5-15 znaków" [(ngModel)]="credentials.password" required minlength="5" maxlength="15" autocomplete="password">
+                    </div>
+                </div>
+            </div>
+            <div class="form-group form-margin">
+                <label class="control-label col-sm-4">Powtórz hasło<span class="text-danger">*</span></label>
+                <div class="col-md-5 col-sm-8">
+                    <div class="input-group form-input">
+                        <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
+                        <input type="password" class="form-control" name="cpassword" id="cpassword" [(ngModel)]="repassword" required minlength="5" autocomplete="new-password">
+                    </div>
+                </div>
+            </div>
+            <div class="form-group form-margin">
+                <div class="col-xs-offset-3 col-xs-10">
+                    <button name="Submit" type="submit" class="btn btn-primary form-input" [disabled]="!signupForm.valid">
+                        Stwórz konto
+                    </button>
+                </div>
+            </div>
+        </form>
+    </div>
+</section>

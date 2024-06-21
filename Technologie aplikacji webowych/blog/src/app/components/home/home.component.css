@@ -1,0 +1,20 @@
+.container {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+h1 {
+    color: #333333;
+}
+p {
+    color: #666666;
+    font-size: 20px; 
+    margin-top: 10px;
+}
+footer {
+    margin-top: 35px;
+    font-size: 0.8em;
+    color: #999999;
+}

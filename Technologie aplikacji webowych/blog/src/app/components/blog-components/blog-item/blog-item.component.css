@@ -1,0 +1,12 @@
+.card {
+  margin-bottom: 30px;
+  position: relative; 
+}
+.remove-post-button {
+  width: 20px;
+  height: 20px;
+  position: absolute; 
+  top: 5px; 
+  right: 5px;
+  color: red;
+}

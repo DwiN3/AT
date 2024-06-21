@@ -1,0 +1,19 @@
+<div class="container">
+    <h1 class="entry-title" style="margin-top: 7px"><span>Zarządzaj kontem</span></h1>
+    <hr />
+    <div class="content">
+        <form style="margin-right: -10%; max-width: 260px;" (submit)="deleteAccount()">
+            <div class="text">Nazwa: <b> {{ username }} </b></div>
+            <div class="text">Email: <b> {{ email }} </b></div>
+            <div class="text">Rola: <b> {{ role }} </b></div>
+            <button type="submit" class="btn btn-danger rounded" style="margin-top: 40px; width: 100%;" >Usuń konto</button>
+        </form>
+        <form (ngSubmit)="changePassword()" #changePasswordForm="ngForm" style="margin-left: -10%; margin-top: auto; width: 260px;">
+            <div *ngIf="MessageText" [ngClass]="{'alert-danger': isError, 'alert-success': !isError}" class="alert">
+                {{ MessageText }}
+            </div>
+            <input type="password" [(ngModel)]="newPassword" class="form-control" style="width: 100%;" name="password" title="Password" required minlength="5" maxlength="15">
+            <button type="submit" class="btn btn-secondary rounded" style="margin-top: 10px; width: 100%;" [disabled]="!changePasswordForm.valid">Zmień hasło</button>
+        </form>
+    </div>
+</div>

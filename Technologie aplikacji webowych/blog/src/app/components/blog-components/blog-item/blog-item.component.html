@@ -1,0 +1,5 @@
+<i *ngIf="isAdmin" class="bi-trash-fill remove-post-button" (click)="removePost()"></i>
+<blog-item-image [image]="image"></blog-item-image>
+<div class="card-body">
+    <blog-item-text [text]="text" [id]="id" [title]="title"></blog-item-text>
+</div>

@@ -1,0 +1,17 @@
+<div class="container">
+    <h1 class="entry-title">
+        <div class="d-flex justify-content-between">
+            <span>{{ title }}</span>
+            <button *ngIf="isAdmin" type="submit" class="btn btn-danger rounded" style="margin-top: 10px;" (click)="removePost()">Usuń post</button>
+        </div>
+    </h1>
+    <hr>
+    <div class="content">
+        <div class="left-panel">
+            <img class="image" [src]="image" >
+        </div>
+        <div class="right-panel">
+            {{ text }}
+        </div>
+    </div> 
+</div>
