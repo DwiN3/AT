@@ -1,0 +1,9 @@
+Django
+django-cors-headers
+django-ninja
+django-ninja-jwt[crypto]
+pydantic[email]
+pytest
+psycopg2
+
+python-decouple

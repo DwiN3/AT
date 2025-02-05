@@ -1,0 +1,474 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bpmn:definitions xmlns:bpmn="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:dc="http://www.omg.org/spec/DD/20100524/DC" xmlns:di="http://www.omg.org/spec/DD/20100524/DI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:modeler="http://camunda.org/schema/modeler/1.0" xmlns:zeebe="http://camunda.org/schema/zeebe/1.0" id="Definitions_1" targetNamespace="http://bpmn.io/schema/bpmn" exporter="Camunda Web Modeler" exporterVersion="e8c556f" modeler:executionPlatform="Camunda Cloud" modeler:executionPlatformVersion="8.7.0">
+  <bpmn:collaboration id="Collaboration_03tzng7" name="system urlopowy">
+    <bpmn:extensionElements />
+    <bpmn:participant id="Participant_1klgop2" name="Wniosek o urlop" processRef="Process_02wsd0v" />
+  </bpmn:collaboration>
+  <bpmn:process id="Process_02wsd0v" isExecutable="true">
+    <bpmn:extensionElements>
+      <zeebe:userTaskForm id="UserTaskForm_2a6q4g9">{
+  "executionPlatform": "Camunda Cloud",
+  "executionPlatformVersion": "8.6.0",
+  "exporter": {
+    "name": "Camunda Web Modeler",
+    "version": "65a2317"
+  },
+  "schemaVersion": 18,
+  "id": "Form_0goep6x",
+  "components": [
+    {
+      "text": "# Formularz urlopowy\n",
+      "type": "text",
+      "layout": {
+        "row": "Row_1mp96q5",
+        "columns": null
+      },
+      "id": "Field_0jippso"
+    },
+    {
+      "text": "#### Podaj adres email",
+      "type": "text",
+      "layout": {
+        "row": "Row_1vz8rbj",
+        "columns": null
+      },
+      "id": "Field_0e4xcqu"
+    },
+    {
+      "label": "Twój adres e-mail",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_1o214kq",
+        "columns": null
+      },
+      "id": "Field_1wzd5bk",
+      "key": "email"
+    },
+    {
+      "text": "#### Podaj zakres dat",
+      "type": "text",
+      "layout": {
+        "row": "Row_0higxen",
+        "columns": null
+      },
+      "id": "Field_1ft6rvh"
+    },
+    {
+      "subtype": "date",
+      "dateLabel": "Data od",
+      "type": "datetime",
+      "layout": {
+        "row": "Row_0gztp0t",
+        "columns": null
+      },
+      "id": "Field_0s0y1fu",
+      "key": "startDate",
+      "properties": { }
+    },
+    {
+      "subtype": "date",
+      "dateLabel": "Data do",
+      "type": "datetime",
+      "layout": {
+        "row": "Row_0gztp0t",
+        "columns": null
+      },
+      "id": "Field_1brjkfi",
+      "key": "endDate",
+      "properties": { }
+    }
+  ],
+  "type": "default"
+}</zeebe:userTaskForm>
+      <zeebe:userTaskForm id="UserTaskForm_3f0guhc">{
+  "executionPlatform": "Camunda Cloud",
+  "executionPlatformVersion": "8.6.0",
+  "exporter": {
+    "name": "Camunda Web Modeler",
+    "version": "e8c556f"
+  },
+  "schemaVersion": 18,
+  "id": "Form_1lnjfdf",
+  "components": [
+    {
+      "text": "# Rozpatrz ponownie termin!",
+      "type": "text",
+      "layout": {
+        "row": "Row_1cuyfuv",
+        "columns": null
+      },
+      "id": "Field_0cjdzl8"
+    },
+    {
+      "text": "Niestety nie możemy zgodzić się na termin zaproponowany przez Ciebie.\n\nWobec tego proponujemy inny termin. Zakceptuj go lub odrzuć.",
+      "type": "text",
+      "layout": {
+        "row": "Row_01rs59i",
+        "columns": null
+      },
+      "id": "Field_19ov3gp"
+    },
+    {
+      "text": "#### Proponowany przez nas termin to:",
+      "type": "text",
+      "layout": {
+        "row": "Row_15mexj5",
+        "columns": null
+      },
+      "id": "Field_0obl0gh"
+    },
+    {
+      "label": "Text field",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_0ibmw8c",
+        "columns": null
+      },
+      "id": "Field_1b53n2w",
+      "key": "selectedDates",
+      "defaultValue": "selectedDates"
+    },
+    {
+      "label": "",
+      "values": [
+        {
+          "label": "Akceptuje",
+          "value": "1"
+        },
+        {
+          "label": "Odrzucam",
+          "value": "0"
+        }
+      ],
+      "type": "radio",
+      "layout": {
+        "row": "Row_1dbael1",
+        "columns": null
+      },
+      "id": "Field_09ymc4y",
+      "key": "user_decision",
+      "validate": {
+        "required": true
+      }
+    }
+  ],
+  "type": "default"
+}</zeebe:userTaskForm>
+      <zeebe:userTaskForm id="UserTaskForm_3jahbp5">{
+  "executionPlatform": "Camunda Cloud",
+  "executionPlatformVersion": "8.6.0",
+  "exporter": {
+    "name": "Camunda Web Modeler",
+    "version": "e8c556f"
+  },
+  "schemaVersion": 18,
+  "id": "Form_198cge1",
+  "components": [
+    {
+      "text": "# Inny termin urlopu",
+      "type": "text",
+      "layout": {
+        "row": "Row_05z4d53",
+        "columns": null
+      },
+      "id": "Field_0ete98l"
+    },
+    {
+      "text": "Wybierz inny termin urlopu",
+      "type": "text",
+      "layout": {
+        "row": "Row_104864n",
+        "columns": null
+      },
+      "id": "Field_1kcpkmf"
+    },
+    {
+      "label": "Wybierz termin z listy",
+      "type": "select",
+      "layout": {
+        "row": "Row_1a62pfk",
+        "columns": null
+      },
+      "id": "Field_1bnsbul",
+      "key": "selectedDates",
+      "valuesKey": "availableDates"
+    }
+  ],
+  "type": "default"
+}</zeebe:userTaskForm>
+    </bpmn:extensionElements>
+    <bpmn:laneSet id="LaneSet_19ue1y8">
+      <bpmn:lane id="Lane_178p5y2" name="System">
+        <bpmn:flowNodeRef>Event_0bv3lj4</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>Event_1o2i9ge</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>Activity_08ary23</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>Activity_0ci990r</bpmn:flowNodeRef>
+      </bpmn:lane>
+      <bpmn:lane id="Lane_17l17s4" name="Kierownik">
+        <bpmn:flowNodeRef>Gateway_1shub2i</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>Activity_0ttf2vl</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>Activity_1bhlveg</bpmn:flowNodeRef>
+      </bpmn:lane>
+      <bpmn:lane id="Lane_0cyf24c" name="Pracownik">
+        <bpmn:flowNodeRef>Event_1mcbn23</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>Activity_0s9vsqj</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>Activity_1n3p6zm</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>Gateway_1nqzmtr</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>Event_0rnimre</bpmn:flowNodeRef>
+      </bpmn:lane>
+    </bpmn:laneSet>
+    <bpmn:endEvent id="Event_0bv3lj4">
+      <bpmn:incoming>Flow_0gbkw5q</bpmn:incoming>
+    </bpmn:endEvent>
+    <bpmn:startEvent id="Event_1mcbn23">
+      <bpmn:extensionElements />
+      <bpmn:outgoing>Flow_1nrwgoa</bpmn:outgoing>
+    </bpmn:startEvent>
+    <bpmn:endEvent id="Event_1o2i9ge">
+      <bpmn:extensionElements />
+      <bpmn:incoming>Flow_0vlrr7h</bpmn:incoming>
+    </bpmn:endEvent>
+    <bpmn:sequenceFlow id="Flow_0vlrr7h" sourceRef="Activity_08ary23" targetRef="Event_1o2i9ge" />
+    <bpmn:sequenceFlow id="Flow_1lu04w6" name="Tak" sourceRef="Gateway_1nqzmtr" targetRef="Activity_08ary23">
+      <bpmn:conditionExpression xsi:type="bpmn:tFormalExpression">=user_decision="1"</bpmn:conditionExpression>
+    </bpmn:sequenceFlow>
+    <bpmn:exclusiveGateway id="Gateway_1shub2i">
+      <bpmn:extensionElements />
+      <bpmn:incoming>Flow_121omf4</bpmn:incoming>
+      <bpmn:outgoing>Flow_1v1q5t3</bpmn:outgoing>
+      <bpmn:outgoing>Flow_1dbsuip</bpmn:outgoing>
+      <bpmn:outgoing>Flow_068yhlp</bpmn:outgoing>
+    </bpmn:exclusiveGateway>
+    <bpmn:sequenceFlow id="Flow_1v1q5t3" name="Nie" sourceRef="Gateway_1shub2i" targetRef="Activity_0ci990r">
+      <bpmn:conditionExpression xsi:type="bpmn:tFormalExpression">=decision=0</bpmn:conditionExpression>
+    </bpmn:sequenceFlow>
+    <bpmn:sequenceFlow id="Flow_11azjhi" name="Nie" sourceRef="Gateway_1nqzmtr" targetRef="Event_0rnimre">
+      <bpmn:extensionElements />
+      <bpmn:conditionExpression xsi:type="bpmn:tFormalExpression">=user_decision="0"</bpmn:conditionExpression>
+    </bpmn:sequenceFlow>
+    <bpmn:sequenceFlow id="Flow_1dbsuip" name="Tak" sourceRef="Gateway_1shub2i" targetRef="Activity_08ary23">
+      <bpmn:conditionExpression xsi:type="bpmn:tFormalExpression">=decision=1</bpmn:conditionExpression>
+    </bpmn:sequenceFlow>
+    <bpmn:sendTask id="Activity_08ary23" name="Wyślij potwierdzenie urlopu">
+      <bpmn:extensionElements>
+        <zeebe:taskDefinition type="send_mail" />
+        <zeebe:ioMapping>
+          <zeebe:input source="=1" target="type" />
+          <zeebe:input source="=email" target="email" />
+        </zeebe:ioMapping>
+      </bpmn:extensionElements>
+      <bpmn:incoming>Flow_1lu04w6</bpmn:incoming>
+      <bpmn:incoming>Flow_1dbsuip</bpmn:incoming>
+      <bpmn:outgoing>Flow_0vlrr7h</bpmn:outgoing>
+    </bpmn:sendTask>
+    <bpmn:sequenceFlow id="Flow_121omf4" sourceRef="Activity_0ttf2vl" targetRef="Gateway_1shub2i" />
+    <bpmn:serviceTask id="Activity_0ttf2vl" name="Rozpatrz wniosek o urlop wypoczynkowy">
+      <bpmn:extensionElements>
+        <zeebe:taskDefinition type="consideration" />
+        <zeebe:ioMapping>
+          <zeebe:input source="=startDate" target="startDate" />
+          <zeebe:input source="=endDate" target="endDate" />
+          <zeebe:input source="=email" target="email" />
+          <zeebe:output source="=decision" target="decision" />
+          <zeebe:output source="=availableDates" target="availableDates" />
+          <zeebe:output source="=email" target="email" />
+        </zeebe:ioMapping>
+      </bpmn:extensionElements>
+      <bpmn:incoming>Flow_1ldzxxl</bpmn:incoming>
+      <bpmn:outgoing>Flow_121omf4</bpmn:outgoing>
+    </bpmn:serviceTask>
+    <bpmn:sequenceFlow id="Flow_1nrwgoa" sourceRef="Event_1mcbn23" targetRef="Activity_0s9vsqj">
+      <bpmn:extensionElements />
+    </bpmn:sequenceFlow>
+    <bpmn:sequenceFlow id="Flow_1ldzxxl" sourceRef="Activity_0s9vsqj" targetRef="Activity_0ttf2vl" />
+    <bpmn:userTask id="Activity_0s9vsqj" name="Zarejestruj wniosek o urlop">
+      <bpmn:extensionElements>
+        <zeebe:ioMapping>
+          <zeebe:output source="=startDate" target="startDate" />
+          <zeebe:output source="=endDate" target="endDate" />
+          <zeebe:output source="=email" target="email" />
+        </zeebe:ioMapping>
+        <zeebe:formDefinition formKey="camunda-forms:bpmn:UserTaskForm_2a6q4g9" />
+      </bpmn:extensionElements>
+      <bpmn:incoming>Flow_1nrwgoa</bpmn:incoming>
+      <bpmn:outgoing>Flow_1ldzxxl</bpmn:outgoing>
+    </bpmn:userTask>
+    <bpmn:sequenceFlow id="Flow_0gbkw5q" sourceRef="Activity_0ci990r" targetRef="Event_0bv3lj4" />
+    <bpmn:sequenceFlow id="Flow_068yhlp" name="Tak ze zmianą" sourceRef="Gateway_1shub2i" targetRef="Activity_1bhlveg">
+      <bpmn:conditionExpression xsi:type="bpmn:tFormalExpression">=decision=2</bpmn:conditionExpression>
+    </bpmn:sequenceFlow>
+    <bpmn:userTask id="Activity_1bhlveg" name="Zaproponuj inny termin urlopu">
+      <bpmn:extensionElements>
+        <zeebe:formDefinition formKey="camunda-forms:bpmn:UserTaskForm_3jahbp5" />
+        <zeebe:ioMapping>
+          <zeebe:input source="=availableDates" target="availableDates" />
+          <zeebe:output source="=selectedDates" target="selectedDates" />
+        </zeebe:ioMapping>
+      </bpmn:extensionElements>
+      <bpmn:incoming>Flow_068yhlp</bpmn:incoming>
+      <bpmn:outgoing>Flow_1m2tuv5</bpmn:outgoing>
+    </bpmn:userTask>
+    <bpmn:sequenceFlow id="Flow_1m2tuv5" sourceRef="Activity_1bhlveg" targetRef="Activity_1n3p6zm" />
+    <bpmn:userTask id="Activity_1n3p6zm" name="Rozpatrzenie innego terminu urlopu">
+      <bpmn:extensionElements>
+        <zeebe:formDefinition formKey="camunda-forms:bpmn:UserTaskForm_3f0guhc" />
+        <zeebe:ioMapping>
+          <zeebe:input source="=selectedDates" target="selectedDates" />
+          <zeebe:output source="=user_decision" target="user_decision" />
+        </zeebe:ioMapping>
+      </bpmn:extensionElements>
+      <bpmn:incoming>Flow_1m2tuv5</bpmn:incoming>
+      <bpmn:outgoing>Flow_1t0l5cu</bpmn:outgoing>
+    </bpmn:userTask>
+    <bpmn:exclusiveGateway id="Gateway_1nqzmtr">
+      <bpmn:incoming>Flow_1t0l5cu</bpmn:incoming>
+      <bpmn:outgoing>Flow_11azjhi</bpmn:outgoing>
+      <bpmn:outgoing>Flow_1lu04w6</bpmn:outgoing>
+    </bpmn:exclusiveGateway>
+    <bpmn:endEvent id="Event_0rnimre" name="Koniec">
+      <bpmn:incoming>Flow_11azjhi</bpmn:incoming>
+    </bpmn:endEvent>
+    <bpmn:sequenceFlow id="Flow_1t0l5cu" sourceRef="Activity_1n3p6zm" targetRef="Gateway_1nqzmtr" />
+    <bpmn:sendTask id="Activity_0ci990r" name="Wyślij odmowę urlopu">
+      <bpmn:extensionElements>
+        <zeebe:taskDefinition type="send_mail" />
+        <zeebe:ioMapping>
+          <zeebe:input source="=email" target="email" />
+          <zeebe:input source="=0" target="type" />
+        </zeebe:ioMapping>
+      </bpmn:extensionElements>
+      <bpmn:incoming>Flow_1v1q5t3</bpmn:incoming>
+      <bpmn:outgoing>Flow_0gbkw5q</bpmn:outgoing>
+    </bpmn:sendTask>
+  </bpmn:process>
+  <bpmndi:BPMNDiagram id="BPMNDiagram_1">
+    <bpmndi:BPMNPlane id="BPMNPlane_1" bpmnElement="Collaboration_03tzng7">
+      <bpmndi:BPMNShape id="Participant_1klgop2_di" bpmnElement="Participant_1klgop2" isHorizontal="true">
+        <dc:Bounds x="160" y="80" width="960" height="820" />
+        <bpmndi:BPMNLabel />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Lane_0cyf24c_di" bpmnElement="Lane_0cyf24c" isHorizontal="true">
+        <dc:Bounds x="190" y="80" width="930" height="260" />
+        <bpmndi:BPMNLabel />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Lane_17l17s4_di" bpmnElement="Lane_17l17s4" isHorizontal="true">
+        <dc:Bounds x="190" y="340" width="930" height="290" />
+        <bpmndi:BPMNLabel />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Lane_178p5y2_di" bpmnElement="Lane_178p5y2" isHorizontal="true">
+        <dc:Bounds x="190" y="630" width="930" height="270" />
+        <bpmndi:BPMNLabel />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Event_0bv3lj4_di" bpmnElement="Event_0bv3lj4">
+        <dc:Bounds x="722" y="772" width="36" height="36" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Event_1mcbn23_di" bpmnElement="Event_1mcbn23">
+        <dc:Bounds x="252" y="192" width="36" height="36" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Event_1o2i9ge_di" bpmnElement="Event_1o2i9ge">
+        <dc:Bounds x="992" y="772" width="36" height="36" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Gateway_1shub2i_di" bpmnElement="Gateway_1shub2i" isMarkerVisible="true">
+        <dc:Bounds x="565" y="475" width="50" height="50" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Activity_08ary23_di" bpmnElement="Activity_08ary23">
+        <dc:Bounds x="830" y="750" width="100" height="80" />
+        <bpmndi:BPMNLabel />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Activity_0ttf2vl_di" bpmnElement="Activity_0ttf2vl">
+        <dc:Bounds x="370" y="440" width="100" height="80" />
+        <bpmndi:BPMNLabel />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Activity_0s9vsqj_di" bpmnElement="Activity_0s9vsqj">
+        <dc:Bounds x="370" y="170" width="100" height="80" />
+        <bpmndi:BPMNLabel />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Activity_1bhlveg_di" bpmnElement="Activity_1bhlveg">
+        <dc:Bounds x="690" y="360" width="100" height="80" />
+        <bpmndi:BPMNLabel />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Activity_1n3p6zm_di" bpmnElement="Activity_1n3p6zm">
+        <dc:Bounds x="690" y="170" width="100" height="80" />
+        <bpmndi:BPMNLabel />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Gateway_1nqzmtr_di" bpmnElement="Gateway_1nqzmtr" isMarkerVisible="true">
+        <dc:Bounds x="855" y="185" width="50" height="50" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Event_0rnimre_di" bpmnElement="Event_0rnimre">
+        <dc:Bounds x="972" y="192" width="36" height="36" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="973" y="235" width="35" height="14" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Activity_0ci990r_di" bpmnElement="Activity_0ci990r">
+        <dc:Bounds x="540" y="750" width="100" height="80" />
+        <bpmndi:BPMNLabel />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNEdge id="Flow_0vlrr7h_di" bpmnElement="Flow_0vlrr7h">
+        <di:waypoint x="930" y="790" />
+        <di:waypoint x="992" y="790" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_1lu04w6_di" bpmnElement="Flow_1lu04w6">
+        <di:waypoint x="880" y="235" />
+        <di:waypoint x="880" y="750" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="887" y="490" width="17" height="14" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_1v1q5t3_di" bpmnElement="Flow_1v1q5t3">
+        <di:waypoint x="590" y="525" />
+        <di:waypoint x="590" y="750" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="601" y="543" width="17" height="14" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_11azjhi_di" bpmnElement="Flow_11azjhi">
+        <di:waypoint x="905" y="210" />
+        <di:waypoint x="972" y="210" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="930" y="192" width="17" height="14" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_1dbsuip_di" bpmnElement="Flow_1dbsuip">
+        <di:waypoint x="615" y="500" />
+        <di:waypoint x="860" y="500" />
+        <di:waypoint x="860" y="750" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="638" y="513" width="17" height="14" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_121omf4_di" bpmnElement="Flow_121omf4">
+        <di:waypoint x="470" y="500" />
+        <di:waypoint x="565" y="500" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_1nrwgoa_di" bpmnElement="Flow_1nrwgoa">
+        <di:waypoint x="288" y="210" />
+        <di:waypoint x="370" y="210" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_1ldzxxl_di" bpmnElement="Flow_1ldzxxl">
+        <di:waypoint x="420" y="250" />
+        <di:waypoint x="420" y="440" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_0gbkw5q_di" bpmnElement="Flow_0gbkw5q">
+        <di:waypoint x="640" y="790" />
+        <di:waypoint x="722" y="790" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_068yhlp_di" bpmnElement="Flow_068yhlp">
+        <di:waypoint x="590" y="475" />
+        <di:waypoint x="590" y="400" />
+        <di:waypoint x="690" y="400" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="594" y="443" width="71" height="14" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_1m2tuv5_di" bpmnElement="Flow_1m2tuv5">
+        <di:waypoint x="740" y="360" />
+        <di:waypoint x="740" y="250" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_1t0l5cu_di" bpmnElement="Flow_1t0l5cu">
+        <di:waypoint x="790" y="210" />
+        <di:waypoint x="855" y="210" />
+      </bpmndi:BPMNEdge>
+    </bpmndi:BPMNPlane>
+  </bpmndi:BPMNDiagram>
+</bpmn:definitions>
